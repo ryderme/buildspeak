@@ -4,17 +4,14 @@ import { HomeScreen } from "../components/home/home-screen";
 import { ProfileScreen } from "../components/profile/profile-screen";
 import { ReaderScreen } from "../components/reader/reader-screen";
 import { VocabScreen } from "../components/vocab/vocab-screen";
-import {
-  getDailyDigest,
-  getFeaturedReaderHref,
-  getProfileSummary,
-  getReaderArticle,
-  getVocabularySnapshot,
-} from "../lib/mock-content";
+import { buildContentBundle } from "@buildspeak/pipeline/generate-content";
+
+const bundle = buildContentBundle();
+const featuredReaderHref = `/read/${bundle.digest.featuredArticle.type}/${bundle.digest.featuredArticle.id}`;
 
 describe("BuildSpeak screen smoke tests", () => {
   it("renders the daily digest overview", () => {
-    render(<HomeScreen digest={getDailyDigest()} readerHref={getFeaturedReaderHref()} />);
+    render(<HomeScreen digest={bundle.digest} readerHref={featuredReaderHref} />);
 
     expect(screen.getByRole("heading", { name: /twelve new things/i })).toBeInTheDocument();
     expect(screen.getByText("Podcasts")).toBeInTheDocument();
@@ -22,10 +19,18 @@ describe("BuildSpeak screen smoke tests", () => {
   });
 
   it("renders the bilingual reader with player controls", () => {
-    const article = getReaderArticle("podcast", "podcast-no-priors-agentic-economy");
+    const article = bundle.articles.find(
+      (entry) => entry.id === "podcast-no-priors-agentic-economy",
+    );
 
     expect(article).toBeDefined();
-    render(<ReaderScreen article={article!} />);
+    render(
+      <ReaderScreen
+        article={article!}
+        readerHref={featuredReaderHref}
+        streakDays={bundle.profile.streakDays}
+      />,
+    );
 
     expect(screen.getByRole("heading", { name: /the agentic economy/i })).toBeInTheDocument();
     expect(screen.getByText(/shadowing mode/i)).toBeInTheDocument();
@@ -33,14 +38,20 @@ describe("BuildSpeak screen smoke tests", () => {
   });
 
   it("renders the vocabulary notebook summary", () => {
-    render(<VocabScreen snapshot={getVocabularySnapshot()} />);
+    render(
+      <VocabScreen
+        snapshot={bundle.vocabulary}
+        readerHref={featuredReaderHref}
+        streakDays={bundle.profile.streakDays}
+      />,
+    );
 
     expect(screen.getByRole("heading", { name: /vocabulary notebook/i })).toBeInTheDocument();
     expect(screen.getByText("agentic")).toBeInTheDocument();
   });
 
   it("renders the profile progress dashboard", () => {
-    render(<ProfileScreen summary={getProfileSummary()} />);
+    render(<ProfileScreen summary={bundle.profile} readerHref={featuredReaderHref} />);
 
     expect(screen.getByRole("heading", { name: /your learning arc/i })).toBeInTheDocument();
     expect(screen.getAllByText(/day streak/i).length).toBeGreaterThan(0);

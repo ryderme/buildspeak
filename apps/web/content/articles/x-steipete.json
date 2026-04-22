@@ -1,0 +1,74 @@
+{
+  "id": "x-steipete",
+  "type": "x",
+  "title": {
+    "en": "Signals from Peter Steinberger",
+    "zh": "Peter Steinberger 的今日 X 动态"
+  },
+  "source": {
+    "name": "Peter Steinberger",
+    "subtitle": "steipete · Apr 20, 2026 · 3 posts"
+  },
+  "stats": {
+    "readMinutes": 1,
+    "level": "B2",
+    "newWords": 3,
+    "likes": 702,
+    "replies": 19,
+    "reposts": 41
+  },
+  "quote": "gog 0.13 is out. Gmail forwarding with notes plus attachments, autoreplies, full-body search, Markdown uploads to Google Docs, rendered Slides thumbnails, Sheets chart editing, secondary calendars, commenter-only Drive shares, and safer no-send controls.",
+  "cover": {
+    "label": "PS",
+    "from": "#111827",
+    "to": "#4b5563"
+  },
+  "sourceUrl": "https://x.com/steipete/status/2046356596683411924",
+  "sentences": [
+    {
+      "id": "steipete-1",
+      "zh": "Peter Steinberger 连续发布工具更新，重点是安全、可靠性和 Google 工作流连接。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "gog 0.13 is out. Gmail forwarding with notes plus attachments, autoreplies, full-body search, Markdown uploads to Google Docs, rendered Slides thumbnails, Sheets chart editing, secondary calendars, commenter-only Drive shares, and safer no-send controls."
+        }
+      ],
+      "timestamp": "Apr 20, 2026"
+    },
+    {
+      "id": "steipete-2",
+      "zh": "Peter Steinberger 连续发布工具更新，重点是安全、可靠性和 Google 工作流连接。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "wacli 0.6.0 is out. Big "
+        },
+        {
+          "kind": "word",
+          "surface": "security",
+          "lemma": "security",
+          "translation": "安全",
+          "ipa": "/sɪˈkjʊr.ə.t̬i/",
+          "isKnown": false
+        },
+        {
+          "kind": "text",
+          "text": " plus reliability sweep for WhatsApp CLI. Hardens SQLite store path handling, sanitizes search queries, recovers sync or media panics, adds WACLI_STORE_DIR, and improves SIGINT exits."
+        }
+      ],
+      "timestamp": "Apr 20, 2026"
+    },
+    {
+      "id": "steipete-3",
+      "zh": "Peter Steinberger 连续发布工具更新，重点是安全、可靠性和 Google 工作流连接。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "Kudos to the folks from Tencent for working with us and providing evals to improve OpenClaw's harness performance. Great option for folks not comfortable with the terminal."
+        }
+      ],
+      "timestamp": "Apr 20, 2026"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "x-levie",
+  "type": "x",
+  "title": {
+    "en": "Signals from Aaron Levie",
+    "zh": "Aaron Levie 的今日 X 动态"
+  },
+  "source": {
+    "name": "Aaron Levie",
+    "subtitle": "levie · Apr 21, 2026 · 1 posts"
+  },
+  "stats": {
+    "readMinutes": 1,
+    "level": "B1",
+    "newWords": 3,
+    "likes": 499,
+    "replies": 55,
+    "reposts": 59
+  },
+  "quote": "The jump from working with a chatbot to having an agent that actually helps automate a process requires a real amount of work. Most companies will need dedicated people who map new workflows with agents, connect internal systems, build evals, manage upgrades, and handle change management.",
+  "cover": {
+    "label": "AL",
+    "from": "#4338ca",
+    "to": "#a78bfa"
+  },
+  "sourceUrl": "https://x.com/levie/status/2046397816755634340",
+  "sentences": [
+    {
+      "id": "levie-1",
+      "zh": "Aaron Levie 在强调 agent automation 落地需要上下文接线、eval 和专门负责人。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "The jump from working with a chatbot to having an agent that actually helps automate a process requires a real amount of work. Most companies will need dedicated people who map new workflows with agents, connect internal systems, build evals, manage upgrades, and handle change management."
+        }
+      ],
+      "timestamp": "Apr 21, 2026"
+    }
+  ]
+}

@@ -1,9 +1,10 @@
 import type { ReviewBucket, VocabularySnapshot } from "@buildspeak/types";
 import { AppShell } from "@/components/shell/app-shell";
-import { getFeaturedReaderHref, getProfileSummary } from "@/lib/mock-content";
 
 type VocabScreenProps = {
   snapshot: VocabularySnapshot;
+  readerHref: string;
+  streakDays: number;
 };
 
 const bucketLabels: Record<ReviewBucket, string> = {
@@ -12,14 +13,16 @@ const bucketLabels: Record<ReviewBucket, string> = {
   all: "All saved",
 };
 
-export const VocabScreen = ({ snapshot }: VocabScreenProps) => {
-  const profile = getProfileSummary();
-
+export const VocabScreen = ({
+  snapshot,
+  readerHref,
+  streakDays,
+}: VocabScreenProps) => {
   return (
     <AppShell
       active="vocab"
-      readerHref={getFeaturedReaderHref()}
-      streakDays={profile.streakDays}
+      readerHref={readerHref}
+      streakDays={streakDays}
     >
       <section className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-5 py-10 sm:px-8">
         <div className="flex flex-wrap items-end justify-between gap-6">

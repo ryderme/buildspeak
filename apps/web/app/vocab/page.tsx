@@ -1,6 +1,18 @@
 import { VocabScreen } from "@/components/vocab/vocab-screen";
-import { getVocabularySnapshot } from "@/lib/mock-content";
+import { getFeaturedReaderHref, getProfileSummary, getVocabularySnapshot } from "@/lib/content";
 
-export default function VocabPage() {
-  return <VocabScreen snapshot={getVocabularySnapshot()} />;
+export default async function VocabPage() {
+  const [snapshot, profile, readerHref] = await Promise.all([
+    getVocabularySnapshot(),
+    getProfileSummary(),
+    getFeaturedReaderHref(),
+  ]);
+
+  return (
+    <VocabScreen
+      snapshot={snapshot}
+      readerHref={readerHref}
+      streakDays={profile.streakDays}
+    />
+  );
 }

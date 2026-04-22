@@ -462,6 +462,4 @@ export const todaySubscriptionFeed = {
         "Earlier this week, we announced Project Glasswing—our urgent attempt to put the strong cybersecurity capabilities of our newest frontier model, Claude Mythos Preview, to use for defensive purposes.\n\nWithin the next 24 months, vast numbers of bugs that sat unnoticed in code, possibly for years, will be found by AI models and chained into working exploits.\n\nPatch everything on the CISA Known Exploited Vulnerabilities catalog immediately. Use EPSS to prioritize the rest. Reduce time-to-patch on internet-exposed systems.\n\nPrepare to handle a much higher volume of vulnerability reports. Plan for an order-of-magnitude increase in finding volume. Check the security of your open-source dependencies and apply the same expectations to your vendors.\n\nAdd static analysis and AI-assisted code review to your continuous integration pipeline, and block merges on high-confidence findings.\n\nAdopt zero trust architecture. Tie access to verified hardware rather than credentials. Replace long-lived secrets with short-lived tokens.\n\nPut a model at the front of your alert queue. Automate the bookkeeping around incidents. Run a tabletop for five simultaneous incidents.",
     },
   ],
-} as const;
-
-export type TodaySubscriptionFeed = typeof todaySubscriptionFeed;
+};

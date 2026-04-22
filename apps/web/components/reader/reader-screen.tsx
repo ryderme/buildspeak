@@ -1,9 +1,10 @@
 import type { ReaderArticle, Token } from "@buildspeak/types";
 import { AppShell } from "@/components/shell/app-shell";
-import { getFeaturedReaderHref, getProfileSummary } from "@/lib/mock-content";
 
 type ReaderScreenProps = {
   article: ReaderArticle;
+  readerHref: string;
+  streakDays: number;
 };
 
 const renderToken = (token: Token, index: number) => {
@@ -30,15 +31,18 @@ const focusWord = (article: ReaderArticle) =>
     .flatMap((entry) => entry.en)
     .find((token): token is Extract<Token, { kind: "word" }> => token.kind === "word");
 
-export const ReaderScreen = ({ article }: ReaderScreenProps) => {
-  const profile = getProfileSummary();
+export const ReaderScreen = ({
+  article,
+  readerHref,
+  streakDays,
+}: ReaderScreenProps) => {
   const pinnedWord = focusWord(article);
 
   return (
     <AppShell
       active="reader"
-      readerHref={getFeaturedReaderHref()}
-      streakDays={profile.streakDays}
+      readerHref={readerHref}
+      streakDays={streakDays}
     >
       <section className="mx-auto flex w-full max-w-7xl flex-col gap-10 px-5 py-10 sm:px-8">
         <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_320px]">

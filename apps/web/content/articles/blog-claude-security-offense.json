@@ -1,0 +1,86 @@
+{
+  "id": "blog-claude-security-offense",
+  "type": "blog",
+  "title": {
+    "en": "Preparing your security program for AI-accelerated offense",
+    "zh": "为 AI 加速攻防做好安全准备"
+  },
+  "source": {
+    "name": "Claude Blog",
+    "subtitle": "Apr 10, 2026 · security guidance"
+  },
+  "stats": {
+    "readMinutes": 17,
+    "level": "C1",
+    "newWords": 16
+  },
+  "quote": "Within the next 24 months, vast numbers of bugs that sat unnoticed in code will be found by AI models and chained into working exploits.",
+  "cover": {
+    "label": "CB",
+    "from": "#111827",
+    "to": "#4b5563"
+  },
+  "sourceUrl": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
+  "sentences": [
+    {
+      "id": "blog-1",
+      "zh": "Claude Blog 先给出判断：未来两年里，大量长期潜伏的漏洞会被 AI 批量发现，并被串成可用 exploit。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "Within the next 24 months, vast numbers of bugs that sat unnoticed in code will be found by AI models and chained into working exploits."
+        }
+      ]
+    },
+    {
+      "id": "blog-2",
+      "zh": "第一优先级不是炫技，而是缩短 patch gap，把 KEV 和高 EPSS 漏洞尽快打掉。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "Patch everything on the CISA Known Exploited Vulnerabilities catalog immediately. Use EPSS to prioritize the rest."
+        }
+      ]
+    },
+    {
+      "id": "blog-3",
+      "zh": "第二个变化是漏洞处理量会暴涨，所以 intake、triage 和 remediation tracking 需要自动化提速。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "Prepare to handle a much higher volume of vulnerability reports. Plan for an order-of-magnitude increase in finding volume."
+        }
+      ]
+    },
+    {
+      "id": "blog-4",
+      "zh": "文章把 AI-assisted code review 放进了默认工具箱，强调高置信度发现就应该阻塞合并。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "Add static analysis and AI-assisted code review to your continuous integration pipeline, and block merges on high-confidence findings."
+        }
+      ]
+    },
+    {
+      "id": "blog-5",
+      "zh": "在防线设计上，它更偏向零信任、硬件绑定身份和短期 token，而不是依赖人类流程摩擦。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "Adopt zero trust architecture. Tie access to verified hardware rather than credentials. Replace long-lived secrets with short-lived tokens."
+        }
+      ]
+    },
+    {
+      "id": "blog-6",
+      "zh": "最后一层建议是把模型放到告警队列最前面，用它做 first-pass triage 和 incident bookkeeping。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "Put a model at the front of your alert queue. Automate the bookkeeping around incidents. Run a tabletop for five simultaneous incidents."
+        }
+      ]
+    }
+  ]
+}

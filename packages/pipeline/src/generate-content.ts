@@ -1,3 +1,6 @@
+import { existsSync } from "node:fs";
+import { mkdir, writeFile } from "node:fs/promises";
+import { basename, join } from "node:path";
 import type {
   ArticlePreview,
   ArticleType,
@@ -9,7 +12,15 @@ import type {
   Token,
   VocabularySnapshot,
 } from "@buildspeak/types";
-import { todaySubscriptionFeed } from "./mock-feed";
+import { todaySubscriptionFeed } from "./mock-feed.js";
+
+export interface ContentBundle {
+  generatedAt: string;
+  digest: DailyDigest;
+  articles: ReaderArticle[];
+  profile: ProfileSummary;
+  vocabulary: VocabularySnapshot;
+}
 
 const t = (text: string): Token => ({ kind: "text", text });
 
@@ -32,7 +43,10 @@ const sentence = (
   id: string,
   zh: string,
   en: Token[],
-  extras?: Pick<Sentence, "speaker" | "timestamp">,
+  extras?: {
+    speaker?: string;
+    timestamp?: string;
+  },
 ): Sentence => ({
   id,
   zh,
@@ -566,7 +580,7 @@ const groupByType = (): DailyDigest["sections"] => ({
   blog: readerArticles.filter((article) => article.type === "blog"),
 });
 
-export const getDailyDigest = (): DailyDigest => {
+const buildDailyDigest = (): DailyDigest => {
   const sections = groupByType();
 
   return {
@@ -590,18 +604,54 @@ export const getDailyDigest = (): DailyDigest => {
   };
 };
 
-export const getReaderArticle = (
-  type: ArticleType,
-  id: string,
-): ReaderArticle | undefined =>
-  readerArticles.find((article) => article.type === type && article.id === id);
+export const buildContentBundle = (): ContentBundle => ({
+  generatedAt: todaySubscriptionFeed.generatedAt,
+  digest: buildDailyDigest(),
+  articles: readerArticles,
+  profile: profileSummary,
+  vocabulary: vocabularySnapshot,
+});
 
-export const getAllReaderRoutes = (): Array<Pick<ArticlePreview, "id" | "type">> =>
-  readerArticles.map((article) => ({ id: article.id, type: article.type }));
+const resolveAppWebDir = (rootDir = process.cwd()) => {
+  const candidates =
+    basename(rootDir) === "web"
+      ? [rootDir]
+      : [
+          join(rootDir, "..", "..", "apps", "web"),
+          join(rootDir, "..", "apps", "web"),
+          join(rootDir, "apps", "web"),
+        ];
 
-export const getFeaturedReaderHref = (): string =>
-  `/read/${podcastArticle.type}/${podcastArticle.id}`;
+  const matched = candidates.find((candidate) => existsSync(candidate));
 
-export const getVocabularySnapshot = (): VocabularySnapshot => vocabularySnapshot;
+  return matched ?? join(rootDir, "apps", "web");
+};
 
-export const getProfileSummary = (): ProfileSummary => profileSummary;
+const writeJson = async (path: string, value: unknown) => {
+  await mkdir(join(path, ".."), { recursive: true });
+  await writeFile(path, JSON.stringify(value, null, 2) + "\n", "utf8");
+};
+
+export const writeContentBundle = async (
+  bundle = buildContentBundle(),
+  rootDir = process.cwd(),
+) => {
+  const appWebDir = resolveAppWebDir(rootDir);
+  const contentDir = join(appWebDir, "content");
+  const digestDate = bundle.generatedAt.slice(0, 10);
+
+  await mkdir(join(contentDir, "articles"), { recursive: true });
+  await mkdir(join(contentDir, "digest"), { recursive: true });
+  await mkdir(join(contentDir, "profile"), { recursive: true });
+  await mkdir(join(contentDir, "vocab"), { recursive: true });
+
+  await Promise.all([
+    writeJson(join(contentDir, "digest", "latest.json"), bundle.digest),
+    writeJson(join(contentDir, "digest", `${digestDate}.json`), bundle.digest),
+    writeJson(join(contentDir, "profile", "latest.json"), bundle.profile),
+    writeJson(join(contentDir, "vocab", "latest.json"), bundle.vocabulary),
+    ...bundle.articles.map((article) =>
+      writeJson(join(contentDir, "articles", `${article.id}.json`), article),
+    ),
+  ]);
+};

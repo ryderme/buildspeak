@@ -1,0 +1,1646 @@
+{
+  "dateLabel": "Wed, Apr 22, 2026",
+  "hero": {
+    "title": "Twelve new things the AI builders said out loud today.",
+    "subtitle": "今天这份订阅 feed 里有 1 期播客、32 条推文、1 篇博客，全部来自你追踪的 AI builders。",
+    "streakDays": 28,
+    "todayMinutes": 14,
+    "targetMinutes": 20,
+    "wordsToday": 7,
+    "reviewQueue": 6
+  },
+  "tabs": [
+    {
+      "id": "podcast",
+      "label": "Podcasts",
+      "count": 1
+    },
+    {
+      "id": "x",
+      "label": "X Posts",
+      "count": 17
+    },
+    {
+      "id": "blog",
+      "label": "Blogs",
+      "count": 1
+    }
+  ],
+  "sections": {
+    "podcast": [
+      {
+        "id": "podcast-no-priors-agentic-economy",
+        "type": "podcast",
+        "title": {
+          "en": "The Agentic Economy",
+          "zh": "代理经济：AI 代理如何重塑金融系统"
+        },
+        "source": {
+          "name": "No Priors",
+          "subtitle": "Apr 9, 2026 · with Jeremy Allaire"
+        },
+        "stats": {
+          "duration": "~52 min",
+          "readMinutes": 22,
+          "level": "B2",
+          "newWords": 18
+        },
+        "quote": "Stablecoins are the native money layer of the internet.",
+        "cover": {
+          "label": "NP",
+          "from": "#1d4ed8",
+          "to": "#93c5fd"
+        },
+        "sourceUrl": "https://www.youtube.com/watch?v=eyobeqMdbeI",
+        "speakers": [
+          {
+            "id": "host",
+            "label": "Sarah Guo",
+            "accent": "#d97757"
+          },
+          {
+            "id": "guest",
+            "label": "Jeremy Allaire",
+            "accent": "#2f6feb"
+          }
+        ],
+        "sentences": [
+          {
+            "id": "podcast-1",
+            "zh": "今天的 No Priors 请来了 Circle 联合创始人兼 CEO Jeremy Allaire，主题是加密货币、AI、agentic payments 和区块链。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Today I know Priors, have Jeremy Allaire, the co founder and CEO of Circle. We'll be talking about cryptocurrency, AI, "
+              },
+              {
+                "kind": "word",
+                "surface": "agentic",
+                "lemma": "agentic",
+                "translation": "代理式的；能动的",
+                "ipa": "/eɪˈdʒen.tɪk/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " payments, AI evolving on the blockchain, and a variety of other topics. Great. Well, thank you so much for joining us today. It's a pleasure to have you."
+              }
+            ],
+            "speaker": "Sarah Guo",
+            "timestamp": "00:05"
+          },
+          {
+            "id": "podcast-2",
+            "zh": "译文待接入构建期翻译 pipeline。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "It's great to be here. Thank you. So maybe we can start with"
+              }
+            ],
+            "speaker": "Jeremy Allaire",
+            "timestamp": "00:19"
+          },
+          {
+            "id": "podcast-3",
+            "zh": "先从 Circle 的起源说起：它为什么会同时把稳定币、crypto 和 agentic future 放在一起思考？",
+            "en": [
+              {
+                "kind": "text",
+                "text": "you just giving a quick overview of Circle, what you do, how you approach the world, because I think we're going to be talking a lot about "
+              },
+              {
+                "kind": "word",
+                "surface": "stablecoins",
+                "lemma": "stablecoin",
+                "translation": "稳定币",
+                "ipa": "/ˈsteɪ.bəl.kɔɪn/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": ", crypto, AI, and how all these things tie into sort of the "
+              },
+              {
+                "kind": "word",
+                "surface": "agentic",
+                "lemma": "agentic",
+                "translation": "代理式的；能动的",
+                "ipa": "/eɪˈdʒen.tɪk/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " future."
+              }
+            ],
+            "speaker": "Sarah Guo",
+            "timestamp": "00:22"
+          },
+          {
+            "id": "podcast-4",
+            "zh": "Circle 最早的想法，是在互联网上做一套美元协议，让价值可以像信息一样即时、全球、低摩擦地流动。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Yeah, for sure. So, yeah, Circle's been around for a while. I co founded the company over yeah, thirteen years ago or so, 2013. And really at inception, I was really excited about this idea that we could create a "
+              },
+              {
+                "kind": "word",
+                "surface": "protocol",
+                "lemma": "protocol",
+                "translation": "协议",
+                "ipa": "/ˈproʊ.tə.kɑːl/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " for dollars on the internet."
+              }
+            ],
+            "speaker": "Jeremy Allaire",
+            "timestamp": "00:36"
+          },
+          {
+            "id": "podcast-5",
+            "zh": "更激进的想法是可编程货币：把区块链变成操作系统，让软件机器直接参与经济活动。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "The other idea that we were really excited about back then was this idea of programmable money, and the idea that eventually these networks, blockchains, would become like operating systems, and you could actually have machines that intermediate economic activity and financial activity on the Internet."
+              }
+            ],
+            "speaker": "Jeremy Allaire",
+            "timestamp": "01:16"
+          },
+          {
+            "id": "podcast-6",
+            "zh": "这里的关键问题是：为什么仍然要围绕美元，而不是完全脱离传统金融体系？",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Why is the dollar aspect of that important? So if you look at a lot of the things that happened in cryptocurrency in the early days, it was really about creating things that were divorced from the traditional financial system if possible."
+              }
+            ],
+            "speaker": "Sarah Guo",
+            "timestamp": "02:11"
+          },
+          {
+            "id": "podcast-7",
+            "zh": "Jeremy 的答案是：未来很长一段时间里，美元仍是主储备货币，而稳定币的价值在于把它做成更安全的 full-reserve money。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Maybe thirty, forty, fifty years, it'll continue for a while. But what we want to do is construct a system that is in fact safer. So, full reserve form of money. And that's what "
+              },
+              {
+                "kind": "word",
+                "surface": "stablecoins",
+                "lemma": "stablecoin",
+                "translation": "稳定币",
+                "ipa": "/ˈsteɪ.bəl.kɔɪn/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " are. That's what dollar "
+              },
+              {
+                "kind": "word",
+                "surface": "stablecoins",
+                "lemma": "stablecoin",
+                "translation": "稳定币",
+                "ipa": "/ˈsteɪ.bəl.kɔɪn/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " are."
+              }
+            ],
+            "speaker": "Jeremy Allaire",
+            "timestamp": "05:22"
+          },
+          {
+            "id": "podcast-8",
+            "zh": "USDC 的设计目标就是互联网原生美元协议，从 25 美分的游戏支付到数亿美元的机构结算都能跑在同一套轨道上。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "The conception of this obviously is like a general "
+              },
+              {
+                "kind": "word",
+                "surface": "protocol",
+                "lemma": "protocol",
+                "translation": "协议",
+                "ipa": "/ˈproʊ.tə.kɑːl/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " for dollars on the internet. And in fact, the whole design is this is like a general purpose, general architecture money."
+              }
+            ],
+            "speaker": "Jeremy Allaire",
+            "timestamp": "08:15"
+          },
+          {
+            "id": "podcast-9",
+            "zh": "真正的变化在于，越来越多白领经济里的工作会由 AI agents 完成，而现有金融基础设施根本支撑不了这种 agentic economy。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "So, the first is that more and more of the actual work that is done in the real economy, especially in the white collar economy, is going to be conducted by AI agents. And so, the "
+              },
+              {
+                "kind": "word",
+                "surface": "agentic",
+                "lemma": "agentic",
+                "translation": "代理式的；能动的",
+                "ipa": "/eɪˈdʒen.tɪk/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " economy is being born as we speak."
+              }
+            ],
+            "speaker": "Jeremy Allaire",
+            "timestamp": "16:02"
+          },
+          {
+            "id": "podcast-10",
+            "zh": "ARC 想扮演的角色，是 agentic economy 的经济操作系统，让价值存储、交易和合约执行都能以机器原生的方式发生。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "That does tie to ARC, because that's a design surface that we care about, which is basically, we describe ARC as an economic operating system."
+              }
+            ],
+            "speaker": "Jeremy Allaire",
+            "timestamp": "20:33"
+          },
+          {
+            "id": "podcast-11",
+            "zh": "译文待接入构建期翻译 pipeline。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "I guess one thing that"
+              }
+            ],
+            "speaker": "Jeremy Allaire",
+            "timestamp": "30:45"
+          },
+          {
+            "id": "podcast-12",
+            "zh": "接下来讨论的问题，是现实世界资产上链之后，像股票这类资产会不会也变成全球可编程的 token。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "people have been talking about for a long time in the crypto world is securitization of other assets under the blockchain. So should you be able to buy fractions of Berkshire Hathaway using crypto? And should that be globally available?"
+              }
+            ],
+            "speaker": "Sarah Guo",
+            "timestamp": "30:46"
+          }
+        ]
+      }
+    ],
+    "x": [
+      {
+        "id": "x-swyx-codex-deal",
+        "type": "x",
+        "title": {
+          "en": "Signals from Swyx",
+          "zh": "Swyx 的今日 X 动态"
+        },
+        "source": {
+          "name": "Swyx",
+          "subtitle": "swyx · Apr 20, 2026 · 3 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B2",
+          "newWords": 3,
+          "likes": 93,
+          "replies": 17,
+          "reposts": 4
+        },
+        "quote": "the Codex x @skybysoftware acquisition may have been one of the best @openai deals made in the last year. I've been waiting for \"real\" computer use since @romainhuet demoed the ChatGPT App with 4o Vision at AIEWF 2024... and only now it's really, actually rolling out in a usable fashion.",
+        "cover": {
+          "label": "S",
+          "from": "#111827",
+          "to": "#4b5563"
+        },
+        "sourceUrl": "https://x.com/swyx/status/2046362691606855700",
+        "sentences": [
+          {
+            "id": "swyx-1",
+            "zh": "Swyx 在说真正可用的 computer use 终于开始从 demo 变成产品能力。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "the Codex x @skybysoftware acquisition may have been one of the best @openai deals made in the last year. I've been waiting for \"real\" "
+              },
+              {
+                "kind": "word",
+                "surface": "computer use",
+                "lemma": "computer use",
+                "translation": "计算机代理能力",
+                "ipa": "/kəmˈpjuː.t̬ɚ juːs/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " since @romainhuet demoed the ChatGPT App with 4o Vision at AIEWF 2024... and only now it's really, actually rolling out in a usable fashion."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          },
+          {
+            "id": "swyx-2",
+            "zh": "Swyx 在说真正可用的 computer use 终于开始从 demo 变成产品能力。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "give us back Sky"
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          },
+          {
+            "id": "swyx-3",
+            "zh": "Swyx 在说真正可用的 computer use 终于开始从 demo 变成产品能力。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "and @dexhorthy is quoting Z/L continuum in AIE Miami!! idea catching on @altryne"
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-joshwoodward",
+        "type": "x",
+        "title": {
+          "en": "Signals from Josh Woodward",
+          "zh": "Josh Woodward 的今日 X 动态"
+        },
+        "source": {
+          "name": "Josh Woodward",
+          "subtitle": "joshwoodward · Apr 20, 2026 · 1 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "A2",
+          "newWords": 3,
+          "likes": 138,
+          "replies": 2,
+          "reposts": 5
+        },
+        "quote": "Welcome back Ben! Can’t wait to see what you build!",
+        "cover": {
+          "label": "JW",
+          "from": "#111827",
+          "to": "#4b5563"
+        },
+        "sourceUrl": "https://x.com/joshwoodward/status/2046361644029378731",
+        "sentences": [
+          {
+            "id": "joshwoodward-1",
+            "zh": "Josh Woodward 这条更像 builder 招呼，先作为生态动态样本保留。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Welcome back Ben! Can’t wait to see what you build!"
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-petergyang",
+        "type": "x",
+        "title": {
+          "en": "Signals from Peter Yang",
+          "zh": "Peter Yang 的今日 X 动态"
+        },
+        "source": {
+          "name": "Peter Yang",
+          "subtitle": "petergyang · Apr 21, 2026 · 3 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B1",
+          "newWords": 3,
+          "likes": 41,
+          "replies": 6,
+          "reposts": 0
+        },
+        "quote": "I feel like Codex's gap in frontend design skills can be easily made up if you use an AI design tool. My favorite is @tomkrcha's Pencil",
+        "cover": {
+          "label": "PY",
+          "from": "#166534",
+          "to": "#4ade80"
+        },
+        "sourceUrl": "https://x.com/petergyang/status/2046434019307561342",
+        "sentences": [
+          {
+            "id": "petergyang-1",
+            "zh": "Peter Yang 觉得 agents 不只在写代码，也开始进入设计和前端工作流。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "I feel like Codex's gap in frontend design skills can be easily made up if you use an AI design tool. My favorite is @tomkrcha's Pencil"
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          },
+          {
+            "id": "petergyang-2",
+            "zh": "Peter Yang 觉得 agents 不只在写代码，也开始进入设计和前端工作流。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "The only thing more fun than coding with agents is designing with agents"
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          },
+          {
+            "id": "petergyang-3",
+            "zh": "Peter Yang 觉得 agents 不只在写代码，也开始进入设计和前端工作流。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "The more innovative the company the less of a \"2026 roadmap\" it actually has."
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-thenanyu",
+        "type": "x",
+        "title": {
+          "en": "Signals from Nan Yu",
+          "zh": "Nan Yu 的今日 X 动态"
+        },
+        "source": {
+          "name": "Nan Yu",
+          "subtitle": "thenanyu · Apr 20, 2026 · 1 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "A2",
+          "newWords": 3,
+          "likes": 21,
+          "replies": 4,
+          "reposts": 0
+        },
+        "quote": "When is Venmo gonna finally turn off that feature that lets me see when two of my mutual friends are hooking up?",
+        "cover": {
+          "label": "NY",
+          "from": "#1d4ed8",
+          "to": "#93c5fd"
+        },
+        "sourceUrl": "https://x.com/thenanyu/status/2046317076164350411",
+        "sentences": [
+          {
+            "id": "thenanyu-1",
+            "zh": "Nan Yu 这条偏日常吐槽，先保留原文作为 feed 噪声样本。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "When is Venmo gonna finally turn off that feature that lets me see when two of my mutual friends are hooking up?"
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-amasad",
+        "type": "x",
+        "title": {
+          "en": "Signals from Amjad Masad",
+          "zh": "Amjad Masad 的今日 X 动态"
+        },
+        "source": {
+          "name": "Amjad Masad",
+          "subtitle": "amasad · Apr 21, 2026 · 1 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "A2",
+          "newWords": 3,
+          "likes": 134,
+          "replies": 6,
+          "reposts": 4
+        },
+        "quote": "Fairuz is the star of Kanye’s new album",
+        "cover": {
+          "label": "AM",
+          "from": "#7e22ce",
+          "to": "#d8b4fe"
+        },
+        "sourceUrl": "https://x.com/amasad/status/2046443294104883693",
+        "sentences": [
+          {
+            "id": "amasad-1",
+            "zh": "Amjad Masad 这条偏轻量社交内容，保留为真实时间线样本。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Fairuz is the star of Kanye’s new album"
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-rauchg",
+        "type": "x",
+        "title": {
+          "en": "Signals from Guillermo Rauch",
+          "zh": "Guillermo Rauch 的今日 X 动态"
+        },
+        "source": {
+          "name": "Guillermo Rauch",
+          "subtitle": "rauchg · Apr 21, 2026 · 2 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B2",
+          "newWords": 4,
+          "likes": 647,
+          "replies": 50,
+          "reposts": 33
+        },
+        "quote": "I’m so encouraged by the way our team and industry peers have shown up to protect the internet. We’ve now shipped over 20 product improvements across Dashboard and CLI to help your security posture. Easier to set up MFA, audit your Environment Variables, Activity logs and more",
+        "cover": {
+          "label": "GR",
+          "from": "#7c2d12",
+          "to": "#f97316"
+        },
+        "sourceUrl": "https://x.com/rauchg/status/2046406894269747668",
+        "sentences": [
+          {
+            "id": "rauchg-1",
+            "zh": "Guillermo Rauch 的重点是安全事件后的产品修补、MFA 强化和密钥轮换。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "I’m so encouraged by the way our team and industry peers have shown up to protect the internet. We’ve now shipped over 20 product improvements across Dashboard and CLI to help your "
+              },
+              {
+                "kind": "word",
+                "surface": "security",
+                "lemma": "security",
+                "translation": "安全",
+                "ipa": "/sɪˈkjʊr.ə.t̬i/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " posture. Easier to set up MFA, audit your Environment Variables, Activity logs and more"
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          },
+          {
+            "id": "rauchg-2",
+            "zh": "Guillermo Rauch 的重点是安全事件后的产品修补、MFA 强化和密钥轮换。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Getting lots of questions about how to learn more about the incident. We're actively maintaining the "
+              },
+              {
+                "kind": "word",
+                "surface": "security",
+                "lemma": "security",
+                "translation": "安全",
+                "ipa": "/sɪˈkjʊr.ə.t̬i/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " bulletin. One misconception we've seen that I need to call out. Deletion does not imply Rotation. Rotating keys means invalidating the previous value with the vendor or service you're using."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-alexalbert__",
+        "type": "x",
+        "title": {
+          "en": "Signals from Alex Albert",
+          "zh": "Alex Albert 的今日 X 动态"
+        },
+        "source": {
+          "name": "Alex Albert",
+          "subtitle": "alexalbert__ · Apr 20, 2026 · 1 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B1",
+          "newWords": 3,
+          "likes": 93,
+          "replies": 3,
+          "reposts": 1
+        },
+        "quote": "Jack's young money blog had a big impact on me when I was in college and navigating what I wanted to do post-grad. If you are in your teens or 20s and trying to figure out how to think about life, this book will offer you some good ideas.",
+        "cover": {
+          "label": "AA",
+          "from": "#7c2d12",
+          "to": "#f97316"
+        },
+        "sourceUrl": "https://x.com/alexalbert__/status/2046277525207466003",
+        "sentences": [
+          {
+            "id": "alexalbert__-1",
+            "zh": "Alex Albert 这条是阅读推荐，也说明 builder feed 不全是产品发布。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Jack's young money blog had a big impact on me when I was in college and navigating what I wanted to do post-grad. If you are in your teens or 20s and trying to figure out how to think about life, this book will offer you some good ideas."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-levie",
+        "type": "x",
+        "title": {
+          "en": "Signals from Aaron Levie",
+          "zh": "Aaron Levie 的今日 X 动态"
+        },
+        "source": {
+          "name": "Aaron Levie",
+          "subtitle": "levie · Apr 21, 2026 · 1 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B1",
+          "newWords": 3,
+          "likes": 499,
+          "replies": 55,
+          "reposts": 59
+        },
+        "quote": "The jump from working with a chatbot to having an agent that actually helps automate a process requires a real amount of work. Most companies will need dedicated people who map new workflows with agents, connect internal systems, build evals, manage upgrades, and handle change management.",
+        "cover": {
+          "label": "AL",
+          "from": "#4338ca",
+          "to": "#a78bfa"
+        },
+        "sourceUrl": "https://x.com/levie/status/2046397816755634340",
+        "sentences": [
+          {
+            "id": "levie-1",
+            "zh": "Aaron Levie 在强调 agent automation 落地需要上下文接线、eval 和专门负责人。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "The jump from working with a chatbot to having an agent that actually helps automate a process requires a real amount of work. Most companies will need dedicated people who map new workflows with agents, connect internal systems, build evals, manage upgrades, and handle change management."
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-ryolu_",
+        "type": "x",
+        "title": {
+          "en": "Signals from Ryo Lu",
+          "zh": "Ryo Lu 的今日 X 动态"
+        },
+        "source": {
+          "name": "Ryo Lu",
+          "subtitle": "ryolu_ · Apr 20, 2026 · 1 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "A2",
+          "newWords": 3,
+          "likes": 185,
+          "replies": 4,
+          "reposts": 2
+        },
+        "quote": "we love a clean start",
+        "cover": {
+          "label": "RL",
+          "from": "#7c2d12",
+          "to": "#f97316"
+        },
+        "sourceUrl": "https://x.com/ryolu_/status/2046246973783859559",
+        "sentences": [
+          {
+            "id": "ryolu_-1",
+            "zh": "Ryo Lu 的内容偏设计氛围，保留为产品设计团队动态样本。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "we love a clean start"
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-garrytan",
+        "type": "x",
+        "title": {
+          "en": "Signals from Garry Tan",
+          "zh": "Garry Tan 的今日 X 动态"
+        },
+        "source": {
+          "name": "Garry Tan",
+          "subtitle": "garrytan · Apr 21, 2026 · 3 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B2",
+          "newWords": 3,
+          "likes": 37,
+          "replies": 4,
+          "reposts": 2
+        },
+        "quote": "I wrote my friend @chrysb a quick note on how to implement GBrain style migrations for people who upgrade to new GBrain versions and want their setups to stay in sync as the core setup changes. This is for Alphaclaw but could be for any plugin or layer in the OpenClaw or Hermes ecosystem.",
+        "cover": {
+          "label": "GT",
+          "from": "#1f3c88",
+          "to": "#7f8ff4"
+        },
+        "sourceUrl": "https://x.com/garrytan/status/2046464315918864385",
+        "sentences": [
+          {
+            "id": "garrytan-1",
+            "zh": "Garry Tan 一边在 YC 视角看人和创业，一边在分享 OpenClaw 生态迁移实践。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "I wrote my friend @chrysb a quick note on how to implement GBrain style migrations for people who upgrade to new GBrain versions and want their setups to stay in sync as the core setup changes. This is for Alphaclaw but could be for any plugin or layer in the OpenClaw or Hermes ecosystem."
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          },
+          {
+            "id": "garrytan-2",
+            "zh": "Garry Tan 一边在 YC 视角看人和创业，一边在分享 OpenClaw 生态迁移实践。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "All of these people need to start startups at Y Combinator"
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          },
+          {
+            "id": "garrytan-3",
+            "zh": "Garry Tan 一边在 YC 视角看人和创业，一边在分享 OpenClaw 生态迁移实践。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Someone figured out my secret 👀"
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-mattturck",
+        "type": "x",
+        "title": {
+          "en": "Signals from Matt Turck",
+          "zh": "Matt Turck 的今日 X 动态"
+        },
+        "source": {
+          "name": "Matt Turck",
+          "subtitle": "mattturck · Apr 20, 2026 · 1 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B1",
+          "newWords": 3,
+          "likes": 16,
+          "replies": 5,
+          "reposts": 0
+        },
+        "quote": "One head-scratching idea that gets repeated endlessly: the new TAM for AI is the size of the human labor market, dollar-for-dollar. Just like any labor automation technology in history, the price of AI services will be the marginal cost plus a normal margin.",
+        "cover": {
+          "label": "MT",
+          "from": "#7e22ce",
+          "to": "#d8b4fe"
+        },
+        "sourceUrl": "https://x.com/mattturck/status/2046284478151086178",
+        "sentences": [
+          {
+            "id": "mattturck-1",
+            "zh": "Matt Turck 在反驳“AI TAM 等于全部人工成本”的简单叙事。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "One head-scratching idea that gets repeated endlessly: the new TAM for AI is the size of the human labor market, dollar-for-dollar. Just like any labor "
+              },
+              {
+                "kind": "word",
+                "surface": "automation",
+                "lemma": "automation",
+                "translation": "自动化",
+                "ipa": "/ˌɔː.təˈmeɪ.ʃən/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " technology in history, the price of AI services will be the marginal cost plus a normal margin."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-zarazhangrui",
+        "type": "x",
+        "title": {
+          "en": "Signals from Zara Zhang",
+          "zh": "Zara Zhang 的今日 X 动态"
+        },
+        "source": {
+          "name": "Zara Zhang",
+          "subtitle": "zarazhangrui · Apr 21, 2026 · 1 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B1",
+          "newWords": 4,
+          "likes": 34,
+          "replies": 7,
+          "reposts": 0
+        },
+        "quote": "Agents speak HTML as their native language. Let agents express themselves in their native language. For similar reasons, agents produce much better looking slides in HTML than in XML.",
+        "cover": {
+          "label": "ZZ",
+          "from": "#166534",
+          "to": "#4ade80"
+        },
+        "sourceUrl": "https://x.com/zarazhangrui/status/2046454622852657264",
+        "sentences": [
+          {
+            "id": "zarazhangrui-1",
+            "zh": "Zara Zhang 在强调 agents 直接生成 HTML 往往比 XML 更自然、更好看。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Agents speak "
+              },
+              {
+                "kind": "word",
+                "surface": "HTML",
+                "lemma": "HTML",
+                "translation": "HTML",
+                "ipa": "/ˌeɪtʃ.t̬iː.emˈel/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " as their native language. Let agents express themselves in their native language. For similar reasons, agents produce much better looking slides in "
+              },
+              {
+                "kind": "word",
+                "surface": "HTML",
+                "lemma": "HTML",
+                "translation": "HTML",
+                "ipa": "/ˌeɪtʃ.t̬iː.emˈel/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " than in XML."
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-nikunj",
+        "type": "x",
+        "title": {
+          "en": "Signals from Nikunj Kothari",
+          "zh": "Nikunj Kothari 的今日 X 动态"
+        },
+        "source": {
+          "name": "Nikunj Kothari",
+          "subtitle": "nikunj · Apr 20, 2026 · 2 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B1",
+          "newWords": 3,
+          "likes": 130,
+          "replies": 11,
+          "reposts": 2
+        },
+        "quote": "Every Indian in the US is T-3 hours away from their parents waking up, reading the news and messaging them “why are you not the ceo of Apple huh”",
+        "cover": {
+          "label": "NK",
+          "from": "#7e22ce",
+          "to": "#d8b4fe"
+        },
+        "sourceUrl": "https://x.com/nikunj/status/2046373243070939360",
+        "sentences": [
+          {
+            "id": "nikunj-1",
+            "zh": "Nikunj Kothari 这批内容一半是播客推荐，一半是轻松吐槽，先保留原文。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Every Indian in the US is T-3 hours away from their parents waking up, reading the news and messaging them “why are you not the ceo of Apple huh”"
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          },
+          {
+            "id": "nikunj-2",
+            "zh": "Nikunj Kothari 这批内容一半是播客推荐，一半是轻松吐槽，先保留原文。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "This is easily the best podcast episode I’ve heard this year. Genuine, kind, authentic. Absolutely incredible storytelling."
+              }
+            ],
+            "timestamp": "Apr 21, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-steipete",
+        "type": "x",
+        "title": {
+          "en": "Signals from Peter Steinberger",
+          "zh": "Peter Steinberger 的今日 X 动态"
+        },
+        "source": {
+          "name": "Peter Steinberger",
+          "subtitle": "steipete · Apr 20, 2026 · 3 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B2",
+          "newWords": 3,
+          "likes": 702,
+          "replies": 19,
+          "reposts": 41
+        },
+        "quote": "gog 0.13 is out. Gmail forwarding with notes plus attachments, autoreplies, full-body search, Markdown uploads to Google Docs, rendered Slides thumbnails, Sheets chart editing, secondary calendars, commenter-only Drive shares, and safer no-send controls.",
+        "cover": {
+          "label": "PS",
+          "from": "#111827",
+          "to": "#4b5563"
+        },
+        "sourceUrl": "https://x.com/steipete/status/2046356596683411924",
+        "sentences": [
+          {
+            "id": "steipete-1",
+            "zh": "Peter Steinberger 连续发布工具更新，重点是安全、可靠性和 Google 工作流连接。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "gog 0.13 is out. Gmail forwarding with notes plus attachments, autoreplies, full-body search, Markdown uploads to Google Docs, rendered Slides thumbnails, Sheets chart editing, secondary calendars, commenter-only Drive shares, and safer no-send controls."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          },
+          {
+            "id": "steipete-2",
+            "zh": "Peter Steinberger 连续发布工具更新，重点是安全、可靠性和 Google 工作流连接。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "wacli 0.6.0 is out. Big "
+              },
+              {
+                "kind": "word",
+                "surface": "security",
+                "lemma": "security",
+                "translation": "安全",
+                "ipa": "/sɪˈkjʊr.ə.t̬i/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " plus reliability sweep for WhatsApp CLI. Hardens SQLite store path handling, sanitizes search queries, recovers sync or media panics, adds WACLI_STORE_DIR, and improves SIGINT exits."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          },
+          {
+            "id": "steipete-3",
+            "zh": "Peter Steinberger 连续发布工具更新，重点是安全、可靠性和 Google 工作流连接。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Kudos to the folks from Tencent for working with us and providing evals to improve OpenClaw's harness performance. Great option for folks not comfortable with the terminal."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-danshipper",
+        "type": "x",
+        "title": {
+          "en": "Signals from Dan Shipper",
+          "zh": "Dan Shipper 的今日 X 动态"
+        },
+        "source": {
+          "name": "Dan Shipper",
+          "subtitle": "danshipper · Apr 20, 2026 · 3 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "A2",
+          "newWords": 3,
+          "likes": 91,
+          "replies": 40,
+          "reposts": 3
+        },
+        "quote": "two agents are better than one",
+        "cover": {
+          "label": "DS",
+          "from": "#166534",
+          "to": "#4ade80"
+        },
+        "sourceUrl": "https://x.com/danshipper/status/2046231280430240141",
+        "sentences": [
+          {
+            "id": "danshipper-1",
+            "zh": "Dan Shipper 在连发几个短判断：双 agent 更好，新的模型做 code review 更强。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "two agents are better than one"
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          },
+          {
+            "id": "danshipper-2",
+            "zh": "Dan Shipper 在连发几个短判断：双 agent 更好，新的模型做 code review 更强。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "media is cool again!"
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          },
+          {
+            "id": "danshipper-3",
+            "zh": "Dan Shipper 在连发几个短判断：双 agent 更好，新的模型做 code review 更强。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Opus 4.7 does good code reviews"
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-sama",
+        "type": "x",
+        "title": {
+          "en": "Signals from Sam Altman",
+          "zh": "Sam Altman 的今日 X 动态"
+        },
+        "source": {
+          "name": "Sam Altman",
+          "subtitle": "sama · Apr 20, 2026 · 2 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B1",
+          "newWords": 3,
+          "likes": 2436,
+          "replies": 270,
+          "reposts": 99
+        },
+        "quote": "The internal working name for this was \"telepathy\", and it feels like it.",
+        "cover": {
+          "label": "SA",
+          "from": "#7c2d12",
+          "to": "#f97316"
+        },
+        "sourceUrl": "https://x.com/sama/status/2046330082726384051",
+        "sentences": [
+          {
+            "id": "sama-1",
+            "zh": "Sam Altman 这批动态里更值得看的，是把新能力内部代号称作 telepathy 的那条。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "The internal working name for this was \""
+              },
+              {
+                "kind": "word",
+                "surface": "telepathy",
+                "lemma": "telepathy",
+                "translation": "心灵感应",
+                "ipa": "/təˈlep.ə.θi/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": "\", and it feels like it."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          },
+          {
+            "id": "sama-2",
+            "zh": "Sam Altman 这批动态里更值得看的，是把新能力内部代号称作 telepathy 的那条。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Tim Cook is a legend. I am very thankful for everything he has done and I am very thankful for Apple."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      },
+      {
+        "id": "x-claudeai",
+        "type": "x",
+        "title": {
+          "en": "Signals from Claude",
+          "zh": "Claude 的今日 X 动态"
+        },
+        "source": {
+          "name": "Claude",
+          "subtitle": "claudeai · Apr 20, 2026 · 3 posts"
+        },
+        "stats": {
+          "readMinutes": 1,
+          "level": "B2",
+          "newWords": 4,
+          "likes": 13018,
+          "replies": 494,
+          "reposts": 872
+        },
+        "quote": "In Cowork, Claude can now build live artifacts: dashboards and trackers connected to your apps and files. Open one any time and it refreshes with current data.",
+        "cover": {
+          "label": "C",
+          "from": "#1f3c88",
+          "to": "#7f8ff4"
+        },
+        "sourceUrl": "https://x.com/claudeai/status/2046328619249684989",
+        "sentences": [
+          {
+            "id": "claudeai-1",
+            "zh": "Claude 官方在推新的 Live Artifacts：可持久保存、带版本历史、还能实时刷新数据。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "In Cowork, Claude can now build live "
+              },
+              {
+                "kind": "word",
+                "surface": "artifacts",
+                "lemma": "artifact",
+                "translation": "工件；产物",
+                "ipa": "/ˈɑːr.t̬ə.fækt/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": ": dashboards and trackers connected to your apps and files. Open one any time and it refreshes with current data."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          },
+          {
+            "id": "claudeai-2",
+            "zh": "Claude 官方在推新的 Live Artifacts：可持久保存、带版本历史、还能实时刷新数据。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Available now on all paid plans. Update or download the Claude app to try it in Cowork."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          },
+          {
+            "id": "claudeai-3",
+            "zh": "Claude 官方在推新的 Live Artifacts：可持久保存、带版本历史、还能实时刷新数据。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Everything you build is saved to the new Live "
+              },
+              {
+                "kind": "word",
+                "surface": "Artifacts",
+                "lemma": "artifact",
+                "translation": "工件；产物",
+                "ipa": "/ˈɑːr.t̬ə.fækt/",
+                "isKnown": false
+              },
+              {
+                "kind": "text",
+                "text": " tab, with version history. Come back tomorrow or next month, from any session, and pick up where you left off."
+              }
+            ],
+            "timestamp": "Apr 20, 2026"
+          }
+        ]
+      }
+    ],
+    "blog": [
+      {
+        "id": "blog-claude-security-offense",
+        "type": "blog",
+        "title": {
+          "en": "Preparing your security program for AI-accelerated offense",
+          "zh": "为 AI 加速攻防做好安全准备"
+        },
+        "source": {
+          "name": "Claude Blog",
+          "subtitle": "Apr 10, 2026 · security guidance"
+        },
+        "stats": {
+          "readMinutes": 17,
+          "level": "C1",
+          "newWords": 16
+        },
+        "quote": "Within the next 24 months, vast numbers of bugs that sat unnoticed in code will be found by AI models and chained into working exploits.",
+        "cover": {
+          "label": "CB",
+          "from": "#111827",
+          "to": "#4b5563"
+        },
+        "sourceUrl": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
+        "sentences": [
+          {
+            "id": "blog-1",
+            "zh": "Claude Blog 先给出判断：未来两年里，大量长期潜伏的漏洞会被 AI 批量发现，并被串成可用 exploit。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Within the next 24 months, vast numbers of bugs that sat unnoticed in code will be found by AI models and chained into working exploits."
+              }
+            ]
+          },
+          {
+            "id": "blog-2",
+            "zh": "第一优先级不是炫技，而是缩短 patch gap，把 KEV 和高 EPSS 漏洞尽快打掉。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Patch everything on the CISA Known Exploited Vulnerabilities catalog immediately. Use EPSS to prioritize the rest."
+              }
+            ]
+          },
+          {
+            "id": "blog-3",
+            "zh": "第二个变化是漏洞处理量会暴涨，所以 intake、triage 和 remediation tracking 需要自动化提速。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Prepare to handle a much higher volume of vulnerability reports. Plan for an order-of-magnitude increase in finding volume."
+              }
+            ]
+          },
+          {
+            "id": "blog-4",
+            "zh": "文章把 AI-assisted code review 放进了默认工具箱，强调高置信度发现就应该阻塞合并。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Add static analysis and AI-assisted code review to your continuous integration pipeline, and block merges on high-confidence findings."
+              }
+            ]
+          },
+          {
+            "id": "blog-5",
+            "zh": "在防线设计上，它更偏向零信任、硬件绑定身份和短期 token，而不是依赖人类流程摩擦。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Adopt zero trust architecture. Tie access to verified hardware rather than credentials. Replace long-lived secrets with short-lived tokens."
+              }
+            ]
+          },
+          {
+            "id": "blog-6",
+            "zh": "最后一层建议是把模型放到告警队列最前面，用它做 first-pass triage 和 incident bookkeeping。",
+            "en": [
+              {
+                "kind": "text",
+                "text": "Put a model at the front of your alert queue. Automate the bookkeeping around incidents. Run a tabletop for five simultaneous incidents."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "featuredArticle": {
+    "id": "podcast-no-priors-agentic-economy",
+    "type": "podcast",
+    "title": {
+      "en": "The Agentic Economy",
+      "zh": "代理经济：AI 代理如何重塑金融系统"
+    },
+    "source": {
+      "name": "No Priors",
+      "subtitle": "Apr 9, 2026 · with Jeremy Allaire"
+    },
+    "stats": {
+      "duration": "~52 min",
+      "readMinutes": 22,
+      "level": "B2",
+      "newWords": 18
+    },
+    "quote": "Stablecoins are the native money layer of the internet.",
+    "cover": {
+      "label": "NP",
+      "from": "#1d4ed8",
+      "to": "#93c5fd"
+    },
+    "sourceUrl": "https://www.youtube.com/watch?v=eyobeqMdbeI",
+    "speakers": [
+      {
+        "id": "host",
+        "label": "Sarah Guo",
+        "accent": "#d97757"
+      },
+      {
+        "id": "guest",
+        "label": "Jeremy Allaire",
+        "accent": "#2f6feb"
+      }
+    ],
+    "sentences": [
+      {
+        "id": "podcast-1",
+        "zh": "今天的 No Priors 请来了 Circle 联合创始人兼 CEO Jeremy Allaire，主题是加密货币、AI、agentic payments 和区块链。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "Today I know Priors, have Jeremy Allaire, the co founder and CEO of Circle. We'll be talking about cryptocurrency, AI, "
+          },
+          {
+            "kind": "word",
+            "surface": "agentic",
+            "lemma": "agentic",
+            "translation": "代理式的；能动的",
+            "ipa": "/eɪˈdʒen.tɪk/",
+            "isKnown": false
+          },
+          {
+            "kind": "text",
+            "text": " payments, AI evolving on the blockchain, and a variety of other topics. Great. Well, thank you so much for joining us today. It's a pleasure to have you."
+          }
+        ],
+        "speaker": "Sarah Guo",
+        "timestamp": "00:05"
+      },
+      {
+        "id": "podcast-2",
+        "zh": "译文待接入构建期翻译 pipeline。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "It's great to be here. Thank you. So maybe we can start with"
+          }
+        ],
+        "speaker": "Jeremy Allaire",
+        "timestamp": "00:19"
+      },
+      {
+        "id": "podcast-3",
+        "zh": "先从 Circle 的起源说起：它为什么会同时把稳定币、crypto 和 agentic future 放在一起思考？",
+        "en": [
+          {
+            "kind": "text",
+            "text": "you just giving a quick overview of Circle, what you do, how you approach the world, because I think we're going to be talking a lot about "
+          },
+          {
+            "kind": "word",
+            "surface": "stablecoins",
+            "lemma": "stablecoin",
+            "translation": "稳定币",
+            "ipa": "/ˈsteɪ.bəl.kɔɪn/",
+            "isKnown": false
+          },
+          {
+            "kind": "text",
+            "text": ", crypto, AI, and how all these things tie into sort of the "
+          },
+          {
+            "kind": "word",
+            "surface": "agentic",
+            "lemma": "agentic",
+            "translation": "代理式的；能动的",
+            "ipa": "/eɪˈdʒen.tɪk/",
+            "isKnown": false
+          },
+          {
+            "kind": "text",
+            "text": " future."
+          }
+        ],
+        "speaker": "Sarah Guo",
+        "timestamp": "00:22"
+      },
+      {
+        "id": "podcast-4",
+        "zh": "Circle 最早的想法，是在互联网上做一套美元协议，让价值可以像信息一样即时、全球、低摩擦地流动。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "Yeah, for sure. So, yeah, Circle's been around for a while. I co founded the company over yeah, thirteen years ago or so, 2013. And really at inception, I was really excited about this idea that we could create a "
+          },
+          {
+            "kind": "word",
+            "surface": "protocol",
+            "lemma": "protocol",
+            "translation": "协议",
+            "ipa": "/ˈproʊ.tə.kɑːl/",
+            "isKnown": false
+          },
+          {
+            "kind": "text",
+            "text": " for dollars on the internet."
+          }
+        ],
+        "speaker": "Jeremy Allaire",
+        "timestamp": "00:36"
+      },
+      {
+        "id": "podcast-5",
+        "zh": "更激进的想法是可编程货币：把区块链变成操作系统，让软件机器直接参与经济活动。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "The other idea that we were really excited about back then was this idea of programmable money, and the idea that eventually these networks, blockchains, would become like operating systems, and you could actually have machines that intermediate economic activity and financial activity on the Internet."
+          }
+        ],
+        "speaker": "Jeremy Allaire",
+        "timestamp": "01:16"
+      },
+      {
+        "id": "podcast-6",
+        "zh": "这里的关键问题是：为什么仍然要围绕美元，而不是完全脱离传统金融体系？",
+        "en": [
+          {
+            "kind": "text",
+            "text": "Why is the dollar aspect of that important? So if you look at a lot of the things that happened in cryptocurrency in the early days, it was really about creating things that were divorced from the traditional financial system if possible."
+          }
+        ],
+        "speaker": "Sarah Guo",
+        "timestamp": "02:11"
+      },
+      {
+        "id": "podcast-7",
+        "zh": "Jeremy 的答案是：未来很长一段时间里，美元仍是主储备货币，而稳定币的价值在于把它做成更安全的 full-reserve money。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "Maybe thirty, forty, fifty years, it'll continue for a while. But what we want to do is construct a system that is in fact safer. So, full reserve form of money. And that's what "
+          },
+          {
+            "kind": "word",
+            "surface": "stablecoins",
+            "lemma": "stablecoin",
+            "translation": "稳定币",
+            "ipa": "/ˈsteɪ.bəl.kɔɪn/",
+            "isKnown": false
+          },
+          {
+            "kind": "text",
+            "text": " are. That's what dollar "
+          },
+          {
+            "kind": "word",
+            "surface": "stablecoins",
+            "lemma": "stablecoin",
+            "translation": "稳定币",
+            "ipa": "/ˈsteɪ.bəl.kɔɪn/",
+            "isKnown": false
+          },
+          {
+            "kind": "text",
+            "text": " are."
+          }
+        ],
+        "speaker": "Jeremy Allaire",
+        "timestamp": "05:22"
+      },
+      {
+        "id": "podcast-8",
+        "zh": "USDC 的设计目标就是互联网原生美元协议，从 25 美分的游戏支付到数亿美元的机构结算都能跑在同一套轨道上。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "The conception of this obviously is like a general "
+          },
+          {
+            "kind": "word",
+            "surface": "protocol",
+            "lemma": "protocol",
+            "translation": "协议",
+            "ipa": "/ˈproʊ.tə.kɑːl/",
+            "isKnown": false
+          },
+          {
+            "kind": "text",
+            "text": " for dollars on the internet. And in fact, the whole design is this is like a general purpose, general architecture money."
+          }
+        ],
+        "speaker": "Jeremy Allaire",
+        "timestamp": "08:15"
+      },
+      {
+        "id": "podcast-9",
+        "zh": "真正的变化在于，越来越多白领经济里的工作会由 AI agents 完成，而现有金融基础设施根本支撑不了这种 agentic economy。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "So, the first is that more and more of the actual work that is done in the real economy, especially in the white collar economy, is going to be conducted by AI agents. And so, the "
+          },
+          {
+            "kind": "word",
+            "surface": "agentic",
+            "lemma": "agentic",
+            "translation": "代理式的；能动的",
+            "ipa": "/eɪˈdʒen.tɪk/",
+            "isKnown": false
+          },
+          {
+            "kind": "text",
+            "text": " economy is being born as we speak."
+          }
+        ],
+        "speaker": "Jeremy Allaire",
+        "timestamp": "16:02"
+      },
+      {
+        "id": "podcast-10",
+        "zh": "ARC 想扮演的角色，是 agentic economy 的经济操作系统，让价值存储、交易和合约执行都能以机器原生的方式发生。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "That does tie to ARC, because that's a design surface that we care about, which is basically, we describe ARC as an economic operating system."
+          }
+        ],
+        "speaker": "Jeremy Allaire",
+        "timestamp": "20:33"
+      },
+      {
+        "id": "podcast-11",
+        "zh": "译文待接入构建期翻译 pipeline。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "I guess one thing that"
+          }
+        ],
+        "speaker": "Jeremy Allaire",
+        "timestamp": "30:45"
+      },
+      {
+        "id": "podcast-12",
+        "zh": "接下来讨论的问题，是现实世界资产上链之后，像股票这类资产会不会也变成全球可编程的 token。",
+        "en": [
+          {
+            "kind": "text",
+            "text": "people have been talking about for a long time in the crypto world is securitization of other assets under the blockchain. So should you be able to buy fractions of Berkshire Hathaway using crypto? And should that be globally available?"
+          }
+        ],
+        "speaker": "Sarah Guo",
+        "timestamp": "30:46"
+      }
+    ]
+  }
+}

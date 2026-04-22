@@ -2,7 +2,12 @@ import type { ArticleType } from "@buildspeak/types";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ReaderScreen } from "@/components/reader/reader-screen";
-import { getAllReaderRoutes, getReaderArticle } from "@/lib/mock-content";
+import {
+  getAllReaderRoutes,
+  getFeaturedReaderHref,
+  getProfileSummary,
+  getReaderArticle,
+} from "@/lib/content";
 
 type ReaderPageProps = {
   params: Promise<{
@@ -16,7 +21,7 @@ const isArticleType = (value: string): value is ArticleType =>
 
 export const dynamicParams = false;
 
-export const generateStaticParams = () => getAllReaderRoutes();
+export const generateStaticParams = async () => getAllReaderRoutes();
 
 export const generateMetadata = async ({
   params,
@@ -27,7 +32,7 @@ export const generateMetadata = async ({
     return {};
   }
 
-  const article = getReaderArticle(type, id);
+  const article = await getReaderArticle(type, id);
 
   return article
     ? {
@@ -44,11 +49,21 @@ export default async function ReaderPage({ params }: ReaderPageProps) {
     notFound();
   }
 
-  const article = getReaderArticle(type, id);
+  const [article, profile, readerHref] = await Promise.all([
+    getReaderArticle(type, id),
+    getProfileSummary(),
+    getFeaturedReaderHref(),
+  ]);
 
   if (!article) {
     notFound();
   }
 
-  return <ReaderScreen article={article} />;
+  return (
+    <ReaderScreen
+      article={article}
+      readerHref={readerHref}
+      streakDays={profile.streakDays}
+    />
+  );
 }

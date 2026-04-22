@@ -1,9 +1,9 @@
 import type { ProfileSummary } from "@buildspeak/types";
 import { AppShell } from "@/components/shell/app-shell";
-import { getFeaturedReaderHref } from "@/lib/mock-content";
 
 type ProfileScreenProps = {
   summary: ProfileSummary;
+  readerHref: string;
 };
 
 const heatLevel = (minutes: number) => {
@@ -14,10 +14,10 @@ const heatLevel = (minutes: number) => {
   return "bg-[color:var(--chip)]";
 };
 
-export const ProfileScreen = ({ summary }: ProfileScreenProps) => (
+export const ProfileScreen = ({ summary, readerHref }: ProfileScreenProps) => (
   <AppShell
     active="profile"
-    readerHref={getFeaturedReaderHref()}
+    readerHref={readerHref}
     streakDays={summary.streakDays}
   >
     <section className="mx-auto flex w-full max-w-7xl flex-col gap-8 px-5 py-10 sm:px-8">

@@ -1,0 +1,75 @@
+{
+  "id": "x-rauchg",
+  "type": "x",
+  "title": {
+    "en": "Signals from Guillermo Rauch",
+    "zh": "Guillermo Rauch 的今日 X 动态"
+  },
+  "source": {
+    "name": "Guillermo Rauch",
+    "subtitle": "rauchg · Apr 21, 2026 · 2 posts"
+  },
+  "stats": {
+    "readMinutes": 1,
+    "level": "B2",
+    "newWords": 4,
+    "likes": 647,
+    "replies": 50,
+    "reposts": 33
+  },
+  "quote": "I’m so encouraged by the way our team and industry peers have shown up to protect the internet. We’ve now shipped over 20 product improvements across Dashboard and CLI to help your security posture. Easier to set up MFA, audit your Environment Variables, Activity logs and more",
+  "cover": {
+    "label": "GR",
+    "from": "#7c2d12",
+    "to": "#f97316"
+  },
+  "sourceUrl": "https://x.com/rauchg/status/2046406894269747668",
+  "sentences": [
+    {
+      "id": "rauchg-1",
+      "zh": "Guillermo Rauch 的重点是安全事件后的产品修补、MFA 强化和密钥轮换。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "I’m so encouraged by the way our team and industry peers have shown up to protect the internet. We’ve now shipped over 20 product improvements across Dashboard and CLI to help your "
+        },
+        {
+          "kind": "word",
+          "surface": "security",
+          "lemma": "security",
+          "translation": "安全",
+          "ipa": "/sɪˈkjʊr.ə.t̬i/",
+          "isKnown": false
+        },
+        {
+          "kind": "text",
+          "text": " posture. Easier to set up MFA, audit your Environment Variables, Activity logs and more"
+        }
+      ],
+      "timestamp": "Apr 21, 2026"
+    },
+    {
+      "id": "rauchg-2",
+      "zh": "Guillermo Rauch 的重点是安全事件后的产品修补、MFA 强化和密钥轮换。",
+      "en": [
+        {
+          "kind": "text",
+          "text": "Getting lots of questions about how to learn more about the incident. We're actively maintaining the "
+        },
+        {
+          "kind": "word",
+          "surface": "security",
+          "lemma": "security",
+          "translation": "安全",
+          "ipa": "/sɪˈkjʊr.ə.t̬i/",
+          "isKnown": false
+        },
+        {
+          "kind": "text",
+          "text": " bulletin. One misconception we've seen that I need to call out. Deletion does not imply Rotation. Rotating keys means invalidating the previous value with the vendor or service you're using."
+        }
+      ],
+      "timestamp": "Apr 20, 2026"
+    }
+  ]
+}
