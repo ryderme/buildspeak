@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #fafaf7;
+  --ink: #1a1a1a;
+  --muted: #6b6b6b;
+  --muted-soft: #9e9a91;
+  --accent: #2f6feb;
+  --highlight: #fff3b0;
+  --chip: #f1efe7;
+  --panel-soft: #f5f3ed;
+  --border: rgba(26, 26, 26, 0.08);
+  --font-serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-sans: "Avenir Next", "Segoe UI", sans-serif;
+  --font-cjk: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", monospace;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --font-cjk: var(--font-cjk);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--accent) 20%, white);
+  color: var(--ink);
+}
