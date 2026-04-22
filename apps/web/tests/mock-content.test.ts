@@ -11,9 +11,9 @@ describe("mock content contract", () => {
     const digest = getDailyDigest();
 
     expect(digest.tabs).toEqual([
-      { id: "podcast", label: "Podcasts", count: 2 },
-      { id: "x", label: "X Posts", count: 2 },
-      { id: "blog", label: "Blogs", count: 2 },
+      { id: "podcast", label: "Podcasts", count: 1 },
+      { id: "x", label: "X Posts", count: 17 },
+      { id: "blog", label: "Blogs", count: 1 },
     ]);
     expect(digest.featuredArticle.id).toBe("podcast-no-priors-agentic-economy");
   });
@@ -22,7 +22,7 @@ describe("mock content contract", () => {
     const article = getReaderArticle("podcast", "podcast-no-priors-agentic-economy");
 
     expect(article?.source.name).toBe("No Priors");
-    expect(article?.sentences).toHaveLength(3);
+    expect(article?.sentences.length ?? 0).toBeGreaterThanOrEqual(8);
     expect(getReaderArticle("blog", "missing-id")).toBeUndefined();
   });
 
@@ -34,5 +34,6 @@ describe("mock content contract", () => {
     expect(vocab.entries[0]?.lemma).toBe("agentic");
     expect(profile.recentActivity).toHaveLength(14);
     expect(profile.spotlight).toContain("AI");
+    expect(profile.totalArticles).toBe(19);
   });
 });

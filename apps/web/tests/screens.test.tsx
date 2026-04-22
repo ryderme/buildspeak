@@ -6,6 +6,7 @@ import { ReaderScreen } from "../components/reader/reader-screen";
 import { VocabScreen } from "../components/vocab/vocab-screen";
 import {
   getDailyDigest,
+  getFeaturedReaderHref,
   getProfileSummary,
   getReaderArticle,
   getVocabularySnapshot,
@@ -13,7 +14,7 @@ import {
 
 describe("BuildSpeak screen smoke tests", () => {
   it("renders the daily digest overview", () => {
-    render(<HomeScreen digest={getDailyDigest()} />);
+    render(<HomeScreen digest={getDailyDigest()} readerHref={getFeaturedReaderHref()} />);
 
     expect(screen.getByRole("heading", { name: /twelve new things/i })).toBeInTheDocument();
     expect(screen.getByText("Podcasts")).toBeInTheDocument();

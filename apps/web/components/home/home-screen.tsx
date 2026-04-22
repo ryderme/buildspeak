@@ -4,10 +4,10 @@ import type { ArticlePreview, ArticleType, DailyDigest } from "@buildspeak/types
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { AppShell } from "@/components/shell/app-shell";
-import { getFeaturedReaderHref } from "@/lib/mock-content";
 
 type HomeScreenProps = {
   digest: DailyDigest;
+  readerHref: string;
 };
 
 const typeLabels: Record<ArticleType, string> = {
@@ -79,9 +79,8 @@ const ArticleCard = ({ article, featured }: { article: ArticlePreview; featured?
   </article>
 );
 
-export const HomeScreen = ({ digest }: HomeScreenProps) => {
+export const HomeScreen = ({ digest, readerHref }: HomeScreenProps) => {
   const [activeTab, setActiveTab] = useState<ArticleType>("podcast");
-  const readerHref = getFeaturedReaderHref();
   const activeArticles = useMemo(
     () => digest.sections[activeTab],
     [activeTab, digest.sections],
