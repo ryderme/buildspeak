@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #fafaf7;
+  --color-fg: #1a1a1a;
+  --color-muted: #6b6b6b;
+  --color-accent: #2563eb;
+  --color-accent-soft: #dbeafe;
+  --color-vocab: #2563eb;
+  --color-highlight: rgb(254 240 138 / 0.45);
+  --font-sans: ui-sans-serif, -apple-system, "SF Pro Text", "PingFang SC", "Noto Sans SC", system-ui, sans-serif;
+  --font-serif: ui-serif, Georgia, "Source Han Serif SC", "Songti SC", serif;
+}
+
+html, body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button {
+  cursor: pointer;
+}
+
+.reader-en {
+  font-family: var(--font-serif);
+  line-height: 1.75;
+  font-size: 1.0625rem;
+}
+
+.reader-zh {
+  line-height: 1.85;
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+.word {
+  border-radius: 2px;
+  transition: background-color 120ms;
+  cursor: pointer;
+}
+.word:hover {
+  background: rgb(0 0 0 / 0.05);
+}
+.word.is-vocab {
+  border-bottom: 1.5px solid var(--color-vocab);
+}
+
+.sentence.is-playing {
+  background: var(--color-highlight);
+  border-radius: 3px;
+  padding: 0 2px;
+  margin: 0 -2px;
+}

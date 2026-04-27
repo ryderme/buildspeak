@@ -6,3 +6,13 @@ dist/
 coverage/
 apps/web/.next/
 apps/web/out/
+*.tsbuildinfo
+
+# env (contains API keys — NEVER commit)
+.env
+.env.local
+.env.*.local
+
+# pipeline cache
+.cache/
+packages/pipeline/.cache/

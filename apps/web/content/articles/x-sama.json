@@ -1,0 +1,376 @@
+{
+  "id": "x-sama",
+  "type": "tweet",
+  "sourceName": "Sam Altman",
+  "sourceHandle": "@sama",
+  "sourceBio": "AI is cool i guess",
+  "title": "Sam Altman · @sama",
+  "url": "https://x.com/sama",
+  "publishedAt": "2026-04-20T20:51:02.000Z",
+  "paragraphs": [
+    {
+      "id": "x-sama-p0",
+      "sentences": [
+        {
+          "id": "x-sama-p0-s0",
+          "text": "Tim Cook is a legend.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Tim",
+              "key": "tim"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Cook",
+              "key": "cook"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "legend",
+              "key": "legend"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-sama-p0-s1",
+          "text": "I am very thankful for everything he has done and I am very thankful for Apple.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "am",
+              "key": "am"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "very",
+              "key": "very"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "thankful",
+              "key": "thankful"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "everything",
+              "key": "everything"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "he",
+              "key": "he"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "done",
+              "key": "done"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "am",
+              "key": "am"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "very",
+              "key": "very"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "thankful",
+              "key": "thankful"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Apple",
+              "key": "apple"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "Tim Cook 是一位传奇人物。我非常感谢他所做的一切，也非常感谢 Apple。",
+      "meta": {
+        "likes": 28528,
+        "retweets": 1510,
+        "replies": 1323,
+        "createdAt": "2026-04-20T20:51:02.000Z",
+        "tweetUrl": "https://x.com/sama/status/2046330825265086712"
+      }
+    },
+    {
+      "id": "x-sama-p1",
+      "sentences": [
+        {
+          "id": "x-sama-p1-s0",
+          "text": "The internal working name for this was \"telepathy\", and it feels like it.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "The",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "internal",
+              "key": "internal"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "working",
+              "key": "working"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "name",
+              "key": "name"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "was",
+              "key": "was"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "\""
+            },
+            {
+              "kind": "word",
+              "text": "telepathy",
+              "key": "telepathy"
+            },
+            {
+              "kind": "punct",
+              "text": "\","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "feels",
+              "key": "feels"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "like",
+              "key": "like"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "这个项目的内部工作名称是 “telepathy”，而它给人的感觉也确实如此。",
+      "meta": {
+        "likes": 2436,
+        "retweets": 99,
+        "replies": 270,
+        "createdAt": "2026-04-20T20:48:05.000Z",
+        "tweetUrl": "https://x.com/sama/status/2046330082726384051"
+      }
+    }
+  ],
+  "wordCount": 34,
+  "engagement": {
+    "likes": 30964,
+    "retweets": 1609,
+    "replies": 1593
+  }
+}
