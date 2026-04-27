@@ -1,6 +1,5 @@
 import type { Article, DailyDigest } from "@buildspeak/types";
 import { IssueHeader } from "@/components/issue-header";
-import { HeroCard } from "@/components/hero-card";
 import { MediaCard, BuilderCard } from "@/components/digest-card";
 import { loadArticle } from "@/lib/content";
 
@@ -17,21 +16,9 @@ export function HomeContent({ digest, prevDate, nextDate, isLatest }: HomeConten
     .map((t) => loadArticle(t.id))
     .filter((a): a is Article => a !== null);
 
-  // Pick today's hero: podcast > blog > top tweet (if no podcast/blog).
-  const hero =
-    digest.podcasts[0] ??
-    digest.blogs[0] ??
-    pickTopTweetThread(builderArticles) ??
-    null;
-
-  // The hero article needs full paragraphs for the zh hook. Re-load if it came from the manifest.
-  const heroFull = hero ? loadArticle(hero.id) ?? hero : null;
-
   return (
     <div className="page page-narrow">
       <IssueHeader digest={digest} prevDate={prevDate ?? null} nextDate={nextDate ?? null} isLatest={isLatest} />
-
-      {heroFull && <HeroCard article={heroFull} />}
 
       <Section icon="🎙" title="Podcast" count={`${digest.stats.podcastCount} EP TODAY`}>
         {digest.podcasts.length > 0 ? (
@@ -131,18 +118,4 @@ function EmptyBox({ kind }: { kind: "podcast" | "blog" | "tweet" }) {
       </p>
     </div>
   );
-}
-
-function pickTopTweetThread(articles: Article[]): Article | undefined {
-  if (!articles.length) return undefined;
-  let best = articles[0]!;
-  let bestScore = -1;
-  for (const a of articles) {
-    const score = (a.engagement?.likes ?? 0) + (a.engagement?.retweets ?? 0) * 3;
-    if (score > bestScore) {
-      best = a;
-      bestScore = score;
-    }
-  }
-  return best;
 }
