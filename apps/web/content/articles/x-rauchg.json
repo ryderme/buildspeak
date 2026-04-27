@@ -474,7 +474,7 @@
           ]
         }
       ],
-      "zh": "我深受鼓舞，因为我们的团队和业内同行都挺身而出，共同保护互联网。我们现在已经在 Dashboard 和 CLI 上发布了 20 多项产品改进，以帮助提升你的安全态势。包括更容易设置 MFA（多因素认证）、审计你的 Environment Variables（环境变量）、查看 Activity logs（活动日志）等等",
+      "zh": "我非常受鼓舞，因为我们的团队以及业界同行都以实际行动站出来保护互联网。我们现在已经在 Dashboard 和 CLI 上推出了 20 多项产品改进，以帮助提升你的安全态势。包括更容易设置 MFA（多因素认证）、审计你的 Environment Variables、Activity logs 等等",
       "meta": {
         "likes": 647,
         "retweets": 33,
@@ -1713,7 +1713,7 @@
           ]
         }
       ],
-      "zh": "很多人都在问，怎样才能进一步了解这次 incident（安全事件）。我们正在持续维护 security bulletin（安全公告）。那就是信息来源。公告中还包含一些出于极度谨慎而建议采取的安全最佳实践。再次重申，我们已经直接联系了所有我们认为受到公告中共享的 IOC（妥协指标）影响的 Vercel 客户。我们看到的一个误解，我必须特别指出：Deletion（删除，例如删除某个 env var、project、account……）并不等于 Rotation（轮换）。Rotating keys 的意思是：在你所使用的 vendor/service 那里，将旧的值*作废*，并获取一个新的。请务必这样做。也就是说：如果你只是在 Vercel 一侧删除了相关资源，那么对应的 key 仍可能在另一个 provider 那里“继续有效”，并被滥用",
+      "zh": "很多人在问如何进一步了解这次 incident（安全事件）。我们正在持续维护这份 security bulletin。这就是信息来源。bulletin 中还包含出于高度谨慎而建议采取的安全最佳实践。再次重申，我们已经直接联系了所有我们认为可能受到 bulletin 中共享的 IOC 影响的 Vercel 客户。我们看到一个误解，需要特别指出。Deletion（例如删除某个 env var、project、account……）并不意味着 Rotation。Rotating keys 的意思是：在你所使用的 vendor/service 那里，将旧值*作废*，并获取一个新值。请务必这样做。也就是说：如果你只是删除了 Vercel 这一侧的资源，相关的 key 仍然可能在另一个 provider 那边“继续有效”，并被滥用",
       "meta": {
         "likes": 38,
         "retweets": 4,

@@ -259,7 +259,7 @@
           ]
         }
       ],
-      "zh": "发布 GBrain v0.22——对 search 和 retireval 进行了大量修复，并加入了新的 eval system（gbrain-evals 现已拆分为独立 repo，以避免 checkout 体积膨胀）",
+      "zh": "发布 GBrain v0.22——对 search 和 retireval 进行了大量修复，并新增了一个 eval 系统（gbrain-evals 现已拆分为独立 repo，以避免 checkout 体积膨胀）",
       "meta": {
         "likes": 41,
         "retweets": 3,
