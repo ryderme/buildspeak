@@ -1,19 +1,22 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Article, Paragraph, Sentence, Token, WordEntry } from "@buildspeak/types";
 import { useVocab } from "@/lib/vocab-store";
 import { WordPopover, type PopoverPayload } from "./word-popover";
 
 type LangMode = "both" | "en" | "zh";
 
-interface ParagraphMeta {
-  likes: number;
-  retweets: number;
-  replies: number;
-  createdAt: string;
-  tweetUrl: string;
-}
+const TYPE_LABEL: Record<Article["type"], string> = {
+  podcast: "PODCAST",
+  blog: "BLOG",
+  tweet: "X / TWITTER",
+};
+const TYPE_ICON: Record<Article["type"], string> = {
+  podcast: "🎙",
+  blog: "📰",
+  tweet: "🐦",
+};
 
 export function ArticleReader({
   article,
@@ -31,7 +34,6 @@ export function ArticleReader({
   const playQueueRef = useRef<{ sentences: Sentence[]; index: number } | null>(null);
   const utterRef = useRef<SpeechSynthesisUtterance | null>(null);
 
-  // Flatten all sentences for full-article playback.
   useEffect(() => {
     allSentencesRef.current = article.paragraphs.flatMap((p) => p.sentences);
   }, [article]);
@@ -46,7 +48,31 @@ export function ArticleReader({
     utterRef.current = null;
   };
 
-  const speakSentences = (sentences: Sentence[], startIndex: number = 0) => {
+  const speakNext = () => {
+    const queue = playQueueRef.current;
+    if (!queue) return;
+    if (queue.index >= queue.sentences.length) {
+      stopSpeaking();
+      return;
+    }
+    const sentence = queue.sentences[queue.index]!;
+    setPlayingSentenceId(sentence.id);
+    const utter = new SpeechSynthesisUtterance(sentence.text);
+    utter.lang = "en-US";
+    utter.rate = 0.95;
+    utter.onend = () => {
+      if (utterRef.current !== utter) return;
+      const q = playQueueRef.current;
+      if (!q) return;
+      q.index += 1;
+      speakNext();
+    };
+    utter.onerror = stopSpeaking;
+    utterRef.current = utter;
+    window.speechSynthesis.speak(utter);
+  };
+
+  const speakSentences = (sentences: Sentence[], startIndex = 0) => {
     if (typeof window === "undefined" || !window.speechSynthesis) {
       alert("当前浏览器不支持朗读功能");
       return;
@@ -57,42 +83,11 @@ export function ArticleReader({
     speakNext();
   };
 
-  const speakNext = () => {
-    const queue = playQueueRef.current;
-    if (!queue) return;
-    if (queue.index >= queue.sentences.length) {
-      setPlayingSentenceId(null);
-      setIsPlayingArticle(false);
-      playQueueRef.current = null;
-      return;
-    }
-    const sentence = queue.sentences[queue.index]!;
-    setPlayingSentenceId(sentence.id);
-    const utter = new SpeechSynthesisUtterance(sentence.text);
-    utter.lang = "en-US";
-    utter.rate = 0.95;
-    utter.onend = () => {
-      // Guard: only advance if we're still the active utterance.
-      if (utterRef.current !== utter) return;
-      const q = playQueueRef.current;
-      if (!q) return;
-      q.index += 1;
-      speakNext();
-    };
-    utter.onerror = () => {
-      stopSpeaking();
-    };
-    utterRef.current = utter;
-    window.speechSynthesis.speak(utter);
-  };
-
-  // Cleanup on unmount.
   useEffect(() => {
     return () => stopSpeaking();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Keyboard shortcuts: space = play/pause toggle for full article, ←/→ skip sentence.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
       const target = e.target as HTMLElement | null;
@@ -109,7 +104,6 @@ export function ArticleReader({
         if (q) {
           q.index += 1;
           window.speechSynthesis.cancel();
-          // onend won't fire after cancel — advance manually
           speakNext();
         }
       } else if (e.key === "ArrowLeft") {
@@ -126,44 +120,60 @@ export function ArticleReader({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const showEn = lang === "en" || lang === "both";
-  const showZh = lang === "zh" || lang === "both";
+  const onlyAttr = lang === "both" ? null : lang;
 
   return (
-    <article className="mx-auto max-w-3xl px-6 py-6">
-      <div className="mb-4 flex flex-wrap items-center gap-3">
-        <button
-          type="button"
-          onClick={() => {
-            if (isPlayingArticle) stopSpeaking();
-            else speakSentences(allSentencesRef.current, 0);
-          }}
-          className="rounded-full bg-[color:var(--color-fg)] px-4 py-1.5 text-sm font-medium text-white hover:opacity-90"
-        >
-          {isPlayingArticle ? "■ 停止" : "▶ 播放全文"}
-        </button>
-        <LangToggle value={lang} onChange={setLang} />
-        <span className="ml-auto text-xs text-[color:var(--color-muted)]">
-          空格 播放/停止 · ← → 切句
-        </span>
-      </div>
-
-      <header className="mb-6">
-        <div className="mb-2 text-xs font-medium uppercase tracking-wider text-[color:var(--color-muted)]">
-          {labelOf(article.type)} · {article.sourceName}
+    <div className="page page-reader">
+      <header className="reader-header">
+        <div className="reader-meta-row">
+          <span className="type-badge" data-type={article.type}>
+            {TYPE_ICON[article.type]} {TYPE_LABEL[article.type]}
+          </span>
+          <span>
+            <strong style={{ color: "var(--color-ink)" }}>{article.sourceName}</strong>
+            {article.sourceHandle ? "  " + article.sourceHandle : ""}
+          </span>
+          <span>·  {formatDateShort(article.publishedAt)}</span>
+          <span>·  {article.wordCount.toLocaleString()} words ·  ~{Math.max(1, Math.round(article.wordCount / 200))} min</span>
         </div>
-        <h1 className="text-2xl font-semibold leading-tight">{article.title}</h1>
+        <h1 className="reader-title">{article.title}</h1>
+        <div className="reader-controls">
+          <button
+            className="playbtn"
+            data-size="primary"
+            data-state={isPlayingArticle ? "playing" : "idle"}
+            onClick={() => {
+              if (isPlayingArticle) stopSpeaking();
+              else speakSentences(allSentencesRef.current, 0);
+            }}
+          >
+            <PlayIcon playing={isPlayingArticle} />
+            <span>
+              {isPlayingArticle ? "暂停" : "朗读全文"}
+              {!isPlayingArticle && (
+                <span style={{ opacity: 0.6, marginLeft: 6, fontFamily: "var(--font-mono)", fontSize: 11 }}>
+                  SPACE
+                </span>
+              )}
+            </span>
+          </button>
+          <LanguageToggle value={lang} onChange={setLang} />
+          <span className="keyboard-hint">
+            <span className="kbd">SPACE</span> play
+            <span className="kbd">←</span>
+            <span className="kbd">→</span> sentence
+          </span>
+        </div>
       </header>
 
-      <div className="space-y-7">
+      <div className="reader-body" style={{ maxWidth: "var(--col-wide)", margin: "0 auto" }}>
         {article.paragraphs.map((p) => (
           <ParagraphBlock
             key={p.id}
             paragraph={p}
             article={article}
             words={words}
-            showEn={showEn}
-            showZh={showZh}
+            onlyAttr={onlyAttr}
             playingSentenceId={playingSentenceId}
             onWordClick={setPopover}
             onPlayParagraph={() => speakSentences(p.sentences, 0)}
@@ -171,11 +181,18 @@ export function ArticleReader({
         ))}
       </div>
 
-      <footer className="mt-12 border-t border-black/5 pt-6 text-xs text-[color:var(--color-muted)]">
-        原文：<a href={article.url} target="_blank" rel="noreferrer" className="text-[color:var(--color-accent)] underline">
-          {article.url}
+      <div className="article-footnav">
+        <a
+          href={article.url}
+          target="_blank"
+          rel="noreferrer"
+          className="article-footnav-link"
+          data-dir="prev"
+        >
+          <span className="article-footnav-eyebrow">原文 ↗</span>
+          <span className="article-footnav-title">{article.url}</span>
         </a>
-      </footer>
+      </div>
 
       {popover && (
         <WordPopover
@@ -184,7 +201,7 @@ export function ArticleReader({
           wordEntry={words[popover.key]}
         />
       )}
-    </article>
+    </div>
   );
 }
 
@@ -192,70 +209,75 @@ function ParagraphBlock({
   paragraph,
   article,
   words,
-  showEn,
-  showZh,
+  onlyAttr,
   playingSentenceId,
   onWordClick,
   onPlayParagraph,
 }: {
-  paragraph: Paragraph & { meta?: ParagraphMeta };
+  paragraph: Paragraph;
   article: Article;
   words: Record<string, WordEntry>;
-  showEn: boolean;
-  showZh: boolean;
+  onlyAttr: "en" | "zh" | null;
   playingSentenceId: string | null;
   onWordClick: (p: PopoverPayload) => void;
   onPlayParagraph: () => void;
 }) {
+  const isPlaying = paragraph.sentences.some((s) => s.id === playingSentenceId);
   return (
-    <div className="group">
-      {(paragraph.speaker || paragraph.timecode) && (
-        <div className="mb-1 flex items-center gap-3 text-xs font-medium text-[color:var(--color-muted)]">
-          {paragraph.speaker && <span>{paragraph.speaker}</span>}
-          {paragraph.timecode && <span className="font-mono">{paragraph.timecode}</span>}
-        </div>
-      )}
-
-      <div className="grid gap-3 lg:grid-cols-[1.4fr_1fr] lg:gap-8">
-        {showEn && (
-          <div className="reader-en">
-            <button
-              type="button"
-              onClick={onPlayParagraph}
-              aria-label="朗读这段"
-              className="float-right ml-2 hidden text-[color:var(--color-muted)] hover:text-[color:var(--color-accent)] group-hover:inline-block"
-            >
-              ▶
-            </button>
-            {paragraph.sentences.map((s) => (
-              <SentenceSpan
-                key={s.id}
-                sentence={s}
-                article={article}
-                words={words}
-                playing={playingSentenceId === s.id}
-                onWordClick={onWordClick}
-              />
-            ))}
+    <div className="paragraph-block" data-only={onlyAttr ?? undefined}>
+      <div className="paragraph-controls">
+        <button
+          className="playbtn"
+          data-size="secondary"
+          data-state={isPlaying ? "playing" : "idle"}
+          aria-label="朗读这段"
+          onClick={onPlayParagraph}
+        >
+          <PlayIcon playing={isPlaying} />
+        </button>
+      </div>
+      <div className="reader-en">
+        {(paragraph.speaker || paragraph.timecode) && (
+          <div className="speaker-tag">
+            {paragraph.speaker && <span>{paragraph.speaker}</span>}
+            {paragraph.timecode && <span className="timecode">{paragraph.timecode}</span>}
           </div>
         )}
-        {showZh && paragraph.zh && (
-          <div className="reader-zh">{paragraph.zh}</div>
-        )}
+        {paragraph.sentences.map((s) => (
+          <SentenceMark
+            key={s.id}
+            sentence={s}
+            article={article}
+            words={words}
+            playing={playingSentenceId === s.id}
+            onWordClick={onWordClick}
+          />
+        ))}
       </div>
-
+      {paragraph.zh && (
+        <div className="reader-zh">
+          {(paragraph.speaker || paragraph.timecode) && (
+            <div className="speaker-tag">
+              {paragraph.speaker && <span>{paragraph.speaker}</span>}
+              {paragraph.timecode && <span className="timecode">{paragraph.timecode}</span>}
+            </div>
+          )}
+          {paragraph.zh}
+        </div>
+      )}
       {paragraph.meta && (
-        <div className="mt-2 flex items-center gap-4 text-xs text-[color:var(--color-muted)]">
-          <span>♥ {paragraph.meta.likes}</span>
-          <span>↻ {paragraph.meta.retweets}</span>
-          <span>💬 {paragraph.meta.replies}</span>
+        <div className="engagement-row" style={{ gridColumn: "1 / -1", marginTop: "var(--s-3)" }}>
+          <span>♥ {fmtNum(paragraph.meta.likes)}</span>
+          <span>↻ {fmtNum(paragraph.meta.retweets)}</span>
+          <span>💬 {fmtNum(paragraph.meta.replies)}</span>
           <a
             href={paragraph.meta.tweetUrl}
             target="_blank"
             rel="noreferrer"
-            className="ml-auto hover:text-[color:var(--color-accent)]"
+            className="source-link"
+            style={{ marginLeft: "auto" }}
           >
-            原帖 ↗
+            x.com ↗
           </a>
         </div>
       )}
@@ -263,7 +285,7 @@ function ParagraphBlock({
   );
 }
 
-function SentenceSpan({
+function SentenceMark({
   sentence,
   article,
   words,
@@ -277,7 +299,7 @@ function SentenceSpan({
   onWordClick: (p: PopoverPayload) => void;
 }) {
   return (
-    <span className={`sentence ${playing ? "is-playing" : ""}`}>
+    <span className="sentence-mark" data-playing={playing ? "true" : "false"} data-sid={sentence.id}>
       {sentence.tokens.map((t, i) => (
         <TokenSpan
           key={i}
@@ -296,7 +318,6 @@ function TokenSpan({
   token,
   sentence,
   article,
-  words,
   onWordClick,
 }: {
   token: Token;
@@ -308,52 +329,74 @@ function TokenSpan({
   const has = useVocab((s) => (token.kind === "word" && token.key ? s.has(token.key) : false));
   if (token.kind === "space") return <>{token.text}</>;
   if (token.kind === "punct") return <span>{token.text}</span>;
-  // word
-  const handleClick = (e: React.MouseEvent<HTMLSpanElement>) => {
-    if (!token.key) return;
-    const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
-    onWordClick({
-      surface: token.text,
-      key: token.key,
-      rect,
-      sentence: sentence.text,
-      articleId: article.id,
-      articleTitle: article.title,
-    });
-  };
   return (
-    <span className={`word ${has ? "is-vocab" : ""}`} onClick={handleClick}>
+    <span
+      className="word-chip"
+      data-state={has ? "in-vocab" : undefined}
+      tabIndex={0}
+      role="button"
+      onClick={(e) => {
+        if (!token.key) return;
+        e.stopPropagation();
+        const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();
+        onWordClick({
+          surface: token.text,
+          key: token.key,
+          rect,
+          sentence: sentence.text,
+          articleId: article.id,
+          articleTitle: article.title,
+        });
+      }}
+    >
       {token.text}
     </span>
   );
 }
 
-function LangToggle({ value, onChange }: { value: LangMode; onChange: (v: LangMode) => void }) {
-  const opts: Array<{ key: LangMode; label: string }> = [
-    { key: "both", label: "双语" },
-    { key: "en", label: "仅英文" },
-    { key: "zh", label: "仅中文" },
-  ];
+function LanguageToggle({ value, onChange }: { value: LangMode; onChange: (v: LangMode) => void }) {
   return (
-    <div className="inline-flex rounded-full border border-black/10 bg-white p-0.5 text-xs">
-      {opts.map((o) => (
-        <button
-          key={o.key}
-          type="button"
-          onClick={() => onChange(o.key)}
-          className={`rounded-full px-3 py-1 transition ${
-            value === o.key
-              ? "bg-[color:var(--color-fg)] text-white"
-              : "text-[color:var(--color-muted)] hover:text-[color:var(--color-fg)]"
-          }`}
-        >
-          {o.label}
-        </button>
-      ))}
+    <div className="lang-toggle" role="tablist" aria-label="Language layout">
+      <button role="tab" data-active={value === "both" ? "true" : undefined} onClick={() => onChange("both")}>
+        <span className="lang-zh">双语</span>
+      </button>
+      <button role="tab" data-active={value === "en" ? "true" : undefined} onClick={() => onChange("en")}>
+        EN
+      </button>
+      <button role="tab" data-active={value === "zh" ? "true" : undefined} onClick={() => onChange("zh")}>
+        <span className="lang-zh">中</span>
+      </button>
     </div>
   );
 }
 
-function labelOf(t: Article["type"]): string {
-  return t === "podcast" ? "PODCAST" : t === "tweet" ? "X / TWITTER" : "BLOG";
+function PlayIcon({ playing }: { playing: boolean }) {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
+      {playing ? (
+        <g>
+          <rect x="2.5" y="2" width="2.5" height="8" rx="0.5" />
+          <rect x="7" y="2" width="2.5" height="8" rx="0.5" />
+        </g>
+      ) : (
+        <path d="M3 1.5 L10 6 L3 10.5 Z" />
+      )}
+    </svg>
+  );
+}
+
+function fmtNum(n: number): string {
+  if (n >= 1000) return (n / 1000).toFixed(1) + "K";
+  return String(n);
+}
+
+function formatDateShort(iso: string): string {
+  try {
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return iso.slice(0, 10);
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    return `${months[d.getUTCMonth()]} ${d.getUTCDate()} ${d.getUTCFullYear()}`;
+  } catch {
+    return iso.slice(0, 10);
+  }
 }

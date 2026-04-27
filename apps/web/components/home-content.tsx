@@ -1,93 +1,148 @@
-import Link from "next/link";
 import type { Article, DailyDigest } from "@buildspeak/types";
-import { DigestCard, TweetGroupCard } from "@/components/digest-card";
-import { formatDateFull } from "@/lib/format";
+import { IssueHeader } from "@/components/issue-header";
+import { HeroCard } from "@/components/hero-card";
+import { MediaCard, BuilderCard } from "@/components/digest-card";
 import { loadArticle } from "@/lib/content";
 
 interface HomeContentProps {
   digest: DailyDigest;
-  /** Adjacent dates available for navigation. */
   prevDate?: string | null;
   nextDate?: string | null;
+  isLatest: boolean;
 }
 
-export function HomeContent({ digest, prevDate, nextDate }: HomeContentProps) {
-  // For X tweets we need full article content (digest manifest strips paragraphs).
-  // Load each builder's article so the home card can show inline tweet previews.
-  const tweetArticlesFull: Article[] = digest.tweets
+export function HomeContent({ digest, prevDate, nextDate, isLatest }: HomeContentProps) {
+  // Load full content for each X builder so the home card can show inline tweet previews.
+  const builderArticles: Article[] = digest.tweets
     .map((t) => loadArticle(t.id))
     .filter((a): a is Article => a !== null);
 
+  // Pick today's hero: podcast > blog > top tweet (if no podcast/blog).
+  const hero =
+    digest.podcasts[0] ??
+    digest.blogs[0] ??
+    pickTopTweetThread(builderArticles) ??
+    null;
+
+  // The hero article needs full paragraphs for the zh hook. Re-load if it came from the manifest.
+  const heroFull = hero ? loadArticle(hero.id) ?? hero : null;
+
   return (
-    <main className="mx-auto max-w-3xl px-6 py-8">
-      <DateNav date={digest.date} prevDate={prevDate ?? null} nextDate={nextDate ?? null} />
+    <div className="page page-narrow">
+      <IssueHeader digest={digest} prevDate={prevDate ?? null} nextDate={nextDate ?? null} isLatest={isLatest} />
 
-      <section className="mb-8">
-        <h1 className="text-2xl font-semibold tracking-tight">今日 Digest</h1>
-        <p className="mt-1 text-sm text-[color:var(--color-muted)]">
-          跟着 AI builder 学英文 · {digest.stats.podcastCount} 播客 · {digest.stats.builderCount} 位 builder · {digest.stats.tweetCount} 条推文 · {digest.stats.blogCount} 博客
-        </p>
-      </section>
+      {heroFull && <HeroCard article={heroFull} />}
 
-      <div className="space-y-5">
-        {digest.podcasts.map((p) => (
-          <DigestCard key={p.id} article={p} />
-        ))}
-        {tweetArticlesFull.length > 0 && <TweetGroupCard articles={tweetArticlesFull} />}
-        {digest.blogs.map((b) => (
-          <DigestCard key={b.id} article={b} />
-        ))}
-        {digest.podcasts.length === 0 && digest.blogs.length === 0 && tweetArticlesFull.length === 0 && (
-          <div className="rounded-2xl border border-dashed border-black/10 px-6 py-12 text-center text-sm text-[color:var(--color-muted)]">
-            这一天没有抓到内容。换一天看看 →
-          </div>
+      <Section icon="🎙" title="Podcast" count={`${digest.stats.podcastCount} EP TODAY`}>
+        {digest.podcasts.length > 0 ? (
+          digest.podcasts.map((p) => {
+            const full = loadArticle(p.id);
+            return full ? <MediaCard key={p.id} article={full} /> : null;
+          })
+        ) : (
+          <EmptyBox kind="podcast" />
         )}
-      </div>
-    </main>
+      </Section>
+
+      <Section
+        icon="🐦"
+        title="Builders on X"
+        count={`${digest.stats.builderCount} BUILDERS ·  ${digest.stats.tweetCount} POSTS`}
+      >
+        {builderArticles.length > 0 ? (
+          <div className="builder-grid">
+            {builderArticles.map((a) => (
+              <BuilderCard key={a.id} article={a} />
+            ))}
+          </div>
+        ) : (
+          <EmptyBox kind="tweet" />
+        )}
+      </Section>
+
+      <Section
+        icon="📰"
+        title="Blog"
+        count={
+          digest.stats.blogCount > 0 ? `${digest.stats.blogCount} POST` : "NO BLOG TODAY · 今日无博客"
+        }
+      >
+        {digest.blogs.length > 0 ? (
+          digest.blogs.map((b) => {
+            const full = loadArticle(b.id);
+            return full ? <MediaCard key={b.id} article={full} /> : null;
+          })
+        ) : (
+          <EmptyBox kind="blog" />
+        )}
+      </Section>
+    </div>
   );
 }
 
-function DateNav({
-  date,
-  prevDate,
-  nextDate,
+function Section({
+  icon,
+  title,
+  count,
+  children,
 }: {
-  date: string;
-  prevDate: string | null;
-  nextDate: string | null;
+  icon: string;
+  title: string;
+  count: string;
+  children: React.ReactNode;
 }) {
   return (
-    <div className="mb-6 flex items-center justify-between text-sm">
-      <div>
-        {prevDate ? (
-          <Link
-            href={`/d/${prevDate}`}
-            className="text-[color:var(--color-muted)] hover:text-[color:var(--color-fg)]"
-          >
-            ← {formatDateFull(prevDate)}
-          </Link>
-        ) : (
-          <span className="text-[color:var(--color-muted)]/40">← 没有更早的了</span>
-        )}
+    <section className="section">
+      <div className="section-header">
+        <span className="section-icon">{icon}</span>
+        <h2 className="section-title">{title}</h2>
+        <span className="section-count">{count}</span>
       </div>
-      <Link
-        href="/archive"
-        className="font-medium text-[color:var(--color-fg)]"
-      >
-        {formatDateFull(date)} ·  📅
-      </Link>
-      <div>
-        {nextDate ? (
-          <Link
-            href={`/d/${nextDate}`}
-            className="text-[color:var(--color-muted)] hover:text-[color:var(--color-fg)]"
-          >
-            {formatDateFull(nextDate)} →
-          </Link>
-        ) : (
-          <span className="text-[color:var(--color-muted)]/40">最新 →</span>
-        )}
-      </div>
+      {children}
+    </section>
+  );
+}
+
+function EmptyBox({ kind }: { kind: "podcast" | "blog" | "tweet" }) {
+  const messages: Record<typeof kind, { en: string; zh: string; icon: string }> = {
+    podcast: {
+      icon: "🎙",
+      en: "No new podcast today.",
+      zh: "今日没有新播客；昨日的节目仍在 archive。",
+    },
+    blog: {
+      icon: "📰",
+      en: "Nothing official today.",
+      zh: "今日没有官方博客；之前的博文仍在 archive。",
+    },
+    tweet: {
+      icon: "🐦",
+      en: "Builders are quiet today.",
+      zh: "今日 builders 没有更新。",
+    },
+  };
+  const m = messages[kind];
+  return (
+    <div className="empty-state">
+      <div className="empty-state-icon">{m.icon}</div>
+      <p className="empty-state-text">
+        {m.en}
+        <span className="empty-state-text-zh">{m.zh}</span>
+      </p>
     </div>
   );
+}
+
+function pickTopTweetThread(articles: Article[]): Article | undefined {
+  if (!articles.length) return undefined;
+  let best = articles[0]!;
+  let bestScore = -1;
+  for (const a of articles) {
+    const score = (a.engagement?.likes ?? 0) + (a.engagement?.retweets ?? 0) * 3;
+    if (score > bestScore) {
+      best = a;
+      bestScore = score;
+    }
+  }
+  return best;
 }

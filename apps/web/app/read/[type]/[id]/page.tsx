@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import { loadArticle, listArticleIds, loadWords, loadLatestDigest } from "@/lib/content";
-import { SiteHeader } from "@/components/site-header";
+import { loadArticle, listArticleIds, loadWords } from "@/lib/content";
+import { SiteHeader, SiteFooter } from "@/components/site-header";
 import { ArticleReader } from "@/components/reader/article-reader";
 
 export const dynamic = "force-static";
@@ -23,12 +23,12 @@ export default async function ReadPage({
   const article = loadArticle(id);
   if (!article) notFound();
   const words = loadWords();
-  const digest = loadLatestDigest();
 
   return (
     <>
-      <SiteHeader date={digest.date} />
+      <SiteHeader />
       <ArticleReader article={article} words={words} />
+      <SiteFooter />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { DailyDigest } from "@buildspeak/types";
 import { listAvailableDates, loadDigestByDate } from "@/lib/content";
-import { SiteHeader } from "@/components/site-header";
+import { SiteHeader, SiteFooter } from "@/components/site-header";
 
 export const dynamic = "force-static";
 
@@ -12,9 +12,10 @@ export default function ArchivePage() {
     const digest = loadDigestByDate(d);
     if (digest) digestsByDate.set(d, digest);
   }
+  const today = dates[0];
 
   // Group dates by month
-  const months = new Map<string, string[]>(); // "2026-04" → ["2026-04-27", "2026-04-22"]
+  const months = new Map<string, string[]>();
   for (const d of dates) {
     const m = d.slice(0, 7);
     if (!months.has(m)) months.set(m, []);
@@ -24,103 +25,152 @@ export default function ArchivePage() {
   return (
     <>
       <SiteHeader />
-      <main className="mx-auto max-w-4xl px-6 py-8">
-        <header className="mb-8">
-          <h1 className="text-2xl font-semibold tracking-tight">📅 历史 Digest</h1>
-          <p className="mt-1 text-sm text-[color:var(--color-muted)]">
-            {dates.length} 期已刊发
-          </p>
+      <main className="page page-narrow">
+        <header className="issue-header" style={{ gridTemplateColumns: "1fr" }}>
+          <div className="issue-header-meta">
+            <span className="eyebrow">归档 ·  ARCHIVE</span>
+            <h1 className="issue-header-date">每日 builder 文摘</h1>
+            <span className="issue-header-date-en">
+              ALL PAST ISSUES ·  CLICK ANY DAY TO READ ·  {dates.length} ISSUES
+            </span>
+          </div>
         </header>
 
         {[...months.entries()].map(([month, datesInMonth]) => (
-          <section key={month} className="mb-10">
-            <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-[color:var(--color-muted)]">
-              {formatMonth(month)}
-            </h2>
-            <CalendarGrid month={month} datesInMonth={datesInMonth} digests={digestsByDate} />
-          </section>
+          <CalendarMonth
+            key={month}
+            month={month}
+            datesInMonth={datesInMonth}
+            digests={digestsByDate}
+            today={today}
+          />
         ))}
 
         {dates.length === 0 && (
-          <div className="rounded-2xl border border-dashed border-black/10 px-6 py-16 text-center text-sm text-[color:var(--color-muted)]">
-            还没有任何 Digest。
+          <div className="empty-state">
+            <div className="empty-state-icon">📅</div>
+            <p className="empty-state-text">
+              No issues yet.
+              <span className="empty-state-text-zh">还没有任何 Digest。</span>
+            </p>
           </div>
         )}
       </main>
+      <SiteFooter />
     </>
   );
 }
 
-function formatMonth(month: string): string {
-  // "2026-04" → "2026 年 4 月"
-  const [y, m] = month.split("-");
-  return `${y} 年 ${Number(m)} 月`;
-}
+const WEEKDAYS_ZH = ["日", "一", "二", "三", "四", "五", "六"];
+const MONTHS_EN = [
+  "JAN",
+  "FEB",
+  "MAR",
+  "APR",
+  "MAY",
+  "JUN",
+  "JUL",
+  "AUG",
+  "SEP",
+  "OCT",
+  "NOV",
+  "DEC",
+];
 
-function CalendarGrid({
+function CalendarMonth({
   month,
   datesInMonth,
   digests,
+  today,
 }: {
   month: string;
   datesInMonth: string[];
   digests: Map<string, DailyDigest>;
+  today: string | undefined;
 }) {
   const [yearStr, monthStr] = month.split("-") as [string, string];
   const year = Number(yearStr);
   const m = Number(monthStr);
-  const firstWeekday = new Date(`${month}-01T00:00:00Z`).getUTCDay(); // 0=Sun
+  const firstWeekday = new Date(`${month}-01T00:00:00Z`).getUTCDay();
   const daysInMonth = new Date(Date.UTC(year, m, 0)).getUTCDate();
   const dateSet = new Set(datesInMonth);
 
-  // Build grid cells (leading empty + days)
-  const cells: Array<{ date: string; day: number } | null> = [];
-  for (let i = 0; i < firstWeekday; i++) cells.push(null);
+  type Cell =
+    | { kind: "out" }
+    | { kind: "day"; date: string; day: number };
+  const cells: Cell[] = [];
+  for (let i = 0; i < firstWeekday; i++) cells.push({ kind: "out" });
   for (let d = 1; d <= daysInMonth; d++) {
-    const dateStr = `${month}-${String(d).padStart(2, "0")}`;
-    cells.push({ date: dateStr, day: d });
+    const date = `${month}-${String(d).padStart(2, "0")}`;
+    cells.push({ kind: "day", date, day: d });
   }
-  // Trailing nulls to complete final week (optional, keeps grid rectangular)
-  while (cells.length % 7 !== 0) cells.push(null);
+  while (cells.length % 7 !== 0) cells.push({ kind: "out" });
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-black/5 bg-white">
-      <div className="grid grid-cols-7 border-b border-black/5 text-[11px] font-medium uppercase tracking-wider text-[color:var(--color-muted)]">
-        {["日", "一", "二", "三", "四", "五", "六"].map((label) => (
-          <div key={label} className="border-r border-black/5 px-2 py-2 text-center last:border-r-0">
-            {label}
+    <section className="calendar-month">
+      <header className="calendar-month-head">
+        <h2 className="calendar-month-title">
+          {year} 年 {m} 月
+        </h2>
+        <span className="calendar-month-title-en">
+          {MONTHS_EN[m - 1]} {year}
+        </span>
+      </header>
+      <div className="calendar-grid">
+        {WEEKDAYS_ZH.map((label, i) => (
+          <div
+            key={`wd-${i}`}
+            className="calendar-cell"
+            data-empty="true"
+            style={{ aspectRatio: "auto", padding: "8px 10px", justifyContent: "center", alignItems: "center" }}
+          >
+            <span className="label-mono">{label}</span>
           </div>
         ))}
-      </div>
-      <div className="grid grid-cols-7">
-        {cells.map((cell, i) => {
-          if (!cell) {
-            return <div key={i} className="aspect-square border-r border-b border-black/5 bg-[color:var(--color-bg)]/40 last:border-r-0" />;
+        {cells.map((cell, idx) => {
+          if (cell.kind === "out") {
+            return <div key={idx} className="calendar-cell" data-out-of-month="true" />;
           }
           const has = dateSet.has(cell.date);
           const digest = digests.get(cell.date);
-          const cls = "block aspect-square border-r border-b border-black/5 p-2 text-left transition last:border-r-0";
           if (!has) {
             return (
-              <div key={i} className={`${cls} bg-[color:var(--color-bg)]/40`}>
-                <div className="text-xs text-[color:var(--color-muted)]/50">{cell.day}</div>
+              <div key={idx} className="calendar-cell" data-empty="true">
+                <span className="calendar-cell-day">{cell.day}</span>
               </div>
             );
           }
+          const isToday = cell.date === today;
           return (
-            <Link key={i} href={`/d/${cell.date}`} className={`${cls} hover:bg-[color:var(--color-accent-soft)]`}>
-              <div className="mb-1 text-xs font-semibold">{cell.day}</div>
+            <Link
+              key={idx}
+              href={`/d/${cell.date}`}
+              className="calendar-cell"
+              data-today={isToday ? "true" : undefined}
+              style={{ textDecoration: "none", borderBottom: 0 }}
+            >
+              <span className="calendar-cell-day">{cell.day}</span>
+              {digest && firstHeadline(digest) && (
+                <span className="calendar-cell-headline">{firstHeadline(digest)}</span>
+              )}
               {digest && (
-                <div className="space-y-0.5 text-[10px] leading-tight text-[color:var(--color-muted)]">
-                  {digest.stats.podcastCount > 0 && <div>🎙 {digest.stats.podcastCount}</div>}
-                  {digest.stats.builderCount > 0 && <div>🐦 {digest.stats.builderCount}</div>}
-                  {digest.stats.blogCount > 0 && <div>📰 {digest.stats.blogCount}</div>}
+                <div className="calendar-cell-icons">
+                  {digest.stats.podcastCount > 0 && <span title="podcast">🎙</span>}
+                  {digest.stats.blogCount > 0 && <span title="blog">📰</span>}
+                  {digest.stats.builderCount > 0 && (
+                    <span title="builders">🐦 {digest.stats.builderCount}</span>
+                  )}
                 </div>
               )}
             </Link>
           );
         })}
       </div>
-    </div>
+    </section>
   );
+}
+
+function firstHeadline(digest: DailyDigest): string | undefined {
+  const first = digest.podcasts[0]?.title ?? digest.blogs[0]?.title;
+  return first;
 }

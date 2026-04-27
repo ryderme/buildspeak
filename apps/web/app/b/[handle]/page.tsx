@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { listBuilderHandles, loadBuilderArticles, loadWords } from "@/lib/content";
-import { SiteHeader } from "@/components/site-header";
+import { SiteHeader, SiteFooter } from "@/components/site-header";
 import { BuilderTimeline } from "@/components/reader/builder-timeline";
 
 export const dynamic = "force-static";
@@ -23,6 +23,7 @@ export default async function BuilderPage({
     <>
       <SiteHeader />
       <BuilderTimeline articles={articles} words={words} />
+      <SiteFooter />
     </>
   );
 }

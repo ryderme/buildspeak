@@ -1,19 +1,20 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { WordEntry, VocabEntry } from "@buildspeak/types";
 import { useVocab } from "@/lib/vocab-store";
 
 export interface PopoverPayload {
   surface: string;
   key: string;
-  /** Anchor position in client coords. */
+  /** Anchor position relative to viewport (will be combined with scrollY for absolute placement). */
   rect: DOMRect;
-  /** Sentence text the word came from (for context + saved entry). */
   sentence: string;
   articleId: string;
   articleTitle: string;
 }
+
+const POPOVER_W = 320;
 
 export function WordPopover({
   payload,
@@ -28,32 +29,28 @@ export function WordPopover({
   const has = useVocab((s) => s.has(payload.key));
   const add = useVocab((s) => s.add);
   const remove = useVocab((s) => s.remove);
+  const [pos, setPos] = useState({ left: 0, top: 0, mobile: false });
 
   useEffect(() => {
-    function onDocClick(e: MouseEvent) {
-      if (ref.current && !ref.current.contains(e.target as Node)) onClose();
+    if (typeof window === "undefined") return;
+    const isMobile = window.innerWidth < 768;
+    if (isMobile) {
+      setPos({ left: 0, top: window.scrollY + window.innerHeight - 320, mobile: true });
+      return;
     }
+    let left = payload.rect.left + window.scrollX + payload.rect.width / 2 - POPOVER_W / 2;
+    left = Math.max(16, Math.min(window.innerWidth - POPOVER_W - 16, left));
+    let top = payload.rect.bottom + window.scrollY + 10;
+    setPos({ left, top, mobile: false });
+  }, [payload]);
+
+  useEffect(() => {
     function onEsc(e: KeyboardEvent) {
       if (e.key === "Escape") onClose();
     }
-    document.addEventListener("mousedown", onDocClick);
     document.addEventListener("keydown", onEsc);
-    return () => {
-      document.removeEventListener("mousedown", onDocClick);
-      document.removeEventListener("keydown", onEsc);
-    };
+    return () => document.removeEventListener("keydown", onEsc);
   }, [onClose]);
-
-  // Position the popover. Default below the word; flip above if not enough room.
-  const POP_W = 320;
-  const POP_H = 180;
-  const margin = 8;
-  let left = payload.rect.left + payload.rect.width / 2 - POP_W / 2;
-  left = Math.max(margin, Math.min(left, (typeof window !== "undefined" ? window.innerWidth : 1200) - POP_W - margin));
-  let top = payload.rect.bottom + 8;
-  if (typeof window !== "undefined" && top + POP_H > window.innerHeight - margin) {
-    top = payload.rect.top - POP_H - 8;
-  }
 
   function speak() {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
@@ -67,63 +64,80 @@ export function WordPopover({
   function toggleVocab() {
     if (has) {
       remove(payload.key);
-    } else {
-      const entry: VocabEntry = {
-        key: payload.key,
-        surface: payload.surface,
-        ipa: wordEntry?.ipa,
-        zh: wordEntry?.zh,
-        context: {
-          sentence: payload.sentence,
-          articleId: payload.articleId,
-          articleTitle: payload.articleTitle,
-        },
-        addedAt: Date.now(),
-      };
-      add(entry);
+      return;
     }
+    const entry: VocabEntry = {
+      key: payload.key,
+      surface: payload.surface,
+      ipa: wordEntry?.ipa,
+      zh: wordEntry?.zh,
+      context: {
+        sentence: payload.sentence,
+        articleId: payload.articleId,
+        articleTitle: payload.articleTitle,
+      },
+      addedAt: Date.now(),
+    };
+    add(entry);
   }
 
+  // Split the Chinese gloss into atoms if separated by `;` or `；`.
+  const defs = (wordEntry?.zh ?? "").split(/[;；]/).map((s) => s.trim()).filter(Boolean);
+
   return (
-    <div
-      ref={ref}
-      role="dialog"
-      style={{ position: "fixed", left, top, width: POP_W }}
-      className="z-50 rounded-xl border border-black/10 bg-white p-4 shadow-lg"
-    >
-      <div className="flex items-baseline justify-between gap-3">
-        <div className="text-base font-semibold">{payload.surface}</div>
-        <button
-          type="button"
-          onClick={speak}
-          aria-label="朗读"
-          className="rounded-md px-2 py-1 text-sm text-[color:var(--color-accent)] hover:bg-[color:var(--color-accent-soft)]"
-        >
-          ♪ 朗读
-        </button>
-      </div>
-      {wordEntry?.ipa && (
-        <div className="mt-1 font-mono text-sm text-[color:var(--color-muted)]">
-          {wordEntry.ipa}
-        </div>
-      )}
-      <div className="mt-3 text-sm leading-relaxed">
-        {wordEntry?.zh || <span className="text-[color:var(--color-muted)]">（暂无释义）</span>}
-      </div>
-      <div className="mt-3 line-clamp-3 rounded-md bg-black/5 px-3 py-2 text-xs leading-relaxed text-[color:var(--color-muted)]">
-        “{payload.sentence}”
-      </div>
-      <button
-        type="button"
-        onClick={toggleVocab}
-        className={`mt-3 w-full rounded-md px-3 py-2 text-sm font-medium transition ${
-          has
-            ? "bg-[color:var(--color-accent-soft)] text-[color:var(--color-accent)]"
-            : "bg-[color:var(--color-accent)] text-white hover:opacity-90"
-        }`}
+    <>
+      <div className="popover-overlay" data-open="true" onClick={onClose} />
+      <div
+        ref={ref}
+        className="word-popover"
+        style={pos.mobile ? undefined : { left: pos.left, top: pos.top }}
+        role="dialog"
+        aria-modal="true"
       >
-        {has ? "✓ 已在生词本（点击移除）" : "+ 加入生词本"}
-      </button>
-    </div>
+        <div className="word-popover-head">
+          <span className="word-popover-word">{payload.surface}</span>
+          {wordEntry?.ipa && <span className="word-popover-ipa">{wordEntry.ipa}</span>}
+        </div>
+        {defs.length > 0 ? (
+          <ol className="word-popover-defs">
+            {defs.map((d, i) => (
+              <li key={i}>
+                {defs.length > 1 ? `${i + 1}. ` : ""}
+                {d}
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <p
+            className="word-popover-defs"
+            style={{ color: "var(--color-ink-mute)", fontStyle: "italic" }}
+          >
+            （暂无释义）
+          </p>
+        )}
+        <div className="word-popover-context">
+          “…{payload.sentence}…”
+        </div>
+        <div className="word-popover-actions">
+          <button onClick={speak} aria-label="朗读">
+            ♪ <span className="vocab-zh">朗读</span>
+          </button>
+          <button data-primary={!has ? "true" : undefined} onClick={toggleVocab}>
+            {has ? (
+              <>
+                ✓ <span className="vocab-zh">已加入</span>
+              </>
+            ) : (
+              <>
+                + <span className="vocab-zh">加入生词本</span>
+              </>
+            )}
+          </button>
+          <button style={{ marginLeft: "auto" }} onClick={onClose} aria-label="Close">
+            ×
+          </button>
+        </div>
+      </div>
+    </>
   );
 }

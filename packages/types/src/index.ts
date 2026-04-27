@@ -32,6 +32,16 @@ export interface Paragraph {
   sentences: Sentence[];
   /** Chinese translation of the paragraph as a whole. */
   zh: string;
+  /** Tweet-only metadata; absent for podcast/blog paragraphs. */
+  meta?: TweetMeta;
+}
+
+export interface TweetMeta {
+  likes: number;
+  retweets: number;
+  replies: number;
+  createdAt: string;
+  tweetUrl: string;
 }
 
 /** Article = paragraph[] + metadata. The unit at /read/[type]/[id]. */
