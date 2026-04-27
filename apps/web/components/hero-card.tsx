@@ -12,11 +12,6 @@ export function HeroCard({ article }: { article: Article }) {
   return (
     <div className="hero" data-type={article.type}>
       <div>
-        <div className="hero-eyebrow">
-          <span className="type-badge" data-type={article.type}>
-            {iconFor(article.type)} {labelFor(article.type)}
-          </span>
-        </div>
         <h2 className="hero-title">{article.title}</h2>
         {zhHook && <p className="hero-zh-hook">{zhHook}</p>}
         <div className="hero-meta">
@@ -71,9 +66,6 @@ function PlayIcon() {
   );
 }
 
-function iconFor(t: Article["type"]): string {
-  return t === "podcast" ? "🎙" : t === "blog" ? "📰" : "🐦";
-}
 function labelFor(t: Article["type"]): string {
   return t === "podcast" ? "PODCAST" : t === "blog" ? "BLOG" : "X / TWITTER";
 }
