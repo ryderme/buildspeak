@@ -97,3 +97,25 @@ export function loadWords(): Record<string, WordEntry> {
   _words = JSON.parse(readFileSync(resolve(CONTENT, "words.json"), "utf8")) as Record<string, WordEntry>;
   return _words;
 }
+
+/** Filter the global word index down to entries actually referenced by an
+ *  article. Crucial for keeping per-page payloads small — words.json grows
+ *  unbounded as the archive accumulates. */
+export function pickWordsFor(articles: Article[]): Record<string, WordEntry> {
+  const all = loadWords();
+  const subset: Record<string, WordEntry> = {};
+  for (const article of articles) {
+    for (const p of article.paragraphs) {
+      for (const s of p.sentences) {
+        for (const t of s.tokens) {
+          if (t.kind !== "word" || !t.key) continue;
+          const entry = all[t.key];
+          if (entry && !(t.key in subset)) {
+            subset[t.key] = entry;
+          }
+        }
+      }
+    }
+  }
+  return subset;
+}

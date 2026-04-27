@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { loadArticle, listArticleIds, loadWords } from "@/lib/content";
+import { loadArticle, listArticleIds, pickWordsFor } from "@/lib/content";
 import { SiteHeader, SiteFooter } from "@/components/site-header";
 import { ArticleReader } from "@/components/reader/article-reader";
 
@@ -22,7 +22,8 @@ export default async function ReadPage({
   const { id } = await params;
   const article = loadArticle(id);
   if (!article) notFound();
-  const words = loadWords();
+  // Only ship the words this article references — words.json is global and grows over time.
+  const words = pickWordsFor([article]);
 
   return (
     <>

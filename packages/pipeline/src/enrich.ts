@@ -5,10 +5,20 @@ import type { WordEntry } from "@buildspeak/types";
 import { dictionary as cmuDict } from "cmu-pronouncing-dictionary";
 import { arpaToIpa } from "./arpa-to-ipa.ts";
 import { chatCompletion } from "./openai.ts";
-import { cacheGet, cacheSet, cacheFlush } from "./cache.ts";
+import { cacheGet, cacheSet, cacheFlush, hashKey } from "./cache.ts";
 
 const DEF_BATCH_SIZE = 25;
 const DEF_SYSTEM = `You are a concise English-Chinese dictionary. For each English word, output a short Chinese definition (no example sentences). Format strictly as JSON: {"defs": {"word1": "中文", "word2": "中文"}}. If a word is a proper noun, output its common Chinese rendering or transliteration. Keep each definition under 20 characters when possible.`;
+
+// Same versioning approach as translate.ts: changes to DEF_SYSTEM or
+// OPENAI_MODEL automatically invalidate prior entries.
+const DEF_CACHE_SCHEMA = "v2";
+const DEF_PROMPT_HASH = hashKey(DEF_SYSTEM, DEF_CACHE_SCHEMA);
+
+function defineCacheKey(word: string): string {
+  const model = process.env["OPENAI_MODEL"] ?? "unknown";
+  return hashKey(word, model, DEF_PROMPT_HASH);
+}
 
 interface CachedDef {
   zh: string;
@@ -31,7 +41,7 @@ export async function enrichWords(
   // 2) Resolve Chinese definitions: cache first, then batched GPT calls.
   const needsDef: string[] = [];
   for (const key of keys) {
-    const cached = cacheGet<CachedDef>("define", key);
+    const cached = cacheGet<CachedDef>("define", defineCacheKey(key));
     if (cached) {
       const entry = result.get(key)!;
       entry.zh = cached.zh;
@@ -66,7 +76,7 @@ export async function enrichWords(
     for (const word of batch) {
       const zh = defs[word] || defs[word.toLowerCase()] || "";
       if (zh) {
-        cacheSet<CachedDef>("define", word, { zh });
+        cacheSet<CachedDef>("define", defineCacheKey(word), { zh });
         const entry = result.get(word)!;
         entry.zh = zh;
       }

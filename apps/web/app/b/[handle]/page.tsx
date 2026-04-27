@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { listBuilderHandles, loadBuilderArticles, loadWords } from "@/lib/content";
+import { listBuilderHandles, loadBuilderArticles, pickWordsFor } from "@/lib/content";
 import { SiteHeader, SiteFooter } from "@/components/site-header";
 import { BuilderTimeline } from "@/components/reader/builder-timeline";
 
@@ -18,7 +18,8 @@ export default async function BuilderPage({
   const { handle } = await params;
   const articles = loadBuilderArticles(handle);
   if (!articles.length) notFound();
-  const words = loadWords();
+  // Only the words this builder's tweets reference — keeps per-page payload bounded.
+  const words = pickWordsFor(articles);
   return (
     <>
       <SiteHeader />

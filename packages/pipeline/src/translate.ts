@@ -13,6 +13,17 @@ const SYSTEM_PROMPT = `你是一名专业的科技英中翻译，目标读者是
 
 const BATCH_SIZE = 8; // paragraphs per request
 
+// Cache key derives from (text + model + prompt). Bump CACHE_SCHEMA when the
+// cache shape itself changes (e.g. add fields). Changing SYSTEM_PROMPT or
+// OPENAI_MODEL invalidates entries automatically — no manual purge required.
+const CACHE_SCHEMA = "v2";
+const PROMPT_HASH = hashKey(SYSTEM_PROMPT, CACHE_SCHEMA);
+
+function translateCacheKey(text: string): string {
+  const model = process.env["OPENAI_MODEL"] ?? "unknown";
+  return hashKey(text, model, PROMPT_HASH);
+}
+
 interface TranslationCacheEntry {
   zh: string;
   model: string;
@@ -29,8 +40,7 @@ export async function translateArticles(
     // Group paragraphs into batches of uncached ones.
     const pending: DraftParagraph[] = [];
     for (const p of article.paragraphs) {
-      const key = hashKey(p.text);
-      const hit = cacheGet<TranslationCacheEntry>("translate", key);
+      const hit = cacheGet<TranslationCacheEntry>("translate", translateCacheKey(p.text));
       if (hit) {
         (p as DraftParagraph & { zh?: string }).zh = hit.zh;
         done++;
@@ -61,12 +71,18 @@ export async function translateArticles(
       for (let j = 0; j < batch.length; j++) {
         const para = batch[j];
         if (!para) continue;
-        const zh = lines[j]?.trim() || "（翻译缺失）";
+        const rawZh = lines[j]?.trim() ?? "";
+        // Display fallback: never break the page.
+        const zh = rawZh || "（翻译缺失）";
         (para as DraftParagraph & { zh?: string }).zh = zh;
-        cacheSet<TranslationCacheEntry>("translate", hashKey(para.text), {
-          zh,
-          model: process.env["OPENAI_MODEL"] ?? "unknown",
-        });
+        // Cache only successful translations. A bad parse otherwise poisons
+        // future runs with the placeholder.
+        if (rawZh) {
+          cacheSet<TranslationCacheEntry>("translate", translateCacheKey(para.text), {
+            zh,
+            model: process.env["OPENAI_MODEL"] ?? "unknown",
+          });
+        }
         done++;
         options.onProgress?.(done, totalParas);
       }
