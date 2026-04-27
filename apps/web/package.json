@@ -13,6 +13,7 @@
   "dependencies": {
     "@buildspeak/types": "workspace:*",
     "next": "^16.2.0",
+    "posthog-js": "^1.372.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "zustand": "^5.0.2"

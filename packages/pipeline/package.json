@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@buildspeak/types": "workspace:*",
-    "cmu-pronouncing-dictionary": "^3.0.0"
+    "cmu-pronouncing-dictionary": "^3.0.0",
+    "posthog-node": "^5.30.4"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",

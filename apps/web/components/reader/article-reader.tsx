@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { Article, Paragraph, Sentence, Token, WordEntry } from "@buildspeak/types";
 import { useVocab } from "@/lib/vocab-store";
+import { track, register, unregister } from "@/lib/analytics";
 import { WordPopover, type PopoverPayload } from "./word-popover";
 
 type LangMode = "both" | "en" | "zh";
@@ -36,6 +37,18 @@ export function ArticleReader({
 
   useEffect(() => {
     allSentencesRef.current = article.paragraphs.flatMap((p) => p.sentences);
+    register({
+      article_id: article.id,
+      article_type: article.type,
+      article_source: article.sourceName,
+      digest_date: article.digestDate,
+    });
+    return () => {
+      unregister("article_id");
+      unregister("article_type");
+      unregister("article_source");
+      unregister("digest_date");
+    };
   }, [article]);
 
   const stopSpeaking = () => {
@@ -72,7 +85,7 @@ export function ArticleReader({
     window.speechSynthesis.speak(utter);
   };
 
-  const speakSentences = (sentences: Sentence[], startIndex = 0) => {
+  const speakSentences = (sentences: Sentence[], startIndex = 0, kind: "article" | "paragraph" = "article") => {
     if (typeof window === "undefined" || !window.speechSynthesis) {
       alert("当前浏览器不支持朗读功能");
       return;
@@ -80,6 +93,10 @@ export function ArticleReader({
     stopSpeaking();
     playQueueRef.current = { sentences, index: startIndex };
     setIsPlayingArticle(sentences.length > 1);
+    track("tts_played", {
+      kind,
+      sentence_count: sentences.length,
+    });
     speakNext();
   };
 
@@ -157,7 +174,13 @@ export function ArticleReader({
               )}
             </span>
           </button>
-          <LanguageToggle value={lang} onChange={setLang} />
+          <LanguageToggle
+            value={lang}
+            onChange={(v) => {
+              if (v !== lang) track("lang_switched", { from: lang, to: v });
+              setLang(v);
+            }}
+          />
           <span className="keyboard-hint">
             <span className="kbd">SPACE</span> play
             <span className="kbd">←</span>
@@ -176,7 +199,7 @@ export function ArticleReader({
             onlyAttr={onlyAttr}
             playingSentenceId={playingSentenceId}
             onWordClick={setPopover}
-            onPlayParagraph={() => speakSentences(p.sentences, 0)}
+            onPlayParagraph={() => speakSentences(p.sentences, 0, "paragraph")}
           />
         ))}
       </div>

@@ -5,6 +5,7 @@
 import { writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { RawDigest } from "./parse.ts";
+import { posthog, PIPELINE_DISTINCT_ID } from "./posthog.ts";
 
 const FEED_BASE = "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main";
 const FEED_X_URL = `${FEED_BASE}/feed-x.json`;
@@ -60,6 +61,19 @@ export async function fetchAndWriteDigest(): Promise<string> {
   console.log(
     `  podcasts: ${digest.podcasts.length}, x builders: ${digest.x.length}, blogs: ${digest.blogs.length}`,
   );
+
+  posthog.capture({
+    distinctId: PIPELINE_DISTINCT_ID,
+    event: "feed_fetched",
+    properties: {
+      podcast_count: digest.podcasts.length,
+      x_builder_count: digest.x.length,
+      blog_count: digest.blogs.length,
+      output_file: out,
+    },
+  });
+  await posthog.shutdown();
+
   return out;
 }
 

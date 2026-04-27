@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useVocab } from "@/lib/vocab-store";
+import { track } from "@/lib/analytics";
 import { SiteHeader, SiteFooter } from "@/components/site-header";
 
 type Sort = "date" | "alpha";
@@ -93,7 +94,10 @@ export default function VocabPage() {
                   跳回原文 →
                 </Link>
                 <button
-                  onClick={() => remove(e.key)}
+                  onClick={() => {
+                    track("vocab_removed", { word: e.key, source: "list" });
+                    remove(e.key);
+                  }}
                   style={{
                     border: 0,
                     background: "none",

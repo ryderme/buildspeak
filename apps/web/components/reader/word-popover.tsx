@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { WordEntry, VocabEntry } from "@buildspeak/types";
 import { useVocab } from "@/lib/vocab-store";
+import { track } from "@/lib/analytics";
 
 export interface PopoverPayload {
   surface: string;
@@ -33,6 +34,14 @@ export function WordPopover({
 
   useEffect(() => {
     if (typeof window === "undefined") return;
+    track("word_clicked", {
+      word: payload.key,
+      surface: payload.surface,
+      has_ipa: Boolean(wordEntry?.ipa),
+      has_definition: Boolean(wordEntry?.zh),
+      already_in_vocab: has,
+      article_id: payload.articleId,
+    });
     const isMobile = window.innerWidth < 768;
     if (isMobile) {
       setPos({ left: 0, top: window.scrollY + window.innerHeight - 320, mobile: true });
@@ -42,6 +51,7 @@ export function WordPopover({
     left = Math.max(16, Math.min(window.innerWidth - POPOVER_W - 16, left));
     let top = payload.rect.bottom + window.scrollY + 10;
     setPos({ left, top, mobile: false });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [payload]);
 
   useEffect(() => {
@@ -54,6 +64,7 @@ export function WordPopover({
 
   function speak() {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
+    track("tts_played", { kind: "word", word: payload.key });
     const utter = new SpeechSynthesisUtterance(payload.surface);
     utter.lang = "en-US";
     utter.rate = 0.95;
@@ -63,6 +74,7 @@ export function WordPopover({
 
   function toggleVocab() {
     if (has) {
+      track("vocab_removed", { word: payload.key, source: "popover" });
       remove(payload.key);
       return;
     }
@@ -79,6 +91,12 @@ export function WordPopover({
       addedAt: Date.now(),
     };
     add(entry);
+    track("vocab_added", {
+      word: payload.key,
+      has_ipa: Boolean(wordEntry?.ipa),
+      has_definition: Boolean(wordEntry?.zh),
+      article_id: payload.articleId,
+    });
   }
 
   // Split the Chinese gloss into atoms if separated by `;` or `；`.

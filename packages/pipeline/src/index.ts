@@ -16,6 +16,7 @@ import { translateArticles } from "./translate.ts";
 import { paragraphSentences, collectKeys } from "./tokenize.ts";
 import { enrichWords } from "./enrich.ts";
 import { cacheFlush } from "./cache.ts";
+import { posthog, PIPELINE_DISTINCT_ID } from "./posthog.ts";
 
 loadEnv();
 
@@ -148,6 +149,22 @@ async function processDigest(filePath: string) {
   console.log(
     `\n✓ Wrote ${finalArticles.length} articles + digest/${date}.json + words.json (+${added} new, ${Object.keys(wordsObj).length} total)`,
   );
+
+  posthog.capture({
+    distinctId: PIPELINE_DISTINCT_ID,
+    event: "digest_processed",
+    properties: {
+      digest_date: date,
+      article_count: finalArticles.length,
+      podcast_count: podcasts.length,
+      builder_count: tweets.length,
+      tweet_count: tweetCount,
+      blog_count: blogs.length,
+      unique_word_count: allKeys.size,
+      new_words_added: added,
+      total_word_count: Object.keys(wordsObj).length,
+    },
+  });
 }
 
 function buildArticle(d: DraftArticle): Article {
@@ -218,12 +235,35 @@ async function main() {
   } else {
     console.log(`Processing all ${files.length} digests (--all).`);
   }
+
+  posthog.capture({
+    distinctId: PIPELINE_DISTINCT_ID,
+    event: "pipeline_started",
+    properties: {
+      process_all: all,
+      digest_count: targets.length,
+    },
+  });
+
   for (const f of targets) {
     await processDigest(f);
   }
+
+  posthog.capture({
+    distinctId: PIPELINE_DISTINCT_ID,
+    event: "pipeline_completed",
+    properties: {
+      process_all: all,
+      digest_count: targets.length,
+    },
+  });
+
+  await posthog.shutdown();
 }
 
-main().catch((err) => {
+main().catch(async (err) => {
   console.error("\nPipeline failed:", err);
+  posthog.captureException(err, PIPELINE_DISTINCT_ID);
+  await posthog.shutdown();
   process.exit(1);
 });
