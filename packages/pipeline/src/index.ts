@@ -1,7 +1,12 @@
 // pipeline orchestrator.
 // Reads digest-*.json from repo root, writes apps/web/content/{digest,articles,words}.
+//
+// Default: process only the LATEST digest file (newest YYYYMMDD).
+// Use `--all` to (re)process every digest — useful for backfill, prompt
+// changes, or schema migrations. words.json always accumulates: existing
+// entries are loaded first, then merged with newly-enriched entries.
 
-import { readdirSync, readFileSync, mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, mkdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 import type { Article, DailyDigest, Paragraph, WordEntry } from "@buildspeak/types";
@@ -22,10 +27,20 @@ const WORDS_FILE = resolve(WEB_CONTENT, "words.json");
 const LATEST_FILE = resolve(DIGEST_DIR, "latest.json");
 
 function findDigestFiles(): string[] {
+  // Sort ascending by filename (date). Caller picks latest with .at(-1).
   return readdirSync(REPO_ROOT)
     .filter((f) => /^digest-\d{8}\.json$/.test(f))
     .map((f) => resolve(REPO_ROOT, f))
     .sort();
+}
+
+function loadExistingWords(): Record<string, WordEntry> {
+  if (!existsSync(WORDS_FILE)) return {};
+  try {
+    return JSON.parse(readFileSync(WORDS_FILE, "utf8")) as Record<string, WordEntry>;
+  } catch {
+    return {};
+  }
 }
 
 function progressBar(prefix: string) {
@@ -116,12 +131,18 @@ async function processDigest(filePath: string) {
   writeFileSync(resolve(DIGEST_DIR, `${date}.json`), JSON.stringify(digestLite, null, 2));
   writeFileSync(LATEST_FILE, JSON.stringify(digestLite, null, 2));
 
-  // Words index (key → entry)
-  const wordsObj: Record<string, WordEntry> = {};
-  for (const [k, v] of wordEntries) wordsObj[k] = v;
+  // Words index (key → entry) — merge existing entries so previous days' words are preserved.
+  const wordsObj = loadExistingWords();
+  let added = 0;
+  for (const [k, v] of wordEntries) {
+    if (!wordsObj[k]) added++;
+    wordsObj[k] = v;
+  }
   writeFileSync(WORDS_FILE, JSON.stringify(wordsObj));
 
-  console.log(`\n✓ Wrote ${finalArticles.length} articles + digest/${date}.json + words.json`);
+  console.log(
+    `\n✓ Wrote ${finalArticles.length} articles + digest/${date}.json + words.json (+${added} new, ${Object.keys(wordsObj).length} total)`,
+  );
 }
 
 function buildArticle(d: DraftArticle): Article {
@@ -182,7 +203,16 @@ async function main() {
     console.error("No digest-*.json found in repo root");
     process.exit(1);
   }
-  for (const f of files) {
+  const all = process.argv.includes("--all");
+  const targets = all ? files : [files.at(-1)!];
+  if (!all) {
+    console.log(
+      `Processing latest only (${targets[0]!.split("/").pop()}) — pass --all to (re)process every digest.`,
+    );
+  } else {
+    console.log(`Processing all ${files.length} digests (--all).`);
+  }
+  for (const f of targets) {
     await processDigest(f);
   }
 }
