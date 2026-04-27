@@ -117,14 +117,14 @@ export function WordPopover({
           {wordEntry?.ipa && <span className="word-popover-ipa">{wordEntry.ipa}</span>}
         </div>
         {defs.length > 0 ? (
-          <ol className="word-popover-defs">
+          <ul className="word-popover-defs">
             {defs.map((d, i) => (
               <li key={i}>
                 {defs.length > 1 ? `${i + 1}. ` : ""}
                 {d}
               </li>
             ))}
-          </ol>
+          </ul>
         ) : (
           <p
             className="word-popover-defs"
