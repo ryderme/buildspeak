@@ -44,32 +44,66 @@ export function DigestCard({ article }: { article: Article }) {
   );
 }
 
+/** Builder card with inline tweet previews — articles must include full paragraphs. */
 export function TweetGroupCard({ articles }: { articles: Article[] }) {
   if (!articles.length) return null;
-  const totalTweets = articles.reduce((n, a) => n + (a.engagement ? 1 : 0) + (a.wordCount > 0 ? 0 : 0), 0);
-  // Lightweight: count tweets via paragraphs at runtime is impossible (paragraphs is empty in digest manifest)
-  // Use the engagement presence + sourceCount instead.
+  const totalTweets = articles.reduce((n, a) => n + a.paragraphs.length, 0);
   return (
-    <div className="rounded-2xl border border-black/5 bg-gradient-to-br from-sky-50 to-sky-100/40 p-6">
-      <div className="mb-4 text-xs font-medium tracking-wider text-[color:var(--color-muted)]">
+    <section className="rounded-2xl border border-black/5 bg-gradient-to-br from-sky-50 to-sky-100/40 p-6">
+      <div className="mb-1 text-xs font-medium tracking-wider text-[color:var(--color-muted)]">
         🐦 X / TWITTER
       </div>
-      <div className="mb-4 text-sm text-[color:var(--color-muted)]">
-        今日 {articles.length} 位 builder 有新动态
+      <div className="mb-5 text-sm text-[color:var(--color-muted)]">
+        {articles.length} 位 builder · {totalTweets} 条新动态
       </div>
-      <ul className="space-y-2">
+      <ul className="space-y-5">
         {articles.map((a) => (
-          <li key={a.id}>
-            <Link
-              href={`/read/tweet/${a.id}`}
-              className="flex items-center justify-between rounded-lg px-3 py-2 hover:bg-white/60"
-            >
-              <span className="text-sm font-medium">{a.sourceName}</span>
-              <span className="text-xs text-[color:var(--color-muted)]">{a.sourceHandle}</span>
-            </Link>
+          <BuilderPreview key={a.id} article={a} />
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+function BuilderPreview({ article }: { article: Article }) {
+  const previewCount = 2;
+  const shown = article.paragraphs.slice(0, previewCount);
+  const more = article.paragraphs.length - shown.length;
+  // Best-effort handle extraction: id format is x-{handle}-{date}
+  const handle = (article.sourceHandle ?? "").replace(/^@/, "");
+  return (
+    <li className="rounded-xl border border-black/5 bg-white/70 p-4 transition hover:bg-white">
+      <div className="mb-3 flex items-baseline justify-between gap-3">
+        <Link href={`/b/${handle}`} className="font-medium hover:underline">
+          {article.sourceName}
+        </Link>
+        <span className="text-xs text-[color:var(--color-muted)]">{article.sourceHandle}</span>
+      </div>
+      <ul className="space-y-3">
+        {shown.map((p) => (
+          <li key={p.id} className="border-l-2 border-black/5 pl-3">
+            <p className="text-[15px] leading-relaxed text-[color:var(--color-fg)]">
+              {firstSentence(p.sentences[0]?.text ?? "")}
+            </p>
+            {p.zh && (
+              <p className="mt-1 text-[13px] leading-relaxed text-[color:var(--color-muted)]">
+                {p.zh.length > 90 ? p.zh.slice(0, 90) + "…" : p.zh}
+              </p>
+            )}
           </li>
         ))}
       </ul>
-    </div>
+      <Link
+        href={`/read/tweet/${article.id}`}
+        className="mt-3 inline-block text-xs text-[color:var(--color-accent)] hover:underline"
+      >
+        {more > 0 ? `读全部 ${article.paragraphs.length} 条 →` : `查看完整 →`}
+      </Link>
+    </li>
   );
+}
+
+function firstSentence(s: string): string {
+  if (s.length <= 180) return s;
+  return s.slice(0, 180) + "…";
 }

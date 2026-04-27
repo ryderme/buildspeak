@@ -80,7 +80,7 @@ const slugify = (s: string): string =>
 
 const SPEAKER_RE = /^(Speaker\s+\d+|[A-Z][\w. ]{1,40})\s*\|\s*(\d{1,2}:\d{2}\s*-\s*\d{1,2}:\d{2})\s*$/;
 
-function parsePodcast(raw: RawPodcast): DraftArticle {
+function parsePodcast(raw: RawPodcast, date: string): DraftArticle {
   const paragraphs: DraftParagraph[] = [];
   // Split transcript on blank lines — each block starts with a "Speaker N | MM:SS - MM:SS" header
   // followed by the spoken text on the next line(s).
@@ -101,7 +101,7 @@ function parsePodcast(raw: RawPodcast): DraftArticle {
     }
   }
   return {
-    id: `podcast-${slugify(raw.name)}-${slugify(raw.title)}`,
+    id: `podcast-${slugify(raw.name)}-${slugify(raw.title)}-${date}`,
     type: "podcast",
     sourceName: raw.name,
     title: raw.title,
@@ -113,7 +113,7 @@ function parsePodcast(raw: RawPodcast): DraftArticle {
 
 /* ----------------------- X / Twitter ----------------------- */
 
-function parseXBuilder(raw: RawXBuilder): DraftArticle | null {
+function parseXBuilder(raw: RawXBuilder, date: string): DraftArticle | null {
   if (!raw.tweets.length) return null;
   const paragraphs: DraftParagraph[] = raw.tweets.map((t) => ({
     text: cleanTweetText(t.text),
@@ -136,7 +136,7 @@ function parseXBuilder(raw: RawXBuilder): DraftArticle | null {
     .sort()
     .at(-1) ?? new Date().toISOString();
   return {
-    id: `x-${slugify(raw.handle)}`,
+    id: `x-${slugify(raw.handle)}-${date}`,
     type: "tweet",
     sourceName: raw.name,
     sourceHandle: `@${raw.handle}`,
@@ -159,7 +159,7 @@ function cleanTweetText(text: string): string {
 
 /* ----------------------- Blog ----------------------- */
 
-function parseBlog(raw: RawBlog): DraftArticle {
+function parseBlog(raw: RawBlog, date: string): DraftArticle {
   // Blog content may be raw HTML. Strip tags conservatively, then split on double newlines.
   const stripped = raw.content
     .replace(/<script[\s\S]*?<\/script>/gi, "")
@@ -181,7 +181,7 @@ function parseBlog(raw: RawBlog): DraftArticle {
     .map((text) => ({ text }));
 
   return {
-    id: `blog-${slugify(raw.name)}-${slugify(raw.title)}`,
+    id: `blog-${slugify(raw.name)}-${slugify(raw.title)}-${date}`,
     type: "blog",
     sourceName: raw.name,
     title: raw.title,
@@ -194,13 +194,14 @@ function parseBlog(raw: RawBlog): DraftArticle {
 /* ----------------------- Top-level ----------------------- */
 
 export function parseDigest(raw: RawDigest): DraftArticle[] {
+  const date = digestDateOf(raw); // YYYY-MM-DD
   const out: DraftArticle[] = [];
-  for (const p of raw.podcasts) out.push(parsePodcast(p));
+  for (const p of raw.podcasts) out.push(parsePodcast(p, date));
   for (const b of raw.x) {
-    const a = parseXBuilder(b);
+    const a = parseXBuilder(b, date);
     if (a) out.push(a);
   }
-  for (const b of raw.blogs) out.push(parseBlog(b));
+  for (const b of raw.blogs) out.push(parseBlog(b, date));
   return out;
 }
 

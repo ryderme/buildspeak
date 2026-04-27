@@ -1,5 +1,5 @@
 {
-  "id": "x-garrytan",
+  "id": "x-garrytan-2026-04-27",
   "type": "tweet",
   "sourceName": "Garry Tan",
   "sourceHandle": "@garrytan",
@@ -7,12 +7,13 @@
   "title": "Garry Tan · @garrytan",
   "url": "https://x.com/garrytan",
   "publishedAt": "2026-04-26T06:36:26.000Z",
+  "digestDate": "2026-04-27",
   "paragraphs": [
     {
-      "id": "x-garrytan-p0",
+      "id": "x-garrytan-2026-04-27-p0",
       "sentences": [
         {
-          "id": "x-garrytan-p0-s0",
+          "id": "x-garrytan-2026-04-27-p0-s0",
           "text": "Releaseing GBrain v0.22 - lots of fixes to search and retireval and a new eval system (gbrain-evals is now a separate repo to prevent checkout bloat)",
           "tokens": [
             {
@@ -259,7 +260,7 @@
           ]
         }
       ],
-      "zh": "发布 GBrain v0.22——对 search 和 retireval 进行了大量修复，并新增了一个 eval 系统（gbrain-evals 现已拆分为独立 repo，以避免 checkout 体积膨胀）",
+      "zh": "发布 GBrain v0.22——对 search 和 retireval 进行了大量修复，并加入了新的 eval system（gbrain-evals 现已拆分为独立 repo，以避免 checkout 体积膨胀）",
       "meta": {
         "likes": 41,
         "retweets": 3,
@@ -269,10 +270,10 @@
       }
     },
     {
-      "id": "x-garrytan-p1",
+      "id": "x-garrytan-2026-04-27-p1",
       "sentences": [
         {
-          "id": "x-garrytan-p1-s0",
+          "id": "x-garrytan-2026-04-27-p1-s0",
           "text": "To install for free, Go to Claude Code and type Install GStack and to run the browser, type /open-gstack-browser",
           "tokens": [
             {
@@ -467,10 +468,10 @@
       }
     },
     {
-      "id": "x-garrytan-p2",
+      "id": "x-garrytan-2026-04-27-p2",
       "sentences": [
         {
-          "id": "x-garrytan-p2-s0",
+          "id": "x-garrytan-2026-04-27-p2-s0",
           "text": "Did you ever want to control your browser side-by-side with Claude Code?",
           "tokens": [
             {
@@ -584,7 +585,7 @@
           ]
         },
         {
-          "id": "x-garrytan-p2-s1",
+          "id": "x-garrytan-2026-04-27-p2-s1",
           "text": "Now, with /open-gstack-browser skill and GStack Browser, you can",
           "tokens": [
             {

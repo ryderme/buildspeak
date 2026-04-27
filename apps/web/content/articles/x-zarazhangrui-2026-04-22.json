@@ -1,32 +1,25 @@
 {
-  "id": "x-amasad",
+  "id": "x-zarazhangrui-2026-04-22",
   "type": "tweet",
-  "sourceName": "Amjad Masad",
-  "sourceHandle": "@amasad",
-  "sourceBio": "ceo @replit. civilizationist",
-  "title": "Amjad Masad · @amasad",
-  "url": "https://x.com/amasad",
-  "publishedAt": "2026-04-26T04:59:49.000Z",
+  "sourceName": "Zara Zhang",
+  "sourceHandle": "@zarazhangrui",
+  "sourceBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+  "title": "Zara Zhang · @zarazhangrui",
+  "url": "https://x.com/zarazhangrui",
+  "publishedAt": "2026-04-21T05:02:58.000Z",
+  "digestDate": "2026-04-22",
   "paragraphs": [
     {
-      "id": "x-amasad-p0",
+      "id": "x-zarazhangrui-2026-04-22-p0",
       "sentences": [
         {
-          "id": "x-amasad-p0-s0",
-          "text": "2000s: every company is an internet company 2010s: every company is a software company 2020s: every company is an AI company 2025+: every company is a cybersecurity company",
+          "id": "x-zarazhangrui-2026-04-22-p0-s0",
+          "text": "Agents speak HTML as their native language Let agents express themselves in their native language (for similar reasons, agents produce much better looking slides in HTML than in XML)",
           "tokens": [
             {
-              "kind": "punct",
-              "text": "2000"
-            },
-            {
               "kind": "word",
-              "text": "s",
-              "key": "s"
-            },
-            {
-              "kind": "punct",
-              "text": ":"
+              "text": "Agents",
+              "key": "agents"
             },
             {
               "kind": "space",
@@ -34,8 +27,8 @@
             },
             {
               "kind": "word",
-              "text": "every",
-              "key": "every"
+              "text": "speak",
+              "key": "speak"
             },
             {
               "kind": "space",
@@ -43,8 +36,8 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
+              "text": "HTML",
+              "key": "html"
             },
             {
               "kind": "space",
@@ -52,8 +45,8 @@
             },
             {
               "kind": "word",
-              "text": "is",
-              "key": "is"
+              "text": "as",
+              "key": "as"
             },
             {
               "kind": "space",
@@ -61,8 +54,8 @@
             },
             {
               "kind": "word",
-              "text": "an",
-              "key": "an"
+              "text": "their",
+              "key": "their"
             },
             {
               "kind": "space",
@@ -70,8 +63,8 @@
             },
             {
               "kind": "word",
-              "text": "internet",
-              "key": "internet"
+              "text": "native",
+              "key": "native"
             },
             {
               "kind": "space",
@@ -79,25 +72,8 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "2010"
-            },
-            {
-              "kind": "word",
-              "text": "s",
-              "key": "s"
-            },
-            {
-              "kind": "punct",
-              "text": ":"
+              "text": "language",
+              "key": "language"
             },
             {
               "kind": "space",
@@ -105,8 +81,8 @@
             },
             {
               "kind": "word",
-              "text": "every",
-              "key": "every"
+              "text": "Let",
+              "key": "let"
             },
             {
               "kind": "space",
@@ -114,8 +90,8 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
+              "text": "agents",
+              "key": "agents"
             },
             {
               "kind": "space",
@@ -123,8 +99,8 @@
             },
             {
               "kind": "word",
-              "text": "is",
-              "key": "is"
+              "text": "express",
+              "key": "express"
             },
             {
               "kind": "space",
@@ -132,8 +108,8 @@
             },
             {
               "kind": "word",
-              "text": "a",
-              "key": "a"
+              "text": "themselves",
+              "key": "themselves"
             },
             {
               "kind": "space",
@@ -141,8 +117,8 @@
             },
             {
               "kind": "word",
-              "text": "software",
-              "key": "software"
+              "text": "in",
+              "key": "in"
             },
             {
               "kind": "space",
@@ -150,8 +126,26 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
+              "text": "their",
+              "key": "their"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "native",
+              "key": "native"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "language",
+              "key": "language"
             },
             {
               "kind": "space",
@@ -159,16 +153,34 @@
             },
             {
               "kind": "punct",
-              "text": "2020"
+              "text": "("
             },
             {
               "kind": "word",
-              "text": "s",
-              "key": "s"
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "similar",
+              "key": "similar"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "reasons",
+              "key": "reasons"
             },
             {
               "kind": "punct",
-              "text": ":"
+              "text": ","
             },
             {
               "kind": "space",
@@ -176,8 +188,8 @@
             },
             {
               "kind": "word",
-              "text": "every",
-              "key": "every"
+              "text": "agents",
+              "key": "agents"
             },
             {
               "kind": "space",
@@ -185,8 +197,8 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
+              "text": "produce",
+              "key": "produce"
             },
             {
               "kind": "space",
@@ -194,8 +206,8 @@
             },
             {
               "kind": "word",
-              "text": "is",
-              "key": "is"
+              "text": "much",
+              "key": "much"
             },
             {
               "kind": "space",
@@ -203,8 +215,8 @@
             },
             {
               "kind": "word",
-              "text": "an",
-              "key": "an"
+              "text": "better",
+              "key": "better"
             },
             {
               "kind": "space",
@@ -212,8 +224,8 @@
             },
             {
               "kind": "word",
-              "text": "AI",
-              "key": "ai"
+              "text": "looking",
+              "key": "looking"
             },
             {
               "kind": "space",
@@ -221,88 +233,75 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
+              "text": "slides",
+              "key": "slides"
             },
             {
               "kind": "space",
               "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "HTML",
+              "key": "html"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "than",
+              "key": "than"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "XML",
+              "key": "xml"
             },
             {
               "kind": "punct",
-              "text": "2025+:"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "every",
-              "key": "every"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "company",
-              "key": "company"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "is",
-              "key": "is"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "a",
-              "key": "a"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "cybersecurity",
-              "key": "cybersecurity"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "company",
-              "key": "company"
+              "text": ")"
             }
           ]
         }
       ],
-      "zh": "2000 年代：每家公司都是一家 internet 公司；2010 年代：每家公司都是一家 software 公司；2020 年代：每家公司都是一家 AI 公司；2025 年及以后：每家公司都是一家 cybersecurity 公司",
+      "zh": "agent 把 HTML 当作它们的母语来使用；让 agent 用它们的母语来表达自己（出于类似的原因，agent 用 HTML 生成的幻灯片也会比用 XML 生成的好看得多）。",
       "meta": {
-        "likes": 369,
-        "retweets": 26,
-        "replies": 43,
-        "createdAt": "2026-04-26T04:59:49.000Z",
-        "tweetUrl": "https://x.com/amasad/status/2048265772775162078"
+        "likes": 34,
+        "retweets": 0,
+        "replies": 7,
+        "createdAt": "2026-04-21T05:02:58.000Z",
+        "tweetUrl": "https://x.com/zarazhangrui/status/2046454622852657264"
       }
     }
   ],
-  "wordCount": 27,
+  "wordCount": 29,
   "engagement": {
-    "likes": 369,
-    "retweets": 26,
-    "replies": 43
+    "likes": 34,
+    "retweets": 0,
+    "replies": 7
   }
 }

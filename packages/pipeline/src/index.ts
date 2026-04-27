@@ -34,6 +34,10 @@ function findDigestFiles(): string[] {
     .sort();
 }
 
+// Active digest date (YYYY-MM-DD), set at the start of each processDigest call
+// so buildArticle can stamp it onto every Article it builds.
+let currentDigestDate = "";
+
 function loadExistingWords(): Record<string, WordEntry> {
   if (!existsSync(WORDS_FILE)) return {};
   try {
@@ -62,6 +66,7 @@ async function processDigest(filePath: string) {
   console.log(`\n[1/5] Reading ${fileName}…`);
   const raw = JSON.parse(readFileSync(filePath, "utf8")) as RawDigest;
   const date = digestDateOf(raw);
+  currentDigestDate = date;
 
   console.log(`[2/5] Parsing into articles…`);
   const drafts = parseDigest(raw);
@@ -174,6 +179,7 @@ function buildArticle(d: DraftArticle): Article {
     title: d.title,
     url: d.url,
     publishedAt: d.publishedAt,
+    digestDate: currentDigestDate,
     paragraphs,
     wordCount,
   };

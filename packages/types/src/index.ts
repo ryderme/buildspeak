@@ -50,6 +50,8 @@ export interface Article {
   titleZh?: string;
   url: string;
   publishedAt: string;
+  /** Date of the digest issue this article belongs to — YYYY-MM-DD. */
+  digestDate: string;
   paragraphs: Paragraph[];
   /** Approximate word count for the English text. */
   wordCount: number;

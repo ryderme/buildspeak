@@ -1,0 +1,706 @@
+{
+  "id": "x-steipete-2026-04-27",
+  "type": "tweet",
+  "sourceName": "Peter Steinberger",
+  "sourceHandle": "@steipete",
+  "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+  "title": "Peter Steinberger · @steipete",
+  "url": "https://x.com/steipete",
+  "publishedAt": "2026-04-26T05:38:50.000Z",
+  "digestDate": "2026-04-27",
+  "paragraphs": [
+    {
+      "id": "x-steipete-2026-04-27-p0",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-04-27-p0-s0",
+          "text": "Summarize 📝0.14.0 is out.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Summarize",
+              "key": "summarize"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "📝0.14.0"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "out",
+              "key": "out"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-04-27-p0-s1",
+          "text": "GPT-5.5 Fast mode via `--fast`, Reddit thread extraction in the browser extension, local PDF `--extract`, and fixes for auto model config + Meta site compatibility.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "GPT-5",
+              "key": "gpt"
+            },
+            {
+              "kind": "punct",
+              "text": ".5"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Fast",
+              "key": "fast"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mode",
+              "key": "mode"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "via",
+              "key": "via"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "`--"
+            },
+            {
+              "kind": "word",
+              "text": "fast",
+              "key": "fast"
+            },
+            {
+              "kind": "punct",
+              "text": "`,"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Reddit",
+              "key": "reddit"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "thread",
+              "key": "thread"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "extraction",
+              "key": "extraction"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "browser",
+              "key": "browser"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "extension",
+              "key": "extension"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "local",
+              "key": "local"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "PDF",
+              "key": "pdf"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "`--"
+            },
+            {
+              "kind": "word",
+              "text": "extract",
+              "key": "extract"
+            },
+            {
+              "kind": "punct",
+              "text": "`,"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fixes",
+              "key": "fixes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "auto",
+              "key": "auto"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "model",
+              "key": "model"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "config",
+              "key": "config"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "+"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Meta",
+              "key": "meta"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "site",
+              "key": "site"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "compatibility",
+              "key": "compatibility"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "Summarize 📝0.14.0 已发布。通过 `--fast` 提供 GPT-5.5 Fast 模式，浏览器扩展支持提取 Reddit 线程，本地 PDF `--extract`，以及修复了自动 model（模型）配置和 Meta 站点兼容性问题。",
+      "meta": {
+        "likes": 192,
+        "retweets": 12,
+        "replies": 19,
+        "createdAt": "2026-04-26T05:38:50.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2048275589224628677"
+      }
+    },
+    {
+      "id": "x-steipete-2026-04-27-p1",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-04-27-p1-s0",
+          "text": "CodexBar 🎚️ 0.23 is out: Mistral support, Claude Designs/Daily Routines usage, Cursor Extra usage, GPT-5.5 pricing, cleaner widgets/menus, and a bunch of reliability fixes.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "CodexBar",
+              "key": "codexbar"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "🎚️"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "0.23"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "out",
+              "key": "out"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Mistral",
+              "key": "mistral"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "support",
+              "key": "support"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Designs",
+              "key": "designs"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "Daily",
+              "key": "daily"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Routines",
+              "key": "routines"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "usage",
+              "key": "usage"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Cursor",
+              "key": "cursor"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Extra",
+              "key": "extra"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "usage",
+              "key": "usage"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "GPT-5",
+              "key": "gpt"
+            },
+            {
+              "kind": "punct",
+              "text": ".5"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "pricing",
+              "key": "pricing"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cleaner",
+              "key": "cleaner"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "widgets",
+              "key": "widgets"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "menus",
+              "key": "menus"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bunch",
+              "key": "bunch"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "reliability",
+              "key": "reliability"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fixes",
+              "key": "fixes"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "CodexBar 🎚️ 0.23 已发布：支持 Mistral、Claude Designs/Daily Routines 用量、Cursor Extra 用量、GPT-5.5 定价、更简洁的 widgets（小组件）/menus（菜单），以及一大批可靠性修复。",
+      "meta": {
+        "likes": 214,
+        "retweets": 13,
+        "replies": 18,
+        "createdAt": "2026-04-26T04:06:54.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2048252455817785357"
+      }
+    },
+    {
+      "id": "x-steipete-2026-04-27-p2",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-04-27-p2-s0",
+          "text": "GitHub folks are amazing while we melt their servers.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "GitHub",
+              "key": "github"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "folks",
+              "key": "folks"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "amazing",
+              "key": "amazing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "while",
+              "key": "while"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "melt",
+              "key": "melt"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "their",
+              "key": "their"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "servers",
+              "key": "servers"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "GitHub 的朋友们太厉害了，而我们正把他们的服务器烤到融化。",
+      "meta": {
+        "likes": 381,
+        "retweets": 18,
+        "replies": 21,
+        "createdAt": "2026-04-25T23:42:36.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2048185940267380815"
+      }
+    }
+  ],
+  "wordCount": 60,
+  "engagement": {
+    "likes": 787,
+    "retweets": 43,
+    "replies": 58
+  }
+}

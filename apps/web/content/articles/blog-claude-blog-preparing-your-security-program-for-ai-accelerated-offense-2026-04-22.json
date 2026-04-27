@@ -1,16 +1,17 @@
 {
-  "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense",
+  "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22",
   "type": "blog",
   "sourceName": "Claude Blog",
   "title": "Preparing your security program for AI-accelerated offense",
   "url": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
   "publishedAt": "Apr 10, 2026",
+  "digestDate": "2026-04-22",
   "paragraphs": [
     {
-      "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0",
+      "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0",
       "sentences": [
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s0",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s0",
           "text": "Earlier this week, we announced Project Glasswing—our urgent attempt to put the strong cybersecurity capabilities of our newest frontier model, Claude Mythos Preview, to use for defensive purposes.",
           "tokens": [
             {
@@ -289,7 +290,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s1",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s1",
           "text": "In the announcement —and the accompanying technical blog post —we described how AI models are rapidly reducing the required resources, time, and skill required to find and exploit vulnerabilities in software.",
           "tokens": [
             {
@@ -590,7 +591,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s2",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s2",
           "text": "With an eye on the lightning-fast progress of AI, we also noted that it will not be long before models of similar capability levels are widely available.",
           "tokens": [
             {
@@ -843,7 +844,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s3",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s3",
           "text": "Within the next 24 months, vast numbers of bugs that sat unnoticed in code, possibly for years, will be found by AI models and chained into working exploits.",
           "tokens": [
             {
@@ -1112,7 +1113,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s4",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s4",
           "text": "Indeed, it is already the case that publicly available, sub-Mythos-level models can find serious vulnerabilities that traditional reviews have missed for long periods of time.",
           "tokens": [
             {
@@ -1351,7 +1352,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s5",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s5",
           "text": "Thankfully, this works both ways: although attackers can use AI to move faster, so can defenders who adopt AI tools to secure themselves.",
           "tokens": [
             {
@@ -1576,7 +1577,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s6",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s6",
           "text": "In this post, we offer security recommendations and practical tips based on what our security teams and researchers have observed and learned from using frontier AI models to secure real codebases and systems.",
           "tokens": [
             {
@@ -1883,7 +1884,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s7",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s7",
           "text": "We hope security teams and others will find this advice useful as we enter the age of AI-driven cybersecurity.",
           "tokens": [
             {
@@ -2060,7 +2061,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s8",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s8",
           "text": "Many of the pieces of advice below are already part of the existing security consensus; we have prioritized them according to which controls we have seen hold and which we have seen degrade.",
           "tokens": [
             {
@@ -2367,7 +2368,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s9",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s9",
           "text": "If your organization reports against SOC 2 and ISO 27001, these will map directly onto controls you are already tracking.",
           "tokens": [
             {
@@ -2551,7 +2552,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s10",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s10",
           "text": "We’ll update this guidance as we and our Project Glasswing partners continue our cybersecurity work.",
           "tokens": [
             {
@@ -2701,7 +2702,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s11",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s11",
           "text": "What to do now 1.",
           "tokens": [
             {
@@ -2747,7 +2748,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s12",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s12",
           "text": "Close your patch gap AI models are very effective at recognizing the signatures of known, already-patched vulnerabilities in unpatched systems.",
           "tokens": [
             {
@@ -2937,7 +2938,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s13",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s13",
           "text": "Reversing a patch into a working exploit is exactly the kind of mechanical analysis at which these models excel.",
           "tokens": [
             {
@@ -3114,7 +3115,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s14",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s14",
           "text": "This means that the window between a patch being published and an exploit becoming available is shrinking.",
           "tokens": [
             {
@@ -3273,7 +3274,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s15",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s15",
           "text": "Patch everything on the CISA Known Exploited Vulnerabilities (KEV) catalog immediately.",
           "tokens": [
             {
@@ -3386,7 +3387,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s16",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s16",
           "text": "This catalog contains vulnerabilities that are confirmed to be under active exploitation.",
           "tokens": [
             {
@@ -3500,7 +3501,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s17",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s17",
           "text": "Anything on this list which is reachable from a network should be treated as an emergency.",
           "tokens": [
             {
@@ -3650,7 +3651,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s18",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s18",
           "text": "Use EPSS to prioritize the rest.",
           "tokens": [
             {
@@ -3710,7 +3711,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s19",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s19",
           "text": "Exploit Prediction Scoring System (EPSS) provides a daily-updated probability that a given Common Vulnerability and Exposure (CVE) will be exploited in the next 30 days.",
           "tokens": [
             {
@@ -3956,7 +3957,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s20",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s20",
           "text": "Patching the KEV list first and then everything above a chosen EPSS threshold will help you turn thousands of open CVEs into a manageable queue.",
           "tokens": [
             {
@@ -4187,7 +4188,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s21",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s21",
           "text": "Reduce time-to-patch on internet-exposed systems.",
           "tokens": [
             {
@@ -4238,7 +4239,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s22",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s22",
           "text": "We recommend patching internet-facing applications within 24 hours of an exploit becoming available, and within days for other vulnerabilities.",
           "tokens": [
             {
@@ -4418,7 +4419,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s23",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s23",
           "text": "Automate patch deployment and reboots where the risk of an automated update causing an outage is acceptable.",
           "tokens": [
             {
@@ -4577,7 +4578,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s24",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s24",
           "text": "Manual approval steps add delay, and delay is now the primary risk.",
           "tokens": [
             {
@@ -4695,7 +4696,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s25",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s25",
           "text": "Practical tip: Most cloud and OS vendors already ship patch automation; enabling it is often a simple configuration change.",
           "tokens": [
             {
@@ -4880,7 +4881,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s26",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s26",
           "text": "For container images and dependency manifests, several open-source scanners run as a single continuous integration step and annotate CVEs with data from the KEV catalogue and EPSS, so prioritization is built in.",
           "tokens": [
             {
@@ -5182,7 +5183,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s27",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s27",
           "text": "2.",
           "tokens": [
             {
@@ -5192,7 +5193,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s28",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s28",
           "text": "Prepare to handle a much higher volume of vulnerability reports Over approximately the next two years, the processes you use to receive, prioritize, and fix vulnerabilities (both in your own code and in the software you buy from vendors) will be under far more pressure than they are today.",
           "tokens": [
             {
@@ -5659,7 +5660,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s29",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s29",
           "text": "Your Vulnerability Management process should plan for many more patches, from vendors and upstream.",
           "tokens": [
             {
@@ -5795,7 +5796,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s30",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s30",
           "text": "Plan for an order-of-magnitude increase in finding volume.",
           "tokens": [
             {
@@ -5873,7 +5874,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s31",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s31",
           "text": "Aspects like intake, triage, and remediation tracking need to keep pace with the increasing numbers of vulnerabilities being exposed.",
           "tokens": [
             {
@@ -6058,7 +6059,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s32",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s32",
           "text": "If your security meetings are still built around a spreadsheet and a weekly meeting, it’s unlikely that you’ll keep up.",
           "tokens": [
             {
@@ -6266,7 +6267,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s33",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s33",
           "text": "It’s worth considering some amount of automation—with, of course, humans in the loop, to assist with the sheer volume here.",
           "tokens": [
             {
@@ -6482,7 +6483,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s34",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s34",
           "text": "Check the security of your open-source dependencies.",
           "tokens": [
             {
@@ -6551,7 +6552,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s35",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s35",
           "text": "Most software supply chains are mostly open source.",
           "tokens": [
             {
@@ -6629,7 +6630,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s36",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s36",
           "text": "Most open-source projects have no service-level agreement or commitment to maintain a high level of security.",
           "tokens": [
             {
@@ -6779,7 +6780,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s37",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s37",
           "text": "OpenSSF Scorecard automatically scores every dependency on signals like branch protection, fuzzing coverage, signed releases, and maintainer activity.",
           "tokens": [
             {
@@ -6959,7 +6960,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s38",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s38",
           "text": "It runs in CI and helps to identify unmaintained packages.",
           "tokens": [
             {
@@ -7055,7 +7056,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s39",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s39",
           "text": "Apply the same expectations to your vendors.",
           "tokens": [
             {
@@ -7124,7 +7125,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s40",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s40",
           "text": "Your third-party risk management process should ask suppliers how they are themselves preparing for accelerated exploit timelines and whether they are scanning their own code. ‍ Practical tip: Look into open source software and third-party services that evaluate the reachability of vulnerable code.",
           "tokens": [
             {
@@ -7524,7 +7525,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s41",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s41",
           "text": "Build automated processes that continuously deliver new software updates to your IT and production infrastructure, by doing regression testing on updates to gain confidence that you can deploy them quickly.",
           "tokens": [
             {
@@ -7804,7 +7805,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s42",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s42",
           "text": "Above we mentioned automation of these processes.",
           "tokens": [
             {
@@ -7873,7 +7874,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s43",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s43",
           "text": "There are a number of important ways that AI can assist: Speeding up triage.",
           "tokens": [
             {
@@ -8009,7 +8010,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s44",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s44",
           "text": "Triage is a bottleneck, because it requires expert review and classification.",
           "tokens": [
             {
@@ -8118,7 +8119,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s45",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s45",
           "text": "A frontier model can deduplicate findings against an existing backlog, use its knowledge of your assets to estimate exposure, and draft remediation tickets where the affected code paths are pre-identified.",
           "tokens": [
             {
@@ -8402,7 +8403,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s46",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s46",
           "text": "Check your dependencies for redundancy.",
           "tokens": [
             {
@@ -8453,7 +8454,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s47",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s47",
           "text": "Most large codebases accumulate multiple libraries doing the same job (several HTTP clients; several JSON parsers).",
           "tokens": [
             {
@@ -8611,7 +8612,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s48",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s48",
           "text": "This gives attackers more opportunity, all for no functional gain on your part.",
           "tokens": [
             {
@@ -8738,7 +8739,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s49",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s49",
           "text": "Pointing an LLM at a lockfile and asking which dependencies overlap (and what migration and consolidation would look like) is a one-hour exercise that often pays off.",
           "tokens": [
             {
@@ -8995,7 +8996,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s50",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s50",
           "text": "AI upgrade automation.",
           "tokens": [
             {
@@ -9028,7 +9029,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s51",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s51",
           "text": "Frontier models are increasingly capable of generating patches to include alongside vulnerability reports.",
           "tokens": [
             {
@@ -9151,7 +9152,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s52",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s52",
           "text": "When the report is clear and thorough, maybe even with a proof-of-concept, the model can directly test the patch to confirm that the exploit path is closed.",
           "tokens": [
             {
@@ -9408,7 +9409,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s53",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s53",
           "text": "It can also directly automate the process of accepting the upstream patch, validating that the upgrade doesn’t break tests or internal systems.",
           "tokens": [
             {
@@ -9625,7 +9626,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s54",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s54",
           "text": "AI vendoring .",
           "tokens": [
             {
@@ -9653,7 +9654,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s55",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s55",
           "text": "Some small dependencies will score poorly on the OpenSSF Scorecard—perhaps because they’re not actively maintained.",
           "tokens": [
             {
@@ -9812,7 +9813,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s56",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s56",
           "text": "You shouldn’t continue to rely on these; instead, you should consider having an LLM write its own code to reimplement the functionality you actually use.",
           "tokens": [
             {
@@ -10060,7 +10061,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s57",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s57",
           "text": "3.",
           "tokens": [
             {
@@ -10070,7 +10071,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s58",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s58",
           "text": "Find bugs before you ship them Prevention is always better than cure.",
           "tokens": [
             {
@@ -10184,7 +10185,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s59",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s59",
           "text": "You should assume that bugs that reach production will eventually be found, so your security testing needs to happen well before.",
           "tokens": [
             {
@@ -10383,7 +10384,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s60",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s60",
           "text": "Add static analysis and AI-assisted code review to your continuous integration pipeline, and block merges on high-confidence findings.",
           "tokens": [
             {
@@ -10555,7 +10556,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s61",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s61",
           "text": "If false positives make this impractical, you should keep the check, but address the tooling.",
           "tokens": [
             {
@@ -10704,7 +10705,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s62",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s62",
           "text": "The OWASP Application Security Verification Standard defines what “passing” a test looks like at three different levels of rigor.",
           "tokens": [
             {
@@ -10889,7 +10890,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s63",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s63",
           "text": "Add automated penetration testing to your continuous delivery pipeline.",
           "tokens": [
             {
@@ -10976,7 +10977,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s64",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s64",
           "text": "You can run the same scanning for staging that attackers will run against your production systems.",
           "tokens": [
             {
@@ -11126,7 +11127,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s65",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s65",
           "text": "Secure the build pipeline.",
           "tokens": [
             {
@@ -11168,7 +11169,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s66",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s66",
           "text": "An attacker who can inject code between commit and deployment does not need to find a vulnerability.",
           "tokens": [
             {
@@ -11327,7 +11328,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s67",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s67",
           "text": "The SLSA security framework provides a graded path: lower levels establish which commit produced which artifact, and higher levels make the build itself verifiable.",
           "tokens": [
             {
@@ -11557,7 +11558,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s68",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s68",
           "text": "Adopt Secure by Design practices.",
           "tokens": [
             {
@@ -11608,7 +11609,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s69",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s69",
           "text": "CISA’s pledge commitments (multi-factor authentication by default; no default passwords; transparent vulnerability reporting) are a reasonable minimum bar.",
           "tokens": [
             {
@@ -11801,7 +11802,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s70",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s70",
           "text": "Prefer memory-safe languages for new code.",
           "tokens": [
             {
@@ -11861,7 +11862,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s71",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s71",
           "text": "A large share of severe vulnerabilities are memory-safety bugs that do not occur in Rust, Go, or managed runtimes.",
           "tokens": [
             {
@@ -12046,7 +12047,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s72",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s72",
           "text": "CISA, the NSA, and the NCSC have published useful roadmaps .",
           "tokens": [
             {
@@ -12154,7 +12155,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s73",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s73",
           "text": "Existing C/C++ code does not need to be rewritten, but new C/C++ code should require a justification.",
           "tokens": [
             {
@@ -12343,7 +12344,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s74",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s74",
           "text": "AI assisted rewrites are increasingly viable, as well.",
           "tokens": [
             {
@@ -12425,7 +12426,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s75",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s75",
           "text": "Practical tip: Static application security testing (SAST) tooling that runs as a CI action with OWASP Top 10 and language-specific rule sets is widely available, both open-source and built into code hosting platforms (CodeQL on GitHub being the most common starting point).",
           "tokens": [
             {
@@ -12828,7 +12829,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s76",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s76",
           "text": "To assess build provenance, OpenSSF publishes a reusable workflow that produces SLSA Level 3 attestations from GitHub Actions; adopting it is significantly less work than the SLSA spec suggests.",
           "tokens": [
             {
@@ -13102,7 +13103,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s77",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s77",
           "text": "As before, there are some clear opportunities for accelerating this work with AI: AI vulnerability scanning.",
           "tokens": [
             {
@@ -13260,7 +13261,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s78",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s78",
           "text": "The logic here is straightforward: you should scan your own code and systems with the same kind of model an attacker would use, before they do.",
           "tokens": [
             {
@@ -13508,7 +13509,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s79",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s79",
           "text": "This approach just requires an isolated agent, a verification step to filter noise, and a path into your existing triage process.",
           "tokens": [
             {
@@ -13711,7 +13712,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s80",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s80",
           "text": "You can do this with an LLM today.",
           "tokens": [
             {
@@ -13789,7 +13790,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s81",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s81",
           "text": "If you implement one thing from this section, implement this.",
           "tokens": [
             {
@@ -13889,7 +13890,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s82",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s82",
           "text": "Patch generation.",
           "tokens": [
             {
@@ -13913,7 +13914,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s83",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s83",
           "text": "When SAST or a scanner produces a finding, a frontier model can usually propose a patch for it.",
           "tokens": [
             {
@@ -14085,7 +14086,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s84",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s84",
           "text": "This does not remove the need for review, but it changes the developer’s job from “understand the bug and write a fix” to “verify a proposed fix is correct.” The latter is faster.",
           "tokens": [
             {
@@ -14417,7 +14418,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s85",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s85",
           "text": "The same approach applies to memory-safe migration: LLMs can port a self-contained C module to Rust with tests; a reviewer can validate the equivalence rather than writing the whole thing from scratch.",
           "tokens": [
             {
@@ -14719,7 +14720,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s86",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s86",
           "text": "4.",
           "tokens": [
             {
@@ -14729,7 +14730,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s87",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s87",
           "text": "Find the vulnerabilities already in your code Patching addresses known vulnerabilities in software you depend on.",
           "tokens": [
             {
@@ -14879,7 +14880,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s88",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s88",
           "text": "But your own codebase contains unknown ones.",
           "tokens": [
             {
@@ -14948,7 +14949,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s89",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s89",
           "text": "Most long-running production code has been reviewed by humans many times, but has never been examined by a frontier model, and that kind of analysis tends to surface new, previously-overlooked issues .",
           "tokens": [
             {
@@ -15249,7 +15250,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s90",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s90",
           "text": "Proactively scanning can identify vulnerabilities that are within the reach of modern LLMs before attackers discover them themselves.",
           "tokens": [
             {
@@ -15417,7 +15418,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s91",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s91",
           "text": "Prioritize by exposure.",
           "tokens": [
             {
@@ -15450,7 +15451,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s92",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s92",
           "text": "Start with code that parses untrusted input, enforces an authentication or authorization decision, or is reachable from the internet.",
           "tokens": [
             {
@@ -15635,7 +15636,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s93",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s93",
           "text": "These are the paths where a finding is most likely to matter.",
           "tokens": [
             {
@@ -15749,7 +15750,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s94",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s94",
           "text": "Include legacy code.",
           "tokens": [
             {
@@ -15782,7 +15783,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s95",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s95",
           "text": "Code that predates current review practices, or whose original authors have moved on, often has the least recent scrutiny.",
           "tokens": [
             {
@@ -15967,7 +15968,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s96",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s96",
           "text": "That’s where you have the most to gain from a fresh pass.",
           "tokens": [
             {
@@ -16090,7 +16091,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s97",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s97",
           "text": "Budget for remediation.",
           "tokens": [
             {
@@ -16123,7 +16124,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s98",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s98",
           "text": "A well-structured model scan of older code typically produces fewer findings than a SAST rollout, but a higher share of them are real.",
           "tokens": [
             {
@@ -16340,7 +16341,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s99",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s99",
           "text": "Plan engineering time to fix the bugs.",
           "tokens": [
             {
@@ -16409,7 +16410,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s100",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s100",
           "text": "Practical tip: Pick one internet-facing service with few current owners and scan its input handling and auth logic.",
           "tokens": [
             {
@@ -16581,7 +16582,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s101",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s101",
           "text": "Run the agent in isolation and add a verification step so you’re acting on confirmed findings.",
           "tokens": [
             {
@@ -16740,7 +16741,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s102",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s102",
           "text": "One service done properly is a reasonable basis for estimating what a broader program will cost.",
           "tokens": [
             {
@@ -16890,7 +16891,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s103",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s103",
           "text": "5.",
           "tokens": [
             {
@@ -16900,7 +16901,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s104",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s104",
           "text": "Design for breach Attackers will try to get a foothold somewhere.",
           "tokens": [
             {
@@ -17005,7 +17006,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s105",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s105",
           "text": "You need to limit what they can reach from there.",
           "tokens": [
             {
@@ -17101,7 +17102,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s106",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s106",
           "text": "Mitigations whose value comes from friction—making an attack tedious —rather than a hard barrier (extra pivot hops, rate limits, non-standard ports, SMS-based MFA) are much less effective against an adversary that can grind through those tedious steps.",
           "tokens": [
             {
@@ -17473,7 +17474,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s107",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s107",
           "text": "Our recommendations below favor controls that hold even when the attacker has unlimited patience: hardware-bound credentials, expiring tokens, and network paths that do not exist rather than paths that are merely inconvenient.",
           "tokens": [
             {
@@ -17779,7 +17780,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s108",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s108",
           "text": "Adopt zero trust architecture.",
           "tokens": [
             {
@@ -17821,7 +17822,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s109",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s109",
           "text": "Authenticate and authorize every request between services as if it came from the internet.",
           "tokens": [
             {
@@ -17953,7 +17954,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s110",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s110",
           "text": "CISA&#x27;s Zero Trust Maturity Model and the NCSC&#x27;s zero trust principles both provide staged adoption paths.",
           "tokens": [
             {
@@ -18139,7 +18140,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s111",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s111",
           "text": "Tie access to verified hardware rather than credentials.",
           "tokens": [
             {
@@ -18217,7 +18218,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s112",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s112",
           "text": "Production systems and sensitive internal tools should only be reachable from managed employee devices with attested hardware identity, paired with phishing-resistant 2FA (FIDO2 or passkeys).",
           "tokens": [
             {
@@ -18460,7 +18461,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s113",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s113",
           "text": "Stolen credentials alone should never be sufficient to gain access.",
           "tokens": [
             {
@@ -18556,7 +18557,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s114",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s114",
           "text": "Even calls between production services should be rooted in hardware identity.",
           "tokens": [
             {
@@ -18661,7 +18662,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s115",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s115",
           "text": "Isolate services by identity.",
           "tokens": [
             {
@@ -18703,7 +18704,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s116",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s116",
           "text": "A compromised build server should not be able to query production databases.",
           "tokens": [
             {
@@ -18817,7 +18818,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s117",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s117",
           "text": "A compromised laptop should not be able to reach build infrastructure.",
           "tokens": [
             {
@@ -18922,7 +18923,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s118",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s118",
           "text": "Enforce this at the receiving end: every workload should carry its own cryptographic identity, and each service should accept connections only from the specific callers of its policy names.",
           "tokens": [
             {
@@ -19197,7 +19198,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s119",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s119",
           "text": "Network segmentation can still reduce blast radius and noise, but it is a backstop.",
           "tokens": [
             {
@@ -19333,7 +19334,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s120",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s120",
           "text": "Replace long-lived secrets with short-lived tokens.",
           "tokens": [
             {
@@ -19393,7 +19394,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s121",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s121",
           "text": "Static API keys, embedded credentials, and shared service-account passwords are among the first things an attacker with model-assisted code analysis will find.",
           "tokens": [
             {
@@ -19605,7 +19606,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s122",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s122",
           "text": "Use short-lived, narrowly-scoped tokens issued by an identity provider.",
           "tokens": [
             {
@@ -19696,7 +19697,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s123",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s123",
           "text": "Practical tip: Full zero-trust is a multi-year program, but an identity-aware access proxy puts device-verified, MFA-gated access in front of internal services without having to fundamentally change their architecture.",
           "tokens": [
             {
@@ -19975,7 +19976,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s124",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s124",
           "text": "Each major cloud provider offers a native option, and several open-source and commercial alternatives exist for on-premises or multi-cloud environments.",
           "tokens": [
             {
@@ -20165,7 +20166,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s125",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s125",
           "text": "For secrets, every major cloud has a managed secrets store; moving the single most widely-shared credential into one and rotating it is a useful forcing function for the rest.",
           "tokens": [
             {
@@ -20440,7 +20441,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s126",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s126",
           "text": "6.",
           "tokens": [
             {
@@ -20450,7 +20451,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s127",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s127",
           "text": "Reduce and inventory what you expose This section is based on two important principles.",
           "tokens": [
             {
@@ -20582,7 +20583,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s128",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s128",
           "text": "First, you cannot defend systems you don’t know about.",
           "tokens": [
             {
@@ -20682,7 +20683,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s129",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s129",
           "text": "Second, the smaller the exposed surface, the less there is to attack.",
           "tokens": [
             {
@@ -20804,7 +20805,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s130",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s130",
           "text": "Maintain a current inventory of every internet-facing host, service, and API endpoint in your systems.",
           "tokens": [
             {
@@ -20953,7 +20954,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s131",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s131",
           "text": "Attackers can run automated reconnaissance; your inventory should be at least as accurate.",
           "tokens": [
             {
@@ -21080,7 +21081,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s132",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s132",
           "text": "Include these systems in your pentests and red-teaming.",
           "tokens": [
             {
@@ -21158,7 +21159,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s133",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s133",
           "text": "Decommission unused systems.",
           "tokens": [
             {
@@ -21191,7 +21192,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s134",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s134",
           "text": "Legacy services with no clear owner are typically also unpatched.",
           "tokens": [
             {
@@ -21287,7 +21288,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s135",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s135",
           "text": "Minimize what each service exposes.",
           "tokens": [
             {
@@ -21338,7 +21339,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s136",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s136",
           "text": "Default-deny network ingress and limit API surface area to what is actually required.",
           "tokens": [
             {
@@ -21461,7 +21462,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s137",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s137",
           "text": "Practical tip: Internet-wide scan indexes are publicly searchable; querying one for your own IP ranges and domains shows you what an attacker’s reconnaissance sees.",
           "tokens": [
             {
@@ -21700,7 +21701,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s138",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s138",
           "text": "For cloud assets, native inventory tools (AWS Config, Azure Resource Graph, GCP Asset Inventory) already exist; the work is in querying them.",
           "tokens": [
             {
@@ -21928,7 +21929,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s139",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s139",
           "text": "AI can help directly here, too: Pruning stale code and systems.",
           "tokens": [
             {
@@ -22041,7 +22042,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s140",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s140",
           "text": "Identifying unused code is tedious—but as noted above, AI models are good at tedious tasks.",
           "tokens": [
             {
@@ -22195,7 +22196,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s141",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s141",
           "text": "A model with read access to a codebase and traffic logs can list endpoints that have no callers and have not received traffic; from there, it can explain what removing each one would affect.",
           "tokens": [
             {
@@ -22515,7 +22516,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s142",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s142",
           "text": "Autonomous external red-teaming.",
           "tokens": [
             {
@@ -22548,7 +22549,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s143",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s143",
           "text": "Point an AI offensive agent at your own perimeter from the outside, with no credentials and no source access.",
           "tokens": [
             {
@@ -22729,7 +22730,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s144",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s144",
           "text": "Then, let it do what an attacker would: work out what is reachable, fingerprint it, and attempt to chain what it finds into a foothold.",
           "tokens": [
             {
@@ -22976,7 +22977,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s145",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s145",
           "text": "This kind of automated red-teaming can catch things source scanning doesn’t see: forgotten hosts, exposed management interfaces, default credentials, and misconfigured storage.",
           "tokens": [
             {
@@ -23205,7 +23206,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s146",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s146",
           "text": "Run it on the same cadence as your inventory refresh.",
           "tokens": [
             {
@@ -23301,7 +23302,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s147",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s147",
           "text": "7.",
           "tokens": [
             {
@@ -23311,7 +23312,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s148",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s148",
           "text": "Shorten your incident response time Exploits can appear within hours of a patch.",
           "tokens": [
             {
@@ -23434,7 +23435,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s149",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s149",
           "text": "Response processes that take days are too slow.",
           "tokens": [
             {
@@ -23512,7 +23513,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s150",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s150",
           "text": "Here are some ideas for how to reduce your incident response time: Put a model at the front of your alert queue.",
           "tokens": [
             {
@@ -23720,7 +23721,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s151",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s151",
           "text": "Every inbound alert should get an automated first-pass investigation before a human sees it.",
           "tokens": [
             {
@@ -23852,7 +23853,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s152",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s152",
           "text": "This kind of “triage agent” with read-only access to your Security Information and Event Management (SIEM) platform and a well-scoped set of query tools can direct your attention to the alerts that need human judgement most.",
           "tokens": [
             {
@@ -24198,7 +24199,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s153",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s153",
           "text": "Put instrument dwell time and coverage before anything else.",
           "tokens": [
             {
@@ -24285,7 +24286,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s154",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s154",
           "text": "These are the two metrics that AI automation has the greatest ability to move; both matter most when exploit windows shorten.",
           "tokens": [
             {
@@ -24484,7 +24485,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s155",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s155",
           "text": "Automate the bookkeeping around incidents.",
           "tokens": [
             {
@@ -24535,7 +24536,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s156",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s156",
           "text": "During an active incident, models should be taking notes, capturing artifacts, pursuing parallel investigation tracks, and drafting the postmortem and root-cause analysis.",
           "tokens": [
             {
@@ -24755,7 +24756,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s157",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s157",
           "text": "On the other hand, humans should be making the containment calls, disclosure calls, and customer-comms calls.",
           "tokens": [
             {
@@ -24917,7 +24918,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s158",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s158",
           "text": "Human decision speed during an incident should never be rate-limited on aspects that would be better handed to an AI, like evidence collection or write-ups.",
           "tokens": [
             {
@@ -25152,7 +25153,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s159",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s159",
           "text": "Let models drive the detection flywheel.",
           "tokens": [
             {
@@ -25212,7 +25213,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s160",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s160",
           "text": "Ingesting threat intelligence , generating candidate detections, hunting for matches, and tuning what fires are all now within reach of frontier models, who can run the process end-to-end.",
           "tokens": [
             {
@@ -25481,7 +25482,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s161",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s161",
           "text": "Run a tabletop for five simultaneous incidents.",
           "tokens": [
             {
@@ -25550,7 +25551,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s162",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s162",
           "text": "The standard exercise assumes one critical CVE with a working exploit hits on a Monday.",
           "tokens": [
             {
@@ -25691,7 +25692,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s163",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s163",
           "text": "Given the improved AI capabilities we’re seeing, this might be unwise.",
           "tokens": [
             {
@@ -25809,7 +25810,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s164",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s164",
           "text": "To truly stress-test your responses, you should run the version where five incidents hit in the same week.",
           "tokens": [
             {
@@ -25981,7 +25982,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s165",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s165",
           "text": "Map detection coverage against MITRE ATT&CK .",
           "tokens": [
             {
@@ -26054,7 +26055,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s166",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s166",
           "text": "ATT&CK provides a standard vocabulary of attacker techniques that most detection tools already use.",
           "tokens": [
             {
@@ -26195,7 +26196,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s167",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s167",
           "text": "Knowing which techniques you can detect (and which you can’t), is more useful than a general goal to “improve detection.” You should prioritize coverage for lateral movement and credential access.",
           "tokens": [
             {
@@ -26496,7 +26497,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s168",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s168",
           "text": "Establish emergency change procedures in advance.",
           "tokens": [
             {
@@ -26556,7 +26557,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s169",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s169",
           "text": "A two-week change-approval cycle for production patches is itself a security risk.",
           "tokens": [
             {
@@ -26670,7 +26671,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s170",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s170",
           "text": "The same applies to emergency containment actions (like taking a service offline, rotating a credential, or blocking a network path).",
           "tokens": [
             {
@@ -26868,7 +26869,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s171",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s171",
           "text": "You should decide in advance who can authorize these and how fast.",
           "tokens": [
             {
@@ -26982,7 +26983,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s172",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s172",
           "text": "Practical tip: Pick one noisy rule with a known-high false positive rate.",
           "tokens": [
             {
@@ -27100,7 +27101,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s173",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s173",
           "text": "Wire a frontier model into its alert stream with read-only access to the underlying data, and have it produce a structured disposition for every firing.",
           "tokens": [
             {
@@ -27335,7 +27336,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s174",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s174",
           "text": "Measure agreement against a human reviewer for two weeks.",
           "tokens": [
             {
@@ -27422,7 +27423,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s175",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s175",
           "text": "If the agreement rate is tolerable, expand to the next rule.",
           "tokens": [
             {
@@ -27531,7 +27532,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s176",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s176",
           "text": "It’s not worth trying to automate the whole queue at once.",
           "tokens": [
             {
@@ -27645,7 +27646,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s177",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s177",
           "text": "Separately, Atomic Red Team is an open-source library of small, safe tests mapped to ATT&CK techniques; running a handful and checking which ones your existing logging actually detected is a one-afternoon exercise that produces a concrete coverage map.",
           "tokens": [
             {
@@ -28014,7 +28015,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s178",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s178",
           "text": "Here are some ways AI can assist with response times: First-pass triage at 100% coverage.",
           "tokens": [
             {
@@ -28158,7 +28159,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s179",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s179",
           "text": "A well-scoped triage agent can investigate every alert (where humans might look only at those above a given severity threshold), and produce a structured disposition a human can accept, reject, or escalate.",
           "tokens": [
             {
@@ -28468,7 +28469,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s180",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s180",
           "text": "The mechanism that makes this work is giving your model a minimal tool set (query, think, report), letting it choose its own investigation strategy, and measuring the output against operational metrics.",
           "tokens": [
             {
@@ -28773,7 +28774,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s181",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s181",
           "text": "Incident scribe and parallel investigator.",
           "tokens": [
             {
@@ -28824,7 +28825,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s182",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s182",
           "text": "During an active incident, a model can take contemporaneous notes, timestamp artifacts as they are collected, pursue independent investigation tracks the responder has not gotten to yet, and draft the postmortem from the transcript once the incident closes.",
           "tokens": [
             {
@@ -29188,7 +29189,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s183",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s183",
           "text": "This is the least glamorous application of frontier models to security work—but it’s probably the highest-impact one.",
           "tokens": [
             {
@@ -29365,7 +29366,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s184",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s184",
           "text": "Proactive hunting against your own environment.",
           "tokens": [
             {
@@ -29425,7 +29426,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s185",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s185",
           "text": "The same kind of agent that can find vulnerabilities in source code can hunt for misconfigurations and indicators of compromise across your telemetry.",
           "tokens": [
             {
@@ -29638,7 +29639,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s186",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s186",
           "text": "You can run it on the same cadence as your external attack-surface scan.",
           "tokens": [
             {
@@ -29761,7 +29762,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s187",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s187",
           "text": "Advice for submitting vulnerability reports to others If you are scanning code—your own dependencies, open-source projects, or vendor products—and reporting findings upstream, the quality of those reports determines whether anyone acts on them.",
           "tokens": [
             {
@@ -30094,7 +30095,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s188",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s188",
           "text": "Open-source maintainers are already receiving large volumes of low-quality automated reports, and many have started ignoring anything that looks AI-generated.",
           "tokens": [
             {
@@ -30284,7 +30285,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s189",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s189",
           "text": "Adding to that volume without adding signal makes the problem worse for everyone, including you.",
           "tokens": [
             {
@@ -30429,7 +30430,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s190",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s190",
           "text": "A report should be sent only when a human has verified it and is willing to put their name on it.",
           "tokens": [
             {
@@ -30624,7 +30625,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s191",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s191",
           "text": "Concretely: State the bug and its impact in plain language.",
           "tokens": [
             {
@@ -30724,7 +30725,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s192",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s192",
           "text": "A maintainer should be able to understand what is wrong and why it matters from the first paragraph, without running anything.",
           "tokens": [
             {
@@ -30923,7 +30924,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s193",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s193",
           "text": "Walk through the code path.",
           "tokens": [
             {
@@ -30974,7 +30975,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s194",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s194",
           "text": "Show where the input enters, where it is mishandled, and where the consequence occurs.",
           "tokens": [
             {
@@ -31114,7 +31115,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s195",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s195",
           "text": "This is the part that distinguishes a real finding from a pattern match.",
           "tokens": [
             {
@@ -31237,7 +31238,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s196",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s196",
           "text": "Provide a working reproduction.",
           "tokens": [
             {
@@ -31279,7 +31280,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s197",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s197",
           "text": "A proof-of-concept the maintainer can run, or a test case that fails, is more credible than any amount of explanation.",
           "tokens": [
             {
@@ -31473,7 +31474,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s198",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s198",
           "text": "Include a proposed patch you would accept if you were the maintainer.",
           "tokens": [
             {
@@ -31587,7 +31588,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s199",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s199",
           "text": "A patch demonstrates that the reporter understands the codebase well enough to fix the problem in a way that fits the project’s conventions.",
           "tokens": [
             {
@@ -31809,7 +31810,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s200",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s200",
           "text": "Disclose AI involvement upfront.",
           "tokens": [
             {
@@ -31851,7 +31852,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s201",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s201",
           "text": "If a model found the bug or drafted the report, say so in the first line.",
           "tokens": [
             {
@@ -32005,7 +32006,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s202",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s202",
           "text": "Maintainers will find out anyway; concealing it costs more credibility than disclosing it.",
           "tokens": [
             {
@@ -32132,7 +32133,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s203",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s203",
           "text": "Defer to the maintainer&#x27;s judgment.",
           "tokens": [
             {
@@ -32201,7 +32202,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s204",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s204",
           "text": "If they decline the report, you should make peace with that.",
           "tokens": [
             {
@@ -32310,7 +32311,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s205",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s205",
           "text": "The goodwill from being easy to work with is worth more than winning an argument over one bug.",
           "tokens": [
             {
@@ -32478,7 +32479,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s206",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s206",
           "text": "Practical tip: A useful self-check before sending a vulnerability report is to close the editor and explain the bug from memory.",
           "tokens": [
             {
@@ -32677,7 +32678,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s207",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s207",
           "text": "If you cannot describe what goes wrong without referring back to the model output, you do not understand it well enough to report it.",
           "tokens": [
             {
@@ -32903,7 +32904,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s208",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s208",
           "text": "If you don’t have a security team Most of the above advice assumes that your organization has a dedicated security function.",
           "tokens": [
             {
@@ -33107,7 +33108,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s209",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s209",
           "text": "If you are a small organization, a solo developer, or an open-source maintainer, the same risks apply but the actions are simpler: Turn on automatic updates for your operating system, browser, and every application that offers it.",
           "tokens": [
             {
@@ -33470,7 +33471,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s210",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s210",
           "text": "This is the single most effective action available and requires no ongoing effort.",
           "tokens": [
             {
@@ -33593,7 +33594,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s211",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s211",
           "text": "Prefer managed services over self-hosting.",
           "tokens": [
             {
@@ -33644,7 +33645,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s212",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s212",
           "text": "Letting a provider with a security team run the database, authentication, and email shifts the patching burden to them.",
           "tokens": [
             {
@@ -33829,7 +33830,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s213",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s213",
           "text": "The cost of a managed service like this is almost always lower than the cost of one incident.",
           "tokens": [
             {
@@ -33997,7 +33998,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s214",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s214",
           "text": "Use passkeys or hardware security keys on every account that supports them.",
           "tokens": [
             {
@@ -34111,7 +34112,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s215",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s215",
           "text": "SMS codes can be intercepted and passwords get reused; a hardware key cannot be phished.",
           "tokens": [
             {
@@ -34256,7 +34257,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s216",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s216",
           "text": "Enable the free security tooling on your code host.",
           "tokens": [
             {
@@ -34343,7 +34344,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s217",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s217",
           "text": "GitHub&#x27;s Dependabot, secret scanning, and CodeQL are free for public repositories and catch a meaningful share of what enterprise tools catch.",
           "tokens": [
             {
@@ -34564,7 +34565,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s218",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s218",
           "text": "Enabling them takes minutes.",
           "tokens": [
             {
@@ -34606,7 +34607,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s219",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s219",
           "text": "If you maintain an open-source project, publish a SECURITY.md stating who to contact and what to expect when they’re contacted.",
           "tokens": [
             {
@@ -34814,7 +34815,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s220",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s220",
           "text": "AI-assisted scanning means you will receive more vulnerability reports than before.",
           "tokens": [
             {
@@ -34919,7 +34920,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s221",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s221",
           "text": "Some will be valuable; some will be automated noise.",
           "tokens": [
             {
@@ -35010,7 +35011,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s222",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s222",
           "text": "A clear intake process helps you tell them apart, and signals to good-faith reporters that their effort will not be wasted.",
           "tokens": [
             {
@@ -35209,7 +35210,7 @@
           ]
         },
         {
-          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-p0-s223",
+          "id": "blog-claude-blog-preparing-your-security-program-for-ai-accelerated-offense-2026-04-22-p0-s223",
           "text": "Topic Reference Patch prioritization CISA KEV Catalog , FIRST EPSS , CISA BOD 22-01 Baseline controls ACSC Essential Eight , CISA CPGs , CIS Controls v8 , NCSC 10 Steps Secure development NIST SSDF (SP 800-218) , OWASP ASVS , OWASP SAMM , CISA Secure by Design Memory safety CISA/NSA Memory Safe Roadmaps Supply chain & build integrity SLSA , OpenSSF Scorecards , CISA SBOM resources , NIST SP 800-161 Zero trust CISA Zero Trust Maturity Model , NIST SP 800-207 , NCSC Zero Trust Principles Detection & response MITRE ATT&CK , MITRE D3FEND Program framework NIST Cybersecurity Framework 2.0 , NCSC Cyber Assessment Framework Acknowledgements This article was written by members of Anthropic’s Security Engineering and Research teams, including Donny Greenberg, Jason Clinton, Michael Moore, Abel Ribbink, and Jackie Bow, with contributions from Jannet Park, Gabby Curtis, and Stuart Ritchie.",
           "tokens": [
             {
@@ -36524,7 +36525,7 @@
           ]
         }
       ],
-      "zh": "本周稍早，我们发布了 Project Glasswing——这是我们一次紧急尝试，旨在将我们最新 frontier model（前沿模型）Claude Mythos Preview 的强大网络安全能力用于防御目的。在公告以及配套的技术博客文章中，我们说明了 AI model（AI 模型）正在如何迅速降低发现并利用软件漏洞所需的资源、时间和技能门槛。考虑到 AI 的飞速进展，我们也指出，具备相近能力水平的模型很快就会被广泛获得。在接下来的 24 个月内，大量可能在代码中潜伏多年、一直未被察觉的 bug，将被 AI model 发现，并串联成可用的 exploit（利用程序）。事实上，公开可用、能力低于 Mythos 的模型，已经能够发现传统审查长期漏掉的严重漏洞。值得庆幸的是，这件事是双向的：攻击者可以利用 AI 加快进攻，采用 AI 工具保护自己的防守方也可以加快防御。在这篇文章中，我们基于安全团队和研究人员使用 frontier AI model 保护真实代码库和系统时的观察与经验，提供一些安全建议和实用技巧。我们希望，随着我们进入 AI 驱动的网络安全时代，安全团队和其他相关人员会觉得这些建议有帮助。下面的许多建议其实已经属于现有安全共识的一部分；我们只是根据我们看到哪些控制措施更经得起考验、哪些已经开始退化，来重新安排了优先级。如果你的组织需要遵循 SOC 2 和 ISO 27001 报告要求，这些建议会直接映射到你已经在跟踪的控制项上。随着我们和 Project Glasswing 合作伙伴继续推进网络安全工作，我们也会更新这份指南。现在该做什么 1. 缩小你的 patch（补丁）缺口 AI model 非常擅长识别未打补丁系统中那些已知、且已有补丁的漏洞特征。将 patch 逆向还原成可用 exploit，正是这类模型最擅长的机械化分析类型。这意味着，从补丁发布到 exploit 可用之间的窗口期正在缩短。请立即修补 CISA Known Exploited Vulnerabilities (KEV) catalog 中的所有内容。这个目录收录的是已确认正在被积极利用的漏洞。凡是在这份列表上、且可从网络访问到的项目，都应被视为紧急事件。其余部分则使用 EPSS 来确定优先级。Exploit Prediction Scoring System (EPSS) 每日更新，提供某个 Common Vulnerability and Exposure (CVE) 在未来 30 天内被利用的概率。先修补 KEV 列表，再修补高于你所选 EPSS 阈值的所有项，这能帮助你把成千上万个未处理的 CVE 收敛成一个可管理的队列。缩短面向互联网系统的补丁修复时间。我们的建议是：一旦某个 exploit 已经可用，互联网暴露应用应在 24 小时内完成修补；其他漏洞也应在数天内完成修补。在自动更新可能导致中断风险可接受的情况下，尽量自动化 patch 部署和重启。人工审批步骤会带来延迟，而现在延迟本身就是主要风险。实用提示：大多数 cloud 和 OS 厂商都已经提供 patch 自动化；启用它通常只是一个简单的配置变更。对于 container image 和 dependency manifest，已有若干 open-source scanner 可以作为单一步骤运行在持续集成中，并用 KEV 目录和 EPSS 数据为 CVE 添加注释，因此优先级判断是内建的。2. 为处理大幅增加的漏洞报告量做好准备 在未来大约两年里，你用来接收、排序和修复漏洞的流程（无论是你自己的代码，还是你从 vendor 购买的软件）都会承受远高于今天的压力。你的 Vulnerability Management（漏洞管理）流程，应为更多来自 vendor 和 upstream 的 patch 做好规划。你需要为发现量增加一个数量级做好准备。像 intake（接收）、triage（分诊）和 remediation tracking（修复跟踪）这样的环节，都需要跟上漏洞暴露数量不断增加的节奏。如果你的安全会议还建立在电子表格和每周一次的会议上，那么你大概率跟不上。值得考虑引入一定程度的自动化——当然，仍然需要 humans in the loop（人类参与闭环）来应对这里巨大的工作量。检查你的 open-source 依赖的安全性。大多数软件供应链主要由 open source 构成。多数 open-source 项目并没有 service-level agreement，也没有维持高安全水平的承诺。OpenSSF Scorecard 会根据 branch protection、fuzzing 覆盖率、signed releases 和 maintainer 活跃度等信号，自动为每个 dependency 打分。它可以在 CI 中运行，并帮助识别无人维护的 package。对你的 vendor 也应提出相同预期。你的第三方风险管理流程应询问供应商：他们自己如何应对 exploit 时间线加速，以及他们是否在扫描自己的代码。实用提示：可以关注那些评估易受攻击代码 reachability（可达性）的 open source 软件和第三方服务。通过对更新进行 regression testing（回归测试）来建立信心，从而构建自动化流程，持续将新软件更新交付到你的 IT 和生产基础设施中，以确保你能快速部署它们。上面我们提到了这些流程的自动化。AI 在其中有若干重要的辅助方式：加快 triage。Triage 是一个瓶颈，因为它需要专家审查与分类。frontier model 可以针对现有 backlog 去重发现结果，利用它对你资产的知识来估算暴露程度，并在预先识别出受影响代码路径的情况下起草 remediation ticket（修复工单）。检查你的依赖是否冗余。大多数大型代码库都会累积多个完成同一任务的库（多个 HTTP client；多个 JSON parser）。这只会给攻击者带来更多机会，而不会给你带来任何功能收益。把一个 LLM 指向 lockfile，并询问哪些 dependency 存在重叠（以及迁移与整合会是什么样子），通常只需一小时，却常常很值得。AI upgrade automation（升级自动化）。frontier model 越来越能够生成可与漏洞报告一同提交的 patch。当报告清晰而充分，甚至附带 proof-of-concept 时，模型可以直接测试 patch，确认 exploit 路径已被封堵。它还可以直接自动化接受 upstream patch 的过程，验证升级不会破坏测试或内部系统。AI vendoring。有些较小的 dependency 在 OpenSSF Scorecard 上得分会很低——也许因为它们并未被积极维护。你不应继续依赖这些组件；相反，你应考虑让 LLM 自行编写代码，以重新实现你实际使用到的功能。3. 在发布前发现 bug 预防永远胜于补救。你应当假设，凡是进入生产环境的 bug，最终都会被发现，因此你的安全测试必须更早发生。将 static analysis（静态分析）和 AI-assisted code review（AI 辅助代码审查）加入你的持续集成流水线，并对高置信度发现阻止合并。如果 false positive（误报）使这在实践上不可行，你也应保留这项检查，但去处理工具本身的问题。OWASP Application Security Verification Standard 定义了在三个不同严格程度下，测试“通过”应是什么样子。将 automated penetration testing（自动化渗透测试）加入你的持续交付流水线。你可以对 staging 运行与攻击者针对生产系统会运行的同样扫描。保护 build pipeline。一个能在 commit 和 deployment 之间注入代码的攻击者，并不需要自己去找漏洞。SLSA 安全框架提供了一条分级路径：较低级别建立“哪个 commit 生成了哪个 artifact”，较高级别则让 build 过程本身可验证。采用 Secure by Design 实践。CISA 的 pledge commitments（默认启用 multi-factor authentication；没有默认密码；透明的漏洞报告）是一个合理的最低标准。新代码优先采用 memory-safe language（内存安全语言）。大量严重漏洞属于 memory-safety bug，而这类问题不会出现在 Rust、Go 或 managed runtime 中。CISA、NSA 和 NCSC 都发布了有用的 roadmap。现有 C/C++ 代码不需要重写，但新的 C/C++ 代码应要求给出正当理由。AI assisted rewrite（AI 辅助重写）也正变得越来越可行。实用提示：作为 CI action 运行、内置 OWASP Top 10 和语言特定规则集的 static application security testing (SAST) 工具已广泛可用，既有 open-source，也有内建于代码托管平台中的方案（GitHub 上最常见的起点是 CodeQL）。要评估 build provenance（构建来源），OpenSSF 发布了一个可复用 workflow，可从 GitHub Actions 生成 SLSA Level 3 attestations；采用它所需的工作量，远低于 SLSA 规范字面上给人的印象。和前面一样，AI 在加速这项工作上也有一些明显机会：AI vulnerability scanning。逻辑很直接：你应在攻击者之前，用攻击者会使用的那类模型来扫描你自己的代码和系统。这种方法只需要一个隔离的 agent、一个用于过滤噪声的验证步骤，以及一条接入现有 triage 流程的路径。今天你就可以用 LLM 来做到这一点。如果你只从本节落实一件事，那就落实这一件。Patch generation。当 SAST 或某个 scanner 产生发现结果时，frontier model 通常都能为其提出 patch。这并不能免除审查的需要，但它把开发者的工作从“理解 bug 并写出修复”转变为“验证一个候选修复是否正确”。后者更快。同样的方法也适用于 memory-safe migration（迁移到内存安全语言）：LLM 可以把一个自包含的 C 模块连同测试一起移植到 Rust；审查者只需验证两者等价，而不必从零开始全部重写。4. 找出你代码中已经存在的漏洞 打 patch 解决的是你所依赖软件中的已知漏洞。但你自己的代码库里仍然有未知漏洞。大多数长期运行的生产代码都已被人类多次审查过，却从未被 frontier model 检查过，而这种分析往往会暴露出新的、此前被忽视的问题。主动扫描可以在攻击者自己发现之前，找出那些已经处在现代 LLM 能力范围内的漏洞。按暴露面确定优先级。先从那些解析不可信输入、执行 authentication 或 authorization 决策，或可从互联网访问到的代码开始。这些路径上的发现最可能真正重要。纳入 legacy code。那些早于当前审查实践、或原始作者已经离开的代码，往往最近接受的审查最少。对这些代码进行一次新的检查，通常收益最大。为修复预留预算。对旧代码进行结构良好的模型扫描，通常产生的发现数会少于一次 SAST 全量铺开，但其中真实问题的占比更高。要预留工程时间来修复这些 bug。实用提示：选一个对外网开放、当前维护者较少的 service，扫描其输入处理和 auth 逻辑。让 agent 在隔离环境中运行，并加入验证步骤，确保你只处理已确认的发现。把一个 service 认真做完，就足以合理估算更大范围项目的成本。5. 按“假设已被入侵”来设计 攻击者会试图在某处建立立足点。你需要限制他们从那里还能触及什么。那些价值来自“制造摩擦”而非“形成硬屏障”的缓解措施（额外的 pivot hop、rate limit、非标准端口、基于 SMS 的 MFA），面对一个可以不知疲倦地熬过这些繁琐步骤的对手时，效果会大打折扣。下面的建议优先考虑的是：即使攻击者拥有无限耐心，这些控制仍然有效，比如 hardware-bound credential（绑定硬件的凭证）、会过期的 token，以及根本不存在的网络路径，而不是只是“不太方便”的路径。采用 zero trust architecture。把服务之间的每一个请求都当作来自互联网一样去做 authentication 和 authorization。CISA 的 Zero Trust Maturity Model 和 NCSC 的 zero trust principles 都提供了分阶段采用路径。将访问绑定到经过验证的硬件，而不是仅仅绑定到 credential。生产系统和敏感内部工具，只应允许来自受管员工设备、且具备经过证明的硬件身份的访问，并配合抗钓鱼的 2FA（FIDO2 或 passkey）。仅凭被盗 credential，绝不应该足以获得访问权限。即便是生产服务之间的调用，也应扎根于硬件身份。按身份隔离服务。一个被攻陷的 build server 不应能查询生产数据库。一个被攻陷的 laptop 不应能访问 build 基础设施。要在接收端强制执行这一点：每个 workload 都应携带自己的 cryptographic identity（密码学身份），而每个服务只接受来自其策略中明确指定调用方的连接。网络分段仍然可以减少 blast radius（爆炸半径）和噪声，但它只是最后一道兜底。用短期 token 取代长期 secret。静态 API key、嵌入式 credential 和共享 service-account 密码，都是攻击者借助模型辅助代码分析后最先找到的东西。应使用由 identity provider 签发的、短期且权限范围狭窄的 token。实用提示：完整的 zero-trust 是一个多年项目，但 identity-aware access proxy 可以在不从根本上改变内部服务架构的前提下，把基于设备验证、并受 MFA 把关的访问放到这些服务前面。每家主要 cloud provider 都提供原生选项，针对 on-premises 或 multi-cloud 环境，也有若干 open-source 与商业替代方案。对于 secret，每家主要 cloud 都有托管式 secrets store；把当前共享最广的那个凭证先迁入其中并进行轮换，会成为推动后续其余凭证迁移的有力起点。6. 减少并盘点你的暴露面 本节基于两个重要原则。第一，你无法保卫你不知道存在的系统。第二，暴露面越小，可被攻击的东西就越少。维护一份关于系统中每个面向互联网的 host、service 和 API endpoint 的最新清单。攻击者可以进行自动化侦察；你的清单至少应与他们看到的一样准确。把这些系统纳入你的 pentest 和 red-teaming。下线不用的系统。那些没有明确 owner 的 legacy service，通常也没有打 patch。尽量缩小每个 service 的暴露面。默认拒绝 network ingress，只开放真正需要的 API surface area。实用提示：面向全互联网的扫描索引是公开可搜索的；用你自己的 IP 段和域名去查询它，就能看到攻击者侦察时看到的视图。对于 cloud 资产，已有原生的 inventory 工具（AWS Config、Azure Resource Graph、GCP Asset Inventory）；难点在于真正去查询和使用它们。AI 在这里也能直接提供帮助：清理陈旧代码和系统。识别未使用代码很枯燥——但正如前面所说，AI model 很擅长枯燥工作。一个拥有代码库和流量日志只读权限的模型，可以列出那些没有调用方且没有接收流量的 endpoint；然后，它还能解释删除每一个会影响到什么。Autonomous external red-teaming。从外部把一个 AI offensive agent 指向你自己的 perimeter，不给它任何 credential，也不给它源代码访问权限。然后让它像攻击者那样行动：搞清楚什么是可达的，为其建立 fingerprint，并尝试把所发现的问题串联成一个 foothold。这种自动化 red-teaming 能发现源代码扫描看不到的东西：被遗忘的主机、暴露的管理接口、默认 credential 和配置错误的存储。以与你刷新 inventory 相同的频率来运行它。7. 缩短你的 incident response 时间 exploit 可能在 patch 发布后的几小时内出现。需要数天才能完成的 response 流程，已经太慢了。下面是一些缩短 incident response 时间的方法：让一个模型站在你的 alert 队列最前面。每一个流入的 alert，在人类看到之前，都应先经过自动化的第一轮调查。这类拥有 Security Information and Event Management (SIEM) 平台只读权限、并配备一组范围明确查询工具的“triage agent”，可以把你的注意力引导到最需要人类判断的 alert 上。把 instrument dwell time（检测驻留时间）和 coverage（覆盖率）放在一切之前。这是 AI automation 最有能力拉动的两个指标；而当 exploit 窗口缩短时，它们也最重要。自动化 incident 周边的文书工作。在 active incident 期间，模型应负责记笔记、保存 artifact、并行推进多条调查路径，以及起草 postmortem 和 root-cause analysis。另一方面，人类应负责做 containment、disclosure 和 customer communications 的决策。在 incident 期间，人类决策速度绝不应被那些更适合交给 AI 的事情——比如证据收集或撰写文档——所拖慢。让模型驱动 detection flywheel。摄取 threat intelligence、生成候选检测项、搜索匹配对象并调优触发规则，如今都已在 frontier model 的能力范围之内，它们可以端到端地运行这一流程。为五起同时发生的 incident 进行一次 tabletop 演练。标准演练通常假设：周一出现一个带有可用 exploit 的关键 CVE。考虑到我们看到的 AI 能力提升，这种假设可能并不明智。要真正对你的响应能力进行压力测试，你应演练“一周内发生五起 incident”的版本。将检测覆盖率映射到 MITRE ATT&CK。ATT&CK 为攻击者技术提供了一套标准词汇，大多数检测工具已经在使用它。知道你能检测哪些技术（以及不能检测哪些），比笼统地说“提升检测能力”更有用。你应优先覆盖 lateral movement（横向移动）和 credential access（凭证获取）。提前建立紧急变更流程。为生产 patch 设置两周的变更审批周期，本身就是一种安全风险。紧急遏制措施（例如下线某个 service、轮换某个 credential 或阻断某条网络路径）也是如此。你应提前明确谁有权批准这些操作，以及批准速度要多快。实用提示：选一条已知 false positive 率较高的 noisy rule。把一个 frontier model 接入它的 alert 流，只给它底层数据的只读权限，并让它为每次触发都输出结构化 disposition（处置意见）。连续两周测量它与人类审查者的一致性。如果一致率可以接受，再扩展到下一条规则。没必要一开始就试图自动化整个队列。另一个方向上，Atomic Red Team 是一个 open-source 库，提供与 ATT&CK 技术映射的小型、安全测试；运行其中几个测试，并检查你现有 logging 实际检测到了哪些，是一个半天内就能完成、且能产出具体 coverage map（覆盖图谱）的练习。以下是 AI 可以帮助缩短响应时间的一些方式：以 100% 覆盖率执行第一轮 triage。一个范围清晰的 triage agent 可以调查每一个 alert（而人类可能只看高于某个严重性阈值的 alert），并生成一个人类可以接受、驳回或升级处理的结构化 disposition。让这件事可行的机制是：给模型一套最小工具集（query、think、report），让它自行选择调查策略，并用运营指标去衡量输出。Incident scribe 和并行调查者。在 active incident 期间，模型可以同步记笔记、在 artifact 被收集时打上时间戳、追踪响应者尚未顾及的独立调查路径，并在 incident 结束后根据记录起草 postmortem。这也许是 frontier model 应用于安全工作中最不显眼的一种方式——但它很可能是影响最大的一种。针对你自身环境开展主动 hunting。与能在源代码中寻找漏洞的 agent 类似，同类 agent 也可以在你的 telemetry 中搜索配置错误和 compromise indicator（入侵指标）。你可以用与外部 attack-surface scan 相同的频率来运行它。关于向他人提交漏洞报告的建议 如果你正在扫描代码——无论是你自己的 dependency、open-source 项目还是 vendor 产品——并将发现向 upstream 报告，那么这些报告的质量将决定是否会有人采取行动。open-source maintainer 已经在收到大量低质量的自动化报告，许多人已经开始忽略任何看起来像 AI 生成的内容。在增加数量的同时不增加有效信号，只会让所有人的问题更糟，包括你自己。只有在人工已验证该报告，并愿意署名负责时，才应发送报告。具体来说：用直白语言陈述 bug 及其影响。maintainer 应当能在第一段里就看明白哪里错了、为什么重要，而不必先跑任何东西。走查代码路径。展示输入从哪里进入、在哪里被错误处理、以及后果在哪里发生。这部分是区分真实发现与模式匹配结果的关键。提供可运行的复现方式。一个 maintainer 能运行的 proof-of-concept，或一个会失败的测试用例，比再多解释都更有说服力。附上一个如果你自己是 maintainer 也会接受的 patch。patch 能证明报告者对代码库理解得足够深入，能够以符合项目约定的方式修复问题。提前披露 AI 的参与。如果是模型发现了 bug，或者起草了报告，请在第一行就说明。maintainer 迟早会发现；隐瞒它所损失的可信度，比主动披露更大。尊重 maintainer 的判断。如果他们拒绝这份报告，你应接受这一点。易于合作所带来的善意，远比在某一个 bug 上争辩输赢更有价值。实用提示：在发送漏洞报告前，一个有用的自检方法是关掉编辑器，凭记忆解释这个 bug。如果你无法在不回看模型输出的情况下描述清楚哪里出了问题，那么你还没有真正理解它，也就还不适合报告它。如果你没有安全团队 上述大多数建议都默认你的组织有一个专门的安全职能。如果你是小型组织、独立开发者或 open-source maintainer，同样的风险依然存在，但可采取的行动更简单：为你的 operating system、browser 以及所有支持自动更新的 application 打开自动更新。这是目前单一最有效、且不需要持续投入精力的行动。优先使用 managed service，而不是 self-hosting。把数据库、authentication 和 email 交给拥有安全团队的 provider 运行，等于把 patch 负担转移给了他们。此类 managed service 的成本，几乎总是低于一次 incident 的成本。在所有支持 passkey 或 hardware security key 的账户上启用它们。SMS 验证码可能被拦截，密码也会被复用；而硬件密钥不能被钓鱼。启用代码托管平台提供的免费安全工具。GitHub 的 Dependabot、secret scanning 和 CodeQL 对 public repository 都是免费的，而且能捕获 enterprise 工具也能捕获到的相当一部分问题。启用它们只需要几分钟。如果你维护一个 open-source 项目，请发布一个 SECURITY.md，说明应联系谁，以及联系后可期待什么。AI-assisted scanning 意味着你将收到比以前更多的漏洞报告。其中一些很有价值；另一些只是自动化噪声。清晰的接收流程能帮助你区分两者，也向善意的报告者传达：他们的努力不会被浪费。主题参考 Patch 优先级：CISA KEV Catalog，FIRST EPSS，CISA BOD 22-01 基线控制：ACSC Essential Eight，CISA CPGs，CIS Controls v8，NCSC 10 Steps 安全开发：NIST SSDF (SP 800-218)，OWASP ASVS，OWASP SAMM，CISA Secure by Design 内存安全：CISA/NSA Memory Safe Roadmaps 供应链与构建完整性：SLSA，OpenSSF Scorecards，CISA SBOM resources，NIST SP 800-161 Zero trust：CISA Zero Trust Maturity Model，NIST SP 800-207，NCSC Zero Trust Principles 检测与响应：MITRE ATT&CK，MITRE D3FEND 项目框架：NIST Cybersecurity Framework 2.0，NCSC Cyber Assessment Framework 致谢 本文由 Anthropic 安全工程与研究团队成员撰写，包括 Donny Greenberg、Jason Clinton、Michael Moore、Abel Ribbink 和 Jackie Bow，Jannet Park、Gabby Curtis 和 Stuart Ritchie 亦作出贡献。"
+      "zh": "本周早些时候，我们宣布了 Project Glasswing——这是我们一项紧急尝试，旨在将我们最新前沿模型 Claude Mythos Preview 的强大网络安全能力用于防御目的。在公告以及配套的技术博客文章中，我们说明了 AI 模型如何正在迅速降低发现和利用软件漏洞所需的资源、时间与技能门槛。着眼于 AI 闪电般的进展，我们也指出，具备类似能力水平的模型很快就会广泛可得。在未来 24 个月内，大量可能已在代码中潜伏多年、未被注意到的 bug，将被 AI 模型发现并串联成可实际运行的 exploit（利用程序）。事实上，这种情况已经出现：公开可用、能力低于 Mythos 级别的模型，已经能够发现一些传统审查长期遗漏的严重漏洞。值得庆幸的是，这是一体两面的：攻击者可以用 AI 提速，采用 AI 工具保护自身的防御者也同样可以。在这篇文章中，我们基于安全团队和研究人员使用前沿 AI 模型保护真实代码库与系统时的观察和经验，提供一些安全建议与实用提示。我们希望，随着我们进入 AI 驱动的网络安全时代，安全团队及其他相关人员会发现这些建议有用。下面的许多建议，已经是现有安全共识的一部分；我们根据哪些控制措施被我们观察到依然有效、哪些已经开始退化，来进行了优先级排序。如果你的组织按照 SOC 2 和 ISO 27001 进行报告，那么这些建议将直接映射到你已经在跟踪的控制项上。随着我们以及 Project Glasswing 合作伙伴继续推进网络安全工作，我们也会更新这份指导。现在该做什么 1. 缩小你的 patch（补丁）缺口 AI 模型非常擅长识别未打补丁系统中已知、且已有补丁漏洞的特征。把一个 patch 逆向还原成可运行的 exploit，正是这类模型最擅长的机械化分析。这意味着，从补丁发布到 exploit 出现之间的窗口正在缩短。请立即修补 CISA Known Exploited Vulnerabilities (KEV) catalog 中列出的所有内容。这个目录包含已确认正在被活跃利用的漏洞。凡是在这份列表上且可从网络到达的项目，都应被视为紧急事件。其余部分则用 EPSS 来确定优先级。Exploit Prediction Scoring System (EPSS) 每日更新，给出某个 Common Vulnerability and Exposure (CVE) 在未来 30 天内被利用的概率。先修补 KEV 列表，再修补所有高于你设定 EPSS 阈值的项，有助于你把成千上万个待处理 CVE 变成一个可管理的队列。缩短 internet-exposed（暴露在互联网）的系统的补丁部署时间。我们建议，在 exploit 可用后的 24 小时内修补面向互联网的应用，其他漏洞则应在数日内修补。在自动更新导致故障的风险可以接受的情况下，自动化补丁部署与重启。人工审批步骤会增加延迟，而延迟现在已是主要风险。实用提示：大多数 cloud 和 OS 厂商已经提供 patch 自动化；启用它通常只是一次简单的配置变更。对于 container image 和 dependency manifest，一些开源扫描器可以作为单一步骤运行在 continuous integration 中，并结合 KEV 目录和 EPSS 数据为 CVE 添加注释，因此优先级机制是内置的。2. 准备处理大幅增加的漏洞报告量 在接下来的大约两年里，你用于接收、确定优先级和修复漏洞的流程（无论是你自己的代码，还是从 vendor 采购的软件）将承受远高于今天的压力。你的 Vulnerability Management（漏洞管理）流程应该为来自 vendor 和上游的大量新增 patch 做好准备。要按数量级增长来规划发现量。像 intake（接收）、triage（分诊）和 remediation tracking（修复跟踪）这样的环节，需要跟上暴露出来的漏洞数量增长。如果你的安全会议仍然围绕一张 spreadsheet 和每周一次会议来运作，那么你很可能跟不上节奏。值得考虑引入一定程度的自动化——当然，要保持 humans in the loop（人类参与闭环）——以应对这里庞大的处理量。检查你的 open-source dependencies（开源依赖）的安全性。大多数软件供应链主要由 open source 构成。而大多数 open-source 项目并没有 service-level agreement，也没有维持高安全水平的承诺。OpenSSF Scorecard 会根据 branch protection、fuzzing coverage、signed releases 和 maintainer activity 等信号，自动为每个 dependency 打分。它可以在 CI 中运行，并帮助识别无人维护的包。对你的 vendors 也应施加同样的要求。你的 third-party risk management（第三方风险管理）流程应询问供应商：他们自己如何为 exploit 时间线加速做准备，以及他们是否正在扫描自己的代码。实用提示：可以研究一些开源软件和第三方服务，它们可以评估易受攻击代码的 reachability（可达性）。通过对更新进行 regression testing（回归测试）来建立信心，从而构建自动化流程，持续将新软件更新交付到你的 IT 和生产基础设施中，让你能够快速部署它们。上文我们提到了这些流程的自动化。AI 可以在若干重要方面提供帮助：加速 triage。Triage 是一个瓶颈，因为它需要专家审查和分类。前沿模型可以针对现有积压进行去重，利用它对你资产的了解估计暴露程度，并起草 remediation ticket，同时预先标出受影响的代码路径。检查依赖中的冗余。大多数大型代码库都会逐渐积累多个完成相同任务的库（例如多个 HTTP client；多个 JSON parser）。这会给攻击者提供更多机会，而对你并无功能收益。把一个 LLM 指向 lockfile，并询问哪些 dependencies 存在重叠，以及迁移与整合会是什么样子，这通常只需一小时，却往往很划算。AI 升级自动化。前沿模型越来越能够生成可随漏洞报告一同提交的 patch。当报告清晰且完整，甚至附带 proof-of-concept 时，模型可以直接测试 patch，确认 exploit 路径已被关闭。它还可以直接自动化接受上游 patch 的过程，并验证升级不会破坏测试或内部系统。AI vendoring。一些小型 dependencies 可能在 OpenSSF Scorecard 上得分很低——也许是因为它们并未被积极维护。你不应继续依赖这些包；相反，你应考虑让 LLM 编写自己的代码，重新实现你实际使用的功能。3. 在发布前找到 bug 预防永远胜于治疗。你应假定，进入生产环境的 bug 最终都会被发现，因此你的安全测试需要更早发生。把 static analysis（静态分析）和 AI-assisted code review（AI 辅助代码审查）加入 continuous integration pipeline，并在高置信度发现上阻止 merge。如果 false positive（误报）让这件事不切实际，你仍应保留这项检查，但应解决工具问题。OWASP Application Security Verification Standard 定义了在三种不同严格程度下，“通过”一项测试意味着什么。把自动化 penetration testing（渗透测试）加入你的 continuous delivery pipeline。你可以对 staging 运行与攻击者将对你的生产系统运行的同类扫描。保护 build pipeline。一个能在 commit 与 deployment 之间注入代码的攻击者，并不需要去发现漏洞。SLSA 安全框架提供了一条分级路径：较低级别建立“哪个 commit 产生了哪个 artifact”，较高级别则使构建过程本身可验证。采用 Secure by Design 实践。CISA 的 pledge commitments（默认启用 multi-factor authentication；无默认密码；透明的漏洞报告）是一个合理的最低门槛。新代码优先使用 memory-safe languages（内存安全语言）。大量严重漏洞都属于 memory-safety bug，而这类问题不会出现在 Rust、Go 或托管运行时中。CISA、NSA 和 NCSC 都已发布有用的 roadmap。现有的 C/C++ 代码不必重写，但新的 C/C++ 代码应要求给出理由。AI 辅助重写也正变得越来越可行。实用提示：能够作为 CI action 运行、并提供 OWASP Top 10 与语言特定规则集的 static application security testing (SAST) 工具已经广泛可用，既有开源版本，也有集成在代码托管平台中的版本（GitHub 上最常见的起点是 CodeQL）。为了评估 build provenance（构建来源），OpenSSF 发布了一个可复用 workflow，可从 GitHub Actions 生成 SLSA Level 3 attestations；采用它所需工作量远小于 SLSA 规范字面上给人的印象。和前面一样，AI 也有一些明显的加速机会：AI 漏洞扫描。这里的逻辑很直接：你应在攻击者之前，用他们会使用的同类模型来扫描你自己的代码和系统。这种方法只需要一个隔离的 agent、一个用于过滤噪音的验证步骤，以及一条接入你现有 triage 流程的路径。今天你就可以用 LLM 做到这一点。如果你只从本节落实一件事，那就落实这一件。Patch 生成。当 SAST 或扫描器产出一条发现时，前沿模型通常都能为其提出 patch。这并不能替代审查，但它把开发者的工作从“理解 bug 并编写修复”变成了“验证所提修复是否正确”。后者更快。相同的方法也适用于 memory-safe 迁移：LLM 可以把一个自包含的 C 模块连同测试一起移植到 Rust；审查者只需验证等价性，而不是从零开始重写全部内容。4. 找出你代码中已经存在的漏洞 打 patch 解决的是你所依赖软件中的已知漏洞。但你自己的代码库中还包含未知漏洞。大多数长期运行的生产代码都被人类审查过很多次，却从未被前沿模型检查过，而这种分析往往会暴露出新的、此前被忽视的问题。主动扫描可以在攻击者自己发现之前，识别出现代 LLM 能力范围内的漏洞。按暴露程度确定优先级。首先从解析不可信输入、执行身份认证或授权决策、或可从互联网到达的代码开始。这些路径上的发现最有可能真正重要。把 legacy code（遗留代码）也纳入其中。那些早于当前审查实践、或原作者早已离开的代码，往往是最近最少被审视的地方。你从一次全新检查中获益最大。为 remediation 预留预算。对旧代码进行结构良好的模型扫描，通常产生的发现数量会少于一次 SAST 推广，但其中真正有效的比例更高。要为修复这些 bug 预留工程时间。实用提示：挑选一个当前负责人数较少的 internet-facing service，扫描其输入处理和 auth 逻辑。让 agent 在隔离环境中运行，并增加验证步骤，以确保你是基于已确认的发现采取行动。把一个服务真正做好，就是估算更大范围计划成本的合理基础。5. 按“终将失陷”来设计 攻击者会试图在某处获得一个 foothold（立足点）。你需要限制他们从那里还能接触到什么。那些价值来自“制造摩擦”——让攻击变得繁琐——而不是来自硬性屏障的缓解措施（额外的 pivot hops、rate limits、非标准端口、基于 SMS 的 MFA），对于一个可以机械地熬过这些繁琐步骤的对手来说，效果会差得多。下面的建议优先考虑即便攻击者拥有无限耐心也依然有效的控制措施：与硬件绑定的凭据、会过期的 token，以及根本不存在的网络路径，而不是仅仅“不太方便”的路径。采用 zero trust architecture。像对待来自互联网的请求一样，对服务之间的每一个请求都进行认证和授权。CISA 的 Zero Trust Maturity Model 和 NCSC 的 zero trust principles 都提供了分阶段采纳路径。将访问绑定到已验证硬件，而不是仅绑定到凭据。生产系统和敏感内部工具应只允许来自受管员工设备、且具有经过证明的硬件身份的访问，并结合抗钓鱼的 2FA（FIDO2 或 passkeys）。仅有被盗凭据绝不应足以获得访问权。即便是生产服务之间的调用，也应建立在硬件身份之上。按身份隔离服务。被攻陷的 build server 不应能查询生产数据库。被攻陷的 laptop 不应能访问 build 基础设施。要在接收端强制执行这一点：每个 workload 都应携带自己的 cryptographic identity（密码学身份），而每个服务应只接受来自其策略名称所指定调用方的连接。网络分段仍然可以减少爆炸半径和噪音，但它只是最后一道保险。用短期 token 取代长期 secret。静态 API key、嵌入式凭据和共享 service-account 密码，是具备模型辅助代码分析能力的攻击者最先会发现的东西之一。应使用由 identity provider 签发的、短期且权限范围狭窄的 token。实用提示：完整的 zero-trust 是一个多年项目，但 identity-aware access proxy 可以在不从根本上改变内部服务架构的情况下，在其前面加上一层基于设备验证、并以 MFA 为门槛的访问控制。每个主流 cloud provider 都提供原生选项，也存在若干适用于 on-premises 或 multi-cloud 环境的开源和商业替代方案。对于 secrets，每个主流 cloud 都有托管的 secrets store；把那个共享最广的凭据迁移进去并轮换它，会成为推动其余工作开展的一个有用抓手。6. 缩减并清点你暴露出去的内容 本节基于两条重要原则。第一，你无法防御自己并不知道存在的系统。第二，暴露面越小，可被攻击的东西就越少。维护一份当前清单，列出你系统中每一个对外网开放的 host、service 和 API endpoint。攻击者可以进行自动化侦察；你的清单至少应与他们看到的一样准确。把这些系统纳入你的 pentest 和 red-teaming。下线未使用系统。没有明确负责人的 legacy service，通常也没有及时打 patch。尽量减少每个服务暴露的内容。对网络入口默认拒绝，并将 API surface area 限制在实际所需范围内。实用提示：可对全互联网扫描建立索引的服务是公开可搜索的；用你自己的 IP 范围和域名去查询它们，就能看到攻击者侦察时会看到什么。对于 cloud 资产，原生 inventory 工具（AWS Config、Azure Resource Graph、GCP Asset Inventory）已经存在；真正的工作在于查询它们。AI 在这里也能直接帮忙：清理陈旧代码和系统。识别未使用代码很枯燥——但正如上文所说，AI 模型很擅长枯燥任务。一个对代码库和流量日志有读取权限的模型，可以列出没有调用方、且没有收到流量的 endpoint；从那里，它还能解释删除每一个 endpoint 会影响什么。自主外部 red-teaming。把一个 AI offensive agent 放到你自己的外围边界之外，不给它任何凭据，也不给它源码访问。然后让它像攻击者那样行动：弄清哪些东西可达，为其做 fingerprinting，并尝试把发现的问题串联成一个 foothold。这种自动化 red-teaming 可以捕捉源码扫描看不到的问题：被遗忘的主机、暴露的管理接口、默认凭据以及配置错误的存储。以与你刷新 inventory 相同的频率运行它。7. 缩短你的 incident response 时间 exploit 可能会在 patch 发布后的数小时内出现。需要几天才能完成的响应流程已经太慢了。下面是一些缩短 incident response 时间的思路：把模型放在你的告警队列最前端。每一条入站告警，在人类看到之前，都应先经过自动化的首次调查。一个对 Security Information and Event Management (SIEM) 平台拥有只读访问权限，并配备一组范围明确查询工具的“triage agent”，可以把你的注意力引向最需要人类判断的告警。把 instrument dwell time 和 coverage 放在其他一切之前。这是 AI 自动化最有能力推动改善的两个指标；而当 exploit 窗口缩短时，这两者也最重要。把 incident 周边的文书工作自动化。在事件处理中，模型应负责记笔记、保存 artifact、并行推进多条调查线索，以及起草 postmortem 和 root-cause analysis。相对地，人类应负责做 containment、disclosure 和 customer-comms 决策。在 incident 期间，人类的决策速度绝不应被那些更适合交给 AI 的事情——例如证据收集或写总结——所限制。让模型驱动 detection flywheel。摄取 threat intelligence、生成候选检测规则、搜索匹配项并调优告警触发，这些现在都已进入前沿模型的能力范围，它们可以端到端地跑完整个流程。为五起同时发生的 incident 做一次 tabletop 演练。标准演练通常假设：周一出现一个有可用 exploit 的关键 CVE。考虑到我们看到的 AI 能力提升，这样的假设可能并不明智。若要真正压力测试你的响应能力，你应演练同一周内发生五起事件的版本。把 detection coverage 映射到 MITRE ATT&CK。ATT&CK 提供了一套标准化的攻击者技术词汇，大多数检测工具都已在使用。知道你能检测哪些技术、不能检测哪些技术，比一个笼统的“提升检测能力”目标更有用。你应优先覆盖 lateral movement 和 credential access。提前建立紧急变更流程。针对生产 patch 的两周审批周期本身就是一种安全风险。紧急遏制措施（例如让某个服务下线、轮换凭据或封锁某条网络路径）也是同样。你应提前决定谁有权批准这些行动，以及能有多快。实用提示：选一条已知 false positive 率很高、而且很嘈杂的规则。将一个前沿模型接入其告警流，并赋予其对底层数据的只读权限，让它为每次触发都产出结构化 disposition（处置结论）。用两周时间衡量它与人工审查者的一致率。如果一致率可接受，再扩展到下一条规则。不值得一开始就尝试自动化整个队列。另一个独立建议是，Atomic Red Team 是一个开源的小型安全测试库，映射到 ATT&CK 技术；运行其中少量测试，并检查现有日志实际检测到了哪些，只需一个下午，就能产出一张具体的覆盖图。以下是 AI 可以帮助缩短响应时间的一些方式：100% 覆盖率的首次 triage。一个范围界定良好的 triage agent 可以调查每一条告警（而人类可能只查看高于某个严重程度阈值的那些），并生成结构化 disposition，供人类接受、拒绝或升级处理。使这一机制奏效的方法，是给模型一组最小工具集（query、think、report），让它自行选择调查策略，并依据运营指标衡量输出。Incident 记录员与并行调查员。在活动 incident 期间，模型可以同步做笔记、在 artifact 被收集时为其加时间戳、推进响应人员尚未来得及处理的独立调查线索，并在 incident 结束后基于记录起草 postmortem。这可能是前沿模型应用于安全工作中最不“炫”的一种方式——但它很可能也是影响最大的一种。针对自身环境的主动 hunting。能够在源代码中发现漏洞的那类 agent，也可以在你的遥测数据中寻找配置错误和 compromise indicators（入侵指标）。你可以按与外部攻击面扫描相同的频率运行它。关于向他人提交漏洞报告的建议 如果你正在扫描代码——无论是你自己的 dependencies、open-source 项目，还是 vendor 产品——并向上游报告发现，那么这些报告的质量将决定是否有人采取行动。Open-source maintainer 已经在接收大量低质量的自动化报告，其中许多人已开始忽略任何看起来像 AI 生成的内容。如果在增加报告量的同时没有增加有效信号，只会让所有人的问题变得更糟，包括你自己。只有在人工已经验证，并愿意为报告署名时，才应发送报告。具体来说：用直白语言说明 bug 及其影响。Maintainer 应能在第一段就明白哪里出了问题，以及为什么重要，而无需运行任何东西。逐步走通代码路径。展示输入从哪里进入、在哪里被错误处理、以及后果在哪里发生。这一点能把真实发现与模式匹配区分开来。提供可工作的复现。一个 maintainer 可以运行的 proof-of-concept，或一个会失败的测试用例，比再多解释都更有说服力。附上一个如果你是 maintainer 也会接受的拟议 patch。Patch 能证明报告者对代码库的理解足以按项目惯例修复这个问题。提前披露 AI 参与。如果是模型发现了 bug 或起草了报告，请在第一行就说明。Maintainer 终归会发现；隐瞒它损失的可信度，比披露它要大。尊重 maintainer 的判断。如果他们拒绝该报告，你应接受这一点。易于合作所带来的善意，比为一个 bug 争论输赢更有价值。实用提示：在发送漏洞报告之前，一个很有用的自检方法是关掉编辑器，凭记忆解释这个 bug。如果你无法在不回看模型输出的情况下描述清楚出了什么问题，那么你对它的理解还不够，不应提交报告。如果你没有安全团队 上述大多数建议都假设你的组织拥有专门的安全职能。如果你是小型组织、独立开发者，或 open-source maintainer，同样的风险依然存在，但可采取的行动更简单：为你的操作系统、浏览器，以及每一个支持自动更新的应用启用自动更新。这是最有效的单项行动，而且不需要持续投入。优先使用 managed services，而不是 self-hosting。让拥有安全团队的 provider 来运行数据库、认证和邮件服务，会把打 patch 的负担转移给他们。像这样的 managed service，其成本几乎总是低于一次 incident 的代价。为所有支持 passkeys 或 hardware security keys 的账户启用它们。SMS 验证码可能被拦截，密码会被重复使用；硬件密钥则无法被钓鱼。启用你代码托管平台提供的免费安全工具。GitHub 的 Dependabot、secret scanning 和 CodeQL 对公开仓库免费，并能捕获企业工具所能捕获问题中的相当一部分。启用它们只需几分钟。如果你维护一个 open-source 项目，请发布一个 SECURITY.md，说明该联系谁，以及联系后会发生什么。AI 辅助扫描意味着你收到的漏洞报告会比以前更多。有些很有价值，有些只是自动化噪音。清晰的 intake 流程有助于你区分两者，也能向善意报告者表明，他们的努力不会被浪费。主题参考 Patch 优先级：CISA KEV Catalog，FIRST EPSS，CISA BOD 22-01 基线控制：ACSC Essential Eight，CISA CPGs，CIS Controls v8，NCSC 10 Steps 安全开发：NIST SSDF (SP 800-218)，OWASP ASVS，OWASP SAMM，CISA Secure by Design 内存安全：CISA/NSA Memory Safe Roadmaps 供应链与构建完整性：SLSA，OpenSSF Scorecards，CISA SBOM resources，NIST SP 800-161 Zero trust：CISA Zero Trust Maturity Model，NIST SP 800-207，NCSC Zero Trust Principles 检测与响应：MITRE ATT&CK，MITRE D3FEND 项目框架：NIST Cybersecurity Framework 2.0，NCSC Cyber Assessment Framework 致谢 本文由 Anthropic Security Engineering 和 Research 团队成员撰写，包括 Donny Greenberg、Jason Clinton、Michael Moore、Abel Ribbink 和 Jackie Bow，Jannet Park、Gabby Curtis 与 Stuart Ritchie 也作出了贡献。"
     }
   ],
   "wordCount": 3762

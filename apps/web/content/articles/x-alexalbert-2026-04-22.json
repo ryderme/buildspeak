@@ -1,24 +1,25 @@
 {
-  "id": "x-swyx",
+  "id": "x-alexalbert-2026-04-22",
   "type": "tweet",
-  "sourceName": "Swyx",
-  "sourceHandle": "@swyx",
-  "sourceBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-  "title": "Swyx · @swyx",
-  "url": "https://x.com/swyx",
-  "publishedAt": "2026-04-25T19:44:36.000Z",
+  "sourceName": "Alex Albert",
+  "sourceHandle": "@alexalbert__",
+  "sourceBio": "Research @AnthropicAI. Opinions are my own!",
+  "title": "Alex Albert · @alexalbert__",
+  "url": "https://x.com/alexalbert__",
+  "publishedAt": "2026-04-20T17:19:14.000Z",
+  "digestDate": "2026-04-22",
   "paragraphs": [
     {
-      "id": "x-swyx-p0",
+      "id": "x-alexalbert-2026-04-22-p0",
       "sentences": [
         {
-          "id": "x-swyx-p0-s0",
-          "text": "btw we are cooking something with @hhua_ (not final yet but keep calendar open after ICML in Seoul)",
+          "id": "x-alexalbert-2026-04-22-p0-s0",
+          "text": "Jack's young money blog had a big impact on me when I was in college and navigating what I wanted to do post-grad.",
           "tokens": [
             {
               "kind": "word",
-              "text": "btw",
-              "key": "btw"
+              "text": "Jack's",
+              "key": "jack's"
             },
             {
               "kind": "space",
@@ -26,8 +27,8 @@
             },
             {
               "kind": "word",
-              "text": "we",
-              "key": "we"
+              "text": "young",
+              "key": "young"
             },
             {
               "kind": "space",
@@ -35,8 +36,8 @@
             },
             {
               "kind": "word",
-              "text": "are",
-              "key": "are"
+              "text": "money",
+              "key": "money"
             },
             {
               "kind": "space",
@@ -44,8 +45,8 @@
             },
             {
               "kind": "word",
-              "text": "cooking",
-              "key": "cooking"
+              "text": "blog",
+              "key": "blog"
             },
             {
               "kind": "space",
@@ -53,8 +54,8 @@
             },
             {
               "kind": "word",
-              "text": "something",
-              "key": "something"
+              "text": "had",
+              "key": "had"
             },
             {
               "kind": "space",
@@ -62,38 +63,8 @@
             },
             {
               "kind": "word",
-              "text": "with",
-              "key": "with"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "@"
-            },
-            {
-              "kind": "word",
-              "text": "hhua",
-              "key": "hhua"
-            },
-            {
-              "kind": "punct",
-              "text": "_"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "("
-            },
-            {
-              "kind": "word",
-              "text": "not",
-              "key": "not"
+              "text": "a",
+              "key": "a"
             },
             {
               "kind": "space",
@@ -101,8 +72,8 @@
             },
             {
               "kind": "word",
-              "text": "final",
-              "key": "final"
+              "text": "big",
+              "key": "big"
             },
             {
               "kind": "space",
@@ -110,126 +81,8 @@
             },
             {
               "kind": "word",
-              "text": "yet",
-              "key": "yet"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "but",
-              "key": "but"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "keep",
-              "key": "keep"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "calendar",
-              "key": "calendar"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "open",
-              "key": "open"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "after",
-              "key": "after"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "ICML",
-              "key": "icml"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "in",
-              "key": "in"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Seoul",
-              "key": "seoul"
-            },
-            {
-              "kind": "punct",
-              "text": ")"
-            }
-          ]
-        }
-      ],
-      "zh": "顺便说一句，我们正在和 @hhua_ 一起筹备点东西（还没最终确定，但 ICML in Seoul 之后先把日程空出来）。",
-      "meta": {
-        "likes": 48,
-        "retweets": 0,
-        "replies": 15,
-        "createdAt": "2026-04-25T19:44:36.000Z",
-        "tweetUrl": "https://x.com/swyx/status/2048126046487322835"
-      }
-    },
-    {
-      "id": "x-swyx-p1",
-      "sentences": [
-        {
-          "id": "x-swyx-p1-s0",
-          "text": "wow another engineer on the “code is not cheap” train",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "wow",
-              "key": "wow"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "another",
-              "key": "another"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "engineer",
-              "key": "engineer"
+              "text": "impact",
+              "key": "impact"
             },
             {
               "kind": "space",
@@ -246,85 +99,248 @@
             },
             {
               "kind": "word",
-              "text": "the",
-              "key": "the"
+              "text": "me",
+              "key": "me"
             },
             {
               "kind": "space",
               "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "when",
+              "key": "when"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "was",
+              "key": "was"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "college",
+              "key": "college"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "navigating",
+              "key": "navigating"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "what",
+              "key": "what"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "wanted",
+              "key": "wanted"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "do",
+              "key": "do"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "post-grad",
+              "key": "post-grad"
             },
             {
               "kind": "punct",
-              "text": "“"
-            },
-            {
-              "kind": "word",
-              "text": "code",
-              "key": "code"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "is",
-              "key": "is"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "not",
-              "key": "not"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "cheap",
-              "key": "cheap"
-            },
-            {
-              "kind": "punct",
-              "text": "”"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "train",
-              "key": "train"
+              "text": "."
             }
           ]
-        }
-      ],
-      "zh": "哇，又来了一位支持“code 并不便宜”这派观点的 engineer。",
-      "meta": {
-        "likes": 6,
-        "retweets": 0,
-        "replies": 4,
-        "createdAt": "2026-04-25T19:40:50.000Z",
-        "tweetUrl": "https://x.com/swyx/status/2048125100437000512"
-      }
-    },
-    {
-      "id": "x-swyx-p2",
-      "sentences": [
+        },
         {
-          "id": "x-swyx-p2-s0",
-          "text": "fun to think about what the pm thinks vs what the engineer thinks in this scenario",
+          "id": "x-alexalbert-2026-04-22-p0-s1",
+          "text": "If you are in your teens/20s and trying to figure out how to think about life, this book will offer you some good ideas.",
           "tokens": [
             {
               "kind": "word",
-              "text": "fun",
-              "key": "fun"
+              "text": "If",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "teens",
+              "key": "teens"
+            },
+            {
+              "kind": "punct",
+              "text": "/20"
+            },
+            {
+              "kind": "word",
+              "text": "s",
+              "key": "s"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "trying",
+              "key": "trying"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "figure",
+              "key": "figure"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "out",
+              "key": "out"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "how",
+              "key": "how"
             },
             {
               "kind": "space",
@@ -359,89 +375,12 @@
             },
             {
               "kind": "word",
-              "text": "what",
-              "key": "what"
+              "text": "life",
+              "key": "life"
             },
             {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "pm",
-              "key": "pm"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "thinks",
-              "key": "thinks"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "vs",
-              "key": "vs"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "what",
-              "key": "what"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "engineer",
-              "key": "engineer"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "thinks",
-              "key": "thinks"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "in",
-              "key": "in"
+              "kind": "punct",
+              "text": ","
             },
             {
               "kind": "space",
@@ -458,26 +397,84 @@
             },
             {
               "kind": "word",
-              "text": "scenario",
-              "key": "scenario"
+              "text": "book",
+              "key": "book"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "will",
+              "key": "will"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "offer",
+              "key": "offer"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "some",
+              "key": "some"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "good",
+              "key": "good"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ideas",
+              "key": "ideas"
+            },
+            {
+              "kind": "punct",
+              "text": "."
             }
           ]
         }
       ],
-      "zh": "挺有意思的，可以想想在这种情境下 pm 怎么看，而 engineer 又怎么想。",
+      "zh": "我上大学、摸索自己毕业后想做什么时，Jack 的 young money blog 对我影响很大。如果你正处于青少年时期或二十多岁，想弄清楚该如何思考人生，这本书会给你提供一些不错的想法。",
       "meta": {
-        "likes": 44,
-        "retweets": 0,
-        "replies": 9,
-        "createdAt": "2026-04-25T07:58:37.000Z",
-        "tweetUrl": "https://x.com/swyx/status/2047948378659754373"
+        "likes": 93,
+        "retweets": 1,
+        "replies": 3,
+        "createdAt": "2026-04-20T17:19:14.000Z",
+        "tweetUrl": "https://x.com/alexalbert__/status/2046277525207466003"
       }
     }
   ],
-  "wordCount": 44,
+  "wordCount": 48,
   "engagement": {
-    "likes": 98,
-    "retweets": 0,
-    "replies": 28
+    "likes": 93,
+    "retweets": 1,
+    "replies": 3
   }
 }

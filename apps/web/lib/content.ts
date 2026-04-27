@@ -30,6 +30,18 @@ export function listAvailableDates(): string[] {
   }
 }
 
+/** Returns the date adjacent to `date` in the available list (prev/next).
+ *  Dates are stored newest-first; `prev` = older, `next` = newer. */
+export function adjacentDates(date: string): { prev: string | null; next: string | null } {
+  const all = listAvailableDates();
+  const idx = all.indexOf(date);
+  if (idx === -1) return { prev: null, next: null };
+  return {
+    prev: all[idx + 1] ?? null, // older
+    next: all[idx - 1] ?? null, // newer
+  };
+}
+
 export function loadArticle(id: string): Article | null {
   try {
     const raw = readFileSync(resolve(CONTENT, "articles", `${id}.json`), "utf8");
@@ -47,6 +59,28 @@ export function listArticleIds(): string[] {
   } catch {
     return [];
   }
+}
+
+/** All known X handles (lowercased) extracted from x-{handle}-{date} article ids. */
+export function listBuilderHandles(): string[] {
+  const set = new Set<string>();
+  for (const id of listArticleIds()) {
+    const match = id.match(/^x-(.+?)-\d{4}-\d{2}-\d{2}$/);
+    if (match && match[1]) set.add(match[1]);
+  }
+  return [...set].sort();
+}
+
+/** Load every article for a given X handle, sorted newest first by digestDate. */
+export function loadBuilderArticles(handle: string): Article[] {
+  const out: Article[] = [];
+  for (const id of listArticleIds()) {
+    if (!id.startsWith(`x-${handle}-`)) continue;
+    const a = loadArticle(id);
+    if (a) out.push(a);
+  }
+  out.sort((a, b) => b.digestDate.localeCompare(a.digestDate));
+  return out;
 }
 
 let _words: Record<string, WordEntry> | null = null;
