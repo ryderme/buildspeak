@@ -17,7 +17,7 @@ interface ChatResponse {
   usage?: { total_tokens: number };
 }
 
-const RETRY_DELAYS_MS = [1000, 3000, 8000];
+const RETRY_DELAYS_MS = [1000, 3000, 8000, 20000, 40000, 60000];
 
 export async function chatCompletion(opts: ChatOptions): Promise<string> {
   const baseUrl = requireEnv("OPENAI_API_BASE_URL").replace(/\/$/, "");

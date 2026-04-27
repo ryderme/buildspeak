@@ -2,7 +2,7 @@
 
 import type { DraftArticle, DraftParagraph } from "./parse.ts";
 import { chatCompletion } from "./openai.ts";
-import { cacheGet, cacheSet, hashKey } from "./cache.ts";
+import { cacheGet, cacheSet, cacheFlush, hashKey } from "./cache.ts";
 
 const SYSTEM_PROMPT = `你是一名专业的科技英中翻译，目标读者是中文母语的英语学习者。请遵守：
 1. 严格按段落翻译，每个英文段落对应一段中文。
@@ -70,6 +70,8 @@ export async function translateArticles(
         done++;
         options.onProgress?.(done, totalParas);
       }
+      // Flush cache after every batch so a crash doesn't lose translation progress.
+      cacheFlush();
     }
   }
 }

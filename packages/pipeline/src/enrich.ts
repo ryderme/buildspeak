@@ -5,7 +5,7 @@ import type { WordEntry } from "@buildspeak/types";
 import { dictionary as cmuDict } from "cmu-pronouncing-dictionary";
 import { arpaToIpa } from "./arpa-to-ipa.ts";
 import { chatCompletion } from "./openai.ts";
-import { cacheGet, cacheSet } from "./cache.ts";
+import { cacheGet, cacheSet, cacheFlush } from "./cache.ts";
 
 const DEF_BATCH_SIZE = 25;
 const DEF_SYSTEM = `You are a concise English-Chinese dictionary. For each English word, output a short Chinese definition (no example sentences). Format strictly as JSON: {"defs": {"word1": "中文", "word2": "中文"}}. If a word is a proper noun, output its common Chinese rendering or transliteration. Keep each definition under 20 characters when possible.`;
@@ -73,6 +73,8 @@ export async function enrichWords(
       done++;
       options.onProgress?.(done, keys.size);
     }
+    // Flush after every batch — preserves progress through crashes.
+    cacheFlush();
   }
 
   return result;
