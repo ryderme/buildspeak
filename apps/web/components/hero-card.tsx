@@ -16,7 +16,6 @@ export function HeroCard({ article }: { article: Article }) {
           <span className="type-badge" data-type={article.type}>
             {iconFor(article.type)} {labelFor(article.type)}
           </span>
-          <span className="label-mono">TODAY&apos;S READ ·  今日精选</span>
         </div>
         <h2 className="hero-title">{article.title}</h2>
         {zhHook && <p className="hero-zh-hook">{zhHook}</p>}

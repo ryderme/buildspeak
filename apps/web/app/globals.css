@@ -275,6 +275,7 @@ hr { border: 0; border-top: 1px solid var(--color-line); margin: var(--s-7) 0; }
   letter-spacing: var(--track-tight);
   color: var(--color-ink);
   font-weight: 500;
+  white-space: nowrap;
 }
 .issue-header-date-en {
   font-family: var(--font-mono);

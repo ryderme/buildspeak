@@ -61,21 +61,29 @@ export function listArticleIds(): string[] {
   }
 }
 
-/** All known X handles (lowercased) extracted from x-{handle}-{date} article ids. */
+/** All known X handles, including both the lowercased article-id form and the
+ *  original-case display form (e.g. both `amandaaskell` and `AmandaAskell`).
+ *  Used for generateStaticParams so users can visit /b/<handle> in either case. */
 export function listBuilderHandles(): string[] {
   const set = new Set<string>();
   for (const id of listArticleIds()) {
     const match = id.match(/^x-(.+?)-\d{4}-\d{2}-\d{2}$/);
-    if (match && match[1]) set.add(match[1]);
+    if (!match || !match[1]) continue;
+    set.add(match[1]); // lowercase form (matches the article id)
+    const article = loadArticle(id);
+    const display = article?.sourceHandle?.replace(/^@/, "");
+    if (display) set.add(display); // original casing (e.g. AmandaAskell)
   }
   return [...set].sort();
 }
 
-/** Load every article for a given X handle, sorted newest first by digestDate. */
+/** Load every article for a given X handle, case-insensitive.
+ *  Article ids are stored lowercased, so we lowercase the lookup. */
 export function loadBuilderArticles(handle: string): Article[] {
+  const needle = handle.toLowerCase();
   const out: Article[] = [];
   for (const id of listArticleIds()) {
-    if (!id.startsWith(`x-${handle}-`)) continue;
+    if (!id.startsWith(`x-${needle}-`)) continue;
     const a = loadArticle(id);
     if (a) out.push(a);
   }
