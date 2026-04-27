@@ -100,11 +100,11 @@ export function BuilderCard({ article }: { article: Article }) {
         ))}
       </div>
       <Link
-        href={more > 0 ? `/read/tweet/${article.id}` : `/b/${handle}`}
+        href={`/read/tweet/${article.id}`}
         className="builder-more"
         style={{ display: "inline-block", textDecoration: "none", borderBottom: 0 }}
       >
-        {more > 0 ? `+ ${more} more from @${handle} →` : `open @${handle} →`}
+        {more > 0 ? `+ ${more} more from @${handle} →` : `完整阅读 →`}
       </Link>
     </article>
   );
