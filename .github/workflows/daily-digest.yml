@@ -1,0 +1,72 @@
+name: Daily digest
+
+on:
+  schedule:
+    # 06:00 UTC every day
+    - cron: '0 6 * * *'
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          # Use a PAT that can push back to main (default GITHUB_TOKEN doesn't trigger
+          # subsequent workflows, which is fine for us — Vercel watches commits directly).
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Restore translation cache
+        uses: actions/cache@v4
+        with:
+          path: packages/pipeline/.cache
+          key: pipeline-cache-${{ github.run_id }}
+          restore-keys: |
+            pipeline-cache-
+
+      - name: Fetch latest feeds
+        run: pnpm fetch-feed
+
+      - name: Run pipeline
+        env:
+          OPENAI_API_BASE_URL: ${{ secrets.OPENAI_API_BASE_URL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+        run: pnpm pipeline
+
+      - name: Commit if content changed
+        run: |
+          git config user.name 'BuildSpeak Bot'
+          git config user.email 'bot@users.noreply.github.com'
+          git add apps/web/content/ digest-*.json
+          if git diff --cached --quiet; then
+            echo "No content changes — nothing to commit."
+            exit 0
+          fi
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "Refresh daily digest for ${DATE}"
+          git push

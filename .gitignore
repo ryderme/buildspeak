@@ -16,3 +16,6 @@ apps/web/out/
 # pipeline cache
 .cache/
 packages/pipeline/.cache/
+
+# vercel
+.vercel

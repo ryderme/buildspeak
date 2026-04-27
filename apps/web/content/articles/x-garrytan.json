@@ -6,19 +6,58 @@
   "sourceBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
   "title": "Garry Tan · @garrytan",
   "url": "https://x.com/garrytan",
-  "publishedAt": "2026-04-21T05:44:36.000Z",
+  "publishedAt": "2026-04-26T06:36:26.000Z",
   "paragraphs": [
     {
       "id": "x-garrytan-p0",
       "sentences": [
         {
           "id": "x-garrytan-p0-s0",
-          "text": "All of these people need to start startups at Y Combinator",
+          "text": "Releaseing GBrain v0.22 - lots of fixes to search and retireval and a new eval system (gbrain-evals is now a separate repo to prevent checkout bloat)",
           "tokens": [
             {
               "kind": "word",
-              "text": "All",
-              "key": "all"
+              "text": "Releaseing",
+              "key": "releaseing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "GBrain",
+              "key": "gbrain"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "v0",
+              "key": "v"
+            },
+            {
+              "kind": "punct",
+              "text": ".22"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "-"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "lots",
+              "key": "lots"
             },
             {
               "kind": "space",
@@ -35,26 +74,8 @@
             },
             {
               "kind": "word",
-              "text": "these",
-              "key": "these"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "people",
-              "key": "people"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "need",
-              "key": "need"
+              "text": "fixes",
+              "key": "fixes"
             },
             {
               "kind": "space",
@@ -71,270 +92,8 @@
             },
             {
               "kind": "word",
-              "text": "start",
-              "key": "start"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "startups",
-              "key": "startups"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "at",
-              "key": "at"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Y",
-              "key": "y"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Combinator",
-              "key": "combinator"
-            }
-          ]
-        }
-      ],
-      "zh": "所有这些人都应该去 Y Combinator 创办 startup（初创公司）",
-      "meta": {
-        "likes": 116,
-        "retweets": 0,
-        "replies": 26,
-        "createdAt": "2026-04-21T05:44:36.000Z",
-        "tweetUrl": "https://x.com/garrytan/status/2046465101759500767"
-      }
-    },
-    {
-      "id": "x-garrytan-p1",
-      "sentences": [
-        {
-          "id": "x-garrytan-p1-s0",
-          "text": "I wrote my friend @chrysb a quick note on how to implement GBrain style migrations for people who upgrade to new GBrain versions and want their setups to stay in sync as the core setup changes This is for Alphaclaw but I think could be for any plugin or layer in the OpenClaw/Hermes ecosystem",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "I",
-              "key": "i"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "wrote",
-              "key": "wrote"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "my",
-              "key": "my"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "friend",
-              "key": "friend"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "@"
-            },
-            {
-              "kind": "word",
-              "text": "chrysb",
-              "key": "chrysb"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "a",
-              "key": "a"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "quick",
-              "key": "quick"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "note",
-              "key": "note"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "on",
-              "key": "on"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "how",
-              "key": "how"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "implement",
-              "key": "implement"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "GBrain",
-              "key": "gbrain"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "style",
-              "key": "style"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "migrations",
-              "key": "migrations"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "for",
-              "key": "for"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "people",
-              "key": "people"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "who",
-              "key": "who"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "upgrade",
-              "key": "upgrade"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "new",
-              "key": "new"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "GBrain",
-              "key": "gbrain"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "versions",
-              "key": "versions"
+              "text": "search",
+              "key": "search"
             },
             {
               "kind": "space",
@@ -351,8 +110,8 @@
             },
             {
               "kind": "word",
-              "text": "want",
-              "key": "want"
+              "text": "retireval",
+              "key": "retireval"
             },
             {
               "kind": "space",
@@ -360,8 +119,8 @@
             },
             {
               "kind": "word",
-              "text": "their",
-              "key": "their"
+              "text": "and",
+              "key": "and"
             },
             {
               "kind": "space",
@@ -369,8 +128,8 @@
             },
             {
               "kind": "word",
-              "text": "setups",
-              "key": "setups"
+              "text": "a",
+              "key": "a"
             },
             {
               "kind": "space",
@@ -378,8 +137,8 @@
             },
             {
               "kind": "word",
-              "text": "to",
-              "key": "to"
+              "text": "new",
+              "key": "new"
             },
             {
               "kind": "space",
@@ -387,8 +146,8 @@
             },
             {
               "kind": "word",
-              "text": "stay",
-              "key": "stay"
+              "text": "eval",
+              "key": "eval"
             },
             {
               "kind": "space",
@@ -396,71 +155,21 @@
             },
             {
               "kind": "word",
-              "text": "in",
-              "key": "in"
+              "text": "system",
+              "key": "system"
             },
             {
               "kind": "space",
               "text": " "
             },
             {
-              "kind": "word",
-              "text": "sync",
-              "key": "sync"
-            },
-            {
-              "kind": "space",
-              "text": " "
+              "kind": "punct",
+              "text": "("
             },
             {
               "kind": "word",
-              "text": "as",
-              "key": "as"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "core",
-              "key": "core"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "setup",
-              "key": "setup"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "changes",
-              "key": "changes"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "This",
-              "key": "this"
+              "text": "gbrain-evals",
+              "key": "gbrain-evals"
             },
             {
               "kind": "space",
@@ -477,6 +186,115 @@
             },
             {
               "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "separate",
+              "key": "separate"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "repo",
+              "key": "repo"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "prevent",
+              "key": "prevent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "checkout",
+              "key": "checkout"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bloat",
+              "key": "bloat"
+            },
+            {
+              "kind": "punct",
+              "text": ")"
+            }
+          ]
+        }
+      ],
+      "zh": "发布 GBrain v0.22——对 search 和 retireval 进行了大量修复，并加入了新的 eval system（gbrain-evals 现已拆分为独立 repo，以避免 checkout 体积膨胀）",
+      "meta": {
+        "likes": 41,
+        "retweets": 3,
+        "replies": 19,
+        "createdAt": "2026-04-26T06:36:26.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2048290087318773807"
+      }
+    },
+    {
+      "id": "x-garrytan-p1",
+      "sentences": [
+        {
+          "id": "x-garrytan-p1-s0",
+          "text": "To install for free, Go to Claude Code and type Install GStack and to run the browser, type /open-gstack-browser",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "To",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "install",
+              "key": "install"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
               "text": "for",
               "key": "for"
             },
@@ -486,8 +304,12 @@
             },
             {
               "kind": "word",
-              "text": "Alphaclaw",
-              "key": "alphaclaw"
+              "text": "free",
+              "key": "free"
+            },
+            {
+              "kind": "punct",
+              "text": ","
             },
             {
               "kind": "space",
@@ -495,8 +317,8 @@
             },
             {
               "kind": "word",
-              "text": "but",
-              "key": "but"
+              "text": "Go",
+              "key": "go"
             },
             {
               "kind": "space",
@@ -504,8 +326,8 @@
             },
             {
               "kind": "word",
-              "text": "I",
-              "key": "i"
+              "text": "to",
+              "key": "to"
             },
             {
               "kind": "space",
@@ -513,8 +335,8 @@
             },
             {
               "kind": "word",
-              "text": "think",
-              "key": "think"
+              "text": "Claude",
+              "key": "claude"
             },
             {
               "kind": "space",
@@ -522,8 +344,8 @@
             },
             {
               "kind": "word",
-              "text": "could",
-              "key": "could"
+              "text": "Code",
+              "key": "code"
             },
             {
               "kind": "space",
@@ -531,8 +353,8 @@
             },
             {
               "kind": "word",
-              "text": "be",
-              "key": "be"
+              "text": "and",
+              "key": "and"
             },
             {
               "kind": "space",
@@ -540,8 +362,8 @@
             },
             {
               "kind": "word",
-              "text": "for",
-              "key": "for"
+              "text": "type",
+              "key": "type"
             },
             {
               "kind": "space",
@@ -549,8 +371,8 @@
             },
             {
               "kind": "word",
-              "text": "any",
-              "key": "any"
+              "text": "Install",
+              "key": "install"
             },
             {
               "kind": "space",
@@ -558,8 +380,8 @@
             },
             {
               "kind": "word",
-              "text": "plugin",
-              "key": "plugin"
+              "text": "GStack",
+              "key": "gstack"
             },
             {
               "kind": "space",
@@ -567,8 +389,8 @@
             },
             {
               "kind": "word",
-              "text": "or",
-              "key": "or"
+              "text": "and",
+              "key": "and"
             },
             {
               "kind": "space",
@@ -576,8 +398,8 @@
             },
             {
               "kind": "word",
-              "text": "layer",
-              "key": "layer"
+              "text": "to",
+              "key": "to"
             },
             {
               "kind": "space",
@@ -585,8 +407,8 @@
             },
             {
               "kind": "word",
-              "text": "in",
-              "key": "in"
+              "text": "run",
+              "key": "run"
             },
             {
               "kind": "space",
@@ -603,8 +425,25 @@
             },
             {
               "kind": "word",
-              "text": "OpenClaw",
-              "key": "openclaw"
+              "text": "browser",
+              "key": "browser"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "type",
+              "key": "type"
+            },
+            {
+              "kind": "space",
+              "text": " "
             },
             {
               "kind": "punct",
@@ -612,28 +451,19 @@
             },
             {
               "kind": "word",
-              "text": "Hermes",
-              "key": "hermes"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "ecosystem",
-              "key": "ecosystem"
+              "text": "open-gstack-browser",
+              "key": "open-gstack-browser"
             }
           ]
         }
       ],
-      "zh": "我给我的朋友 @chrysb 快速写了个说明，讲的是如何为升级到新 GBrain 版本、并希望在 core setup（核心配置）变化时仍让自己配置保持同步的人，实现 GBrain 风格的 migration（迁移）机制。这是为 Alphaclaw 写的，但我觉得也可以适用于 OpenClaw/Hermes ecosystem（生态）里的任何 plugin（插件）或 layer（层）",
+      "zh": "如需免费安装，请前往 Claude Code 并输入 Install GStack；如需运行浏览器，请输入 /open-gstack-browser",
       "meta": {
-        "likes": 37,
-        "retweets": 2,
-        "replies": 4,
-        "createdAt": "2026-04-21T05:41:29.000Z",
-        "tweetUrl": "https://x.com/garrytan/status/2046464315918864385"
+        "likes": 14,
+        "retweets": 0,
+        "replies": 2,
+        "createdAt": "2026-04-26T05:52:52.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2048279121034101147"
       }
     },
     {
@@ -641,12 +471,12 @@
       "sentences": [
         {
           "id": "x-garrytan-p2-s0",
-          "text": "Someone figured out my secret 👀",
+          "text": "Did you ever want to control your browser side-by-side with Claude Code?",
           "tokens": [
             {
               "kind": "word",
-              "text": "Someone",
-              "key": "someone"
+              "text": "Did",
+              "key": "did"
             },
             {
               "kind": "space",
@@ -654,8 +484,8 @@
             },
             {
               "kind": "word",
-              "text": "figured",
-              "key": "figured"
+              "text": "you",
+              "key": "you"
             },
             {
               "kind": "space",
@@ -663,8 +493,8 @@
             },
             {
               "kind": "word",
-              "text": "out",
-              "key": "out"
+              "text": "ever",
+              "key": "ever"
             },
             {
               "kind": "space",
@@ -672,8 +502,8 @@
             },
             {
               "kind": "word",
-              "text": "my",
-              "key": "my"
+              "text": "want",
+              "key": "want"
             },
             {
               "kind": "space",
@@ -681,8 +511,99 @@
             },
             {
               "kind": "word",
-              "text": "secret",
-              "key": "secret"
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "control",
+              "key": "control"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "browser",
+              "key": "browser"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "side-by-side",
+              "key": "side-by-side"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Code",
+              "key": "code"
+            },
+            {
+              "kind": "punct",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "id": "x-garrytan-p2-s1",
+          "text": "Now, with /open-gstack-browser skill and GStack Browser, you can",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Now",
+              "key": "now"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
             },
             {
               "kind": "space",
@@ -690,25 +611,88 @@
             },
             {
               "kind": "punct",
-              "text": "👀"
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "open-gstack-browser",
+              "key": "open-gstack-browser"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "skill",
+              "key": "skill"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "GStack",
+              "key": "gstack"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Browser",
+              "key": "browser"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
             }
           ]
         }
       ],
-      "zh": "有人发现了我的秘密 👀",
+      "zh": "你是否曾想过与 Claude Code 并排控制你的浏览器？现在，借助 /open-gstack-browser skill 和 GStack Browser，你可以做到",
       "meta": {
-        "likes": 114,
-        "retweets": 2,
-        "replies": 12,
-        "createdAt": "2026-04-21T05:23:18.000Z",
-        "tweetUrl": "https://x.com/garrytan/status/2046459740210036938"
+        "likes": 111,
+        "retweets": 3,
+        "replies": 25,
+        "createdAt": "2026-04-26T05:52:22.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2048278995121094868"
       }
     }
   ],
-  "wordCount": 71,
+  "wordCount": 65,
   "engagement": {
-    "likes": 267,
-    "retweets": 4,
-    "replies": 42
+    "likes": 166,
+    "retweets": 6,
+    "replies": 46
   }
 }

@@ -6,19 +6,19 @@
   "sourceBio": "AI is cool i guess",
   "title": "Sam Altman · @sama",
   "url": "https://x.com/sama",
-  "publishedAt": "2026-04-20T20:51:02.000Z",
+  "publishedAt": "2026-04-25T22:20:08.000Z",
   "paragraphs": [
     {
       "id": "x-sama-p0",
       "sentences": [
         {
           "id": "x-sama-p0-s0",
-          "text": "Tim Cook is a legend.",
+          "text": "how can they write code so fast?!",
           "tokens": [
             {
               "kind": "word",
-              "text": "Tim",
-              "key": "tim"
+              "text": "how",
+              "key": "how"
             },
             {
               "kind": "space",
@@ -26,8 +26,8 @@
             },
             {
               "kind": "word",
-              "text": "Cook",
-              "key": "cook"
+              "text": "can",
+              "key": "can"
             },
             {
               "kind": "space",
@@ -35,8 +35,194 @@
             },
             {
               "kind": "word",
-              "text": "is",
-              "key": "is"
+              "text": "they",
+              "key": "they"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "write",
+              "key": "write"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "code",
+              "key": "code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "so",
+              "key": "so"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fast",
+              "key": "fast"
+            },
+            {
+              "kind": "punct",
+              "text": "?!"
+            }
+          ]
+        }
+      ],
+      "zh": "他们怎么能把代码写得这么快？！",
+      "meta": {
+        "likes": 2574,
+        "retweets": 61,
+        "replies": 274,
+        "createdAt": "2026-04-25T22:20:08.000Z",
+        "tweetUrl": "https://x.com/sama/status/2048165186482389253"
+      }
+    },
+    {
+      "id": "x-sama-p1",
+      "sentences": [
+        {
+          "id": "x-sama-p1-s0",
+          "text": "(and we will fix the former)",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "will",
+              "key": "will"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fix",
+              "key": "fix"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "former",
+              "key": "former"
+            },
+            {
+              "kind": "punct",
+              "text": ")"
+            }
+          ]
+        }
+      ],
+      "zh": "（而且我们会把前者修好）",
+      "meta": {
+        "likes": 2312,
+        "retweets": 21,
+        "replies": 92,
+        "createdAt": "2026-04-25T22:01:18.000Z",
+        "tweetUrl": "https://x.com/sama/status/2048160448340767038"
+      }
+    },
+    {
+      "id": "x-sama-p2",
+      "sentences": [
+        {
+          "id": "x-sama-p2-s0",
+          "text": "we still get looksmaxxed on frontend a little but we IQmog hard now",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "still",
+              "key": "still"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "looksmaxxed",
+              "key": "looksmaxxed"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "frontend",
+              "key": "frontend"
             },
             {
               "kind": "space",
@@ -53,23 +239,8 @@
             },
             {
               "kind": "word",
-              "text": "legend",
-              "key": "legend"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "id": "x-sama-p0-s1",
-          "text": "I am very thankful for everything he has done and I am very thankful for Apple.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "I",
-              "key": "i"
+              "text": "little",
+              "key": "little"
             },
             {
               "kind": "space",
@@ -77,8 +248,8 @@
             },
             {
               "kind": "word",
-              "text": "am",
-              "key": "am"
+              "text": "but",
+              "key": "but"
             },
             {
               "kind": "space",
@@ -86,8 +257,8 @@
             },
             {
               "kind": "word",
-              "text": "very",
-              "key": "very"
+              "text": "we",
+              "key": "we"
             },
             {
               "kind": "space",
@@ -95,8 +266,8 @@
             },
             {
               "kind": "word",
-              "text": "thankful",
-              "key": "thankful"
+              "text": "IQmog",
+              "key": "iqmog"
             },
             {
               "kind": "space",
@@ -104,8 +275,8 @@
             },
             {
               "kind": "word",
-              "text": "for",
-              "key": "for"
+              "text": "hard",
+              "key": "hard"
             },
             {
               "kind": "space",
@@ -113,264 +284,26 @@
             },
             {
               "kind": "word",
-              "text": "everything",
-              "key": "everything"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "he",
-              "key": "he"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "has",
-              "key": "has"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "done",
-              "key": "done"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "and",
-              "key": "and"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "I",
-              "key": "i"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "am",
-              "key": "am"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "very",
-              "key": "very"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "thankful",
-              "key": "thankful"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "for",
-              "key": "for"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Apple",
-              "key": "apple"
-            },
-            {
-              "kind": "punct",
-              "text": "."
+              "text": "now",
+              "key": "now"
             }
           ]
         }
       ],
-      "zh": "Tim Cook 是一位传奇人物。我非常感谢他所做的一切，也非常感谢 Apple。",
+      "zh": "我们在 frontend（前端）上多少还是有点 looksmaxxed，但现在我们在智商层面已经狠狠 IQmog 了",
       "meta": {
-        "likes": 28528,
-        "retweets": 1510,
-        "replies": 1323,
-        "createdAt": "2026-04-20T20:51:02.000Z",
-        "tweetUrl": "https://x.com/sama/status/2046330825265086712"
-      }
-    },
-    {
-      "id": "x-sama-p1",
-      "sentences": [
-        {
-          "id": "x-sama-p1-s0",
-          "text": "The internal working name for this was \"telepathy\", and it feels like it.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "The",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "internal",
-              "key": "internal"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "working",
-              "key": "working"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "name",
-              "key": "name"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "for",
-              "key": "for"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "this",
-              "key": "this"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "was",
-              "key": "was"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "\""
-            },
-            {
-              "kind": "word",
-              "text": "telepathy",
-              "key": "telepathy"
-            },
-            {
-              "kind": "punct",
-              "text": "\","
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "and",
-              "key": "and"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "it",
-              "key": "it"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "feels",
-              "key": "feels"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "like",
-              "key": "like"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "it",
-              "key": "it"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            }
-          ]
-        }
-      ],
-      "zh": "这个项目的内部工作名称是 “telepathy”，而它给人的感觉也确实如此。",
-      "meta": {
-        "likes": 2436,
-        "retweets": 99,
-        "replies": 270,
-        "createdAt": "2026-04-20T20:48:05.000Z",
-        "tweetUrl": "https://x.com/sama/status/2046330082726384051"
+        "likes": 14293,
+        "retweets": 656,
+        "replies": 1322,
+        "createdAt": "2026-04-25T22:01:08.000Z",
+        "tweetUrl": "https://x.com/sama/status/2048160404376105179"
       }
     }
   ],
-  "wordCount": 34,
+  "wordCount": 26,
   "engagement": {
-    "likes": 30964,
-    "retweets": 1609,
-    "replies": 1593
+    "likes": 19179,
+    "retweets": 738,
+    "replies": 1688
   }
 }

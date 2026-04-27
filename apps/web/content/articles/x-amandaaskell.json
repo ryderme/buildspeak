@@ -1,32 +1,24 @@
 {
-  "id": "x-amasad",
+  "id": "x-amandaaskell",
   "type": "tweet",
-  "sourceName": "Amjad Masad",
-  "sourceHandle": "@amasad",
-  "sourceBio": "ceo @replit. civilizationist",
-  "title": "Amjad Masad · @amasad",
-  "url": "https://x.com/amasad",
-  "publishedAt": "2026-04-26T04:59:49.000Z",
+  "sourceName": "Amanda Askell",
+  "sourceHandle": "@AmandaAskell",
+  "sourceBio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
+  "title": "Amanda Askell · @AmandaAskell",
+  "url": "https://x.com/AmandaAskell",
+  "publishedAt": "2026-04-26T06:53:54.000Z",
   "paragraphs": [
     {
-      "id": "x-amasad-p0",
+      "id": "x-amandaaskell-p0",
       "sentences": [
         {
-          "id": "x-amasad-p0-s0",
-          "text": "2000s: every company is an internet company 2010s: every company is a software company 2020s: every company is an AI company 2025+: every company is a cybersecurity company",
+          "id": "x-amandaaskell-p0-s0",
+          "text": "What I'm learning from flight simulators is that it would be a bit boring to be an amateur cessna pilot but a lot of fun to be an amateur fighter jet pilot.",
           "tokens": [
             {
-              "kind": "punct",
-              "text": "2000"
-            },
-            {
               "kind": "word",
-              "text": "s",
-              "key": "s"
-            },
-            {
-              "kind": "punct",
-              "text": ":"
+              "text": "What",
+              "key": "what"
             },
             {
               "kind": "space",
@@ -34,8 +26,8 @@
             },
             {
               "kind": "word",
-              "text": "every",
-              "key": "every"
+              "text": "I'm",
+              "key": "i'm"
             },
             {
               "kind": "space",
@@ -43,8 +35,8 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
+              "text": "learning",
+              "key": "learning"
             },
             {
               "kind": "space",
@@ -52,8 +44,8 @@
             },
             {
               "kind": "word",
-              "text": "is",
-              "key": "is"
+              "text": "from",
+              "key": "from"
             },
             {
               "kind": "space",
@@ -61,8 +53,8 @@
             },
             {
               "kind": "word",
-              "text": "an",
-              "key": "an"
+              "text": "flight",
+              "key": "flight"
             },
             {
               "kind": "space",
@@ -70,52 +62,8 @@
             },
             {
               "kind": "word",
-              "text": "internet",
-              "key": "internet"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "company",
-              "key": "company"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "2010"
-            },
-            {
-              "kind": "word",
-              "text": "s",
-              "key": "s"
-            },
-            {
-              "kind": "punct",
-              "text": ":"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "every",
-              "key": "every"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "company",
-              "key": "company"
+              "text": "simulators",
+              "key": "simulators"
             },
             {
               "kind": "space",
@@ -125,6 +73,42 @@
               "kind": "word",
               "text": "is",
               "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "would",
+              "key": "would"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
             },
             {
               "kind": "space",
@@ -141,8 +125,8 @@
             },
             {
               "kind": "word",
-              "text": "software",
-              "key": "software"
+              "text": "bit",
+              "key": "bit"
             },
             {
               "kind": "space",
@@ -150,25 +134,8 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "2020"
-            },
-            {
-              "kind": "word",
-              "text": "s",
-              "key": "s"
-            },
-            {
-              "kind": "punct",
-              "text": ":"
+              "text": "boring",
+              "key": "boring"
             },
             {
               "kind": "space",
@@ -176,8 +143,8 @@
             },
             {
               "kind": "word",
-              "text": "every",
-              "key": "every"
+              "text": "to",
+              "key": "to"
             },
             {
               "kind": "space",
@@ -185,17 +152,8 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "is",
-              "key": "is"
+              "text": "be",
+              "key": "be"
             },
             {
               "kind": "space",
@@ -212,8 +170,8 @@
             },
             {
               "kind": "word",
-              "text": "AI",
-              "key": "ai"
+              "text": "amateur",
+              "key": "amateur"
             },
             {
               "kind": "space",
@@ -221,16 +179,8 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "2025+:"
+              "text": "cessna",
+              "key": "cessna"
             },
             {
               "kind": "space",
@@ -238,8 +188,8 @@
             },
             {
               "kind": "word",
-              "text": "every",
-              "key": "every"
+              "text": "pilot",
+              "key": "pilot"
             },
             {
               "kind": "space",
@@ -247,17 +197,8 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "is",
-              "key": "is"
+              "text": "but",
+              "key": "but"
             },
             {
               "kind": "space",
@@ -274,8 +215,8 @@
             },
             {
               "kind": "word",
-              "text": "cybersecurity",
-              "key": "cybersecurity"
+              "text": "lot",
+              "key": "lot"
             },
             {
               "kind": "space",
@@ -283,26 +224,102 @@
             },
             {
               "kind": "word",
-              "text": "company",
-              "key": "company"
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fun",
+              "key": "fun"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "an",
+              "key": "an"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "amateur",
+              "key": "amateur"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fighter",
+              "key": "fighter"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "jet",
+              "key": "jet"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "pilot",
+              "key": "pilot"
+            },
+            {
+              "kind": "punct",
+              "text": "."
             }
           ]
         }
       ],
-      "zh": "2000 年代：每家公司都是 internet 公司；2010 年代：每家公司都是 software 公司；2020 年代：每家公司都是 AI 公司；2025 年及以后：每家公司都是 cybersecurity 公司",
+      "zh": "我从飞行模拟器中体会到的是：做一个业余的 cessna 飞行员可能会有点无聊，但做一个业余的 fighter jet 飞行员会有趣得多。",
       "meta": {
-        "likes": 369,
-        "retweets": 26,
-        "replies": 43,
-        "createdAt": "2026-04-26T04:59:49.000Z",
-        "tweetUrl": "https://x.com/amasad/status/2048265772775162078"
+        "likes": 76,
+        "retweets": 3,
+        "replies": 12,
+        "createdAt": "2026-04-26T06:53:54.000Z",
+        "tweetUrl": "https://x.com/AmandaAskell/status/2048294481955631163"
       }
     }
   ],
-  "wordCount": 27,
+  "wordCount": 32,
   "engagement": {
-    "likes": 369,
-    "retweets": 26,
-    "replies": 43
+    "likes": 76,
+    "retweets": 3,
+    "replies": 12
   }
 }

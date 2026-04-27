@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
+    "fetch": "tsx src/fetch-feed.ts",
     "build": "tsc --noEmit",
     "typecheck": "tsc --noEmit"
   },
