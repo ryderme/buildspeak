@@ -9,9 +9,9 @@ import { WordPopover, type PopoverPayload } from "./word-popover";
 type LangMode = "both" | "en" | "zh";
 
 const TYPE_LABEL: Record<Article["type"], string> = {
-  podcast: "PODCAST",
-  blog: "BLOG",
-  tweet: "X / TWITTER",
+  podcast: "播客",
+  blog: "博客",
+  tweet: "X · 动态",
 };
 const TYPE_ICON: Record<Article["type"], string> = {
   podcast: "🎙",
@@ -161,7 +161,7 @@ export function ArticleReader({
             {article.sourceHandle ? "  " + article.sourceHandle : ""}
           </span>
           <span>·  {formatDateShort(article.publishedAt)}</span>
-          <span>·  {article.wordCount.toLocaleString()} words ·  ~{Math.max(1, Math.round(article.wordCount / 200))} min</span>
+          <span>·  {article.wordCount.toLocaleString()} 词 ·  约 {Math.max(1, Math.round(article.wordCount / 200))} 分钟</span>
         </div>
         <h1 className="reader-title">{article.title}</h1>
         <div className="reader-controls">
@@ -428,8 +428,7 @@ function formatDateShort(iso: string): string {
   try {
     const d = new Date(iso);
     if (isNaN(d.getTime())) return iso.slice(0, 10);
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    return `${months[d.getUTCMonth()]} ${d.getUTCDate()} ${d.getUTCFullYear()}`;
+    return `${d.getUTCFullYear()} 年 ${d.getUTCMonth() + 1} 月 ${d.getUTCDate()} 日`;
   } catch {
     return iso.slice(0, 10);
   }

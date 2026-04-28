@@ -34,17 +34,17 @@ export function IssueHeader({ digest, prevDate, nextDate, isLatest }: IssueHeade
           </span>
         )}
         <span>
-          <strong>{digest.stats.builderCount}</strong> builders ·{" "}
+          <strong>{digest.stats.builderCount}</strong> 位作者 ·{" "}
           <strong>{digest.stats.tweetCount}</strong> 🐦
         </span>
       </div>
       <div className="day-nav">
-        <DayNavButton href={prevDate ? `/d/${prevDate}` : null} label="‹" srLabel="Previous day" />
-        <span className="day-nav-today">{isLatest ? "TODAY" : digest.date}</span>
+        <DayNavButton href={prevDate ? `/d/${prevDate}` : null} label="‹" srLabel="前一天" />
+        <span className="day-nav-today">{isLatest ? "今日" : digest.date}</span>
         <DayNavButton
           href={nextDate ? `/d/${nextDate}` : isLatest ? null : "/"}
           label="›"
-          srLabel="Next day"
+          srLabel="后一天"
         />
       </div>
     </header>

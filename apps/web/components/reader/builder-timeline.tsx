@@ -145,13 +145,13 @@ export function BuilderTimeline({
           )}
           <div className="builder-profile-stats">
             <span>
-              <strong>{todayPosts}</strong> POSTS LATEST
+              <strong>{todayPosts}</strong> 最新
             </span>
             <span>
-              <strong>{totalPosts}</strong> ALL TIME
+              <strong>{totalPosts}</strong> 累计
             </span>
             <span>
-              <strong>{articles.length}</strong> ISSUES
+              <strong>{articles.length}</strong> 期
             </span>
           </div>
         </div>
@@ -414,8 +414,7 @@ function fmtNum(n: number): string {
 function shortTime(iso: string): string {
   try {
     const d = new Date(iso);
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    return `${months[d.getUTCMonth()]} ${d.getUTCDate()} ·  ${String(d.getUTCHours()).padStart(2, "0")}:${String(d.getUTCMinutes()).padStart(2, "0")}`;
+    return `${d.getUTCMonth() + 1}/${d.getUTCDate()} ·  ${String(d.getUTCHours()).padStart(2, "0")}:${String(d.getUTCMinutes()).padStart(2, "0")}`;
   } catch {
     return iso.slice(0, 10);
   }

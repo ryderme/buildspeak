@@ -32,7 +32,7 @@ export default function VocabPage() {
             <span className="eyebrow">生词本 ·  VOCAB</span>
             <h1 className="issue-header-date">你保存的词</h1>
             <span className="issue-header-date-en">
-              {hydrated ? `${entries.length} WORDS` : "LOADING…"} ·  TAP ANY ROW TO RETURN TO ITS PARAGRAPH
+              {hydrated ? `共 ${entries.length} 个词` : "加载中…"} ·  点击任意一行回到原句
             </span>
           </div>
         </header>

@@ -606,9 +606,10 @@ hr { border: 0; border-top: 1px solid var(--color-line); margin: var(--s-7) 0; }
   margin-top: 2px;
   line-height: 1.4;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  cursor: help;
 }
 .builder-card-tweets > * + * {
   border-top: 1px dashed var(--color-line);

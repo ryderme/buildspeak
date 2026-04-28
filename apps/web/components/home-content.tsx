@@ -20,7 +20,7 @@ export function HomeContent({ digest, prevDate, nextDate, isLatest }: HomeConten
     <div className="page page-narrow">
       <IssueHeader digest={digest} prevDate={prevDate ?? null} nextDate={nextDate ?? null} isLatest={isLatest} />
 
-      <Section icon="🎙" title="Podcast" count={`${digest.stats.podcastCount} EP TODAY`}>
+      <Section icon="🎙" title="播客" count={`今日 ${digest.stats.podcastCount} 期`}>
         {digest.podcasts.length > 0 ? (
           digest.podcasts.map((p) => {
             const full = loadArticle(p.id);
@@ -33,8 +33,8 @@ export function HomeContent({ digest, prevDate, nextDate, isLatest }: HomeConten
 
       <Section
         icon="🐦"
-        title="Builders on X"
-        count={`${digest.stats.builderCount} BUILDERS ·  ${digest.stats.tweetCount} POSTS`}
+        title="X 上的 builders"
+        count={`${digest.stats.builderCount} 位作者 ·  ${digest.stats.tweetCount} 条`}
       >
         {builderArticles.length > 0 ? (
           <div className="builder-grid">
@@ -49,9 +49,9 @@ export function HomeContent({ digest, prevDate, nextDate, isLatest }: HomeConten
 
       <Section
         icon="📰"
-        title="Blog"
+        title="博客"
         count={
-          digest.stats.blogCount > 0 ? `${digest.stats.blogCount} POST` : "NO BLOG TODAY · 今日无博客"
+          digest.stats.blogCount > 0 ? `今日 ${digest.stats.blogCount} 篇` : "今日无博客"
         }
       >
         {digest.blogs.length > 0 ? (
@@ -91,20 +91,17 @@ function Section({
 }
 
 function EmptyBox({ kind }: { kind: "podcast" | "blog" | "tweet" }) {
-  const messages: Record<typeof kind, { en: string; zh: string; icon: string }> = {
+  const messages: Record<typeof kind, { zh: string; icon: string }> = {
     podcast: {
       icon: "🎙",
-      en: "No new podcast today.",
-      zh: "今日没有新播客；昨日的节目仍在 archive。",
+      zh: "今日没有新播客；昨日的节目仍在归档。",
     },
     blog: {
       icon: "📰",
-      en: "Nothing official today.",
-      zh: "今日没有官方博客；之前的博文仍在 archive。",
+      zh: "今日没有官方博客；之前的博文仍在归档。",
     },
     tweet: {
       icon: "🐦",
-      en: "Builders are quiet today.",
       zh: "今日 builders 没有更新。",
     },
   };
@@ -112,10 +109,7 @@ function EmptyBox({ kind }: { kind: "podcast" | "blog" | "tweet" }) {
   return (
     <div className="empty-state">
       <div className="empty-state-icon">{m.icon}</div>
-      <p className="empty-state-text">
-        {m.en}
-        <span className="empty-state-text-zh">{m.zh}</span>
-      </p>
+      <p className="empty-state-text">{m.zh}</p>
     </div>
   );
 }

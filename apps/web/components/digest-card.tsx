@@ -8,9 +8,9 @@ const ICONS: Record<Article["type"], string> = {
   blog: "📰",
 };
 const LABELS: Record<Article["type"], string> = {
-  podcast: "PODCAST",
+  podcast: "播客",
   tweet: "X",
-  blog: "BLOG",
+  blog: "博客",
 };
 
 /** PodcastCard / BlogCard share the .media-card layout. */
@@ -40,9 +40,9 @@ export function MediaCard({ article }: { article: Article }) {
         )}
       </div>
       <div className="media-card-aside">
-        ~{minutes} MIN
+        约 {minutes} 分钟
         <br />
-        {Math.round(article.wordCount / 1000)}K WORDS
+        {Math.round(article.wordCount / 1000)}K 词
       </div>
     </Link>
   );
@@ -52,8 +52,7 @@ function formatPublished(iso: string): string {
   try {
     const d = new Date(iso);
     if (isNaN(d.getTime())) return iso;
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    return `${months[d.getUTCMonth()]} ${d.getUTCDate()}`;
+    return `${d.getUTCMonth() + 1} 月 ${d.getUTCDate()} 日`;
   } catch {
     return iso;
   }
@@ -109,7 +108,7 @@ export function BuilderCard({ article }: { article: Article }) {
         className="builder-more"
         style={{ display: "inline-block", textDecoration: "none", borderBottom: 0 }}
       >
-        {more > 0 ? `+ ${more} more from @${handle} →` : `完整阅读 →`}
+        {more > 0 ? `还有 ${more} 条来自 @${handle} →` : `完整阅读 →`}
       </Link>
     </article>
   );
@@ -150,8 +149,7 @@ function fmtNum(n: number): string {
 function shortTime(iso: string): string {
   try {
     const d = new Date(iso);
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    return `${months[d.getUTCMonth()]} ${d.getUTCDate()} ·  ${String(d.getUTCHours()).padStart(2, "0")}:${String(d.getUTCMinutes()).padStart(2, "0")}`;
+    return `${d.getUTCMonth() + 1}/${d.getUTCDate()} ·  ${String(d.getUTCHours()).padStart(2, "0")}:${String(d.getUTCMinutes()).padStart(2, "0")}`;
   } catch {
     return iso.slice(0, 10);
   }
