@@ -712,6 +712,12 @@ hr { border: 0; border-top: 1px solid var(--color-line); margin: var(--s-7) 0; }
   color: var(--color-ink-soft);
   margin: 0 2px;
 }
+.keyboard-hint-sep {
+  display: inline-block;
+  margin: 0 10px;
+  color: var(--color-ink-faint);
+  user-select: none;
+}
 
 /* paragraph block — bilingual unit */
 .paragraph-block {

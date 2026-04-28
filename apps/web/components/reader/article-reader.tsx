@@ -193,6 +193,7 @@ export function ArticleReader({
           />
           <span className="keyboard-hint">
             <span className="kbd">SPACE</span> play / pause
+            <span className="keyboard-hint-sep" aria-hidden="true">·</span>
             <span className="kbd">←</span>
             <span className="kbd">→</span> prev / next sentence
           </span>
