@@ -60,9 +60,9 @@ export default function VocabPage() {
           <div className="empty-state">
             <div className="empty-state-icon">📖</div>
             <p className="empty-state-text">
-              No words saved yet.
+              还没有任何生词
               <span className="empty-state-text-zh">
-                还没有任何生词。回到 <Link href="/">今日 Digest</Link>，点击不会的英文单词加入吧。
+                回到 <Link href="/">今日文摘</Link>，点击不会的英文单词加入吧。
               </span>
             </p>
           </div>
