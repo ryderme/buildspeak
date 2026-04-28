@@ -31,6 +31,7 @@ export function WordPopover({
   const add = useVocab((s) => s.add);
   const remove = useVocab((s) => s.remove);
   const [pos, setPos] = useState({ left: 0, top: 0, mobile: false });
+  const [justAdded, setJustAdded] = useState(false);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -97,6 +98,8 @@ export function WordPopover({
       has_definition: Boolean(wordEntry?.zh),
       article_id: payload.articleId,
     });
+    setJustAdded(true);
+    window.setTimeout(() => onClose(), 600);
   }
 
   // Split the Chinese gloss into atoms if separated by `;` or `；`.
@@ -115,6 +118,23 @@ export function WordPopover({
         <div className="word-popover-head">
           <span className="word-popover-word">{payload.surface}</span>
           {wordEntry?.ipa && <span className="word-popover-ipa">{wordEntry.ipa}</span>}
+          <button
+            type="button"
+            className="word-popover-speak"
+            onClick={speak}
+            aria-label="朗读"
+            title="朗读"
+          >
+            ♪
+          </button>
+          <button
+            type="button"
+            className="word-popover-close"
+            onClick={onClose}
+            aria-label="关闭"
+          >
+            ×
+          </button>
         </div>
         {defs.length > 0 ? (
           <ul className="word-popover-defs">
@@ -134,28 +154,71 @@ export function WordPopover({
           </p>
         )}
         <div className="word-popover-context">
-          “…{payload.sentence}…”
+          “…
+          <HighlightedSentence sentence={payload.sentence} surface={payload.surface} />
+          …”
         </div>
-        <div className="word-popover-actions">
-          <button onClick={speak} aria-label="朗读">
-            ♪ <span className="vocab-zh">朗读</span>
-          </button>
-          <button data-primary={!has ? "true" : undefined} onClick={toggleVocab}>
-            {has ? (
-              <>
-                ✓ <span className="vocab-zh">已加入</span>
-              </>
-            ) : (
-              <>
-                + <span className="vocab-zh">加入生词本</span>
-              </>
-            )}
-          </button>
-          <button style={{ marginLeft: "auto" }} onClick={onClose} aria-label="Close">
-            ×
-          </button>
-        </div>
+        <button
+          type="button"
+          className="word-popover-cta"
+          data-state={justAdded ? "just-added" : has ? "in" : "out"}
+          onClick={toggleVocab}
+        >
+          {justAdded ? (
+            <>
+              ✓ <span className="vocab-zh">已加入</span>
+            </>
+          ) : has ? (
+            <>
+              ✓ <span className="vocab-zh">已加入生词本 · 点击移除</span>
+            </>
+          ) : (
+            <>
+              + <span className="vocab-zh">加入生词本</span>
+            </>
+          )}
+        </button>
       </div>
+    </>
+  );
+}
+
+function HighlightedSentence({
+  sentence,
+  surface,
+}: {
+  sentence: string;
+  surface: string;
+}) {
+  if (!surface) return <>{sentence}</>;
+  const escaped = surface.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const re = new RegExp(`\\b${escaped}\\b`, "gi");
+  const parts: Array<{ text: string; hit: boolean }> = [];
+  let lastIdx = 0;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(sentence)) !== null) {
+    if (m.index > lastIdx) {
+      parts.push({ text: sentence.slice(lastIdx, m.index), hit: false });
+    }
+    parts.push({ text: m[0], hit: true });
+    lastIdx = m.index + m[0].length;
+    if (m[0].length === 0) re.lastIndex++;
+  }
+  if (lastIdx < sentence.length) {
+    parts.push({ text: sentence.slice(lastIdx), hit: false });
+  }
+  if (parts.length === 0) return <>{sentence}</>;
+  return (
+    <>
+      {parts.map((p, i) =>
+        p.hit ? (
+          <mark key={i} className="word-popover-context-mark">
+            {p.text}
+          </mark>
+        ) : (
+          <span key={i}>{p.text}</span>
+        ),
+      )}
     </>
   );
 }
