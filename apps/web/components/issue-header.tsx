@@ -11,13 +11,13 @@ interface IssueHeaderProps {
 export function IssueHeader({ digest, prevDate, nextDate, isLatest }: IssueHeaderProps) {
   const zhDate = formatDateZh(digest.date);
   const enDate = formatDateEn(digest.date);
-  const issueNo = issueNumber(digest.date);
+  const issueLabel = formatIssueLabel(digest.date);
 
   return (
     <header className="issue-header">
       <div className="issue-header-meta">
         <span className="eyebrow">
-          {isLatest ? "今日" : "历史日"} ·  ISSUE {String(issueNo).padStart(2, "0")}
+          {isLatest ? "今日" : "历史日"} ·  ISSUE {issueLabel}
         </span>
         <h1 className="issue-header-date">{zhDate}</h1>
         <span className="issue-header-date-en">{enDate}</span>
@@ -89,9 +89,10 @@ function formatDateEn(iso: string): string {
   return `${months[Number(m) - 1]} ${Number(d)} ${y}`;
 }
 
-function issueNumber(iso: string): number {
-  // Use day-of-year as a simple, stable issue number.
+function formatIssueLabel(iso: string): string {
+  // Format: "2026.117" — year + day-of-year (zero-padded to 3 digits).
   const date = new Date(`${iso}T00:00:00Z`);
   const start = Date.UTC(date.getUTCFullYear(), 0, 0);
-  return Math.floor((date.getTime() - start) / 86400000);
+  const day = Math.floor((date.getTime() - start) / 86400000);
+  return `${date.getUTCFullYear()}.${String(day).padStart(3, "0")}`;
 }
