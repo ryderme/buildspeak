@@ -80,9 +80,25 @@ export function ArticleReader({
       q.index += 1;
       speakNext();
     };
-    utter.onerror = stopSpeaking;
+    utter.onerror = () => {
+      if (utterRef.current !== utter) return;
+      stopSpeaking();
+    };
     utterRef.current = utter;
     window.speechSynthesis.speak(utter);
+  };
+
+  const jumpSentence = (delta: number) => {
+    const q = playQueueRef.current;
+    if (!q) return;
+    q.index = Math.max(0, Math.min(q.index + delta, q.sentences.length - 1));
+    // Detach the active utter so its onerror/onend (which fire as a side
+    // effect of cancel()) don't tear down the queue we just updated.
+    utterRef.current = null;
+    if (typeof window !== "undefined" && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+    }
+    speakNext();
   };
 
   const speakSentences = (sentences: Sentence[], startIndex = 0, kind: "article" | "paragraph" = "article") => {
@@ -118,24 +134,12 @@ export function ArticleReader({
         }
       } else if (e.key === "ArrowRight") {
         e.preventDefault();
-        const q = playQueueRef.current;
-        if (q) {
-          q.index = Math.min(q.index + 1, q.sentences.length - 1);
-          window.speechSynthesis.cancel();
-          speakNext();
-        } else {
-          speakSentences(allSentencesRef.current, 0);
-        }
+        if (playQueueRef.current) jumpSentence(1);
+        else speakSentences(allSentencesRef.current, 0);
       } else if (e.key === "ArrowLeft") {
         e.preventDefault();
-        const q = playQueueRef.current;
-        if (q) {
-          q.index = Math.max(q.index - 1, 0);
-          window.speechSynthesis.cancel();
-          speakNext();
-        } else {
-          speakSentences(allSentencesRef.current, 0);
-        }
+        if (playQueueRef.current) jumpSentence(-1);
+        else speakSentences(allSentencesRef.current, 0);
       }
     }
     window.addEventListener("keydown", onKey);
