@@ -192,10 +192,10 @@ export function ArticleReader({
             }}
           />
           <span className="keyboard-hint">
-            <span className="kbd">SPACE</span> play / pause
+            <span className="kbd">SPACE</span> 播放 / 暂停
             <span className="keyboard-hint-sep" aria-hidden="true">·</span>
             <span className="kbd">←</span>
-            <span className="kbd">→</span> prev / next sentence
+            <span className="kbd">→</span> 上一句 / 下一句
           </span>
         </div>
       </header>
