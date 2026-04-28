@@ -2,8 +2,10 @@ name: Daily digest
 
 on:
   schedule:
-    # 06:00 UTC every day
-    - cron: '0 6 * * *'
+    # 09:30 UTC every day — runs after upstream follow-builders feed
+    # finishes (upstream historically completes 07:11–08:20 UTC). Earlier
+    # times caused us to fetch yesterday's feed.
+    - cron: '30 9 * * *'
   workflow_dispatch: {} # allow manual runs from the Actions tab
 
 permissions:
