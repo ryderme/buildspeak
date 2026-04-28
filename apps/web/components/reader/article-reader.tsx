@@ -117,18 +117,24 @@ export function ArticleReader({
           speakSentences(allSentencesRef.current, 0);
         }
       } else if (e.key === "ArrowRight") {
+        e.preventDefault();
         const q = playQueueRef.current;
         if (q) {
-          q.index += 1;
+          q.index = Math.min(q.index + 1, q.sentences.length - 1);
           window.speechSynthesis.cancel();
           speakNext();
+        } else {
+          speakSentences(allSentencesRef.current, 0);
         }
       } else if (e.key === "ArrowLeft") {
+        e.preventDefault();
         const q = playQueueRef.current;
-        if (q && q.index > 0) {
-          q.index -= 1;
+        if (q) {
+          q.index = Math.max(q.index - 1, 0);
           window.speechSynthesis.cancel();
           speakNext();
+        } else {
+          speakSentences(allSentencesRef.current, 0);
         }
       }
     }
@@ -182,9 +188,9 @@ export function ArticleReader({
             }}
           />
           <span className="keyboard-hint">
-            <span className="kbd">SPACE</span> play
+            <span className="kbd">SPACE</span> play / pause
             <span className="kbd">←</span>
-            <span className="kbd">→</span> sentence
+            <span className="kbd">→</span> prev / next sentence
           </span>
         </div>
       </header>
