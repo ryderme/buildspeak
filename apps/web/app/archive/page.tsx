@@ -31,7 +31,7 @@ export default function ArchivePage() {
             <span className="eyebrow">归档 ·  ARCHIVE</span>
             <h1 className="issue-header-date">每日 builder 文摘</h1>
             <span className="issue-header-date-en">
-              ALL PAST ISSUES ·  CLICK ANY DAY TO READ ·  {dates.length} ISSUES
+              全部过往刊期 ·  点击任意一天阅读 ·  共 {dates.length} 期
             </span>
           </div>
         </header>
