@@ -21,6 +21,28 @@ core promise.
 
 ---
 
+## Product tour
+
+Screenshots from the live site:
+
+| Today's issue | Builder feed |
+| --- | --- |
+| <img src="buildspeak-screenshots/01-home.png" alt="BuildSpeak home page showing today's issue and podcast card" width="420"> | <img src="buildspeak-screenshots/01b-home-scrolled-builders.png" alt="BuildSpeak home page scrolled to the builder feed" width="420"> |
+
+| Bilingual reader | Word lookup |
+| --- | --- |
+| <img src="buildspeak-screenshots/02-reader-bilingual.png" alt="Bilingual reader with English and Chinese paragraphs side by side" width="420"> | <img src="buildspeak-screenshots/03-word-popover-extraordinary.png" alt="Word lookup popover showing IPA, Chinese glosses, and source sentence" width="420"> |
+
+| TTS highlighting | Vocab list |
+| --- | --- |
+| <img src="buildspeak-screenshots/04-tts-sentence-highlight.png" alt="Reader playing audio with the active sentence highlighted" width="420"> | <img src="buildspeak-screenshots/05-vocab.png" alt="Saved vocabulary page with a word and its context sentence" width="420"> |
+
+| Archive calendar |
+| --- |
+| <img src="buildspeak-screenshots/06-archive-calendar.png" alt="Archive calendar showing past daily issues" width="420"> |
+
+---
+
 ## What you get on the site
 
 - **Today's issue** — one podcast, one blog (when present), and 10–17 builders'
@@ -161,6 +183,7 @@ To put it online:
 │   └── types/                # Shared TypeScript types
 ├── .github/workflows/
 │   └── daily-digest.yml      # Cron + commit
+├── buildspeak-screenshots/   # Product screenshots used by the README
 ├── docs/
 │   └── DESIGN_BRIEF.md       # The design system spec
 └── digest-YYYYMMDD.json      # Raw input snapshots (committed)

@@ -16,6 +16,28 @@ BuildSpeak 是一个每日 AI builder 内容阅读站。每天 06:00 UTC，GitHu
 
 ---
 
+## 产品截图
+
+以下截图来自线上站点：
+
+| 今日刊 | Builder 信息流 |
+| --- | --- |
+| <img src="buildspeak-screenshots/01-home.png" alt="BuildSpeak 首页，展示今日刊和播客卡片" width="420"> | <img src="buildspeak-screenshots/01b-home-scrolled-builders.png" alt="BuildSpeak 首页下滚后的 builder 信息流" width="420"> |
+
+| 双语阅读器 | 单词弹窗 |
+| --- | --- |
+| <img src="buildspeak-screenshots/02-reader-bilingual.png" alt="英中双语对照阅读器" width="420"> | <img src="buildspeak-screenshots/03-word-popover-extraordinary.png" alt="单词弹窗，展示 IPA、中文释义和原句上下文" width="420"> |
+
+| 朗读高亮 | 生词本 |
+| --- | --- |
+| <img src="buildspeak-screenshots/04-tts-sentence-highlight.png" alt="朗读播放中，当前句子高亮" width="420"> | <img src="buildspeak-screenshots/05-vocab.png" alt="生词本页面，展示保存的单词和上下文" width="420"> |
+
+| 归档日历 |
+| --- |
+| <img src="buildspeak-screenshots/06-archive-calendar.png" alt="归档日历，展示历史每日刊" width="420"> |
+
+---
+
 ## 站点能力
 
 - **今日刊** — 当天 1 个播客、0–1 个博客、10–17 位 builder 的新动态，按来源分组。
@@ -145,6 +167,7 @@ pnpm build
 │   └── types/                # 共享 TS 类型
 ├── .github/workflows/
 │   └── daily-digest.yml      # cron + commit
+├── buildspeak-screenshots/   # README 使用的产品截图
 ├── docs/
 │   └── DESIGN_BRIEF.md       # 设计系统说明
 └── digest-YYYYMMDD.json      # 原始输入快照（已 commit）
