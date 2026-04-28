@@ -79,7 +79,12 @@ export function BuilderCard({ article }: { article: Article }) {
           </Link>
           <span className="builder-handle">@{handle}</span>
           {article.sourceBio && (
-            <span className="builder-bio">{article.sourceBio.split("\n")[0]}</span>
+            <span
+              className="builder-bio"
+              title={article.sourceBio.split("\n")[0]}
+            >
+              {article.sourceBio.split("\n")[0]}
+            </span>
           )}
         </div>
       </header>
