@@ -818,17 +818,30 @@ hr { border: 0; border-top: 1px solid var(--color-line); margin: var(--s-7) 0; }
   color: var(--color-ink);
   z-index: 101;
 }
-.word-popover-head { display: flex; align-items: baseline; gap: var(--s-3); margin-bottom: var(--s-3); }
+.word-popover-head {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: var(--s-3);
+}
+.word-popover-head-row {
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+}
 .word-popover-word {
   font-family: var(--font-serif);
   font-size: 26px;
   font-weight: 600;
   letter-spacing: var(--track-tight);
+  line-height: 1.1;
+  word-break: break-word;
 }
 .word-popover-ipa {
   font-family: var(--font-mono);
   font-size: 13px;
   color: var(--color-ink-mute);
+  white-space: nowrap;
 }
 .word-popover-speak {
   font-size: 15px;
@@ -846,8 +859,7 @@ hr { border: 0; border-top: 1px solid var(--color-line); margin: var(--s-7) 0; }
 }
 .word-popover-close {
   margin-left: auto;
-  align-self: flex-start;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1;
   color: var(--color-ink-mute);
   padding: 2px 8px;

@@ -116,25 +116,31 @@ export function WordPopover({
         aria-modal="true"
       >
         <div className="word-popover-head">
-          <span className="word-popover-word">{payload.surface}</span>
-          {wordEntry?.ipa && <span className="word-popover-ipa">{wordEntry.ipa}</span>}
-          <button
-            type="button"
-            className="word-popover-speak"
-            onClick={speak}
-            aria-label="朗读"
-            title="朗读"
-          >
-            ♪
-          </button>
-          <button
-            type="button"
-            className="word-popover-close"
-            onClick={onClose}
-            aria-label="关闭"
-          >
-            ×
-          </button>
+          <div className="word-popover-head-row">
+            <span className="word-popover-word">{payload.surface}</span>
+            <button
+              type="button"
+              className="word-popover-close"
+              onClick={onClose}
+              aria-label="关闭"
+            >
+              ×
+            </button>
+          </div>
+          <div className="word-popover-head-row">
+            {wordEntry?.ipa && (
+              <span className="word-popover-ipa">{wordEntry.ipa}</span>
+            )}
+            <button
+              type="button"
+              className="word-popover-speak"
+              onClick={speak}
+              aria-label="朗读"
+              title="朗读"
+            >
+              ♪
+            </button>
+          </div>
         </div>
         {defs.length > 0 ? (
           <ul className="word-popover-defs">
