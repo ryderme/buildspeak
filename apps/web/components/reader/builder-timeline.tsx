@@ -423,5 +423,5 @@ function shortTime(iso: string): string {
 function formatDateZh(iso: string): string {
   const [y, m, d] = iso.split("-");
   if (!y || !m || !d) return iso;
-  return `${y}-${m}-${d}`;
+  return `${y} 年 ${Number(m)} 月 ${Number(d)} 日`;
 }
