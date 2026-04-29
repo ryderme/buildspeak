@@ -1,0 +1,871 @@
+{
+  "id": "x-claudeai-2026-04-29",
+  "type": "tweet",
+  "sourceName": "Claude",
+  "sourceHandle": "@claudeai",
+  "sourceBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+  "title": "Claude · @claudeai",
+  "url": "https://x.com/claudeai",
+  "publishedAt": "2026-04-28T15:07:22.000Z",
+  "digestDate": "2026-04-29",
+  "paragraphs": [
+    {
+      "id": "x-claudeai-2026-04-29-p0",
+      "sentences": [
+        {
+          "id": "x-claudeai-2026-04-29-p0-s0",
+          "text": "More connectors launching today: Adobe Creative Cloud, Ableton, Splice, Canva Affinity, SketchUp, and Resolume.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "More",
+              "key": "more"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "connectors",
+              "key": "connectors"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "launching",
+              "key": "launching"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "today",
+              "key": "today"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Adobe",
+              "key": "adobe"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Creative",
+              "key": "creative"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Cloud",
+              "key": "cloud"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Ableton",
+              "key": "ableton"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Splice",
+              "key": "splice"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Canva",
+              "key": "canva"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Affinity",
+              "key": "affinity"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "SketchUp",
+              "key": "sketchup"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Resolume",
+              "key": "resolume"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-claudeai-2026-04-29-p0-s1",
+          "text": "We've also joined the Blender Development Fund as a patron to support open-source development of the software.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "We've",
+              "key": "we've"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "also",
+              "key": "also"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "joined",
+              "key": "joined"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Blender",
+              "key": "blender"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Development",
+              "key": "development"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Fund",
+              "key": "fund"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "as",
+              "key": "as"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "patron",
+              "key": "patron"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "support",
+              "key": "support"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "open-source",
+              "key": "open-source"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "development",
+              "key": "development"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "software",
+              "key": "software"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-claudeai-2026-04-29-p0-s2",
+          "text": "Read more:",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Read",
+              "key": "read"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            }
+          ]
+        }
+      ],
+      "zh": "今天还有更多 connector（连接器）上线：Adobe Creative Cloud、Ableton、Splice、Canva Affinity、SketchUp 和 Resolume。我们也已作为 patron 加入 Blender Development Fund，以支持该软件的 open-source（开源）开发。了解更多：",
+      "meta": {
+        "likes": 3742,
+        "retweets": 556,
+        "replies": 121,
+        "createdAt": "2026-04-28T15:07:22.000Z",
+        "tweetUrl": "https://x.com/claudeai/status/2049143442601546054"
+      }
+    },
+    {
+      "id": "x-claudeai-2026-04-29-p1",
+      "sentences": [
+        {
+          "id": "x-claudeai-2026-04-29-p1-s0",
+          "text": "With the Autodesk Fusion connector, designers and engineers can create and modify 3D models through conversation.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "With",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Autodesk",
+              "key": "autodesk"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Fusion",
+              "key": "fusion"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "connector",
+              "key": "connector"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "designers",
+              "key": "designers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "engineers",
+              "key": "engineers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "create",
+              "key": "create"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "modify",
+              "key": "modify"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "3"
+            },
+            {
+              "kind": "word",
+              "text": "D",
+              "key": "d"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "models",
+              "key": "models"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "through",
+              "key": "through"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "conversation",
+              "key": "conversation"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "通过 Autodesk Fusion connector（连接器），设计师和工程师可以通过对话来创建和修改 3D 模型。",
+      "meta": {
+        "likes": 10824,
+        "retweets": 923,
+        "replies": 219,
+        "createdAt": "2026-04-28T15:07:22.000Z",
+        "tweetUrl": "https://x.com/claudeai/status/2049143440508616863"
+      }
+    },
+    {
+      "id": "x-claudeai-2026-04-29-p2",
+      "sentences": [
+        {
+          "id": "x-claudeai-2026-04-29-p2-s0",
+          "text": "Claude now connects to the tools creative professionals already use.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "connects",
+              "key": "connects"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tools",
+              "key": "tools"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "creative",
+              "key": "creative"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "professionals",
+              "key": "professionals"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "already",
+              "key": "already"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "use",
+              "key": "use"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-claudeai-2026-04-29-p2-s1",
+          "text": "With the new Blender connector, you can debug a scene, build new tools, or batch-apply changes across every object, directly from Claude.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "With",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "new",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Blender",
+              "key": "blender"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "connector",
+              "key": "connector"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "debug",
+              "key": "debug"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "scene",
+              "key": "scene"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "build",
+              "key": "build"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "new",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tools",
+              "key": "tools"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "batch-apply",
+              "key": "batch-apply"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "changes",
+              "key": "changes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "across",
+              "key": "across"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "every",
+              "key": "every"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "object",
+              "key": "object"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "directly",
+              "key": "directly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "from",
+              "key": "from"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "Claude 现在可以连接 creative professionals（创意专业人士）已经在使用的工具。借助新的 Blender connector（连接器），你可以直接在 Claude 中调试场景、构建新工具，或对每个对象批量应用更改。",
+      "meta": {
+        "likes": 34320,
+        "retweets": 3037,
+        "replies": 1248,
+        "createdAt": "2026-04-28T15:07:21.000Z",
+        "tweetUrl": "https://x.com/claudeai/status/2049143438281445811"
+      }
+    }
+  ],
+  "wordCount": 81,
+  "engagement": {
+    "likes": 48886,
+    "retweets": 4516,
+    "replies": 1588
+  }
+}
