@@ -1,0 +1,559 @@
+{
+  "id": "x-steipete-2026-04-30",
+  "type": "tweet",
+  "sourceName": "Peter Steinberger",
+  "sourceHandle": "@steipete",
+  "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+  "title": "Peter Steinberger · @steipete",
+  "url": "https://x.com/steipete",
+  "publishedAt": "2026-04-29T16:08:19.000Z",
+  "digestDate": "2026-04-30",
+  "paragraphs": [
+    {
+      "id": "x-steipete-2026-04-30-p0",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-04-30-p0-s0",
+          "text": "IT DOES THE GOOGLY EYES OFC 👀",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "IT",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "DOES",
+              "key": "does"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "THE",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "GOOGLY",
+              "key": "googly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "EYES",
+              "key": "eyes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "OFC",
+              "key": "ofc"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "👀"
+            }
+          ]
+        }
+      ],
+      "zh": "它当然会做那个 googly eyes（会转的卡通大眼睛）啦 👀",
+      "meta": {
+        "likes": 89,
+        "retweets": 0,
+        "replies": 4,
+        "createdAt": "2026-04-29T16:08:19.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2049521170177732836"
+      }
+    },
+    {
+      "id": "x-steipete-2026-04-30-p1",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-04-30-p1-s0",
+          "text": "Integrated codex review into clawsweeper.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Integrated",
+              "key": "integrated"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "codex",
+              "key": "codex"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "review",
+              "key": "review"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "clawsweeper",
+              "key": "clawsweeper"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-04-30-p1-s1",
+          "text": "I'm using a very similar system prompt so this gets you the same as /review, and clawsweeper has automerge, loops until it stops finding new issues.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I'm",
+              "key": "i'm"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "using",
+              "key": "using"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "very",
+              "key": "very"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "similar",
+              "key": "similar"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "system",
+              "key": "system"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "prompt",
+              "key": "prompt"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "so",
+              "key": "so"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "gets",
+              "key": "gets"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "same",
+              "key": "same"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "as",
+              "key": "as"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "review",
+              "key": "review"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "clawsweeper",
+              "key": "clawsweeper"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "automerge",
+              "key": "automerge"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "loops",
+              "key": "loops"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "until",
+              "key": "until"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "stops",
+              "key": "stops"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "finding",
+              "key": "finding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "new",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "issues",
+              "key": "issues"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "我把 codex review 集成进 clawsweeper 了。我用的是非常相似的 system prompt（系统提示词），所以它给你的效果和 /review 一样；而且 clawsweeper 还支持 automerge（自动合并），并且会循环运行，直到它不再发现新的问题。",
+      "meta": {
+        "likes": 288,
+        "retweets": 10,
+        "replies": 21,
+        "createdAt": "2026-04-29T15:58:47.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2049518771023360010"
+      }
+    },
+    {
+      "id": "x-steipete-2026-04-30-p2",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-04-30-p2-s0",
+          "text": "And people think tokens are expensive... this is @useblacksmith (they sponsor OpenClaw, 🫶🦞)",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "And",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "people",
+              "key": "people"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "think",
+              "key": "think"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tokens",
+              "key": "tokens"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "expensive",
+              "key": "expensive"
+            },
+            {
+              "kind": "punct",
+              "text": "..."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "useblacksmith",
+              "key": "useblacksmith"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "they",
+              "key": "they"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sponsor",
+              "key": "sponsor"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "OpenClaw",
+              "key": "openclaw"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "🫶🦞)"
+            }
+          ]
+        }
+      ],
+      "zh": "结果人们还觉得 token（令牌）很贵……这就是 @useblacksmith（他们赞助 OpenClaw，🫶🦞）",
+      "meta": {
+        "likes": 827,
+        "retweets": 19,
+        "replies": 49,
+        "createdAt": "2026-04-29T12:16:21.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2049462793267458219"
+      }
+    }
+  ],
+  "wordCount": 49,
+  "engagement": {
+    "likes": 1204,
+    "retweets": 29,
+    "replies": 74
+  }
+}

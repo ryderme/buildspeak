@@ -1,0 +1,562 @@
+{
+  "id": "x-garrytan-2026-04-30",
+  "type": "tweet",
+  "sourceName": "Garry Tan",
+  "sourceHandle": "@garrytan",
+  "sourceBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+  "title": "Garry Tan · @garrytan",
+  "url": "https://x.com/garrytan",
+  "publishedAt": "2026-04-30T07:59:43.000Z",
+  "digestDate": "2026-04-30",
+  "paragraphs": [
+    {
+      "id": "x-garrytan-2026-04-30-p0",
+      "sentences": [
+        {
+          "id": "x-garrytan-2026-04-30-p0-s0",
+          "text": "I'm that guy",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I'm",
+              "key": "i'm"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "guy",
+              "key": "guy"
+            }
+          ]
+        }
+      ],
+      "zh": "我就是那个人",
+      "meta": {
+        "likes": 42,
+        "retweets": 1,
+        "replies": 16,
+        "createdAt": "2026-04-30T07:59:43.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2049760595294249234"
+      }
+    },
+    {
+      "id": "x-garrytan-2026-04-30-p1",
+      "sentences": [
+        {
+          "id": "x-garrytan-2026-04-30-p1-s0",
+          "text": "OK, now I finally got around to making a full E2E harness around installing gbrain on openclaw End-to-end testing means I can finally absolutely make sure the onboarding process works!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "OK",
+              "key": "ok"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "finally",
+              "key": "finally"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "got",
+              "key": "got"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "around",
+              "key": "around"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "making",
+              "key": "making"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "full",
+              "key": "full"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "E2E",
+              "key": "e2e"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "harness",
+              "key": "harness"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "around",
+              "key": "around"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "installing",
+              "key": "installing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "gbrain",
+              "key": "gbrain"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "openclaw",
+              "key": "openclaw"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "End-to-end",
+              "key": "end-to-end"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "testing",
+              "key": "testing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "means",
+              "key": "means"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "finally",
+              "key": "finally"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "absolutely",
+              "key": "absolutely"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "make",
+              "key": "make"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sure",
+              "key": "sure"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "onboarding",
+              "key": "onboarding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "process",
+              "key": "process"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "works",
+              "key": "works"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "好的，现在我终于抽出空来，为在 openclaw 上安装 gbrain 搭了一个完整的 E2E（端到端）harness（测试框架）；端到端测试意味着我终于可以完全确认 onboarding（新手引导）流程是正常工作的！",
+      "meta": {
+        "likes": 12,
+        "retweets": 0,
+        "replies": 4,
+        "createdAt": "2026-04-30T06:47:19.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2049742376307147110"
+      }
+    },
+    {
+      "id": "x-garrytan-2026-04-30-p2",
+      "sentences": [
+        {
+          "id": "x-garrytan-2026-04-30-p2-s0",
+          "text": "Graphs are built off of frontmatter attributes, and more and more of it is inferred and automatically built in this version",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Graphs",
+              "key": "graphs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "built",
+              "key": "built"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "off",
+              "key": "off"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "frontmatter",
+              "key": "frontmatter"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "attributes",
+              "key": "attributes"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "inferred",
+              "key": "inferred"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "automatically",
+              "key": "automatically"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "built",
+              "key": "built"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "version",
+              "key": "version"
+            }
+          ]
+        }
+      ],
+      "zh": "图谱是基于 frontmatter 属性构建的，而在这个版本中，越来越多这类内容是通过推断自动生成并内建完成的",
+      "meta": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 2,
+        "createdAt": "2026-04-30T06:26:49.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2049737217208397925"
+      }
+    }
+  ],
+  "wordCount": 54,
+  "engagement": {
+    "likes": 59,
+    "retweets": 1,
+    "replies": 22
+  }
+}
