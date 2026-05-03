@@ -1,0 +1,778 @@
+{
+  "id": "x-steipete-2026-05-03",
+  "type": "tweet",
+  "sourceName": "Peter Steinberger",
+  "sourceHandle": "@steipete",
+  "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+  "title": "Peter Steinberger · @steipete",
+  "url": "https://x.com/steipete",
+  "publishedAt": "2026-05-03T00:35:32.000Z",
+  "digestDate": "2026-05-03",
+  "paragraphs": [
+    {
+      "id": "x-steipete-2026-05-03-p0",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-05-03-p0-s0",
+          "text": "This one fixes the depenency issues/slowness some had when installed via npm.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "one",
+              "key": "one"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fixes",
+              "key": "fixes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "depenency",
+              "key": "depenency"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "issues",
+              "key": "issues"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "slowness",
+              "key": "slowness"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "some",
+              "key": "some"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "had",
+              "key": "had"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "when",
+              "key": "when"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "installed",
+              "key": "installed"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "via",
+              "key": "via"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "npm",
+              "key": "npm"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-05-03-p0-s1",
+          "text": "Plugins are hard, worth it tho!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Plugins",
+              "key": "plugins"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hard",
+              "key": "hard"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "worth",
+              "key": "worth"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tho",
+              "key": "tho"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-05-03-p0-s2",
+          "text": "Package is way leaner now, we moved [almost] everything into extensions!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Package",
+              "key": "package"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "way",
+              "key": "way"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "leaner",
+              "key": "leaner"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "moved",
+              "key": "moved"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "["
+            },
+            {
+              "kind": "word",
+              "text": "almost",
+              "key": "almost"
+            },
+            {
+              "kind": "punct",
+              "text": "]"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "everything",
+              "key": "everything"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "extensions",
+              "key": "extensions"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "这个版本修复了部分用户通过 npm 安装时遇到的 dependency（依赖）问题和运行缓慢的问题。做 Plugins 很难，但还是值得的！现在这个 package 精简了很多，我们把[几乎]所有东西都移到了 extensions 里！",
+      "meta": {
+        "likes": 496,
+        "retweets": 24,
+        "replies": 60,
+        "createdAt": "2026-05-03T00:35:32.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2050735979477008412"
+      }
+    },
+    {
+      "id": "x-steipete-2026-05-03-p1",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-05-03-p1-s0",
+          "text": "goblins have fat fingers",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "goblins",
+              "key": "goblins"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "have",
+              "key": "have"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fat",
+              "key": "fat"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fingers",
+              "key": "fingers"
+            }
+          ]
+        }
+      ],
+      "zh": "goblins 手指很胖",
+      "meta": {
+        "likes": 156,
+        "retweets": 5,
+        "replies": 14,
+        "createdAt": "2026-05-02T20:40:00.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2050676702242644465"
+      }
+    },
+    {
+      "id": "x-steipete-2026-05-03-p2",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-05-03-p2-s0",
+          "text": "🦀 Crabbox 0.3.0 is out.",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "🦀"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Crabbox",
+              "key": "crabbox"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "0.3.0"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "out",
+              "key": "out"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-05-03-p2-s1",
+          "text": "Remote Linux runs for dirty worktrees 🔐 GitHub browser login 🧰 Blacksmith Testbox wrap 📡 crabbox attach for live run replay 📜 Durable run events ☁️ AWS image create 🛡️ Cloudflare Access brew upgrade openclaw/tap/crabbox",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Remote",
+              "key": "remote"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Linux",
+              "key": "linux"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "runs",
+              "key": "runs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dirty",
+              "key": "dirty"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "worktrees",
+              "key": "worktrees"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "🔐"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "GitHub",
+              "key": "github"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "browser",
+              "key": "browser"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "login",
+              "key": "login"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "🧰"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Blacksmith",
+              "key": "blacksmith"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Testbox",
+              "key": "testbox"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "wrap",
+              "key": "wrap"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "📡"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "crabbox",
+              "key": "crabbox"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "attach",
+              "key": "attach"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "live",
+              "key": "live"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "run",
+              "key": "run"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "replay",
+              "key": "replay"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "📜"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Durable",
+              "key": "durable"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "run",
+              "key": "run"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "events",
+              "key": "events"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "☁️"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AWS",
+              "key": "aws"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "image",
+              "key": "image"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "create",
+              "key": "create"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "🛡️"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Cloudflare",
+              "key": "cloudflare"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Access",
+              "key": "access"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "brew",
+              "key": "brew"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "upgrade",
+              "key": "upgrade"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "openclaw",
+              "key": "openclaw"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "tap",
+              "key": "tap"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "crabbox",
+              "key": "crabbox"
+            }
+          ]
+        }
+      ],
+      "zh": "🦀 Crabbox 0.3.0 已发布。支持用于处理脏 worktree（工作区）的远程 Linux 运行 🔐 GitHub 浏览器登录 🧰 Blacksmith Testbox 封装 📡 用于实时运行回放的 crabbox attach 📜 Durable run events（持久运行事件）☁️ AWS image 创建 🛡️ Cloudflare Access 可通过 brew upgrade openclaw/tap/crabbox 升级",
+      "meta": {
+        "likes": 580,
+        "retweets": 39,
+        "replies": 20,
+        "createdAt": "2026-05-02T08:18:45.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2050490163810230579"
+      }
+    }
+  ],
+  "wordCount": 68,
+  "engagement": {
+    "likes": 1232,
+    "retweets": 68,
+    "replies": 94
+  }
+}
