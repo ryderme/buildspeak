@@ -1,0 +1,607 @@
+{
+  "id": "x-steipete-2026-05-04",
+  "type": "tweet",
+  "sourceName": "Peter Steinberger",
+  "sourceHandle": "@steipete",
+  "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+  "title": "Peter Steinberger · @steipete",
+  "url": "https://x.com/steipete",
+  "publishedAt": "2026-05-03T23:55:38.000Z",
+  "digestDate": "2026-05-04",
+  "paragraphs": [
+    {
+      "id": "x-steipete-2026-05-04-p0",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-05-04-p0-s0",
+          "text": "Released 🚦RepoBar 0.4.0.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Released",
+              "key": "released"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "🚦"
+            },
+            {
+              "kind": "word",
+              "text": "RepoBar",
+              "key": "repobar"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "0.4.0."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-05-04-p0-s1",
+          "text": "This one makes the GitHub menu a lot smarter: persistent SQLite caching, fewer wasted API calls, visible rate limits, better Issues/PR loading, archive fallback support.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "one",
+              "key": "one"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "makes",
+              "key": "makes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "GitHub",
+              "key": "github"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "menu",
+              "key": "menu"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "lot",
+              "key": "lot"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "smarter",
+              "key": "smarter"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "persistent",
+              "key": "persistent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "SQLite",
+              "key": "sqlite"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "caching",
+              "key": "caching"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fewer",
+              "key": "fewer"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "wasted",
+              "key": "wasted"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "API",
+              "key": "api"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "calls",
+              "key": "calls"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "visible",
+              "key": "visible"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rate",
+              "key": "rate"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "limits",
+              "key": "limits"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "better",
+              "key": "better"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Issues",
+              "key": "issues"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "PR",
+              "key": "pr"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "loading",
+              "key": "loading"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "archive",
+              "key": "archive"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fallback",
+              "key": "fallback"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "support",
+              "key": "support"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-05-04-p0-s2",
+          "text": "Tiny menubar app, increasingly useful daily tool.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Tiny",
+              "key": "tiny"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "menubar",
+              "key": "menubar"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "app",
+              "key": "app"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "increasingly",
+              "key": "increasingly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "useful",
+              "key": "useful"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "daily",
+              "key": "daily"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tool",
+              "key": "tool"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "已发布 🚦RepoBar 0.4.0。这个版本让 GitHub 菜单聪明了很多：持久化 SQLite 缓存、更少浪费的 API 调用、可见的 rate limits（速率限制）、更好的 Issues/PR 加载、archive 回退支持。这个小小的 menubar app（日历栏应用）正在越来越成为每天都好用的工具。",
+      "meta": {
+        "likes": 1486,
+        "retweets": 83,
+        "replies": 65,
+        "createdAt": "2026-05-03T23:55:38.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2051088325100831046"
+      }
+    },
+    {
+      "id": "x-steipete-2026-05-04-p1",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-05-04-p1-s0",
+          "text": "brb calling @sama",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "brb",
+              "key": "brb"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "calling",
+              "key": "calling"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "sama",
+              "key": "sama"
+            }
+          ]
+        }
+      ],
+      "zh": "先走一步，我去 call 一下 @sama",
+      "meta": {
+        "likes": 2031,
+        "retweets": 35,
+        "replies": 112,
+        "createdAt": "2026-05-03T21:00:28.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2051044240013083133"
+      }
+    },
+    {
+      "id": "x-steipete-2026-05-04-p2",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-05-04-p2-s0",
+          "text": "New claw beta is up!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "New",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "claw",
+              "key": "claw"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "beta",
+              "key": "beta"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "up",
+              "key": "up"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-05-04-p2-s1",
+          "text": "Id you're on our Discord, you can get the soundtrack.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Id",
+              "key": "id"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you're",
+              "key": "you're"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "our",
+              "key": "our"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Discord",
+              "key": "discord"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "soundtrack",
+              "key": "soundtrack"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "新的 claw beta 已上线！如果你在我们的 Discord 里，就可以拿到 soundtrack。",
+      "meta": {
+        "likes": 150,
+        "retweets": 12,
+        "replies": 14,
+        "createdAt": "2026-05-03T20:16:03.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2051033065367970195"
+      }
+    }
+  ],
+  "wordCount": 53,
+  "engagement": {
+    "likes": 3667,
+    "retweets": 130,
+    "replies": 191
+  }
+}
