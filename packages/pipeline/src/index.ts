@@ -77,8 +77,27 @@ async function processDigest(filePath: string) {
   await translateArticles(drafts, { onProgress: progressBar("translate") });
 
   console.log(`[4/5] Tokenizing + collecting unique words…`);
-  const finalArticles: Article[] = drafts.map((d) => buildArticle(d));
+  const builtArticles: Article[] = drafts.map((d) => buildArticle(d));
   cacheFlush();
+
+  // Drop articles whose upstream feed gave us no publishedAt — sorting + the
+  // reader UI both assume an ISO date string. Warn loudly so the data leak is
+  // visible in CI logs instead of silently dropping content.
+  const finalArticles: Article[] = [];
+  const dropped: Article[] = [];
+  for (const a of builtArticles) {
+    if (typeof a.publishedAt === "string" && a.publishedAt.length > 0) {
+      finalArticles.push(a);
+    } else {
+      dropped.push(a);
+    }
+  }
+  if (dropped.length > 0) {
+    console.warn(`      ⚠ Dropped ${dropped.length} article(s) missing publishedAt:`);
+    for (const a of dropped) {
+      console.warn(`        - [${a.type}] ${a.sourceName} :: ${a.title} (${a.id})`);
+    }
+  }
 
   // Collect unique word keys across all articles
   const allKeys = new Set<string>();
@@ -101,8 +120,10 @@ async function processDigest(filePath: string) {
   const tweets = finalArticles.filter((a) => a.type === "tweet");
   const blogs = finalArticles.filter((a) => a.type === "blog");
 
-  // Sort all by publishedAt desc
-  const byDate = (a: Article, b: Article) => b.publishedAt.localeCompare(a.publishedAt);
+  // Sort all by publishedAt desc. Defensive null-coalesce in case a future
+  // change forgets to filter out date-less articles upstream.
+  const byDate = (a: Article, b: Article) =>
+    (b.publishedAt ?? "").localeCompare(a.publishedAt ?? "");
   podcasts.sort(byDate);
   tweets.sort(byDate);
   blogs.sort(byDate);
