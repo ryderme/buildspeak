@@ -1,0 +1,290 @@
+{
+  "id": "x-garrytan-2026-05-09",
+  "type": "tweet",
+  "sourceName": "Garry Tan",
+  "sourceHandle": "@garrytan",
+  "sourceBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+  "title": "Garry Tan · @garrytan",
+  "url": "https://x.com/garrytan",
+  "publishedAt": "2026-05-09T06:26:08.000Z",
+  "digestDate": "2026-05-09",
+  "paragraphs": [
+    {
+      "id": "x-garrytan-2026-05-09-p0",
+      "sentences": [
+        {
+          "id": "x-garrytan-2026-05-09-p0-s0",
+          "text": "Personal software is coming",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Personal",
+              "key": "personal"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "software",
+              "key": "software"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "coming",
+              "key": "coming"
+            }
+          ]
+        }
+      ],
+      "zh": "Personal software 正在到来",
+      "meta": {
+        "likes": 66,
+        "retweets": 3,
+        "replies": 12,
+        "createdAt": "2026-05-09T06:26:08.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2052998537344856459"
+      }
+    },
+    {
+      "id": "x-garrytan-2026-05-09-p1",
+      "sentences": [],
+      "zh": "[1]",
+      "meta": {
+        "likes": 20,
+        "retweets": 2,
+        "replies": 1,
+        "createdAt": "2026-05-09T06:19:17.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2052996810226962846"
+      }
+    },
+    {
+      "id": "x-garrytan-2026-05-09-p2",
+      "sentences": [
+        {
+          "id": "x-garrytan-2026-05-09-p2-s0",
+          "text": "Downloading now...",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Downloading",
+              "key": "downloading"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "punct",
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "id": "x-garrytan-2026-05-09-p2-s1",
+          "text": "1M token context window with supposedly usable coding agent capability all on a 128GB Macbook Pro is 🤯",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "1"
+            },
+            {
+              "kind": "word",
+              "text": "M",
+              "key": "m"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "token",
+              "key": "token"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "context",
+              "key": "context"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "window",
+              "key": "window"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "supposedly",
+              "key": "supposedly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "usable",
+              "key": "usable"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "coding",
+              "key": "coding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "capability",
+              "key": "capability"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "all",
+              "key": "all"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "128"
+            },
+            {
+              "kind": "word",
+              "text": "GB",
+              "key": "gb"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Macbook",
+              "key": "macbook"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Pro",
+              "key": "pro"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "🤯"
+            }
+          ]
+        }
+      ],
+      "zh": "正在下载中……据说可用的 coding agent 能力，加上 1M token（词元）context window（上下文窗口），这一切竟然都能在一台 128GB Macbook Pro 上运行，简直 🤯",
+      "meta": {
+        "likes": 301,
+        "retweets": 15,
+        "replies": 24,
+        "createdAt": "2026-05-09T06:18:48.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2052996691586932783"
+      }
+    }
+  ],
+  "wordCount": 23,
+  "engagement": {
+    "likes": 387,
+    "retweets": 20,
+    "replies": 37
+  }
+}

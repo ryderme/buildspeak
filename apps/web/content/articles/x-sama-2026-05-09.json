@@ -1,0 +1,61 @@
+{
+  "id": "x-sama-2026-05-09",
+  "type": "tweet",
+  "sourceName": "Sam Altman",
+  "sourceHandle": "@sama",
+  "sourceBio": "AI is cool i guess",
+  "title": "Sam Altman · @sama",
+  "url": "https://x.com/sama",
+  "publishedAt": "2026-05-08T23:05:42.000Z",
+  "digestDate": "2026-05-09",
+  "paragraphs": [
+    {
+      "id": "x-sama-2026-05-09-p0",
+      "sentences": [
+        {
+          "id": "x-sama-2026-05-09-p0-s0",
+          "text": "call me maybe",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "call",
+              "key": "call"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "me",
+              "key": "me"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "maybe",
+              "key": "maybe"
+            }
+          ]
+        }
+      ],
+      "zh": "也许给我打电话",
+      "meta": {
+        "likes": 2976,
+        "retweets": 85,
+        "replies": 557,
+        "createdAt": "2026-05-08T23:05:42.000Z",
+        "tweetUrl": "https://x.com/sama/status/2052887698717986956"
+      }
+    }
+  ],
+  "wordCount": 3,
+  "engagement": {
+    "likes": 2976,
+    "retweets": 85,
+    "replies": 557
+  }
+}
