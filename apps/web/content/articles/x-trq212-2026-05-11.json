@@ -1,0 +1,383 @@
+{
+  "id": "x-trq212-2026-05-11",
+  "type": "tweet",
+  "sourceName": "Thariq",
+  "sourceHandle": "@trq212",
+  "sourceBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+  "title": "Thariq · @trq212",
+  "url": "https://x.com/trq212",
+  "publishedAt": "2026-05-11T00:25:11.000Z",
+  "digestDate": "2026-05-11",
+  "paragraphs": [
+    {
+      "id": "x-trq212-2026-05-11-p0",
+      "sentences": [
+        {
+          "id": "x-trq212-2026-05-11-p0-s0",
+          "text": "I've been using HTML for planning, speccing, exploration, code review, reports and a lot more.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I've",
+              "key": "i've"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "been",
+              "key": "been"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "using",
+              "key": "using"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "HTML",
+              "key": "html"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "planning",
+              "key": "planning"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "speccing",
+              "key": "speccing"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "exploration",
+              "key": "exploration"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "code",
+              "key": "code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "review",
+              "key": "review"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "reports",
+              "key": "reports"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "lot",
+              "key": "lot"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "我一直在用 HTML 来做规划、编写 spec（规格说明）、探索、code review（代码审查）、报告，以及更多事情。",
+      "meta": {
+        "likes": 30,
+        "retweets": 3,
+        "replies": 7,
+        "createdAt": "2026-05-11T00:25:11.000Z",
+        "tweetUrl": "https://x.com/trq212/status/2053632475294040084"
+      }
+    },
+    {
+      "id": "x-trq212-2026-05-11-p1",
+      "sentences": [
+        {
+          "id": "x-trq212-2026-05-11-p1-s0",
+          "text": "Jarred tried rewriting Bun in Rust and it passes 99.8% of the existing test suite we're not being ambitious enough",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Jarred",
+              "key": "jarred"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tried",
+              "key": "tried"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rewriting",
+              "key": "rewriting"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Bun",
+              "key": "bun"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Rust",
+              "key": "rust"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "passes",
+              "key": "passes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "99.8%"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "existing",
+              "key": "existing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "test",
+              "key": "test"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "suite",
+              "key": "suite"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we're",
+              "key": "we're"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "not",
+              "key": "not"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "being",
+              "key": "being"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ambitious",
+              "key": "ambitious"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "enough",
+              "key": "enough"
+            }
+          ]
+        }
+      ],
+      "zh": "Jarred 试着用 Rust 重写 Bun，而且它通过了现有测试套件的 99.8%，我们还不够有雄心。",
+      "meta": {
+        "likes": 1679,
+        "retweets": 60,
+        "replies": 89,
+        "createdAt": "2026-05-10T19:34:48.000Z",
+        "tweetUrl": "https://x.com/trq212/status/2053559397654348159"
+      }
+    }
+  ],
+  "wordCount": 34,
+  "engagement": {
+    "likes": 1709,
+    "retweets": 63,
+    "replies": 96
+  }
+}
