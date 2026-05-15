@@ -1,0 +1,469 @@
+{
+  "id": "x-rauchg-2026-05-15",
+  "type": "tweet",
+  "sourceName": "Guillermo Rauch",
+  "sourceHandle": "@rauchg",
+  "sourceBio": "@vercel CEO",
+  "title": "Guillermo Rauch · @rauchg",
+  "url": "https://x.com/rauchg",
+  "publishedAt": "2026-05-15T01:50:39.000Z",
+  "digestDate": "2026-05-15",
+  "paragraphs": [
+    {
+      "id": "x-rauchg-2026-05-15-p0",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-05-15-p0-s0",
+          "text": "This city is glorious.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "city",
+              "key": "city"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "glorious",
+              "key": "glorious"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-15-p0-s1",
+          "text": "Nothing like it",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Nothing",
+              "key": "nothing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "like",
+              "key": "like"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            }
+          ]
+        }
+      ],
+      "zh": "这座城市辉煌无比。没有任何地方能与之相比",
+      "meta": {
+        "likes": 938,
+        "retweets": 11,
+        "replies": 8,
+        "createdAt": "2026-05-15T01:50:39.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2055103533754818769"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-05-15-p1",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-05-15-p1-s0",
+          "text": "You can just render images on the terminal btw: ▲ ~/ npx ai-cli image 'a vercel ai sdk diagram' Run 𝚗𝚙𝚖 𝚒 -𝚐 𝚊𝚒-𝚌𝚕𝚒 and access every image, video &amp; text model from @vercel AI Gateway instantly",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "You",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "just",
+              "key": "just"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "render",
+              "key": "render"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "images",
+              "key": "images"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "terminal",
+              "key": "terminal"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "btw",
+              "key": "btw"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "▲"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "~/"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "npx",
+              "key": "npx"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ai-cli",
+              "key": "ai-cli"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "image",
+              "key": "image"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "'"
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ai",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sdk",
+              "key": "sdk"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "diagram'",
+              "key": "diagram'"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Run",
+              "key": "run"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "𝚗𝚙𝚖"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "𝚒"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "-𝚐"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "𝚊𝚒-𝚌𝚕𝚒"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "access",
+              "key": "access"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "every",
+              "key": "every"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "image",
+              "key": "image"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "video",
+              "key": "video"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "&"
+            },
+            {
+              "kind": "word",
+              "text": "amp",
+              "key": "amp"
+            },
+            {
+              "kind": "punct",
+              "text": ";"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "text",
+              "key": "text"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "model",
+              "key": "model"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "from",
+              "key": "from"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Gateway",
+              "key": "gateway"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "instantly",
+              "key": "instantly"
+            }
+          ]
+        }
+      ],
+      "zh": "顺便说一句，你完全可以直接在 terminal 里渲染图片：▲ ~/ npx ai-cli image 'a vercel ai sdk diagram' 运行 𝚗𝚙𝚖 𝚒 -𝚐 𝚊𝚒-𝚌𝚕𝚒，即可立刻通过 @vercel AI Gateway 访问所有 image、video 和 text model",
+      "meta": {
+        "likes": 456,
+        "retweets": 21,
+        "replies": 39,
+        "createdAt": "2026-05-14T18:17:20.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2054989456189648918"
+      }
+    }
+  ],
+  "wordCount": 38,
+  "engagement": {
+    "likes": 1394,
+    "retweets": 32,
+    "replies": 47
+  }
+}
