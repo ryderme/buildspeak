@@ -1,0 +1,896 @@
+{
+  "id": "x-rauchg-2026-05-19",
+  "type": "tweet",
+  "sourceName": "Guillermo Rauch",
+  "sourceHandle": "@rauchg",
+  "sourceBio": "@vercel CEO",
+  "title": "Guillermo Rauch · @rauchg",
+  "url": "https://x.com/rauchg",
+  "publishedAt": "2026-05-19T01:37:41.000Z",
+  "digestDate": "2026-05-19",
+  "paragraphs": [
+    {
+      "id": "x-rauchg-2026-05-19-p0",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-05-19-p0-s0",
+          "text": "All Firewall mitigations are now fully free on @vercel.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "All",
+              "key": "all"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Firewall",
+              "key": "firewall"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mitigations",
+              "key": "mitigations"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fully",
+              "key": "fully"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "free",
+              "key": "free"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-19-p0-s1",
+          "text": "Not just DDoS and system-level mitigations, but also any rule you configure.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Not",
+              "key": "not"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "just",
+              "key": "just"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "DDoS",
+              "key": "ddos"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "system-level",
+              "key": "system-level"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mitigations",
+              "key": "mitigations"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "but",
+              "key": "but"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "also",
+              "key": "also"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "any",
+              "key": "any"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rule",
+              "key": "rule"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "configure",
+              "key": "configure"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-19-p0-s2",
+          "text": "Vercel now absorbs the computational and network costs of any size of attack or traffic mitigation for your peace of mind. (And more to come!)",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "absorbs",
+              "key": "absorbs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "computational",
+              "key": "computational"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "network",
+              "key": "network"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "costs",
+              "key": "costs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "any",
+              "key": "any"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "size",
+              "key": "size"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "attack",
+              "key": "attack"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "traffic",
+              "key": "traffic"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mitigation",
+              "key": "mitigation"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "peace",
+              "key": "peace"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mind",
+              "key": "mind"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "And",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "come",
+              "key": "come"
+            },
+            {
+              "kind": "punct",
+              "text": "!)"
+            }
+          ]
+        }
+      ],
+      "zh": "现在，@vercel 上所有 Firewall（防火墙）缓解措施都已完全免费。不只是 DDoS 和系统级缓解，也包括你自行配置的任何规则。现在，无论攻击或流量缓解的规模有多大，Vercel 都会承担相应的计算和网络成本，让你更安心。（而且后面还会有更多！）",
+      "meta": {
+        "likes": 264,
+        "retweets": 15,
+        "replies": 21,
+        "createdAt": "2026-05-19T01:37:41.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2056549825018310707"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-05-19-p1",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-05-19-p1-s0",
+          "text": "A 𝚏𝚒𝚛𝚎𝚠𝚊𝚕𝚕 your agents will love.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "A",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "𝚏𝚒𝚛𝚎𝚠𝚊𝚕𝚕"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "will",
+              "key": "will"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "love",
+              "key": "love"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-19-p1-s1",
+          "text": "One of the coolest things about Vercel’s Firewall is how hard the team worked on instant global propagation (~300ms).",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "One",
+              "key": "one"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "coolest",
+              "key": "coolest"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "things",
+              "key": "things"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "about",
+              "key": "about"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "s",
+              "key": "s"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Firewall",
+              "key": "firewall"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "how",
+              "key": "how"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hard",
+              "key": "hard"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "team",
+              "key": "team"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "worked",
+              "key": "worked"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "instant",
+              "key": "instant"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "global",
+              "key": "global"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "propagation",
+              "key": "propagation"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "(~300"
+            },
+            {
+              "kind": "word",
+              "text": "ms",
+              "key": "ms"
+            },
+            {
+              "kind": "punct",
+              "text": ")."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-19-p1-s2",
+          "text": "Imagine if 𝚒𝚙𝚝𝚊𝚋𝚕𝚎𝚜 took *minutes* to propagate?",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Imagine",
+              "key": "imagine"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "if",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "𝚒𝚙𝚝𝚊𝚋𝚕𝚎𝚜"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "took",
+              "key": "took"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "*"
+            },
+            {
+              "kind": "word",
+              "text": "minutes",
+              "key": "minutes"
+            },
+            {
+              "kind": "punct",
+              "text": "*"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "propagate",
+              "key": "propagate"
+            },
+            {
+              "kind": "punct",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-19-p1-s3",
+          "text": "That’s the average industry CDN/WAF experience!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "That",
+              "key": "that"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "s",
+              "key": "s"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "average",
+              "key": "average"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "industry",
+              "key": "industry"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CDN",
+              "key": "cdn"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "WAF",
+              "key": "waf"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "experience",
+              "key": "experience"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "一个你的 agent（智能代理）一定会喜欢的 𝚏𝚒𝚛𝚎𝚠𝚊𝚕𝚕。Vercel 的 Firewall 最酷的一点之一，就是团队为“即时全球传播”下了很大功夫（约 300ms）。你可以想象一下，如果 𝚒𝚙𝚝𝚊𝚋𝚕𝚎𝚜 的传播要花上 *几分钟* 会怎样？这恰恰就是行业里一般 CDN/WAF 体验的平均水平！",
+      "meta": {
+        "likes": 303,
+        "retweets": 10,
+        "replies": 39,
+        "createdAt": "2026-05-18T17:17:36.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2056423973123183028"
+      }
+    }
+  ],
+  "wordCount": 85,
+  "engagement": {
+    "likes": 567,
+    "retweets": 25,
+    "replies": 60
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "id": "x-garrytan-2026-05-19",
+  "type": "tweet",
+  "sourceName": "Garry Tan",
+  "sourceHandle": "@garrytan",
+  "sourceBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+  "title": "Garry Tan · @garrytan",
+  "url": "https://x.com/garrytan",
+  "publishedAt": "2026-05-19T04:11:46.000Z",
+  "digestDate": "2026-05-19",
+  "paragraphs": [
+    {
+      "id": "x-garrytan-2026-05-19-p0",
+      "sentences": [
+        {
+          "id": "x-garrytan-2026-05-19-p0-s0",
+          "text": "OK I guess we're going pretty fast improving GBrain day to day right now",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "OK",
+              "key": "ok"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "guess",
+              "key": "guess"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we're",
+              "key": "we're"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "going",
+              "key": "going"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "pretty",
+              "key": "pretty"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fast",
+              "key": "fast"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "improving",
+              "key": "improving"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "GBrain",
+              "key": "gbrain"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "day",
+              "key": "day"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "day",
+              "key": "day"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "right",
+              "key": "right"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            }
+          ]
+        }
+      ],
+      "zh": "好吧，我想我们现在确实在以很快的速度日复一日地改进 GBrain。",
+      "meta": {
+        "likes": 90,
+        "retweets": 3,
+        "replies": 15,
+        "createdAt": "2026-05-19T04:11:46.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2056588601216168168"
+      }
+    },
+    {
+      "id": "x-garrytan-2026-05-19-p1",
+      "sentences": [
+        {
+          "id": "x-garrytan-2026-05-19-p1-s0",
+          "text": "Also 28 bug fixes landing in a single bug fix wave that rolls up 22 community PRs and 14 issues",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Also",
+              "key": "also"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "28"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bug",
+              "key": "bug"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fixes",
+              "key": "fixes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "landing",
+              "key": "landing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "single",
+              "key": "single"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bug",
+              "key": "bug"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fix",
+              "key": "fix"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "wave",
+              "key": "wave"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rolls",
+              "key": "rolls"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "up",
+              "key": "up"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "22"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "community",
+              "key": "community"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "PRs",
+              "key": "prs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "14"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "issues",
+              "key": "issues"
+            }
+          ]
+        }
+      ],
+      "zh": "另外，一次单独的 bug 修复波次中就合入了 28 个 bug 修复，汇总了社区的 22 个 PR 和 14 个 issue。",
+      "meta": {
+        "likes": 5,
+        "retweets": 1,
+        "replies": 1,
+        "createdAt": "2026-05-19T03:56:02.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2056584641654751308"
+      }
+    },
+    {
+      "id": "x-garrytan-2026-05-19-p2",
+      "sentences": [
+        {
+          "id": "x-garrytan-2026-05-19-p2-s0",
+          "text": "Full eval report and fixtures published and open source here Any memory system is welcome to run theirs against these evals and I'll publish them alongside.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Full",
+              "key": "full"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "eval",
+              "key": "eval"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "report",
+              "key": "report"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fixtures",
+              "key": "fixtures"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "published",
+              "key": "published"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "open",
+              "key": "open"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "source",
+              "key": "source"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "here",
+              "key": "here"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Any",
+              "key": "any"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "memory",
+              "key": "memory"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "system",
+              "key": "system"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "welcome",
+              "key": "welcome"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "run",
+              "key": "run"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "theirs",
+              "key": "theirs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "against",
+              "key": "against"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "these",
+              "key": "these"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "evals",
+              "key": "evals"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I'll",
+              "key": "i'll"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "publish",
+              "key": "publish"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "them",
+              "key": "them"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "alongside",
+              "key": "alongside"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "完整的 eval（评测）报告和 fixtures（测试夹具）已在这里发布并开源。欢迎任何 memory system（记忆系统）用这些 evals（评测集）来跑他们自己的结果，我也会把这些结果一并发布。",
+      "meta": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 1,
+        "createdAt": "2026-05-19T03:04:54.000Z",
+        "tweetUrl": "https://x.com/garrytan/status/2056571771965538501"
+      }
+    }
+  ],
+  "wordCount": 57,
+  "engagement": {
+    "likes": 103,
+    "retweets": 4,
+    "replies": 17
+  }
+}
