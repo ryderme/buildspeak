@@ -1,0 +1,630 @@
+{
+  "id": "x-rauchg-2026-05-20",
+  "type": "tweet",
+  "sourceName": "Guillermo Rauch",
+  "sourceHandle": "@rauchg",
+  "sourceBio": "@vercel CEO",
+  "title": "Guillermo Rauch · @rauchg",
+  "url": "https://x.com/rauchg",
+  "publishedAt": "2026-05-19T18:22:53.000Z",
+  "digestDate": "2026-05-20",
+  "paragraphs": [
+    {
+      "id": "x-rauchg-2026-05-20-p0",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-05-20-p0-s0",
+          "text": "We’re shipping a CDN pricing model that “smooths over” traffic spikes and viral events.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "We",
+              "key": "we"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "re",
+              "key": "re"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "shipping",
+              "key": "shipping"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CDN",
+              "key": "cdn"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "pricing",
+              "key": "pricing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "model",
+              "key": "model"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "“"
+            },
+            {
+              "kind": "word",
+              "text": "smooths",
+              "key": "smooths"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "over",
+              "key": "over"
+            },
+            {
+              "kind": "punct",
+              "text": "”"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "traffic",
+              "key": "traffic"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "spikes",
+              "key": "spikes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "viral",
+              "key": "viral"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "events",
+              "key": "events"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-20-p0-s1",
+          "text": "This allows us to remove stress and surprises, with uncompromising quality and network performance.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "allows",
+              "key": "allows"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "us",
+              "key": "us"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "remove",
+              "key": "remove"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "stress",
+              "key": "stress"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "surprises",
+              "key": "surprises"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "uncompromising",
+              "key": "uncompromising"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "quality",
+              "key": "quality"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "network",
+              "key": "network"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "performance",
+              "key": "performance"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-20-p0-s2",
+          "text": "Predictability without slow routes, degraded PoPs, or priority bandwidth tiers.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Predictability",
+              "key": "predictability"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "without",
+              "key": "without"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "slow",
+              "key": "slow"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "routes",
+              "key": "routes"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "degraded",
+              "key": "degraded"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "PoPs",
+              "key": "pops"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "priority",
+              "key": "priority"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bandwidth",
+              "key": "bandwidth"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tiers",
+              "key": "tiers"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "我们正在推出一种 CDN 定价模型，用来“平滑处理”流量高峰和爆火传播事件。这样一来，我们就能在丝毫不妥协质量与网络性能的前提下，消除压力和意外情况。实现可预测性，而不需要慢速路由、性能降级的 PoP，或分级优先带宽。",
+      "meta": {
+        "likes": 142,
+        "retweets": 3,
+        "replies": 20,
+        "createdAt": "2026-05-19T18:22:53.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2056802789477740713"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-05-20-p1",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-05-20-p1-s0",
+          "text": "Claude Managed Agents 🤝 Vercel Sandbox",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Managed",
+              "key": "managed"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "🤝"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Sandbox",
+              "key": "sandbox"
+            }
+          ]
+        }
+      ],
+      "zh": "Claude Managed Agents 🤝 Vercel Sandbox",
+      "meta": {
+        "likes": 205,
+        "retweets": 10,
+        "replies": 17,
+        "createdAt": "2026-05-19T13:57:26.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2056735989830471977"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-05-20-p2",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-05-20-p2-s0",
+          "text": "This is so cool: rerun​.io Stack: @sveltejs / @threejs / @vercel",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "so",
+              "key": "so"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cool",
+              "key": "cool"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rerun",
+              "key": "rerun"
+            },
+            {
+              "kind": "punct",
+              "text": "​."
+            },
+            {
+              "kind": "word",
+              "text": "io",
+              "key": "io"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Stack",
+              "key": "stack"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "sveltejs",
+              "key": "sveltejs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "threejs",
+              "key": "threejs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "vercel",
+              "key": "vercel"
+            }
+          ]
+        }
+      ],
+      "zh": "这太酷了：rerun​.io 技术栈：@sveltejs / @threejs / @vercel",
+      "meta": {
+        "likes": 965,
+        "retweets": 32,
+        "replies": 29,
+        "createdAt": "2026-05-19T13:51:45.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2056734559048536070"
+      }
+    }
+  ],
+  "wordCount": 54,
+  "engagement": {
+    "likes": 1312,
+    "retweets": 45,
+    "replies": 66
+  }
+}
