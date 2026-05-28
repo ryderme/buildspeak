@@ -1,296 +1,48 @@
 {
   "date": "2026-05-28",
-  "generatedAt": "2026-05-28T02:41:40.860Z",
+  "generatedAt": "2026-05-28T10:46:06.263Z",
   "podcasts": [
     {
-      "id": "podcast-training-data-how-cursor-trained-composer-on-fireworks-distributed-infrast-2026-05-28",
+      "id": "podcast-ai-i-by-every-we-automated-everything-with-ai-and-tripled-our-headcount-2026-05-28",
       "type": "podcast",
-      "sourceName": "Training Data",
-      "title": "How Cursor Trained Composer on Fireworks: Distributed Infrastructure for High-Performance RL",
-      "url": "https://www.youtube.com/watch?v=UDTr9yUnLUI",
-      "publishedAt": "2026-05-26T09:00:00.000Z",
+      "sourceName": "AI & I by Every",
+      "title": "We Automated Everything With AI and Tripled Our Headcount",
+      "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y",
+      "publishedAt": "2026-05-27T16:28:59.000Z",
       "digestDate": "2026-05-28",
       "paragraphs": [],
-      "wordCount": 9040
+      "wordCount": 6946
     }
   ],
-  "tweets": [
+  "tweets": [],
+  "blogs": [
     {
-      "id": "x-garrytan-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Garry Tan",
-      "sourceHandle": "@garrytan",
-      "sourceBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-      "title": "Garry Tan · @garrytan",
-      "url": "https://x.com/garrytan",
-      "publishedAt": "2026-05-27T06:26:41.000Z",
+      "id": "blog-claude-blog-new-in-claude-managed-agents-self-hosted-sandboxes-and-mcp-t-2026-05-28",
+      "type": "blog",
+      "sourceName": "Claude Blog",
+      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "publishedAt": "May 19, 2026",
       "digestDate": "2026-05-28",
       "paragraphs": [],
-      "wordCount": 151,
-      "engagement": {
-        "likes": 765,
-        "retweets": 49,
-        "replies": 108
-      }
+      "wordCount": 572
     },
     {
-      "id": "x-amasad-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Amjad Masad",
-      "sourceHandle": "@amasad",
-      "sourceBio": "ceo @replit. civilizationist",
-      "title": "Amjad Masad · @amasad",
-      "url": "https://x.com/amasad",
-      "publishedAt": "2026-05-27T06:14:52.000Z",
+      "id": "blog-claude-blog-new-connectors-in-claude-for-everyday-life-2026-05-28",
+      "type": "blog",
+      "sourceName": "Claude Blog",
+      "title": "New connectors in Claude for everyday life",
+      "url": "https://claude.com/blog/connectors-for-everyday-life",
+      "publishedAt": "Apr 23, 2026",
       "digestDate": "2026-05-28",
       "paragraphs": [],
-      "wordCount": 65,
-      "engagement": {
-        "likes": 1895,
-        "retweets": 35,
-        "replies": 108
-      }
-    },
-    {
-      "id": "x-sama-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Sam Altman",
-      "sourceHandle": "@sama",
-      "sourceBio": "AI is cool i guess",
-      "title": "Sam Altman · @sama",
-      "url": "https://x.com/sama",
-      "publishedAt": "2026-05-27T04:31:15.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 0,
-      "engagement": {
-        "likes": 651,
-        "retweets": 37,
-        "replies": 154
-      }
-    },
-    {
-      "id": "x-levie-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Aaron Levie",
-      "sourceHandle": "@levie",
-      "sourceBio": "ceo @box - your business lives in content. unleash it with AI",
-      "title": "Aaron Levie · @levie",
-      "url": "https://x.com/levie",
-      "publishedAt": "2026-05-27T03:50:30.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 228,
-      "engagement": {
-        "likes": 173,
-        "retweets": 15,
-        "replies": 35
-      }
-    },
-    {
-      "id": "x-swyx-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Swyx",
-      "sourceHandle": "@swyx",
-      "sourceBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-      "title": "Swyx · @swyx",
-      "url": "https://x.com/swyx",
-      "publishedAt": "2026-05-27T03:35:24.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 42,
-      "engagement": {
-        "likes": 198,
-        "retweets": 7,
-        "replies": 30
-      }
-    },
-    {
-      "id": "x-adityaag-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Aditya Agarwal",
-      "sourceHandle": "@adityaag",
-      "sourceBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
-      "title": "Aditya Agarwal · @adityaag",
-      "url": "https://x.com/adityaag",
-      "publishedAt": "2026-05-27T02:44:48.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 39,
-      "engagement": {
-        "likes": 88,
-        "retweets": 5,
-        "replies": 4
-      }
-    },
-    {
-      "id": "x-steipete-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Peter Steinberger",
-      "sourceHandle": "@steipete",
-      "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
-      "title": "Peter Steinberger · @steipete",
-      "url": "https://x.com/steipete",
-      "publishedAt": "2026-05-27T01:57:29.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 111,
-      "engagement": {
-        "likes": 1431,
-        "retweets": 64,
-        "replies": 61
-      }
-    },
-    {
-      "id": "x-rauchg-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Guillermo Rauch",
-      "sourceHandle": "@rauchg",
-      "sourceBio": "@vercel CEO",
-      "title": "Guillermo Rauch · @rauchg",
-      "url": "https://x.com/rauchg",
-      "publishedAt": "2026-05-27T01:39:49.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 22,
-      "engagement": {
-        "likes": 772,
-        "retweets": 65,
-        "replies": 88
-      }
-    },
-    {
-      "id": "x-nikunj-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Nikunj Kothari",
-      "sourceHandle": "@nikunj",
-      "sourceBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-      "title": "Nikunj Kothari · @nikunj",
-      "url": "https://x.com/nikunj",
-      "publishedAt": "2026-05-26T23:59:52.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 28,
-      "engagement": {
-        "likes": 198,
-        "retweets": 12,
-        "replies": 30
-      }
-    },
-    {
-      "id": "x-mattturck-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Matt Turck",
-      "sourceHandle": "@mattturck",
-      "sourceBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
-      "title": "Matt Turck · @mattturck",
-      "url": "https://x.com/mattturck",
-      "publishedAt": "2026-05-26T23:08:56.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 45,
-      "engagement": {
-        "likes": 27,
-        "retweets": 0,
-        "replies": 21
-      }
-    },
-    {
-      "id": "x-trq212-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Thariq",
-      "sourceHandle": "@trq212",
-      "sourceBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
-      "title": "Thariq · @trq212",
-      "url": "https://x.com/trq212",
-      "publishedAt": "2026-05-26T19:56:42.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 95,
-      "engagement": {
-        "likes": 2756,
-        "retweets": 84,
-        "replies": 151
-      }
-    },
-    {
-      "id": "x-zarazhangrui-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Zara Zhang",
-      "sourceHandle": "@zarazhangrui",
-      "sourceBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
-      "title": "Zara Zhang · @zarazhangrui",
-      "url": "https://x.com/zarazhangrui",
-      "publishedAt": "2026-05-26T19:22:25.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 179,
-      "engagement": {
-        "likes": 354,
-        "retweets": 26,
-        "replies": 44
-      }
-    },
-    {
-      "id": "x-danshipper-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Dan Shipper",
-      "sourceHandle": "@danshipper",
-      "sourceBio": "ceo @every | the only subscription you need to stay at the edge of AI",
-      "title": "Dan Shipper · @danshipper",
-      "url": "https://x.com/danshipper",
-      "publishedAt": "2026-05-26T19:17:35.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 27,
-      "engagement": {
-        "likes": 66,
-        "retweets": 3,
-        "replies": 4
-      }
-    },
-    {
-      "id": "x-claudeai-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Claude",
-      "sourceHandle": "@claudeai",
-      "sourceBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
-      "title": "Claude · @claudeai",
-      "url": "https://x.com/claudeai",
-      "publishedAt": "2026-05-26T15:15:30.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 4,
-      "engagement": {
-        "likes": 812,
-        "retweets": 60,
-        "replies": 178
-      }
-    },
-    {
-      "id": "x-petergyang-2026-05-28",
-      "type": "tweet",
-      "sourceName": "Peter Yang",
-      "sourceHandle": "@petergyang",
-      "sourceBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
-      "title": "Peter Yang · @petergyang",
-      "url": "https://x.com/petergyang",
-      "publishedAt": "2026-05-26T15:09:13.000Z",
-      "digestDate": "2026-05-28",
-      "paragraphs": [],
-      "wordCount": 4,
-      "engagement": {
-        "likes": 13,
-        "retweets": 0,
-        "replies": 2
-      }
+      "wordCount": 503
     }
   ],
-  "blogs": [],
   "stats": {
     "podcastCount": 1,
-    "builderCount": 15,
-    "tweetCount": 31,
-    "blogCount": 0
+    "builderCount": 0,
+    "tweetCount": 0,
+    "blogCount": 2
   }
 }
