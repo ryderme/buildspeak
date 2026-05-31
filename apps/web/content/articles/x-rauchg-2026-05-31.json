@@ -1,0 +1,289 @@
+{
+  "id": "x-rauchg-2026-05-31",
+  "type": "tweet",
+  "sourceName": "Guillermo Rauch",
+  "sourceHandle": "@rauchg",
+  "sourceBio": "@vercel CEO",
+  "title": "Guillermo Rauch · @rauchg",
+  "url": "https://x.com/rauchg",
+  "publishedAt": "2026-05-30T19:20:12.000Z",
+  "digestDate": "2026-05-31",
+  "paragraphs": [
+    {
+      "id": "x-rauchg-2026-05-31-p0",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-05-31-p0-s0",
+          "text": "Ship the best product.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Ship",
+              "key": "ship"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "best",
+              "key": "best"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "product",
+              "key": "product"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-31-p0-s1",
+          "text": "Use lots of AI, some AI, maybe no AI.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Use",
+              "key": "use"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "lots",
+              "key": "lots"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "some",
+              "key": "some"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "maybe",
+              "key": "maybe"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "no",
+              "key": "no"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-05-31-p0-s2",
+          "text": "Just be the best.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Just",
+              "key": "just"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "best",
+              "key": "best"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "做出最好的产品。可以大量使用 AI，也可以只用一些 AI，甚至完全不用 AI。关键是：只要做到最好。",
+      "meta": {
+        "likes": 2599,
+        "retweets": 236,
+        "replies": 179,
+        "createdAt": "2026-05-30T19:20:12.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2060803480823193840"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-05-31-p1",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-05-31-p1-s0",
+          "text": "Per-API Key spend caps on AI Gateway",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Per-API",
+              "key": "per-api"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Key",
+              "key": "key"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "spend",
+              "key": "spend"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "caps",
+              "key": "caps"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Gateway",
+              "key": "gateway"
+            }
+          ]
+        }
+      ],
+      "zh": "AI Gateway 上按 API Key 设置的支出上限",
+      "meta": {
+        "likes": 123,
+        "retweets": 11,
+        "replies": 22,
+        "createdAt": "2026-05-30T18:17:30.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2060787704166776927"
+      }
+    }
+  ],
+  "wordCount": 24,
+  "engagement": {
+    "likes": 2722,
+    "retweets": 247,
+    "replies": 201
+  }
+}
