@@ -1,0 +1,961 @@
+{
+  "id": "x-steipete-2026-06-01",
+  "type": "tweet",
+  "sourceName": "Peter Steinberger",
+  "sourceHandle": "@steipete",
+  "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+  "title": "Peter Steinberger · @steipete",
+  "url": "https://x.com/steipete",
+  "publishedAt": "2026-05-31T22:10:09.000Z",
+  "digestDate": "2026-06-01",
+  "paragraphs": [
+    {
+      "id": "x-steipete-2026-06-01-p0",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-06-01-p0-s0",
+          "text": "Been teaching codex to be my QA assistant.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Been",
+              "key": "been"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "teaching",
+              "key": "teaching"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "codex",
+              "key": "codex"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "my",
+              "key": "my"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "QA",
+              "key": "qa"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "assistant",
+              "key": "assistant"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-06-01-p0-s1",
+          "text": "For every commit it creates a user-test scenario and uses webVNC (crabbox), computer/browser use (peekaboo/mcporter) to test OpenClaw like a user/QA person would.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "For",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "every",
+              "key": "every"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "commit",
+              "key": "commit"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "creates",
+              "key": "creates"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "user-test",
+              "key": "user-test"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "scenario",
+              "key": "scenario"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "uses",
+              "key": "uses"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "webVNC",
+              "key": "webvnc"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "crabbox",
+              "key": "crabbox"
+            },
+            {
+              "kind": "punct",
+              "text": "),"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "computer",
+              "key": "computer"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "browser",
+              "key": "browser"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "use",
+              "key": "use"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "peekaboo",
+              "key": "peekaboo"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "mcporter",
+              "key": "mcporter"
+            },
+            {
+              "kind": "punct",
+              "text": ")"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "test",
+              "key": "test"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "OpenClaw",
+              "key": "openclaw"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "like",
+              "key": "like"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "user",
+              "key": "user"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "QA",
+              "key": "qa"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "person",
+              "key": "person"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "would",
+              "key": "would"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-06-01-p0-s2",
+          "text": "This runs in the background and opens PRs with fixes.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "runs",
+              "key": "runs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "background",
+              "key": "background"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "opens",
+              "key": "opens"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "PRs",
+              "key": "prs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fixes",
+              "key": "fixes"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "我一直在教 codex 做我的 QA 助手。对于每次 commit，它都会创建一个用户测试场景，并使用 webVNC (crabbox)、computer/browser use（peekaboo/mcporter）像真实用户或 QA 人员那样测试 OpenClaw。这个流程会在后台运行，并打开带有修复内容的 PR。",
+      "meta": {
+        "likes": 1008,
+        "retweets": 59,
+        "replies": 46,
+        "createdAt": "2026-05-31T22:10:09.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2061208638027395490"
+      }
+    },
+    {
+      "id": "x-steipete-2026-06-01-p1",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-06-01-p1-s0",
+          "text": "Haven't seen codex writing ad-hoc codemods before, but it just did for a bigger TypeScript migration.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Haven't",
+              "key": "haven't"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "seen",
+              "key": "seen"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "codex",
+              "key": "codex"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "writing",
+              "key": "writing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ad-hoc",
+              "key": "ad-hoc"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "codemods",
+              "key": "codemods"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "before",
+              "key": "before"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "but",
+              "key": "but"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "just",
+              "key": "just"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "did",
+              "key": "did"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bigger",
+              "key": "bigger"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "TypeScript",
+              "key": "typescript"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "migration",
+              "key": "migration"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-06-01-p1-s1",
+          "text": "Impressed.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Impressed",
+              "key": "impressed"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "我之前还没见过 codex 编写 ad-hoc codemod，但它刚刚为一次更大型的 TypeScript 迁移这么做了。令人印象深刻。",
+      "meta": {
+        "likes": 297,
+        "retweets": 10,
+        "replies": 33,
+        "createdAt": "2026-05-31T15:59:56.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2061115471760441692"
+      }
+    },
+    {
+      "id": "x-steipete-2026-06-01-p2",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-06-01-p2-s0",
+          "text": "The idea of OpenClaw is always that it should be yours.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "The",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "idea",
+              "key": "idea"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "OpenClaw",
+              "key": "openclaw"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "always",
+              "key": "always"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "should",
+              "key": "should"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "yours",
+              "key": "yours"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-06-01-p2-s1",
+          "text": "It's modular and lean, only add what you need.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "It's",
+              "key": "it's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "modular",
+              "key": "modular"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "lean",
+              "key": "lean"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "only",
+              "key": "only"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "add",
+              "key": "add"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "what",
+              "key": "what"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "need",
+              "key": "need"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-06-01-p2-s2",
+          "text": "Fewer skills, fewer tools = your agent can work more efficiently.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Fewer",
+              "key": "fewer"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "skills",
+              "key": "skills"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fewer",
+              "key": "fewer"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tools",
+              "key": "tools"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "="
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "efficiently",
+              "key": "efficiently"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "OpenClaw 的理念一直是：它应该属于你自己。它是模块化且精简的，只添加你需要的东西。技能越少、工具越少，你的 agent 就能工作得越高效。",
+      "meta": {
+        "likes": 428,
+        "retweets": 20,
+        "replies": 48,
+        "createdAt": "2026-05-31T13:10:12.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2061072753998856696"
+      }
+    }
+  ],
+  "wordCount": 91,
+  "engagement": {
+    "likes": 1733,
+    "retweets": 89,
+    "replies": 127
+  }
+}

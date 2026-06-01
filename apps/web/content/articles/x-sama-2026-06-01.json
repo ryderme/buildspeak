@@ -1,0 +1,1509 @@
+{
+  "id": "x-sama-2026-06-01",
+  "type": "tweet",
+  "sourceName": "Sam Altman",
+  "sourceHandle": "@sama",
+  "sourceBio": "AI is cool i guess",
+  "title": "Sam Altman · @sama",
+  "url": "https://x.com/sama",
+  "publishedAt": "2026-05-31T16:07:13.000Z",
+  "digestDate": "2026-06-01",
+  "paragraphs": [
+    {
+      "id": "x-sama-2026-06-01-p0",
+      "sentences": [
+        {
+          "id": "x-sama-2026-06-01-p0-s0",
+          "text": "OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML engineers to help us program and manufacture robots that are useful for society.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "OpenAI",
+              "key": "openai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Robotics",
+              "key": "robotics"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hiring",
+              "key": "hiring"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "looking",
+              "key": "looking"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "exceptional",
+              "key": "exceptional"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "full-stack",
+              "key": "full-stack"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hardware",
+              "key": "hardware"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ops",
+              "key": "ops"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "systems",
+              "key": "systems"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ML",
+              "key": "ml"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "engineers",
+              "key": "engineers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "help",
+              "key": "help"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "us",
+              "key": "us"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "program",
+              "key": "program"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "manufacture",
+              "key": "manufacture"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "robots",
+              "key": "robots"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "useful",
+              "key": "useful"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "society",
+              "key": "society"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-sama-2026-06-01-p0-s1",
+          "text": "AI should be able to help people in the physical world.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "should",
+              "key": "should"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "able",
+              "key": "able"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "help",
+              "key": "help"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "people",
+              "key": "people"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "physical",
+              "key": "physical"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "world",
+              "key": "world"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-sama-2026-06-01-p0-s2",
+          "text": "In the short term, we are focused on robots to support skilled workers to build our future infrastructure; in the long term, we imagine everyone having a personal robot doing anything they need.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "In",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "short",
+              "key": "short"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "term",
+              "key": "term"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "focused",
+              "key": "focused"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "robots",
+              "key": "robots"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "support",
+              "key": "support"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "skilled",
+              "key": "skilled"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "workers",
+              "key": "workers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "build",
+              "key": "build"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "our",
+              "key": "our"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "future",
+              "key": "future"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "infrastructure",
+              "key": "infrastructure"
+            },
+            {
+              "kind": "punct",
+              "text": ";"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "long",
+              "key": "long"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "term",
+              "key": "term"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "imagine",
+              "key": "imagine"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "everyone",
+              "key": "everyone"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "having",
+              "key": "having"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "personal",
+              "key": "personal"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "robot",
+              "key": "robot"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "doing",
+              "key": "doing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "anything",
+              "key": "anything"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "they",
+              "key": "they"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "need",
+              "key": "need"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-sama-2026-06-01-p0-s3",
+          "text": "Our world simulation research program, led by Aditya Ramesh (@model_mechanic), has evolved over the past year into OpenAI Robotics.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Our",
+              "key": "our"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "world",
+              "key": "world"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "simulation",
+              "key": "simulation"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "research",
+              "key": "research"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "program",
+              "key": "program"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "led",
+              "key": "led"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "by",
+              "key": "by"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Aditya",
+              "key": "aditya"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Ramesh",
+              "key": "ramesh"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "(@"
+            },
+            {
+              "kind": "word",
+              "text": "model",
+              "key": "model"
+            },
+            {
+              "kind": "punct",
+              "text": "_"
+            },
+            {
+              "kind": "word",
+              "text": "mechanic",
+              "key": "mechanic"
+            },
+            {
+              "kind": "punct",
+              "text": "),"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "evolved",
+              "key": "evolved"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "over",
+              "key": "over"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "past",
+              "key": "past"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "year",
+              "key": "year"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "OpenAI",
+              "key": "openai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Robotics",
+              "key": "robotics"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-sama-2026-06-01-p0-s4",
+          "text": "Progress is rapid, and based on a foundation of co-design between robotics hardware and ML research.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Progress",
+              "key": "progress"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rapid",
+              "key": "rapid"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "based",
+              "key": "based"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "foundation",
+              "key": "foundation"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "co-design",
+              "key": "co-design"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "between",
+              "key": "between"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "robotics",
+              "key": "robotics"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hardware",
+              "key": "hardware"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ML",
+              "key": "ml"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "research",
+              "key": "research"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-sama-2026-06-01-p0-s5",
+          "text": "If you love working hands-on across the robotics stack and want to build the future, please consider joining us.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "If",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "love",
+              "key": "love"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "working",
+              "key": "working"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hands-on",
+              "key": "hands-on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "across",
+              "key": "across"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "robotics",
+              "key": "robotics"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "stack",
+              "key": "stack"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "want",
+              "key": "want"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "build",
+              "key": "build"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "future",
+              "key": "future"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "please",
+              "key": "please"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "consider",
+              "key": "consider"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "joining",
+              "key": "joining"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "us",
+              "key": "us"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-sama-2026-06-01-p0-s6",
+          "text": "Send an email with your background and evidence of exceptional accomplishment to: robotics-recruiting@openai.com",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Send",
+              "key": "send"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "an",
+              "key": "an"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "email",
+              "key": "email"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "background",
+              "key": "background"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "evidence",
+              "key": "evidence"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "exceptional",
+              "key": "exceptional"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "accomplishment",
+              "key": "accomplishment"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "robotics-recruiting",
+              "key": "robotics-recruiting"
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "openai",
+              "key": "openai"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "word",
+              "text": "com",
+              "key": "com"
+            }
+          ]
+        }
+      ],
+      "zh": "OpenAI Robotics 正在招聘，寻找卓越的全栈硬件、ops（运营）、systems（系统）和 ML（机器学习）工程师，帮助我们编程并制造对社会有用的机器人。AI 应该能够在物理世界中帮助人们。短期内，我们专注于让机器人支持熟练工人建设未来基础设施；长期来看，我们设想每个人都拥有一台个人机器人，去完成他们需要的任何事情。由 Aditya Ramesh (@model_mechanic) 领导的世界模拟研究项目，在过去一年中已发展为 OpenAI Robotics。进展非常迅速，并建立在机器人硬件与 ML 研究协同设计的基础之上。如果你热爱亲自动手、贯穿整个 robotics stack（机器人技术栈）开展工作，并且想要构建未来，请考虑加入我们。请将你的背景信息以及能证明你取得卓越成就的材料发送至：robotics-recruiting@openai.com",
+      "meta": {
+        "likes": 11049,
+        "retweets": 840,
+        "replies": 958,
+        "createdAt": "2026-05-31T16:07:13.000Z",
+        "tweetUrl": "https://x.com/sama/status/2061117302528188712"
+      }
+    },
+    {
+      "id": "x-sama-2026-06-01-p1",
+      "sentences": [
+        {
+          "id": "x-sama-2026-06-01-p1-s0",
+          "text": "We want to help the world get a head start on biodefense:",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "We",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "want",
+              "key": "want"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "help",
+              "key": "help"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "world",
+              "key": "world"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "head",
+              "key": "head"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "start",
+              "key": "start"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "biodefense",
+              "key": "biodefense"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            }
+          ]
+        }
+      ],
+      "zh": "我们希望帮助世界在 biodefense（生物防御）方面抢得先机：",
+      "meta": {
+        "likes": 1397,
+        "retweets": 159,
+        "replies": 283,
+        "createdAt": "2026-05-31T15:05:55.000Z",
+        "tweetUrl": "https://x.com/sama/status/2061101875303530871"
+      }
+    }
+  ],
+  "wordCount": 152,
+  "engagement": {
+    "likes": 12446,
+    "retweets": 999,
+    "replies": 1241
+  }
+}

@@ -1,0 +1,2290 @@
+{
+  "id": "x-levie-2026-06-01",
+  "type": "tweet",
+  "sourceName": "Aaron Levie",
+  "sourceHandle": "@levie",
+  "sourceBio": "ceo @box - your business lives in content. unleash it with AI",
+  "title": "Aaron Levie · @levie",
+  "url": "https://x.com/levie",
+  "publishedAt": "2026-06-01T00:44:06.000Z",
+  "digestDate": "2026-06-01",
+  "paragraphs": [
+    {
+      "id": "x-levie-2026-06-01-p0",
+      "sentences": [
+        {
+          "id": "x-levie-2026-06-01-p0-s0",
+          "text": "This is effectively the #1 problem for AI agents in the enterprise.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "effectively",
+              "key": "effectively"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "#1"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "problem",
+              "key": "problem"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "enterprise",
+              "key": "enterprise"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-levie-2026-06-01-p0-s1",
+          "text": "As we go from agentic coding (where a large amount of context is in the code base, and users are technical enough to get the rest to the agent easily) to a world of knowledge work agents, the context problem becomes much more acute.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "As",
+              "key": "as"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "go",
+              "key": "go"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "from",
+              "key": "from"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agentic",
+              "key": "agentic"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "coding",
+              "key": "coding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "where",
+              "key": "where"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "large",
+              "key": "large"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "amount",
+              "key": "amount"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "context",
+              "key": "context"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "code",
+              "key": "code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "base",
+              "key": "base"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "users",
+              "key": "users"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "technical",
+              "key": "technical"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "enough",
+              "key": "enough"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rest",
+              "key": "rest"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "easily",
+              "key": "easily"
+            },
+            {
+              "kind": "punct",
+              "text": ")"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "world",
+              "key": "world"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "knowledge",
+              "key": "knowledge"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "context",
+              "key": "context"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "problem",
+              "key": "problem"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "becomes",
+              "key": "becomes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "much",
+              "key": "much"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "acute",
+              "key": "acute"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-levie-2026-06-01-p0-s2",
+          "text": "We see this every day with customers at Box.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "We",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "see",
+              "key": "see"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "every",
+              "key": "every"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "day",
+              "key": "day"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "customers",
+              "key": "customers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "at",
+              "key": "at"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Box",
+              "key": "box"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-levie-2026-06-01-p0-s3",
+          "text": "For existing digital knowledge, it’s often fragmented across legacy systems or environments that don’t play nice with agents, and have access controls that don’t map to the real work that needs to be done, which become a huge hurdle for getting agents the context they need.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "For",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "existing",
+              "key": "existing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "digital",
+              "key": "digital"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "knowledge",
+              "key": "knowledge"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "s",
+              "key": "s"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "often",
+              "key": "often"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fragmented",
+              "key": "fragmented"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "across",
+              "key": "across"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "legacy",
+              "key": "legacy"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "systems",
+              "key": "systems"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "environments",
+              "key": "environments"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "don",
+              "key": "don"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "t",
+              "key": "t"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "play",
+              "key": "play"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "nice",
+              "key": "nice"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "have",
+              "key": "have"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "access",
+              "key": "access"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "controls",
+              "key": "controls"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "don",
+              "key": "don"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "t",
+              "key": "t"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "map",
+              "key": "map"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "real",
+              "key": "real"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "needs",
+              "key": "needs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "done",
+              "key": "done"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "which",
+              "key": "which"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "become",
+              "key": "become"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "huge",
+              "key": "huge"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hurdle",
+              "key": "hurdle"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "getting",
+              "key": "getting"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "context",
+              "key": "context"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "they",
+              "key": "they"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "need",
+              "key": "need"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-levie-2026-06-01-p0-s4",
+          "text": "This has to all get moved to modern, secure cloud environments.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "all",
+              "key": "all"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "moved",
+              "key": "moved"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "modern",
+              "key": "modern"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "secure",
+              "key": "secure"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cloud",
+              "key": "cloud"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "environments",
+              "key": "environments"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-levie-2026-06-01-p0-s5",
+          "text": "But also, companies often haven’t captured and digitized some of the critical context that agents need to work with.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "But",
+              "key": "but"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "also",
+              "key": "also"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "companies",
+              "key": "companies"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "often",
+              "key": "often"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "haven",
+              "key": "haven"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "t",
+              "key": "t"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "captured",
+              "key": "captured"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "digitized",
+              "key": "digitized"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "some",
+              "key": "some"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "critical",
+              "key": "critical"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "context",
+              "key": "context"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "need",
+              "key": "need"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-levie-2026-06-01-p0-s6",
+          "text": "Decisions, processes, and workflows often live in people’s heads and tribal knowledge that need to get turned into unstructured data for agents.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Decisions",
+              "key": "decisions"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "processes",
+              "key": "processes"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "workflows",
+              "key": "workflows"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "often",
+              "key": "often"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "live",
+              "key": "live"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "people",
+              "key": "people"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "s",
+              "key": "s"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "heads",
+              "key": "heads"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tribal",
+              "key": "tribal"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "knowledge",
+              "key": "knowledge"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "need",
+              "key": "need"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "turned",
+              "key": "turned"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "unstructured",
+              "key": "unstructured"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "data",
+              "key": "data"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-levie-2026-06-01-p0-s7",
+          "text": "This is actually one of the biggest points of leverage for applied AI companies, because they can work to specialize in getting agents exactly the information and domain expertise they need.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "actually",
+              "key": "actually"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "one",
+              "key": "one"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "biggest",
+              "key": "biggest"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "points",
+              "key": "points"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "leverage",
+              "key": "leverage"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "applied",
+              "key": "applied"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "companies",
+              "key": "companies"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "because",
+              "key": "because"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "they",
+              "key": "they"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "specialize",
+              "key": "specialize"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "getting",
+              "key": "getting"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "exactly",
+              "key": "exactly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "information",
+              "key": "information"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "domain",
+              "key": "domain"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "expertise",
+              "key": "expertise"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "they",
+              "key": "they"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "need",
+              "key": "need"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-levie-2026-06-01-p0-s8",
+          "text": "But it’s also one of the reasons why FDEs and new system integrator plays will also work so well right now.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "But",
+              "key": "but"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "s",
+              "key": "s"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "also",
+              "key": "also"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "one",
+              "key": "one"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "reasons",
+              "key": "reasons"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "why",
+              "key": "why"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "FDEs",
+              "key": "fdes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "new",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "system",
+              "key": "system"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "integrator",
+              "key": "integrator"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "plays",
+              "key": "plays"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "will",
+              "key": "will"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "also",
+              "key": "also"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "so",
+              "key": "so"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "well",
+              "key": "well"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "right",
+              "key": "right"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-levie-2026-06-01-p0-s9",
+          "text": "The companies that figure this out will be able to get the most out of AI going forward.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "The",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "companies",
+              "key": "companies"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "figure",
+              "key": "figure"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "out",
+              "key": "out"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "will",
+              "key": "will"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "able",
+              "key": "able"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "most",
+              "key": "most"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "out",
+              "key": "out"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "going",
+              "key": "going"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "forward",
+              "key": "forward"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "这实际上是企业中 AI agents 面临的头号问题。随着我们从 agentic coding 走向知识工作 agents 的世界，context（上下文）问题会变得更加尖锐——在 agentic coding 里，大量 context 都在代码库中，而用户也足够懂技术，能比较容易地把其余信息提供给 agent。我们在 Box 与客户的日常接触中每天都能看到这一点。对于现有的数字化知识，它往往分散在各类 legacy systems（遗留系统）中，或者存在于那些无法很好配合 agents 的环境里；同时，这些环境的访问控制也常常无法映射到实际工作真正需要完成的方式，这就成为让 agents 获得所需 context 的巨大障碍。这些内容都必须迁移到现代化、安全的云环境中。但除此之外，很多公司其实还没有把 agents 开展工作所需的一些关键信息捕捉下来并完成数字化。决策、流程和工作流往往存在于人的脑子里，或者存在于 tribal knowledge（组织内的隐性经验）中，而这些都需要被转化为 agents 可用的 unstructured data（非结构化数据）。这其实是 applied AI companies 的一个最大杠杆点之一，因为它们可以专门去解决如何把 agents 真正需要的信息和领域专长准确地提供给它们。但这也是为什么 FDEs 以及新型 system integrator 模式在当下会如此有效的原因之一。那些把这个问题解决好的公司，未来将能够从 AI 中获得最大的收益。",
+      "meta": {
+        "likes": 479,
+        "retweets": 54,
+        "replies": 65,
+        "createdAt": "2026-06-01T00:44:06.000Z",
+        "tweetUrl": "https://x.com/levie/status/2061247380897579500"
+      }
+    }
+  ],
+  "wordCount": 238,
+  "engagement": {
+    "likes": 479,
+    "retweets": 54,
+    "replies": 65
+  }
+}

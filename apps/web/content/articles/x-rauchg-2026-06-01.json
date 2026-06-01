@@ -1,0 +1,1035 @@
+{
+  "id": "x-rauchg-2026-06-01",
+  "type": "tweet",
+  "sourceName": "Guillermo Rauch",
+  "sourceHandle": "@rauchg",
+  "sourceBio": "@vercel CEO",
+  "title": "Guillermo Rauch · @rauchg",
+  "url": "https://x.com/rauchg",
+  "publishedAt": "2026-05-31T17:19:09.000Z",
+  "digestDate": "2026-06-01",
+  "paragraphs": [
+    {
+      "id": "x-rauchg-2026-06-01-p0",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-06-01-p0-s0",
+          "text": "Unclear if a durable trend, but CEOs and CTOs are back to coding with a fury, thanks to coding agents.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Unclear",
+              "key": "unclear"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "if",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "durable",
+              "key": "durable"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "trend",
+              "key": "trend"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "but",
+              "key": "but"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CEOs",
+              "key": "ceos"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CTOs",
+              "key": "ctos"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "back",
+              "key": "back"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "coding",
+              "key": "coding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fury",
+              "key": "fury"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "thanks",
+              "key": "thanks"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "coding",
+              "key": "coding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-01-p0-s1",
+          "text": "I have public company CEOs sliding into my DMs (and “InMail”) telling me about falling in love with shipping software again thanks to Claude Code and Vercel.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "have",
+              "key": "have"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "public",
+              "key": "public"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "company",
+              "key": "company"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CEOs",
+              "key": "ceos"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sliding",
+              "key": "sliding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "my",
+              "key": "my"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "DMs",
+              "key": "dms"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "“"
+            },
+            {
+              "kind": "word",
+              "text": "InMail",
+              "key": "inmail"
+            },
+            {
+              "kind": "punct",
+              "text": "”)"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "telling",
+              "key": "telling"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "me",
+              "key": "me"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "about",
+              "key": "about"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "falling",
+              "key": "falling"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "love",
+              "key": "love"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "shipping",
+              "key": "shipping"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "software",
+              "key": "software"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "again",
+              "key": "again"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "thanks",
+              "key": "thanks"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Code",
+              "key": "code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-01-p0-s2",
+          "text": "“Dream accounts” that we always wanted to work with, where in the past the C-suite would hardly understand the infrastructure until much later in the game.",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "“"
+            },
+            {
+              "kind": "word",
+              "text": "Dream",
+              "key": "dream"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "accounts",
+              "key": "accounts"
+            },
+            {
+              "kind": "punct",
+              "text": "”"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "always",
+              "key": "always"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "wanted",
+              "key": "wanted"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "where",
+              "key": "where"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "past",
+              "key": "past"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "C-suite",
+              "key": "c-suite"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "would",
+              "key": "would"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hardly",
+              "key": "hardly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "understand",
+              "key": "understand"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "infrastructure",
+              "key": "infrastructure"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "until",
+              "key": "until"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "much",
+              "key": "much"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "later",
+              "key": "later"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "game",
+              "key": "game"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-01-p0-s3",
+          "text": "Coding agents are the ultimate PLG-fication of the enterprise.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Coding",
+              "key": "coding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ultimate",
+              "key": "ultimate"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "PLG-fication",
+              "key": "plg-fication"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "enterprise",
+              "key": "enterprise"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-01-p0-s4",
+          "text": "Bad, legacy software can’t hide anymore.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Bad",
+              "key": "bad"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "legacy",
+              "key": "legacy"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "software",
+              "key": "software"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "t",
+              "key": "t"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hide",
+              "key": "hide"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "anymore",
+              "key": "anymore"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-01-p0-s5",
+          "text": "The stack that works is self-evident to the entire organization, from intern to CEO.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "The",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "stack",
+              "key": "stack"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "works",
+              "key": "works"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "self-evident",
+              "key": "self-evident"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "entire",
+              "key": "entire"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "organization",
+              "key": "organization"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "from",
+              "key": "from"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "intern",
+              "key": "intern"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CEO",
+              "key": "ceo"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "这是不是一种持久趋势还不清楚，但多亏了 coding agents，如今 CEOs 和 CTOs 又开始火力全开地写代码了。我有一些上市公司 CEO 直接滑进我的私信（以及“InMail”）里，告诉我多亏了 Claude Code 和 Vercel，他们又重新爱上了交付软件（shipping software）。还有那些我们一直梦寐以求想合作的“dream accounts”，过去在这类客户里，C-suite 往往要到项目进行到很后面，才勉强理解底层基础设施。Coding agents 是企业领域最彻底的 PLG-fication。糟糕的 legacy software 再也藏不住了。真正有效的技术栈（stack）对整个组织来说都变得一目了然，从 intern 到 CEO 都看得清清楚楚。",
+      "meta": {
+        "likes": 1226,
+        "retweets": 69,
+        "replies": 157,
+        "createdAt": "2026-05-31T17:19:09.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2061135404942974982"
+      }
+    }
+  ],
+  "wordCount": 103,
+  "engagement": {
+    "likes": 1226,
+    "retweets": 69,
+    "replies": 157
+  }
+}

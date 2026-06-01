@@ -1,0 +1,1534 @@
+{
+  "id": "x-petergyang-2026-06-01",
+  "type": "tweet",
+  "sourceName": "Peter Yang",
+  "sourceHandle": "@petergyang",
+  "sourceBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+  "title": "Peter Yang · @petergyang",
+  "url": "https://x.com/petergyang",
+  "publishedAt": "2026-06-01T02:44:05.000Z",
+  "digestDate": "2026-06-01",
+  "paragraphs": [
+    {
+      "id": "x-petergyang-2026-06-01-p0",
+      "sentences": [
+        {
+          "id": "x-petergyang-2026-06-01-p0-s0",
+          "text": "Ok is there any difference between Codex automations and Claude Code routines?",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Ok",
+              "key": "ok"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "there",
+              "key": "there"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "any",
+              "key": "any"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "difference",
+              "key": "difference"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "between",
+              "key": "between"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Codex",
+              "key": "codex"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "automations",
+              "key": "automations"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Code",
+              "key": "code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "routines",
+              "key": "routines"
+            },
+            {
+              "kind": "punct",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p0-s1",
+          "text": "Which one is better?",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Which",
+              "key": "which"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "one",
+              "key": "one"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "better",
+              "key": "better"
+            },
+            {
+              "kind": "punct",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p0-s2",
+          "text": "I want to consolidate all my cron jobs in one list.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "want",
+              "key": "want"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "consolidate",
+              "key": "consolidate"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "all",
+              "key": "all"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "my",
+              "key": "my"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cron",
+              "key": "cron"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "jobs",
+              "key": "jobs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "one",
+              "key": "one"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "list",
+              "key": "list"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "好的，Codex automations 和 Claude Code routines 之间有什么区别吗？哪个更好？我想把我所有的 cron jobs 都整合到一个列表里。",
+      "meta": {
+        "likes": 75,
+        "retweets": 1,
+        "replies": 26,
+        "createdAt": "2026-06-01T02:44:05.000Z",
+        "tweetUrl": "https://x.com/petergyang/status/2061277577785000203"
+      }
+    },
+    {
+      "id": "x-petergyang-2026-06-01-p1",
+      "sentences": [
+        {
+          "id": "x-petergyang-2026-06-01-p1-s0",
+          "text": "You all just don't get it.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "You",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "all",
+              "key": "all"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "just",
+              "key": "just"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "don't",
+              "key": "don't"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p1-s1",
+          "text": "If you want to win and I mean really win you have to: 1.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "If",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "want",
+              "key": "want"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "win",
+              "key": "win"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mean",
+              "key": "mean"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "really",
+              "key": "really"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "win",
+              "key": "win"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "have",
+              "key": "have"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "1."
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p1-s2",
+          "text": "Work 997 996 is for losers 2.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "997"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "996"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "losers",
+              "key": "losers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "2."
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p1-s3",
+          "text": "Tokenmax If you're not spending more on tokens than your company's entire human headcount budget, are you even AI native?",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Tokenmax",
+              "key": "tokenmax"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "If",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you're",
+              "key": "you're"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "not",
+              "key": "not"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "spending",
+              "key": "spending"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tokens",
+              "key": "tokens"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "than",
+              "key": "than"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "company's",
+              "key": "company's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "entire",
+              "key": "entire"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "human",
+              "key": "human"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "headcount",
+              "key": "headcount"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "budget",
+              "key": "budget"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "even",
+              "key": "even"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "native",
+              "key": "native"
+            },
+            {
+              "kind": "punct",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p1-s4",
+          "text": "3.",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "3."
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p1-s5",
+          "text": "Sleep in the office Think about how many more agents you can spin up with that $4,000 monthly SF rent.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Sleep",
+              "key": "sleep"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "office",
+              "key": "office"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Think",
+              "key": "think"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "about",
+              "key": "about"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "how",
+              "key": "how"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "many",
+              "key": "many"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "spin",
+              "key": "spin"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "up",
+              "key": "up"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "$4,000"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "monthly",
+              "key": "monthly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "SF",
+              "key": "sf"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rent",
+              "key": "rent"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p1-s6",
+          "text": "4.",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "4."
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p1-s7",
+          "text": "Be on Forbes 30 under 30 If you're over 30 and didn't make this list, I hate to say it but it's over for you.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Forbes",
+              "key": "forbes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "30"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "under",
+              "key": "under"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "30"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "If",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you're",
+              "key": "you're"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "over",
+              "key": "over"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "30"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "didn't",
+              "key": "didn't"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "make",
+              "key": "make"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "list",
+              "key": "list"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hate",
+              "key": "hate"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "say",
+              "key": "say"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "but",
+              "key": "but"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it's",
+              "key": "it's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "over",
+              "key": "over"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p1-s8",
+          "text": "5.",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "5."
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p1-s9",
+          "text": "Try not to end up in jail Might be hard if you do 4.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Try",
+              "key": "try"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "not",
+              "key": "not"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "end",
+              "key": "end"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "up",
+              "key": "up"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "jail",
+              "key": "jail"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Might",
+              "key": "might"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hard",
+              "key": "hard"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "if",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "do",
+              "key": "do"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "4."
+            }
+          ]
+        }
+      ],
+      "zh": "你们就是不明白。如果你想赢，而且我是说真的赢，你就必须：1. 007 式工作，996 是失败者才干的事 2. Tokenmax 如果你在 tokens 上的花费还没有超过你公司整个员工 headcount budget（人力编制预算），那你到底算不算 AI native？3. 睡在办公室里 想想看，把每月 $4,000 的 SF 房租省下来，你还能再启动多少个 agents。4. 登上 Forbes 30 under 30 如果你已经超过 30 岁却没进这个榜单，我很遗憾地说，你已经没戏了。5. 尽量别进监狱 如果你做到了第 4 条，这一点可能会有点难。",
+      "meta": {
+        "likes": 37,
+        "retweets": 2,
+        "replies": 7,
+        "createdAt": "2026-05-31T19:56:56.000Z",
+        "tweetUrl": "https://x.com/petergyang/status/2061175114184736792"
+      }
+    },
+    {
+      "id": "x-petergyang-2026-06-01-p2",
+      "sentences": [
+        {
+          "id": "x-petergyang-2026-06-01-p2-s0",
+          "text": "@Shpigford \"Pretend your worst enemy wrote this code.\" \"That person who always leaves smug PR comments?",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "Shpigford",
+              "key": "shpigford"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "\""
+            },
+            {
+              "kind": "word",
+              "text": "Pretend",
+              "key": "pretend"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "worst",
+              "key": "worst"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "enemy",
+              "key": "enemy"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "wrote",
+              "key": "wrote"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "code",
+              "key": "code"
+            },
+            {
+              "kind": "punct",
+              "text": ".\""
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "\""
+            },
+            {
+              "kind": "word",
+              "text": "That",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "person",
+              "key": "person"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "who",
+              "key": "who"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "always",
+              "key": "always"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "leaves",
+              "key": "leaves"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "smug",
+              "key": "smug"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "PR",
+              "key": "pr"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "comments",
+              "key": "comments"
+            },
+            {
+              "kind": "punct",
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-06-01-p2-s1",
+          "text": "Be them.\" 😂",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "them",
+              "key": "them"
+            },
+            {
+              "kind": "punct",
+              "text": ".\""
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "😂"
+            }
+          ]
+        }
+      ],
+      "zh": "@Shpigford：“假装这段代码是你最讨厌的敌人写的。”“就是那个总爱在 PR 里留下一堆自鸣得意评论的人？成为那个人。” 😂",
+      "meta": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0,
+        "createdAt": "2026-05-31T19:50:09.000Z",
+        "tweetUrl": "https://x.com/petergyang/status/2061173405366571251"
+      }
+    }
+  ],
+  "wordCount": 142,
+  "engagement": {
+    "likes": 116,
+    "retweets": 3,
+    "replies": 33
+  }
+}
