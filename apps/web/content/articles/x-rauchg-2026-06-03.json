@@ -6,7 +6,7 @@
   "sourceBio": "@vercel CEO",
   "title": "Guillermo Rauch · @rauchg",
   "url": "https://x.com/rauchg",
-  "publishedAt": "2026-06-01T23:40:56.000Z",
+  "publishedAt": "2026-06-02T22:13:06.000Z",
   "digestDate": "2026-06-03",
   "paragraphs": [
     {
@@ -14,12 +14,12 @@
       "sentences": [
         {
           "id": "x-rauchg-2026-06-03-p0-s0",
-          "text": "MiniMax M3 is now the leading open model on the Next.js agent evaluations ( Right behind Opus &amp; GPT5, but 10× cheaper (And 20× cheaper right now on ▲ AI Gateway!)",
+          "text": "YES-CODE An entire category of software, \"no-code\", was built under the presumption that code is expensive, difficult, and scarce.",
           "tokens": [
             {
               "kind": "word",
-              "text": "MiniMax",
-              "key": "minimax"
+              "text": "YES-CODE",
+              "key": "yes-code"
             },
             {
               "kind": "space",
@@ -27,8 +27,128 @@
             },
             {
               "kind": "word",
-              "text": "M3",
-              "key": "m"
+              "text": "An",
+              "key": "an"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "entire",
+              "key": "entire"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "category",
+              "key": "category"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "software",
+              "key": "software"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "\""
+            },
+            {
+              "kind": "word",
+              "text": "no-code",
+              "key": "no-code"
+            },
+            {
+              "kind": "punct",
+              "text": "\","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "was",
+              "key": "was"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "built",
+              "key": "built"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "under",
+              "key": "under"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "presumption",
+              "key": "presumption"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "code",
+              "key": "code"
             },
             {
               "kind": "space",
@@ -45,159 +165,8 @@
             },
             {
               "kind": "word",
-              "text": "now",
-              "key": "now"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "leading",
-              "key": "leading"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "open",
-              "key": "open"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "model",
-              "key": "model"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "on",
-              "key": "on"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Next",
-              "key": "next"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            },
-            {
-              "kind": "word",
-              "text": "js",
-              "key": "js"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "agent",
-              "key": "agent"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "evaluations",
-              "key": "evaluations"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "("
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Right",
-              "key": "right"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "behind",
-              "key": "behind"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Opus",
-              "key": "opus"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "&"
-            },
-            {
-              "kind": "word",
-              "text": "amp",
-              "key": "amp"
-            },
-            {
-              "kind": "punct",
-              "text": ";"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "GPT5",
-              "key": "gpt"
+              "text": "expensive",
+              "key": "expensive"
             },
             {
               "kind": "punct",
@@ -209,16 +178,12 @@
             },
             {
               "kind": "word",
-              "text": "but",
-              "key": "but"
-            },
-            {
-              "kind": "space",
-              "text": " "
+              "text": "difficult",
+              "key": "difficult"
             },
             {
               "kind": "punct",
-              "text": "10×"
+              "text": ","
             },
             {
               "kind": "space",
@@ -226,20 +191,7 @@
             },
             {
               "kind": "word",
-              "text": "cheaper",
-              "key": "cheaper"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "("
-            },
-            {
-              "kind": "word",
-              "text": "And",
+              "text": "and",
               "key": "and"
             },
             {
@@ -247,98 +199,93 @@
               "text": " "
             },
             {
-              "kind": "punct",
-              "text": "20×"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
               "kind": "word",
-              "text": "cheaper",
-              "key": "cheaper"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "right",
-              "key": "right"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "now",
-              "key": "now"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "on",
-              "key": "on"
-            },
-            {
-              "kind": "space",
-              "text": " "
+              "text": "scarce",
+              "key": "scarce"
             },
             {
               "kind": "punct",
-              "text": "▲"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "AI",
-              "key": "ai"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Gateway",
-              "key": "gateway"
-            },
-            {
-              "kind": "punct",
-              "text": "!)"
+              "text": "."
             }
           ]
-        }
-      ],
-      "zh": "MiniMax M3 现在是 Next.js agent 评测中领先的 open model（仅次于 Opus 和 GPT5，但价格便宜 10×（而且目前在 ▲ AI Gateway 上便宜 20×！））",
-      "meta": {
-        "likes": 596,
-        "retweets": 25,
-        "replies": 32,
-        "createdAt": "2026-06-01T23:40:56.000Z",
-        "tweetUrl": "https://x.com/rauchg/status/2061593874498531707"
-      }
-    },
-    {
-      "id": "x-rauchg-2026-06-03-p1",
-      "sentences": [
+        },
         {
-          "id": "x-rauchg-2026-06-03-p1-s0",
-          "text": "Git is all you need.",
+          "id": "x-rauchg-2026-06-03-p0-s1",
+          "text": "Coding agents have forever changed the equation.",
           "tokens": [
             {
               "kind": "word",
-              "text": "Git",
-              "key": "git"
+              "text": "Coding",
+              "key": "coding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "have",
+              "key": "have"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "forever",
+              "key": "forever"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "changed",
+              "key": "changed"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "equation",
+              "key": "equation"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p0-s2",
+          "text": "Code is now cheap, easy, and abundant.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Code",
+              "key": "code"
             },
             {
               "kind": "space",
@@ -355,8 +302,549 @@
             },
             {
               "kind": "word",
-              "text": "all",
-              "key": "all"
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cheap",
+              "key": "cheap"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "easy",
+              "key": "easy"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "abundant",
+              "key": "abundant"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p0-s3",
+          "text": "I remember @cramforce being asked by an analyst long ago: \"soo, is @vercel like a no-code platform?\" Without hesitation he goes \"no, it's the absolute opposite.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "remember",
+              "key": "remember"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "cramforce",
+              "key": "cramforce"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "being",
+              "key": "being"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "asked",
+              "key": "asked"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "by",
+              "key": "by"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "an",
+              "key": "an"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "analyst",
+              "key": "analyst"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "long",
+              "key": "long"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ago",
+              "key": "ago"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "\""
+            },
+            {
+              "kind": "word",
+              "text": "soo",
+              "key": "soo"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "like",
+              "key": "like"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "no-code",
+              "key": "no-code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "platform",
+              "key": "platform"
+            },
+            {
+              "kind": "punct",
+              "text": "?\""
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Without",
+              "key": "without"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hesitation",
+              "key": "hesitation"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "he",
+              "key": "he"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "goes",
+              "key": "goes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "\""
+            },
+            {
+              "kind": "word",
+              "text": "no",
+              "key": "no"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it's",
+              "key": "it's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "absolute",
+              "key": "absolute"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "opposite",
+              "key": "opposite"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p0-s4",
+          "text": "It's a yes-code platform.\" 😁 A key thing we set out to do was to be uncompromising in quality and sophistication of the things you could host.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "It's",
+              "key": "it's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "yes-code",
+              "key": "yes-code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "platform",
+              "key": "platform"
+            },
+            {
+              "kind": "punct",
+              "text": ".\""
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "😁"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "A",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "key",
+              "key": "key"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "thing",
+              "key": "thing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "set",
+              "key": "set"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "out",
+              "key": "out"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "do",
+              "key": "do"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "was",
+              "key": "was"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "uncompromising",
+              "key": "uncompromising"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "quality",
+              "key": "quality"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sophistication",
+              "key": "sophistication"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "things",
+              "key": "things"
             },
             {
               "kind": "space",
@@ -373,8 +861,449 @@
             },
             {
               "kind": "word",
-              "text": "need",
-              "key": "need"
+              "text": "could",
+              "key": "could"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "host",
+              "key": "host"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p0-s5",
+          "text": "No-code solutions took shortcuts and set hard ceilings, typically on performance and sophistication.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "No-code",
+              "key": "no-code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "solutions",
+              "key": "solutions"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "took",
+              "key": "took"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "shortcuts",
+              "key": "shortcuts"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "set",
+              "key": "set"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hard",
+              "key": "hard"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ceilings",
+              "key": "ceilings"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "typically",
+              "key": "typically"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "performance",
+              "key": "performance"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sophistication",
+              "key": "sophistication"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p0-s6",
+          "text": "Our mission is to create the easiest cloud for agents that you never graduate from.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Our",
+              "key": "our"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mission",
+              "key": "mission"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "create",
+              "key": "create"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "easiest",
+              "key": "easiest"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cloud",
+              "key": "cloud"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "never",
+              "key": "never"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "graduate",
+              "key": "graduate"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "from",
+              "key": "from"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p0-s7",
+          "text": "PS: welcome to Vercel!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "PS",
+              "key": "ps"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "welcome",
+              "key": "welcome"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "YES-CODE 有整整一类软件——“no-code”——是建立在这样一个前提之上的：code 很昂贵、很困难、也很稀缺。coding agents 永远地改变了这个等式。现在，code 变得便宜、容易，而且充沛。我记得很久以前，有位分析师问 @cramforce：“所以，@vercel 算是一个 no-code platform 吗？” 他毫不犹豫地回答：“不，它恰恰相反。它是一个 yes-code platform。” 😁 我们从一开始就想做的一件关键事情，是对你能托管的东西的质量和复杂度绝不妥协。no-code 方案会走捷径，并设下很硬的上限，通常体现在性能和复杂度上。我们的使命，是为 agents 打造最容易使用、而且你永远不需要“毕业离开”的 cloud。附：欢迎来到 Vercel！",
+      "meta": {
+        "likes": 462,
+        "retweets": 20,
+        "replies": 43,
+        "createdAt": "2026-06-02T22:13:06.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2061934154732974376"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-06-03-p1",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-06-03-p1-s0",
+          "text": "This is what education in the age of AI looks like.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "what",
+              "key": "what"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "education",
+              "key": "education"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "age",
+              "key": "age"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "looks",
+              "key": "looks"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "like",
+              "key": "like"
             },
             {
               "kind": "punct",
@@ -384,11 +1313,310 @@
         },
         {
           "id": "x-rauchg-2026-06-03-p1-s1",
-          "text": "Always has been",
+          "text": "Start with the language: the linguistic surface is your roadmap.",
           "tokens": [
             {
               "kind": "word",
-              "text": "Always",
+              "text": "Start",
+              "key": "start"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "language",
+              "key": "language"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "linguistic",
+              "key": "linguistic"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "surface",
+              "key": "surface"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "roadmap",
+              "key": "roadmap"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p1-s2",
+          "text": "Much like an SDK has a set of function definitions, human language is the new API to the world.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Much",
+              "key": "much"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "like",
+              "key": "like"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "an",
+              "key": "an"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "SDK",
+              "key": "sdk"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "set",
+              "key": "set"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "function",
+              "key": "function"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "definitions",
+              "key": "definitions"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "human",
+              "key": "human"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "language",
+              "key": "language"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "new",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "API",
+              "key": "api"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "world",
+              "key": "world"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p1-s3",
+          "text": "It also always has been… there's never been an expert in any field without mastery over its language.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "It",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "also",
+              "key": "also"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "always",
               "key": "always"
             },
             {
@@ -408,97 +1636,127 @@
               "kind": "word",
               "text": "been",
               "key": "been"
-            }
-          ]
-        }
-      ],
-      "zh": "你需要的只有 Git。一直都是这样",
-      "meta": {
-        "likes": 336,
-        "retweets": 11,
-        "replies": 27,
-        "createdAt": "2026-06-01T19:39:39.000Z",
-        "tweetUrl": "https://x.com/rauchg/status/2061533151676293430"
-      }
-    },
-    {
-      "id": "x-rauchg-2026-06-03-p2",
-      "sentences": [
-        {
-          "id": "x-rauchg-2026-06-03-p2-s0",
-          "text": "Beautiful example of a full-stack agent on @vercel.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "Beautiful",
-              "key": "beautiful"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "example",
-              "key": "example"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "of",
-              "key": "of"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "a",
-              "key": "a"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "full-stack",
-              "key": "full-stack"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "agent",
-              "key": "agent"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "on",
-              "key": "on"
-            },
-            {
-              "kind": "space",
-              "text": " "
             },
             {
               "kind": "punct",
-              "text": "@"
+              "text": "…"
+            },
+            {
+              "kind": "space",
+              "text": " "
             },
             {
               "kind": "word",
-              "text": "vercel",
-              "key": "vercel"
+              "text": "there's",
+              "key": "there's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "never",
+              "key": "never"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "been",
+              "key": "been"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "an",
+              "key": "an"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "expert",
+              "key": "expert"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "any",
+              "key": "any"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "field",
+              "key": "field"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "without",
+              "key": "without"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mastery",
+              "key": "mastery"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "over",
+              "key": "over"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "its",
+              "key": "its"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "language",
+              "key": "language"
             },
             {
               "kind": "punct",
@@ -507,13 +1765,194 @@
           ]
         },
         {
-          "id": "x-rauchg-2026-06-03-p2-s1",
-          "text": "Great learning material!",
+          "id": "x-rauchg-2026-06-03-p1-s4",
+          "text": "The distinction is that English alone could not produce tangible things.",
           "tokens": [
             {
               "kind": "word",
-              "text": "Great",
-              "key": "great"
+              "text": "The",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "distinction",
+              "key": "distinction"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "English",
+              "key": "english"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "alone",
+              "key": "alone"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "could",
+              "key": "could"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "not",
+              "key": "not"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "produce",
+              "key": "produce"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tangible",
+              "key": "tangible"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "things",
+              "key": "things"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p1-s5",
+          "text": "You had to translate it into machine instruction, through learning or delegation to others.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "You",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "had",
+              "key": "had"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "translate",
+              "key": "translate"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "machine",
+              "key": "machine"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "instruction",
+              "key": "instruction"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "through",
+              "key": "through"
             },
             {
               "kind": "space",
@@ -530,8 +1969,570 @@
             },
             {
               "kind": "word",
-              "text": "material",
-              "key": "material"
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "delegation",
+              "key": "delegation"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "others",
+              "key": "others"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p1-s6",
+          "text": "You can now go direct.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "You",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "go",
+              "key": "go"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "direct",
+              "key": "direct"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "这就是 AI 时代的教育应有的样子。先从语言开始：语言层面的表面结构就是你的路线图。就像一个 SDK 会有一组函数定义一样，人类语言正在成为通向世界的新 API（应用程序接口）。其实它一直都是……任何领域里从来都不存在那种不掌握该领域语言却能成为专家的人。区别在于，单靠 English 过去并不能产出有形的东西。你必须把它翻译成机器指令，要么自己学会，要么委托给别人。现在你可以直接到达那一步了。",
+      "meta": {
+        "likes": 765,
+        "retweets": 33,
+        "replies": 30,
+        "createdAt": "2026-06-02T17:26:55.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2061862134469062850"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-06-03-p2",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-06-03-p2-s0",
+          "text": "Conductor has the distinct edge of being an IDE born for coding agents.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Conductor",
+              "key": "conductor"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "distinct",
+              "key": "distinct"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "edge",
+              "key": "edge"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "being",
+              "key": "being"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "an",
+              "key": "an"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "IDE",
+              "key": "ide"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "born",
+              "key": "born"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "coding",
+              "key": "coding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p2-s1",
+          "text": "An ADE if you will.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "An",
+              "key": "an"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ADE",
+              "key": "ade"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "if",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "will",
+              "key": "will"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p2-s2",
+          "text": "Agents will take remote dev mainstream.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "will",
+              "key": "will"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "take",
+              "key": "take"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "remote",
+              "key": "remote"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dev",
+              "key": "dev"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mainstream",
+              "key": "mainstream"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p2-s3",
+          "text": "At most large and sensitive organizations, “local” isn’t a thing.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "At",
+              "key": "at"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "most",
+              "key": "most"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "large",
+              "key": "large"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sensitive",
+              "key": "sensitive"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "organizations",
+              "key": "organizations"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "“"
+            },
+            {
+              "kind": "word",
+              "text": "local",
+              "key": "local"
+            },
+            {
+              "kind": "punct",
+              "text": "”"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "isn",
+              "key": "isn"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "t",
+              "key": "t"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "thing",
+              "key": "thing"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p2-s4",
+          "text": "But this future wasn’t evenly distributed.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "But",
+              "key": "but"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "future",
+              "key": "future"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "wasn",
+              "key": "wasn"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "t",
+              "key": "t"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "evenly",
+              "key": "evenly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "distributed",
+              "key": "distributed"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p2-s5",
+          "text": "Excited to power their Sandbox!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Excited",
+              "key": "excited"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "power",
+              "key": "power"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "their",
+              "key": "their"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Sandbox",
+              "key": "sandbox"
             },
             {
               "kind": "punct",
@@ -540,20 +2541,20 @@
           ]
         }
       ],
-      "zh": "这是 @vercel 上一个 full-stack agent 的精彩示例。是很棒的学习材料！",
+      "zh": "Conductor 的一个鲜明优势在于，它是一个专为 coding agents 而生的 IDE。或者如果你愿意，也可以叫它 ADE。Agents 将把 remote dev 带入主流。在大多数大型且敏感的组织里，“local” 根本不是一回事。但这个未来的分布并不均匀。很高兴为他们的 Sandbox 提供支持！",
       "meta": {
-        "likes": 537,
+        "likes": 417,
         "retweets": 15,
-        "replies": 29,
-        "createdAt": "2026-06-01T11:50:52.000Z",
-        "tweetUrl": "https://x.com/rauchg/status/2061415178298937365"
+        "replies": 47,
+        "createdAt": "2026-06-02T13:58:31.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2061809689973944724"
       }
     }
   ],
-  "wordCount": 47,
+  "wordCount": 252,
   "engagement": {
-    "likes": 1469,
-    "retweets": 51,
-    "replies": 88
+    "likes": 1644,
+    "retweets": 68,
+    "replies": 120
   }
 }

@@ -1,20 +1,38 @@
 {
   "date": "2026-06-03",
-  "generatedAt": "2026-06-03T06:23:54.916Z",
+  "generatedAt": "2026-06-03T11:13:56.718Z",
   "podcasts": [
     {
-      "id": "podcast-unsupervised-learning-ep-88-unpacking-deepmind-apos-s-quest-for-superintelligence--2026-06-03",
+      "id": "podcast-training-data-knowing-what-your-customers-want-all-the-time-listen-labs-al-2026-06-03",
       "type": "podcast",
-      "sourceName": "Unsupervised Learning",
-      "title": "Ep 88: Unpacking DeepMind&apos;s Quest for SuperIntelligence with Demis Hassabis&apos; Biographer",
-      "url": "https://www.youtube.com/@RedpointAI",
-      "publishedAt": "2026-06-01T12:46:52.000Z",
+      "sourceName": "Training Data",
+      "title": "Knowing What Your Customers Want, All the Time: Listen Labs' Alfred Wahlforss",
+      "url": "https://www.youtube.com/watch?v=Rumft-rsEu4",
+      "publishedAt": "2026-06-02T09:00:00.000Z",
       "digestDate": "2026-06-03",
       "paragraphs": [],
-      "wordCount": 11331
+      "wordCount": 7102
     }
   ],
   "tweets": [
+    {
+      "id": "x-garrytan-2026-06-03",
+      "type": "tweet",
+      "sourceName": "Garry Tan",
+      "sourceHandle": "@garrytan",
+      "sourceBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "Garry Tan · @garrytan",
+      "url": "https://x.com/garrytan",
+      "publishedAt": "2026-06-03T07:37:38.000Z",
+      "digestDate": "2026-06-03",
+      "paragraphs": [],
+      "wordCount": 55,
+      "engagement": {
+        "likes": 103,
+        "retweets": 5,
+        "replies": 36
+      }
+    },
     {
       "id": "x-swyx-2026-06-03",
       "type": "tweet",
@@ -23,86 +41,14 @@
       "sourceBio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "title": "Swyx · @swyx",
       "url": "https://x.com/swyx",
-      "publishedAt": "2026-06-02T06:22:03.000Z",
+      "publishedAt": "2026-06-03T06:43:26.000Z",
       "digestDate": "2026-06-03",
       "paragraphs": [],
-      "wordCount": 40,
+      "wordCount": 20,
       "engagement": {
-        "likes": 30,
-        "retweets": 4,
+        "likes": 31,
+        "retweets": 0,
         "replies": 15
-      }
-    },
-    {
-      "id": "x-amasad-2026-06-03",
-      "type": "tweet",
-      "sourceName": "Amjad Masad",
-      "sourceHandle": "@amasad",
-      "sourceBio": "ceo @replit. civilizationist",
-      "title": "Amjad Masad · @amasad",
-      "url": "https://x.com/amasad",
-      "publishedAt": "2026-06-02T04:56:17.000Z",
-      "digestDate": "2026-06-03",
-      "paragraphs": [],
-      "wordCount": 13,
-      "engagement": {
-        "likes": 211,
-        "retweets": 16,
-        "replies": 30
-      }
-    },
-    {
-      "id": "x-adityaag-2026-06-03",
-      "type": "tweet",
-      "sourceName": "Aditya Agarwal",
-      "sourceHandle": "@adityaag",
-      "sourceBio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
-      "title": "Aditya Agarwal · @adityaag",
-      "url": "https://x.com/adityaag",
-      "publishedAt": "2026-06-02T04:20:36.000Z",
-      "digestDate": "2026-06-03",
-      "paragraphs": [],
-      "wordCount": 42,
-      "engagement": {
-        "likes": 17,
-        "retweets": 1,
-        "replies": 2
-      }
-    },
-    {
-      "id": "x-nikunj-2026-06-03",
-      "type": "tweet",
-      "sourceName": "Nikunj Kothari",
-      "sourceHandle": "@nikunj",
-      "sourceBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-      "title": "Nikunj Kothari · @nikunj",
-      "url": "https://x.com/nikunj",
-      "publishedAt": "2026-06-02T04:15:17.000Z",
-      "digestDate": "2026-06-03",
-      "paragraphs": [],
-      "wordCount": 29,
-      "engagement": {
-        "likes": 4078,
-        "retweets": 190,
-        "replies": 127
-      }
-    },
-    {
-      "id": "x-levie-2026-06-03",
-      "type": "tweet",
-      "sourceName": "Aaron Levie",
-      "sourceHandle": "@levie",
-      "sourceBio": "ceo @box - your business lives in content. unleash it with AI",
-      "title": "Aaron Levie · @levie",
-      "url": "https://x.com/levie",
-      "publishedAt": "2026-06-02T04:13:11.000Z",
-      "digestDate": "2026-06-03",
-      "paragraphs": [],
-      "wordCount": 225,
-      "engagement": {
-        "likes": 288,
-        "retweets": 21,
-        "replies": 43
       }
     },
     {
@@ -113,32 +59,68 @@
       "sourceBio": "Codex & ChatGPT @OpenAI",
       "title": "Thibault Sottiaux · @thsottiaux",
       "url": "https://x.com/thsottiaux",
-      "publishedAt": "2026-06-02T03:52:50.000Z",
+      "publishedAt": "2026-06-03T06:24:44.000Z",
       "digestDate": "2026-06-03",
       "paragraphs": [],
-      "wordCount": 25,
+      "wordCount": 82,
       "engagement": {
-        "likes": 4335,
-        "retweets": 97,
-        "replies": 1172
+        "likes": 2628,
+        "retweets": 79,
+        "replies": 426
       }
     },
     {
-      "id": "x-rauchg-2026-06-03",
+      "id": "x-amasad-2026-06-03",
       "type": "tweet",
-      "sourceName": "Guillermo Rauch",
-      "sourceHandle": "@rauchg",
-      "sourceBio": "@vercel CEO",
-      "title": "Guillermo Rauch · @rauchg",
-      "url": "https://x.com/rauchg",
-      "publishedAt": "2026-06-01T23:40:56.000Z",
+      "sourceName": "Amjad Masad",
+      "sourceHandle": "@amasad",
+      "sourceBio": "ceo @replit. civilizationist",
+      "title": "Amjad Masad · @amasad",
+      "url": "https://x.com/amasad",
+      "publishedAt": "2026-06-03T05:48:42.000Z",
       "digestDate": "2026-06-03",
       "paragraphs": [],
-      "wordCount": 47,
+      "wordCount": 49,
       "engagement": {
-        "likes": 1469,
-        "retweets": 51,
-        "replies": 88
+        "likes": 593,
+        "retweets": 55,
+        "replies": 43
+      }
+    },
+    {
+      "id": "x-nikunj-2026-06-03",
+      "type": "tweet",
+      "sourceName": "Nikunj Kothari",
+      "sourceHandle": "@nikunj",
+      "sourceBio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "Nikunj Kothari · @nikunj",
+      "url": "https://x.com/nikunj",
+      "publishedAt": "2026-06-03T04:48:20.000Z",
+      "digestDate": "2026-06-03",
+      "paragraphs": [],
+      "wordCount": 285,
+      "engagement": {
+        "likes": 50,
+        "retweets": 0,
+        "replies": 7
+      }
+    },
+    {
+      "id": "x-joshwoodward-2026-06-03",
+      "type": "tweet",
+      "sourceName": "Josh Woodward",
+      "sourceHandle": "@joshwoodward",
+      "sourceBio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "Josh Woodward · @joshwoodward",
+      "url": "https://x.com/joshwoodward",
+      "publishedAt": "2026-06-03T04:16:44.000Z",
+      "digestDate": "2026-06-03",
+      "paragraphs": [],
+      "wordCount": 14,
+      "engagement": {
+        "likes": 215,
+        "retweets": 13,
+        "replies": 18
       }
     },
     {
@@ -149,68 +131,32 @@
       "sourceBio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
       "title": "Peter Yang · @petergyang",
       "url": "https://x.com/petergyang",
-      "publishedAt": "2026-06-01T23:10:44.000Z",
+      "publishedAt": "2026-06-03T03:47:14.000Z",
       "digestDate": "2026-06-03",
       "paragraphs": [],
-      "wordCount": 389,
+      "wordCount": 222,
       "engagement": {
-        "likes": 274,
-        "retweets": 8,
-        "replies": 23
+        "likes": 124,
+        "retweets": 6,
+        "replies": 42
       }
     },
     {
-      "id": "x-trq212-2026-06-03",
+      "id": "x-levie-2026-06-03",
       "type": "tweet",
-      "sourceName": "Thariq",
-      "sourceHandle": "@trq212",
-      "sourceBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
-      "title": "Thariq · @trq212",
-      "url": "https://x.com/trq212",
-      "publishedAt": "2026-06-01T23:07:06.000Z",
+      "sourceName": "Aaron Levie",
+      "sourceHandle": "@levie",
+      "sourceBio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie · @levie",
+      "url": "https://x.com/levie",
+      "publishedAt": "2026-06-03T00:52:37.000Z",
       "digestDate": "2026-06-03",
       "paragraphs": [],
-      "wordCount": 52,
+      "wordCount": 145,
       "engagement": {
-        "likes": 6641,
-        "retweets": 375,
-        "replies": 157
-      }
-    },
-    {
-      "id": "x-steipete-2026-06-03",
-      "type": "tweet",
-      "sourceName": "Peter Steinberger",
-      "sourceHandle": "@steipete",
-      "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
-      "title": "Peter Steinberger · @steipete",
-      "url": "https://x.com/steipete",
-      "publishedAt": "2026-06-01T22:24:57.000Z",
-      "digestDate": "2026-06-03",
-      "paragraphs": [],
-      "wordCount": 44,
-      "engagement": {
-        "likes": 683,
-        "retweets": 27,
+        "likes": 299,
+        "retweets": 25,
         "replies": 45
-      }
-    },
-    {
-      "id": "x-garrytan-2026-06-03",
-      "type": "tweet",
-      "sourceName": "Garry Tan",
-      "sourceHandle": "@garrytan",
-      "sourceBio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-      "title": "Garry Tan · @garrytan",
-      "url": "https://x.com/garrytan",
-      "publishedAt": "2026-06-01T21:58:48.000Z",
-      "digestDate": "2026-06-03",
-      "paragraphs": [],
-      "wordCount": 27,
-      "engagement": {
-        "likes": 647,
-        "retweets": 41,
-        "replies": 84
       }
     },
     {
@@ -221,14 +167,14 @@
       "sourceBio": "AI is cool i guess",
       "title": "Sam Altman · @sama",
       "url": "https://x.com/sama",
-      "publishedAt": "2026-06-01T21:36:34.000Z",
+      "publishedAt": "2026-06-03T00:48:34.000Z",
       "digestDate": "2026-06-03",
       "paragraphs": [],
-      "wordCount": 27,
+      "wordCount": 79,
       "engagement": {
-        "likes": 1661,
-        "retweets": 129,
-        "replies": 340
+        "likes": 18018,
+        "retweets": 2287,
+        "replies": 1469
       }
     },
     {
@@ -239,40 +185,112 @@
       "sourceBio": "ceo @every | the only subscription you need to stay at the edge of AI",
       "title": "Dan Shipper · @danshipper",
       "url": "https://x.com/danshipper",
-      "publishedAt": "2026-06-01T20:50:15.000Z",
+      "publishedAt": "2026-06-03T00:06:49.000Z",
       "digestDate": "2026-06-03",
       "paragraphs": [],
-      "wordCount": 29,
+      "wordCount": 208,
       "engagement": {
-        "likes": 334,
-        "retweets": 7,
-        "replies": 61
+        "likes": 715,
+        "retweets": 16,
+        "replies": 98
       }
     },
     {
-      "id": "x-mattturck-2026-06-03",
+      "id": "x-rauchg-2026-06-03",
       "type": "tweet",
-      "sourceName": "Matt Turck",
-      "sourceHandle": "@mattturck",
-      "sourceBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
-      "title": "Matt Turck · @mattturck",
-      "url": "https://x.com/mattturck",
-      "publishedAt": "2026-06-01T19:40:35.000Z",
+      "sourceName": "Guillermo Rauch",
+      "sourceHandle": "@rauchg",
+      "sourceBio": "@vercel CEO",
+      "title": "Guillermo Rauch · @rauchg",
+      "url": "https://x.com/rauchg",
+      "publishedAt": "2026-06-02T22:13:06.000Z",
       "digestDate": "2026-06-03",
       "paragraphs": [],
-      "wordCount": 18,
+      "wordCount": 252,
       "engagement": {
-        "likes": 289,
-        "retweets": 12,
-        "replies": 11
+        "likes": 1644,
+        "retweets": 68,
+        "replies": 120
+      }
+    },
+    {
+      "id": "x-zarazhangrui-2026-06-03",
+      "type": "tweet",
+      "sourceName": "Zara Zhang",
+      "sourceHandle": "@zarazhangrui",
+      "sourceBio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "Zara Zhang · @zarazhangrui",
+      "url": "https://x.com/zarazhangrui",
+      "publishedAt": "2026-06-02T21:33:56.000Z",
+      "digestDate": "2026-06-03",
+      "paragraphs": [],
+      "wordCount": 85,
+      "engagement": {
+        "likes": 127,
+        "retweets": 5,
+        "replies": 12
+      }
+    },
+    {
+      "id": "x-trq212-2026-06-03",
+      "type": "tweet",
+      "sourceName": "Thariq",
+      "sourceHandle": "@trq212",
+      "sourceBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "Thariq · @trq212",
+      "url": "https://x.com/trq212",
+      "publishedAt": "2026-06-02T20:28:45.000Z",
+      "digestDate": "2026-06-03",
+      "paragraphs": [],
+      "wordCount": 50,
+      "engagement": {
+        "likes": 9057,
+        "retweets": 869,
+        "replies": 267
+      }
+    },
+    {
+      "id": "x-steipete-2026-06-03",
+      "type": "tweet",
+      "sourceName": "Peter Steinberger",
+      "sourceHandle": "@steipete",
+      "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "title": "Peter Steinberger · @steipete",
+      "url": "https://x.com/steipete",
+      "publishedAt": "2026-06-02T18:29:13.000Z",
+      "digestDate": "2026-06-03",
+      "paragraphs": [],
+      "wordCount": 27,
+      "engagement": {
+        "likes": 4043,
+        "retweets": 266,
+        "replies": 124
+      }
+    },
+    {
+      "id": "x-claudeai-2026-06-03",
+      "type": "tweet",
+      "sourceName": "Claude",
+      "sourceHandle": "@claudeai",
+      "sourceBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "Claude · @claudeai",
+      "url": "https://x.com/claudeai",
+      "publishedAt": "2026-06-02T15:17:28.000Z",
+      "digestDate": "2026-06-03",
+      "paragraphs": [],
+      "wordCount": 58,
+      "engagement": {
+        "likes": 2591,
+        "retweets": 186,
+        "replies": 172
       }
     }
   ],
   "blogs": [],
   "stats": {
     "podcastCount": 1,
-    "builderCount": 14,
-    "tweetCount": 30,
+    "builderCount": 15,
+    "tweetCount": 38,
     "blogCount": 0
   }
 }

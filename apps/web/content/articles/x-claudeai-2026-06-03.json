@@ -1,25 +1,25 @@
 {
-  "id": "x-trq212-2026-06-03",
+  "id": "x-claudeai-2026-06-03",
   "type": "tweet",
-  "sourceName": "Thariq",
-  "sourceHandle": "@trq212",
-  "sourceBio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
-  "title": "Thariq · @trq212",
-  "url": "https://x.com/trq212",
-  "publishedAt": "2026-06-02T20:28:45.000Z",
+  "sourceName": "Claude",
+  "sourceHandle": "@claudeai",
+  "sourceBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+  "title": "Claude · @claudeai",
+  "url": "https://x.com/claudeai",
+  "publishedAt": "2026-06-02T15:17:28.000Z",
   "digestDate": "2026-06-03",
   "paragraphs": [
     {
-      "id": "x-trq212-2026-06-03-p0",
+      "id": "x-claudeai-2026-06-03-p0",
       "sentences": [
         {
-          "id": "x-trq212-2026-06-03-p0-s0",
-          "text": "This is also available on the Claude Blog!",
+          "id": "x-claudeai-2026-06-03-p0-s0",
+          "text": "From The Problem Solvers, our series featuring founders taking on hard problems with Claude:",
           "tokens": [
             {
               "kind": "word",
-              "text": "This",
-              "key": "this"
+              "text": "From",
+              "key": "from"
             },
             {
               "kind": "space",
@@ -27,8 +27,8 @@
             },
             {
               "kind": "word",
-              "text": "is",
-              "key": "is"
+              "text": "The",
+              "key": "the"
             },
             {
               "kind": "space",
@@ -36,8 +36,8 @@
             },
             {
               "kind": "word",
-              "text": "also",
-              "key": "also"
+              "text": "Problem",
+              "key": "problem"
             },
             {
               "kind": "space",
@@ -45,8 +45,57 @@
             },
             {
               "kind": "word",
-              "text": "available",
-              "key": "available"
+              "text": "Solvers",
+              "key": "solvers"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "our",
+              "key": "our"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "series",
+              "key": "series"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "featuring",
+              "key": "featuring"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "founders",
+              "key": "founders"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "taking",
+              "key": "taking"
             },
             {
               "kind": "space",
@@ -63,8 +112,26 @@
             },
             {
               "kind": "word",
-              "text": "the",
-              "key": "the"
+              "text": "hard",
+              "key": "hard"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "problems",
+              "key": "problems"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
             },
             {
               "kind": "space",
@@ -76,41 +143,32 @@
               "key": "claude"
             },
             {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Blog",
-              "key": "blog"
-            },
-            {
               "kind": "punct",
-              "text": "!"
+              "text": ":"
             }
           ]
         }
       ],
-      "zh": "这篇内容也可在 Claude Blog 上查看！",
+      "zh": "来自 The Problem Solvers——这是一个聚焦于借助 Claude 攻克难题的创始人的系列：",
       "meta": {
-        "likes": 125,
+        "likes": 230,
         "retweets": 9,
-        "replies": 8,
-        "createdAt": "2026-06-02T20:28:45.000Z",
-        "tweetUrl": "https://x.com/trq212/status/2061907897928528349"
+        "replies": 19,
+        "createdAt": "2026-06-02T15:17:28.000Z",
+        "tweetUrl": "https://x.com/claudeai/status/2061829560505655316"
       }
     },
     {
-      "id": "x-trq212-2026-06-03-p1",
+      "id": "x-claudeai-2026-06-03-p1",
       "sentences": [
         {
-          "id": "x-trq212-2026-06-03-p1-s0",
-          "text": "Workflows are the biggest upgrade to Claude Code’s capabilities since skills and subagents.",
+          "id": "x-claudeai-2026-06-03-p1-s0",
+          "text": "Interpreting law is one of the oldest jobs in the world. @MaxJunestrand, co-founder and CEO of @WeAreLegora, is bringing it into its next era with Claude.",
           "tokens": [
             {
               "kind": "word",
-              "text": "Workflows",
-              "key": "workflows"
+              "text": "Interpreting",
+              "key": "interpreting"
             },
             {
               "kind": "space",
@@ -118,8 +176,35 @@
             },
             {
               "kind": "word",
-              "text": "are",
-              "key": "are"
+              "text": "law",
+              "key": "law"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "one",
+              "key": "one"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
             },
             {
               "kind": "space",
@@ -136,8 +221,8 @@
             },
             {
               "kind": "word",
-              "text": "biggest",
-              "key": "biggest"
+              "text": "oldest",
+              "key": "oldest"
             },
             {
               "kind": "space",
@@ -145,8 +230,8 @@
             },
             {
               "kind": "word",
-              "text": "upgrade",
-              "key": "upgrade"
+              "text": "jobs",
+              "key": "jobs"
             },
             {
               "kind": "space",
@@ -154,8 +239,8 @@
             },
             {
               "kind": "word",
-              "text": "to",
-              "key": "to"
+              "text": "in",
+              "key": "in"
             },
             {
               "kind": "space",
@@ -163,8 +248,8 @@
             },
             {
               "kind": "word",
-              "text": "Claude",
-              "key": "claude"
+              "text": "the",
+              "key": "the"
             },
             {
               "kind": "space",
@@ -172,17 +257,29 @@
             },
             {
               "kind": "word",
-              "text": "Code",
-              "key": "code"
+              "text": "world",
+              "key": "world"
             },
             {
               "kind": "punct",
-              "text": "’"
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
             },
             {
               "kind": "word",
-              "text": "s",
-              "key": "s"
+              "text": "MaxJunestrand",
+              "key": "maxjunestrand"
+            },
+            {
+              "kind": "punct",
+              "text": ","
             },
             {
               "kind": "space",
@@ -190,26 +287,8 @@
             },
             {
               "kind": "word",
-              "text": "capabilities",
-              "key": "capabilities"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "since",
-              "key": "since"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "skills",
-              "key": "skills"
+              "text": "co-founder",
+              "key": "co-founder"
             },
             {
               "kind": "space",
@@ -226,23 +305,34 @@
             },
             {
               "kind": "word",
-              "text": "subagents",
-              "key": "subagents"
+              "text": "CEO",
+              "key": "ceo"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
             },
             {
               "kind": "punct",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "id": "x-trq212-2026-06-03-p1-s1",
-          "text": "I dove deep into it with @sidbid to figure out best practices, examples and more.",
-          "tokens": [
+              "text": "@"
+            },
             {
               "kind": "word",
-              "text": "I",
-              "key": "i"
+              "text": "WeAreLegora",
+              "key": "wearelegora"
+            },
+            {
+              "kind": "punct",
+              "text": ","
             },
             {
               "kind": "space",
@@ -250,8 +340,8 @@
             },
             {
               "kind": "word",
-              "text": "dove",
-              "key": "dove"
+              "text": "is",
+              "key": "is"
             },
             {
               "kind": "space",
@@ -259,8 +349,17 @@
             },
             {
               "kind": "word",
-              "text": "deep",
-              "key": "deep"
+              "text": "bringing",
+              "key": "bringing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
             },
             {
               "kind": "space",
@@ -277,8 +376,26 @@
             },
             {
               "kind": "word",
-              "text": "it",
-              "key": "it"
+              "text": "its",
+              "key": "its"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "next",
+              "key": "next"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "era",
+              "key": "era"
             },
             {
               "kind": "space",
@@ -294,89 +411,9 @@
               "text": " "
             },
             {
-              "kind": "punct",
-              "text": "@"
-            },
-            {
               "kind": "word",
-              "text": "sidbid",
-              "key": "sidbid"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "figure",
-              "key": "figure"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "out",
-              "key": "out"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "best",
-              "key": "best"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "practices",
-              "key": "practices"
-            },
-            {
-              "kind": "punct",
-              "text": ","
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "examples",
-              "key": "examples"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "and",
-              "key": "and"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "more",
-              "key": "more"
+              "text": "Claude",
+              "key": "claude"
             },
             {
               "kind": "punct",
@@ -385,22 +422,26 @@
           ]
         },
         {
-          "id": "x-trq212-2026-06-03-p1-s2",
-          "text": "I’m particularly excited about the non-technical tasks it enables for Claude Code.",
+          "id": "x-claudeai-2026-06-03-p1-s1",
+          "text": "His bet: every new model release raises the tide, and Legora is building the boats for everyone else.",
           "tokens": [
             {
               "kind": "word",
-              "text": "I",
-              "key": "i"
+              "text": "His",
+              "key": "his"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bet",
+              "key": "bet"
             },
             {
               "kind": "punct",
-              "text": "’"
-            },
-            {
-              "kind": "word",
-              "text": "m",
-              "key": "m"
+              "text": ":"
             },
             {
               "kind": "space",
@@ -408,8 +449,8 @@
             },
             {
               "kind": "word",
-              "text": "particularly",
-              "key": "particularly"
+              "text": "every",
+              "key": "every"
             },
             {
               "kind": "space",
@@ -417,8 +458,8 @@
             },
             {
               "kind": "word",
-              "text": "excited",
-              "key": "excited"
+              "text": "new",
+              "key": "new"
             },
             {
               "kind": "space",
@@ -426,8 +467,26 @@
             },
             {
               "kind": "word",
-              "text": "about",
-              "key": "about"
+              "text": "model",
+              "key": "model"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "release",
+              "key": "release"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "raises",
+              "key": "raises"
             },
             {
               "kind": "space",
@@ -444,8 +503,12 @@
             },
             {
               "kind": "word",
-              "text": "non-technical",
-              "key": "non-technical"
+              "text": "tide",
+              "key": "tide"
+            },
+            {
+              "kind": "punct",
+              "text": ","
             },
             {
               "kind": "space",
@@ -453,8 +516,8 @@
             },
             {
               "kind": "word",
-              "text": "tasks",
-              "key": "tasks"
+              "text": "and",
+              "key": "and"
             },
             {
               "kind": "space",
@@ -462,8 +525,8 @@
             },
             {
               "kind": "word",
-              "text": "it",
-              "key": "it"
+              "text": "Legora",
+              "key": "legora"
             },
             {
               "kind": "space",
@@ -471,8 +534,35 @@
             },
             {
               "kind": "word",
-              "text": "enables",
-              "key": "enables"
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "building",
+              "key": "building"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "boats",
+              "key": "boats"
             },
             {
               "kind": "space",
@@ -489,8 +579,8 @@
             },
             {
               "kind": "word",
-              "text": "Claude",
-              "key": "claude"
+              "text": "everyone",
+              "key": "everyone"
             },
             {
               "kind": "space",
@@ -498,8 +588,8 @@
             },
             {
               "kind": "word",
-              "text": "Code",
-              "key": "code"
+              "text": "else",
+              "key": "else"
             },
             {
               "kind": "punct",
@@ -508,32 +598,20 @@
           ]
         }
       ],
-      "zh": "自从 skills 和 subagents 之后，workflows 是对 Claude Code 能力最大的一次升级。我和 @sidbid 深入研究了它，以梳理最佳实践、示例等内容。我尤其期待它为 Claude Code 带来的那些非技术类任务能力。",
+      "zh": "解释法律是世界上最古老的工作之一。@MaxJunestrand，@WeAreLegora 的联合创始人兼 CEO，正借助 Claude 将这项工作带入它的下一个时代。他的判断是：每一次新 model（模型）发布都会让潮水上涨，而 Legora 正在为其他所有人打造船只。",
       "meta": {
-        "likes": 3339,
-        "retweets": 236,
-        "replies": 123,
-        "createdAt": "2026-06-02T20:27:20.000Z",
-        "tweetUrl": "https://x.com/trq212/status/2061907538741006796"
-      }
-    },
-    {
-      "id": "x-trq212-2026-06-03-p2",
-      "sentences": [],
-      "zh": "[1]",
-      "meta": {
-        "likes": 5593,
-        "retweets": 624,
-        "replies": 136,
-        "createdAt": "2026-06-02T20:26:32.000Z",
-        "tweetUrl": "https://x.com/trq212/status/2061907337154367865"
+        "likes": 2361,
+        "retweets": 177,
+        "replies": 153,
+        "createdAt": "2026-06-02T15:17:28.000Z",
+        "tweetUrl": "https://x.com/claudeai/status/2061829558999912680"
       }
     }
   ],
-  "wordCount": 50,
+  "wordCount": 58,
   "engagement": {
-    "likes": 9057,
-    "retweets": 869,
-    "replies": 267
+    "likes": 2591,
+    "retweets": 186,
+    "replies": 172
   }
 }

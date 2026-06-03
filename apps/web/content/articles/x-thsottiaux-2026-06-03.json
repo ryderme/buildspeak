@@ -6,7 +6,7 @@
   "sourceBio": "Codex & ChatGPT @OpenAI",
   "title": "Thibault Sottiaux · @thsottiaux",
   "url": "https://x.com/thsottiaux",
-  "publishedAt": "2026-06-02T03:52:50.000Z",
+  "publishedAt": "2026-06-03T06:24:44.000Z",
   "digestDate": "2026-06-03",
   "paragraphs": [
     {
@@ -14,11 +14,516 @@
       "sentences": [
         {
           "id": "x-thsottiaux-2026-06-03-p0-s0",
-          "text": "You can just codex ... a farm",
+          "text": "ChatGPT Whether you understand the name or not.",
           "tokens": [
             {
               "kind": "word",
-              "text": "You",
+              "text": "ChatGPT",
+              "key": "chatgpt"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Whether",
+              "key": "whether"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "understand",
+              "key": "understand"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "name",
+              "key": "name"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "not",
+              "key": "not"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-thsottiaux-2026-06-03-p0-s1",
+          "text": "It's here to stay.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "It's",
+              "key": "it's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "here",
+              "key": "here"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "stay",
+              "key": "stay"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-thsottiaux-2026-06-03-p0-s2",
+          "text": "It's the past, the present, the future.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "It's",
+              "key": "it's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "past",
+              "key": "past"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "present",
+              "key": "present"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "future",
+              "key": "future"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-thsottiaux-2026-06-03-p0-s3",
+          "text": "Synonym with AI, soon synonym with agents.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Synonym",
+              "key": "synonym"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "soon",
+              "key": "soon"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "synonym",
+              "key": "synonym"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-thsottiaux-2026-06-03-p0-s4",
+          "text": "Much to build.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Much",
+              "key": "much"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "build",
+              "key": "build"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "ChatGPT，不管你是否理解这个名字。它都会一直存在。它是过去，是现在，也是未来。它是 AI 的同义词，很快也会成为 agents 的同义词。还有很多东西可做。",
+      "meta": {
+        "likes": 1111,
+        "retweets": 35,
+        "replies": 213,
+        "createdAt": "2026-06-03T06:24:44.000Z",
+        "tweetUrl": "https://x.com/thsottiaux/status/2062057881424506950"
+      }
+    },
+    {
+      "id": "x-thsottiaux-2026-06-03-p1",
+      "sentences": [],
+      "zh": "[1]",
+      "meta": {
+        "likes": 101,
+        "retweets": 1,
+        "replies": 18,
+        "createdAt": "2026-06-02T18:26:02.000Z",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061877014999830625"
+      }
+    },
+    {
+      "id": "x-thsottiaux-2026-06-03-p2",
+      "sentences": [
+        {
+          "id": "x-thsottiaux-2026-06-03-p2-s0",
+          "text": "Tons of goodies for use of codex for day to day work.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Tons",
+              "key": "tons"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "goodies",
+              "key": "goodies"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "use",
+              "key": "use"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "codex",
+              "key": "codex"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "day",
+              "key": "day"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "day",
+              "key": "day"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-thsottiaux-2026-06-03-p2-s1",
+          "text": "If you are on a business plan you can now host and share websites, we launched vastly improved plugins and skills for broad roles and you can give feedback to your agent through visual annotations in docs, slides, sheets and more.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "If",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "business",
+              "key": "business"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "plan",
+              "key": "plan"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
               "key": "you"
             },
             {
@@ -36,8 +541,8 @@
             },
             {
               "kind": "word",
-              "text": "just",
-              "key": "just"
+              "text": "now",
+              "key": "now"
             },
             {
               "kind": "space",
@@ -45,206 +550,39 @@
             },
             {
               "kind": "word",
-              "text": "codex",
-              "key": "codex"
+              "text": "host",
+              "key": "host"
             },
             {
               "kind": "space",
               "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "share",
+              "key": "share"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "websites",
+              "key": "websites"
             },
             {
               "kind": "punct",
-              "text": "..."
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "a",
-              "key": "a"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "farm",
-              "key": "farm"
-            }
-          ]
-        }
-      ],
-      "zh": "你可以直接 codex……一个农场",
-      "meta": {
-        "likes": 516,
-        "retweets": 28,
-        "replies": 63,
-        "createdAt": "2026-06-02T03:52:50.000Z",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061657264508006738"
-      }
-    },
-    {
-      "id": "x-thsottiaux-2026-06-03-p1",
-      "sentences": [
-        {
-          "id": "x-thsottiaux-2026-06-03-p1-s0",
-          "text": "Heard that AWS is where the cool kids are.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "Heard",
-              "key": "heard"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "that",
-              "key": "that"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "AWS",
-              "key": "aws"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "is",
-              "key": "is"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "where",
-              "key": "where"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "cool",
-              "key": "cool"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "kids",
-              "key": "kids"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "are",
-              "key": "are"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "id": "x-thsottiaux-2026-06-03-p1-s1",
-          "text": "Hello.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "Hello",
-              "key": "hello"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "id": "x-thsottiaux-2026-06-03-p1-s2",
-          "text": "We have GPT-5.5.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "We",
-              "key": "we"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "have",
-              "key": "have"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "GPT-5",
-              "key": "gpt"
-            },
-            {
-              "kind": "punct",
-              "text": ".5."
-            }
-          ]
-        }
-      ],
-      "zh": "听说 AWS 才是那些酷小孩待的地方。你好。我们有 GPT-5.5。",
-      "meta": {
-        "likes": 835,
-        "retweets": 17,
-        "replies": 78,
-        "createdAt": "2026-06-02T03:01:20.000Z",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061644307111796984"
-      }
-    },
-    {
-      "id": "x-thsottiaux-2026-06-03-p2",
-      "sentences": [
-        {
-          "id": "x-thsottiaux-2026-06-03-p2-s0",
-          "text": "Should we rename Codex to ChadGPT?",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "Should",
-              "key": "should"
+              "text": ","
             },
             {
               "kind": "space",
@@ -261,8 +599,8 @@
             },
             {
               "kind": "word",
-              "text": "rename",
-              "key": "rename"
+              "text": "launched",
+              "key": "launched"
             },
             {
               "kind": "space",
@@ -270,8 +608,116 @@
             },
             {
               "kind": "word",
-              "text": "Codex",
-              "key": "codex"
+              "text": "vastly",
+              "key": "vastly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "improved",
+              "key": "improved"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "plugins",
+              "key": "plugins"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "skills",
+              "key": "skills"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "broad",
+              "key": "broad"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "roles",
+              "key": "roles"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "give",
+              "key": "give"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "feedback",
+              "key": "feedback"
             },
             {
               "kind": "space",
@@ -288,30 +734,128 @@
             },
             {
               "kind": "word",
-              "text": "ChadGPT",
-              "key": "chadgpt"
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "through",
+              "key": "through"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "visual",
+              "key": "visual"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "annotations",
+              "key": "annotations"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "docs",
+              "key": "docs"
             },
             {
               "kind": "punct",
-              "text": "?"
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "slides",
+              "key": "slides"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sheets",
+              "key": "sheets"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "punct",
+              "text": "."
             }
           ]
         }
       ],
-      "zh": "我们是不是该把 Codex 改名成 ChadGPT？",
+      "zh": "关于将 codex 用于日常工作的功能，这次带来了大量实用更新。如果你使用的是 business plan，现在你可以托管并分享网站；我们还发布了大幅改进的 plugins 和适用于广泛角色的 skills；此外，你还可以在 docs、slides、sheets 等中通过可视化批注向你的 agent 提供反馈。",
       "meta": {
-        "likes": 2984,
-        "retweets": 52,
-        "replies": 1031,
-        "createdAt": "2026-06-01T22:16:25.000Z",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061572602888589807"
+        "likes": 1416,
+        "retweets": 43,
+        "replies": 195,
+        "createdAt": "2026-06-02T18:25:59.000Z",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061876999564791952"
       }
     }
   ],
-  "wordCount": 25,
+  "wordCount": 82,
   "engagement": {
-    "likes": 4335,
-    "retweets": 97,
-    "replies": 1172
+    "likes": 2628,
+    "retweets": 79,
+    "replies": 426
   }
 }
