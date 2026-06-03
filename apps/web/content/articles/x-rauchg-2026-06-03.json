@@ -1,0 +1,559 @@
+{
+  "id": "x-rauchg-2026-06-03",
+  "type": "tweet",
+  "sourceName": "Guillermo Rauch",
+  "sourceHandle": "@rauchg",
+  "sourceBio": "@vercel CEO",
+  "title": "Guillermo Rauch · @rauchg",
+  "url": "https://x.com/rauchg",
+  "publishedAt": "2026-06-01T23:40:56.000Z",
+  "digestDate": "2026-06-03",
+  "paragraphs": [
+    {
+      "id": "x-rauchg-2026-06-03-p0",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-06-03-p0-s0",
+          "text": "MiniMax M3 is now the leading open model on the Next.js agent evaluations ( Right behind Opus &amp; GPT5, but 10× cheaper (And 20× cheaper right now on ▲ AI Gateway!)",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "MiniMax",
+              "key": "minimax"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "M3",
+              "key": "m"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "leading",
+              "key": "leading"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "open",
+              "key": "open"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "model",
+              "key": "model"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Next",
+              "key": "next"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "word",
+              "text": "js",
+              "key": "js"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "evaluations",
+              "key": "evaluations"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Right",
+              "key": "right"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "behind",
+              "key": "behind"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Opus",
+              "key": "opus"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "&"
+            },
+            {
+              "kind": "word",
+              "text": "amp",
+              "key": "amp"
+            },
+            {
+              "kind": "punct",
+              "text": ";"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "GPT5",
+              "key": "gpt"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "but",
+              "key": "but"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "10×"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cheaper",
+              "key": "cheaper"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "And",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "20×"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cheaper",
+              "key": "cheaper"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "right",
+              "key": "right"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "▲"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Gateway",
+              "key": "gateway"
+            },
+            {
+              "kind": "punct",
+              "text": "!)"
+            }
+          ]
+        }
+      ],
+      "zh": "MiniMax M3 现在是 Next.js agent 评测中领先的 open model（仅次于 Opus 和 GPT5，但价格便宜 10×（而且目前在 ▲ AI Gateway 上便宜 20×！））",
+      "meta": {
+        "likes": 596,
+        "retweets": 25,
+        "replies": 32,
+        "createdAt": "2026-06-01T23:40:56.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2061593874498531707"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-06-03-p1",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-06-03-p1-s0",
+          "text": "Git is all you need.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Git",
+              "key": "git"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "all",
+              "key": "all"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "need",
+              "key": "need"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p1-s1",
+          "text": "Always has been",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Always",
+              "key": "always"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "been",
+              "key": "been"
+            }
+          ]
+        }
+      ],
+      "zh": "你需要的只有 Git。一直都是这样",
+      "meta": {
+        "likes": 336,
+        "retweets": 11,
+        "replies": 27,
+        "createdAt": "2026-06-01T19:39:39.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2061533151676293430"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-06-03-p2",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-06-03-p2-s0",
+          "text": "Beautiful example of a full-stack agent on @vercel.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Beautiful",
+              "key": "beautiful"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "example",
+              "key": "example"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "full-stack",
+              "key": "full-stack"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-03-p2-s1",
+          "text": "Great learning material!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Great",
+              "key": "great"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "learning",
+              "key": "learning"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "material",
+              "key": "material"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "这是 @vercel 上一个 full-stack agent 的精彩示例。是很棒的学习材料！",
+      "meta": {
+        "likes": 537,
+        "retweets": 15,
+        "replies": 29,
+        "createdAt": "2026-06-01T11:50:52.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2061415178298937365"
+      }
+    }
+  ],
+  "wordCount": 47,
+  "engagement": {
+    "likes": 1469,
+    "retweets": 51,
+    "replies": 88
+  }
+}
