@@ -1,0 +1,294 @@
+{
+  "id": "x-catwu-2026-06-04",
+  "type": "tweet",
+  "sourceName": "Cat Wu",
+  "sourceHandle": "@_catwu",
+  "sourceBio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+  "title": "Cat Wu · @_catwu",
+  "url": "https://x.com/_catwu",
+  "publishedAt": "2026-06-04T05:38:28.000Z",
+  "digestDate": "2026-06-04",
+  "paragraphs": [
+    {
+      "id": "x-catwu-2026-06-04-p0",
+      "sentences": [
+        {
+          "id": "x-catwu-2026-06-04-p0-s0",
+          "text": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Excited",
+              "key": "excited"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "share",
+              "key": "share"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "how",
+              "key": "how"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Anthropic's",
+              "key": "anthropic's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "data",
+              "key": "data"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "team",
+              "key": "team"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "automated",
+              "key": "automated"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "95%"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "business",
+              "key": "business"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "analytics",
+              "key": "analytics"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "queries",
+              "key": "queries"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-catwu-2026-06-04-p0-s1",
+          "text": "Blog post covers how we approach evals, ablations, and online validation!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Blog",
+              "key": "blog"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "post",
+              "key": "post"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "covers",
+              "key": "covers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "how",
+              "key": "how"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "approach",
+              "key": "approach"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "evals",
+              "key": "evals"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ablations",
+              "key": "ablations"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "online",
+              "key": "online"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "validation",
+              "key": "validation"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "很高兴分享 Anthropic 的数据团队如何借助 Claude 将 95% 的业务分析查询实现自动化。博客文章介绍了我们如何开展 evals（评估）、ablations（消融实验）以及 online validation（在线验证）！",
+      "meta": {
+        "likes": 280,
+        "retweets": 6,
+        "replies": 14,
+        "createdAt": "2026-06-04T05:38:28.000Z",
+        "tweetUrl": "https://x.com/_catwu/status/2062408623565984209"
+      }
+    }
+  ],
+  "wordCount": 26,
+  "engagement": {
+    "likes": 280,
+    "retweets": 6,
+    "replies": 14
+  }
+}
