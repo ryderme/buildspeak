@@ -1,0 +1,497 @@
+{
+  "id": "x-rauchg-2026-06-08",
+  "type": "tweet",
+  "sourceName": "Guillermo Rauch",
+  "sourceHandle": "@rauchg",
+  "sourceBio": "@vercel CEO",
+  "title": "Guillermo Rauch · @rauchg",
+  "url": "https://x.com/rauchg",
+  "publishedAt": "2026-06-07T20:08:21.000Z",
+  "digestDate": "2026-06-08",
+  "paragraphs": [
+    {
+      "id": "x-rauchg-2026-06-08-p0",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-06-08-p0-s0",
+          "text": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 Much like Stripe recovers revenue with smart retries on failed payments or credit card updates.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Gateway",
+              "key": "gateway"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "recovers",
+              "key": "recovers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "average",
+              "key": "average"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "over",
+              "key": "over"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "1"
+            },
+            {
+              "kind": "word",
+              "text": "T",
+              "key": "t"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tokens",
+              "key": "tokens"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "month",
+              "key": "month"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "🤯"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Much",
+              "key": "much"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "like",
+              "key": "like"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Stripe",
+              "key": "stripe"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "recovers",
+              "key": "recovers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "revenue",
+              "key": "revenue"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "smart",
+              "key": "smart"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "retries",
+              "key": "retries"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "failed",
+              "key": "failed"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "payments",
+              "key": "payments"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "credit",
+              "key": "credit"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "card",
+              "key": "card"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "updates",
+              "key": "updates"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-06-08-p0-s1",
+          "text": "And we do it with 0️⃣ zero markup over the labs; adding redundancy, zero-data retention enforcement, observability, usage APIs, caps, …",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "And",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "do",
+              "key": "do"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "0️⃣"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "zero",
+              "key": "zero"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "markup",
+              "key": "markup"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "over",
+              "key": "over"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "labs",
+              "key": "labs"
+            },
+            {
+              "kind": "punct",
+              "text": ";"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "adding",
+              "key": "adding"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "redundancy",
+              "key": "redundancy"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "zero-data",
+              "key": "zero-data"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "retention",
+              "key": "retention"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "enforcement",
+              "key": "enforcement"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "observability",
+              "key": "observability"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "usage",
+              "key": "usage"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "APIs",
+              "key": "apis"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "caps",
+              "key": "caps"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "…"
+            }
+          ]
+        }
+      ],
+      "zh": "Vercel AI Gateway 平均每月可挽回超过 1T tokens 🤯 很像 Stripe 通过对失败支付进行智能重试或更新信用卡信息来挽回收入。而且我们是在 labs 原价之上 0️⃣ 零加价的情况下做到这一点；同时还提供冗余、zero-data retention（零数据留存）强制执行、observability（可观测性）、usage APIs（用量 API）、上限控制，……",
+      "meta": {
+        "likes": 266,
+        "retweets": 26,
+        "replies": 32,
+        "createdAt": "2026-06-07T20:08:21.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2063714700618334260"
+      }
+    }
+  ],
+  "wordCount": 45,
+  "engagement": {
+    "likes": 266,
+    "retweets": 26,
+    "replies": 32
+  }
+}

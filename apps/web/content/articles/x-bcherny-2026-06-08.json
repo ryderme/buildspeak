@@ -1,0 +1,1254 @@
+{
+  "id": "x-bcherny-2026-06-08",
+  "type": "tweet",
+  "sourceName": "Boris Cherny",
+  "sourceHandle": "@bcherny",
+  "sourceBio": "Claude Code @anthropicai",
+  "title": "Boris Cherny · @bcherny",
+  "url": "https://x.com/bcherny",
+  "publishedAt": "2026-06-08T01:16:33.000Z",
+  "digestDate": "2026-06-08",
+  "paragraphs": [
+    {
+      "id": "x-bcherny-2026-06-08-p0",
+      "sentences": [
+        {
+          "id": "x-bcherny-2026-06-08-p0-s0",
+          "text": "Seeing a number of benchmarks showing Opus is the best model for long-running work.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Seeing",
+              "key": "seeing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "number",
+              "key": "number"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "benchmarks",
+              "key": "benchmarks"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "showing",
+              "key": "showing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Opus",
+              "key": "opus"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "best",
+              "key": "best"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "model",
+              "key": "model"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "long-running",
+              "key": "long-running"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-06-08-p0-s1",
+          "text": "Five tips for running Opus autonomously for hours/days: 1.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Five",
+              "key": "five"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tips",
+              "key": "tips"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "running",
+              "key": "running"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Opus",
+              "key": "opus"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "autonomously",
+              "key": "autonomously"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hours",
+              "key": "hours"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "days",
+              "key": "days"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "1."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-06-08-p0-s2",
+          "text": "Use auto mode for permissions, so Claude doesn’t ask for approval 2.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Use",
+              "key": "use"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "auto",
+              "key": "auto"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mode",
+              "key": "mode"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "permissions",
+              "key": "permissions"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "so",
+              "key": "so"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "doesn",
+              "key": "doesn"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "t",
+              "key": "t"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ask",
+              "key": "ask"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "approval",
+              "key": "approval"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "2."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-06-08-p0-s3",
+          "text": "Use dynamic workflows, to have Claude orchestrate hundreds/thousands of agents to get a task done 3.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Use",
+              "key": "use"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dynamic",
+              "key": "dynamic"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "workflows",
+              "key": "workflows"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "have",
+              "key": "have"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "orchestrate",
+              "key": "orchestrate"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hundreds",
+              "key": "hundreds"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "thousands",
+              "key": "thousands"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agents",
+              "key": "agents"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "task",
+              "key": "task"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "done",
+              "key": "done"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "3."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-06-08-p0-s4",
+          "text": "Use /goal or /loop, to nudge Claude to keep going until it’s done 4.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Use",
+              "key": "use"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "goal",
+              "key": "goal"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "loop",
+              "key": "loop"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "nudge",
+              "key": "nudge"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "keep",
+              "key": "keep"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "going",
+              "key": "going"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "until",
+              "key": "until"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "s",
+              "key": "s"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "done",
+              "key": "done"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "4."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-06-08-p0-s5",
+          "text": "Use Claude Code in the cloud, so you can close your laptop (easiest way is the desktop or mobile app) 5.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Use",
+              "key": "use"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Code",
+              "key": "code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cloud",
+              "key": "cloud"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "so",
+              "key": "so"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "close",
+              "key": "close"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "laptop",
+              "key": "laptop"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "easiest",
+              "key": "easiest"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "way",
+              "key": "way"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "desktop",
+              "key": "desktop"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mobile",
+              "key": "mobile"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "app",
+              "key": "app"
+            },
+            {
+              "kind": "punct",
+              "text": ")"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "5."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-06-08-p0-s6",
+          "text": "Make sure Claude has a way to self-verify its work end to end: Claude in Chrome browser extension for web, iOS/Android sim MCP for mobile, a way to start the full web server or service for backend work",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Make",
+              "key": "make"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sure",
+              "key": "sure"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "way",
+              "key": "way"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "self-verify",
+              "key": "self-verify"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "its",
+              "key": "its"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "end",
+              "key": "end"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "end",
+              "key": "end"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Chrome",
+              "key": "chrome"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "browser",
+              "key": "browser"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "extension",
+              "key": "extension"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "web",
+              "key": "web"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "iOS",
+              "key": "ios"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "Android",
+              "key": "android"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sim",
+              "key": "sim"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "MCP",
+              "key": "mcp"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mobile",
+              "key": "mobile"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "way",
+              "key": "way"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "start",
+              "key": "start"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "full",
+              "key": "full"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "web",
+              "key": "web"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "server",
+              "key": "server"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "service",
+              "key": "service"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "backend",
+              "key": "backend"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            }
+          ]
+        }
+      ],
+      "zh": "我看到不少 benchmarks（基准测试）都表明，Opus 是最适合长时间持续工作的 model（模型）。让 Opus 自主运行数小时/数天的五个技巧：1. 对权限使用 auto mode（自动模式），这样 Claude 就不会反复请求你的批准 2. 使用 dynamic workflows（动态工作流），让 Claude 编排数百/数千个 agents（智能体）来完成任务 3. 使用 /goal 或 /loop，推动 Claude 持续执行直到任务完成 4. 在云端使用 Claude Code，这样你就可以合上 laptop（笔记本电脑）了（最简单的方式是使用桌面或移动 app） 5. 确保 Claude 具备端到端自我验证其工作的能力：用于 web 的 Chrome browser extension，面向 mobile 的 iOS/Android sim MCP，以及一种能够为 backend work 启动完整 web server 或 service 的方式",
+      "meta": {
+        "likes": 1865,
+        "retweets": 147,
+        "replies": 184,
+        "createdAt": "2026-06-08T01:16:33.000Z",
+        "tweetUrl": "https://x.com/bcherny/status/2063792263067754658"
+      }
+    }
+  ],
+  "wordCount": 124,
+  "engagement": {
+    "likes": 1865,
+    "retweets": 147,
+    "replies": 184
+  }
+}

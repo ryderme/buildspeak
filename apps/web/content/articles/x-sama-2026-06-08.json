@@ -1,0 +1,79 @@
+{
+  "id": "x-sama-2026-06-08",
+  "type": "tweet",
+  "sourceName": "Sam Altman",
+  "sourceHandle": "@sama",
+  "sourceBio": "AI is cool i guess",
+  "title": "Sam Altman · @sama",
+  "url": "https://x.com/sama",
+  "publishedAt": "2026-06-08T00:25:45.000Z",
+  "digestDate": "2026-06-08",
+  "paragraphs": [
+    {
+      "id": "x-sama-2026-06-08-p0",
+      "sentences": [
+        {
+          "id": "x-sama-2026-06-08-p0-s0",
+          "text": "interesting recursive loop here maybe",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "interesting",
+              "key": "interesting"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "recursive",
+              "key": "recursive"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "loop",
+              "key": "loop"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "here",
+              "key": "here"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "maybe",
+              "key": "maybe"
+            }
+          ]
+        }
+      ],
+      "zh": "这里可能有一个有趣的递归循环。",
+      "meta": {
+        "likes": 2522,
+        "retweets": 99,
+        "replies": 315,
+        "createdAt": "2026-06-08T00:25:45.000Z",
+        "tweetUrl": "https://x.com/sama/status/2063779477419901071"
+      }
+    }
+  ],
+  "wordCount": 5,
+  "engagement": {
+    "likes": 2522,
+    "retweets": 99,
+    "replies": 315
+  }
+}
