@@ -1,0 +1,905 @@
+{
+  "id": "x-claudeai-2026-06-19",
+  "type": "tweet",
+  "sourceName": "Claude",
+  "sourceHandle": "@claudeai",
+  "sourceBio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+  "title": "Claude · @claudeai",
+  "url": "https://x.com/claudeai",
+  "publishedAt": "2026-06-18T18:12:54.000Z",
+  "digestDate": "2026-06-19",
+  "paragraphs": [
+    {
+      "id": "x-claudeai-2026-06-19-p0",
+      "sentences": [
+        {
+          "id": "x-claudeai-2026-06-19-p0-s0",
+          "text": "Artifacts draw on the full context of your session: codebase, plugins, skills, connected tools.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Artifacts",
+              "key": "artifacts"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "draw",
+              "key": "draw"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "full",
+              "key": "full"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "context",
+              "key": "context"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "session",
+              "key": "session"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "codebase",
+              "key": "codebase"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "plugins",
+              "key": "plugins"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "skills",
+              "key": "skills"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "connected",
+              "key": "connected"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tools",
+              "key": "tools"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-claudeai-2026-06-19-p0-s1",
+          "text": "They're private until you share them, and sharing stays inside your organization.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "They're",
+              "key": "they're"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "private",
+              "key": "private"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "until",
+              "key": "until"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "share",
+              "key": "share"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "them",
+              "key": "them"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sharing",
+              "key": "sharing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "stays",
+              "key": "stays"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "inside",
+              "key": "inside"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "organization",
+              "key": "organization"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-claudeai-2026-06-19-p0-s2",
+          "text": "Read more:",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Read",
+              "key": "read"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            }
+          ]
+        }
+      ],
+      "zh": "Artifacts 会利用你当前 session（会话）的完整上下文：codebase、plugins、skills，以及已连接的 tools。它们在你分享之前都是私密的，而分享范围也仅限于你的组织内部。了解更多：",
+      "meta": {
+        "likes": 428,
+        "retweets": 19,
+        "replies": 20,
+        "createdAt": "2026-06-18T18:12:54.000Z",
+        "tweetUrl": "https://x.com/claudeai/status/2067671914533863585"
+      }
+    },
+    {
+      "id": "x-claudeai-2026-06-19-p1",
+      "sentences": [
+        {
+          "id": "x-claudeai-2026-06-19-p1-s0",
+          "text": "As your session keeps working, the artifact refreshes, so everyone you've shared it with is always looking at the latest version.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "As",
+              "key": "as"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "session",
+              "key": "session"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "keeps",
+              "key": "keeps"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "working",
+              "key": "working"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "artifact",
+              "key": "artifact"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "refreshes",
+              "key": "refreshes"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "so",
+              "key": "so"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "everyone",
+              "key": "everyone"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you've",
+              "key": "you've"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "shared",
+              "key": "shared"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "always",
+              "key": "always"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "looking",
+              "key": "looking"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "at",
+              "key": "at"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "latest",
+              "key": "latest"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "version",
+              "key": "version"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "随着你的 session 持续运行，artifact 也会不断刷新，因此所有你已与之分享的人看到的始终都是最新版本。",
+      "meta": {
+        "likes": 448,
+        "retweets": 7,
+        "replies": 9,
+        "createdAt": "2026-06-18T18:12:54.000Z",
+        "tweetUrl": "https://x.com/claudeai/status/2067671913418063892"
+      }
+    },
+    {
+      "id": "x-claudeai-2026-06-19-p2",
+      "sentences": [
+        {
+          "id": "x-claudeai-2026-06-19-p2-s0",
+          "text": "New in Claude Code: Artifacts.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "New",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Code",
+              "key": "code"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Artifacts",
+              "key": "artifacts"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-claudeai-2026-06-19-p2-s1",
+          "text": "Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Interactive",
+              "key": "interactive"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "pages",
+              "key": "pages"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "built",
+              "key": "built"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "from",
+              "key": "from"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "session",
+              "key": "session"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "like",
+              "key": "like"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "PR",
+              "key": "pr"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "walkthrough",
+              "key": "walkthrough"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "living",
+              "key": "living"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "project",
+              "key": "project"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dashboard",
+              "key": "dashboard"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "shared",
+              "key": "shared"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "team",
+              "key": "team"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "at",
+              "key": "at"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "private",
+              "key": "private"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "link",
+              "key": "link"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-claudeai-2026-06-19-p2-s2",
+          "text": "Available in beta on Team and Enterprise plans.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Available",
+              "key": "available"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "beta",
+              "key": "beta"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Team",
+              "key": "team"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Enterprise",
+              "key": "enterprise"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "plans",
+              "key": "plans"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "Claude Code 上新：Artifacts。它是基于你的 session 构建的交互式页面，比如 PR walkthrough 或持续更新的项目 dashboard，可通过私密链接分享给你的团队。目前以 beta 形式提供给 Team 和 Enterprise 方案用户。",
+      "meta": {
+        "likes": 13287,
+        "retweets": 901,
+        "replies": 492,
+        "createdAt": "2026-06-18T18:12:53.000Z",
+        "tweetUrl": "https://x.com/claudeai/status/2067671912038240487"
+      }
+    }
+  ],
+  "wordCount": 85,
+  "engagement": {
+    "likes": 14163,
+    "retweets": 927,
+    "replies": 521
+  }
+}
