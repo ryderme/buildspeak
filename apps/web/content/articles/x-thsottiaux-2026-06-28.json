@@ -1,0 +1,1108 @@
+{
+  "id": "x-thsottiaux-2026-06-28",
+  "type": "tweet",
+  "sourceName": "Thibault Sottiaux",
+  "sourceHandle": "@thsottiaux",
+  "sourceBio": "Codex & ChatGPT @OpenAI",
+  "title": "Thibault Sottiaux · @thsottiaux",
+  "url": "https://x.com/thsottiaux",
+  "publishedAt": "2026-06-28T04:32:24.000Z",
+  "digestDate": "2026-06-28",
+  "paragraphs": [
+    {
+      "id": "x-thsottiaux-2026-06-28-p0",
+      "sentences": [
+        {
+          "id": "x-thsottiaux-2026-06-28-p0-s0",
+          "text": "Sol when operating Codex.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Sol",
+              "key": "sol"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "when",
+              "key": "when"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "operating",
+              "key": "operating"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Codex",
+              "key": "codex"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-thsottiaux-2026-06-28-p0-s1",
+          "text": "Circa 2026",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Circa",
+              "key": "circa"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "2026"
+            }
+          ]
+        }
+      ],
+      "zh": "Sol 在操作 Codex 时。约 2026 年",
+      "meta": {
+        "likes": 607,
+        "retweets": 13,
+        "replies": 107,
+        "createdAt": "2026-06-28T04:32:24.000Z",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071089307062837744"
+      }
+    },
+    {
+      "id": "x-thsottiaux-2026-06-28-p1",
+      "sentences": [
+        {
+          "id": "x-thsottiaux-2026-06-28-p1-s0",
+          "text": "Talking to your plants isn't weird anymore.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Talking",
+              "key": "talking"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "plants",
+              "key": "plants"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "isn't",
+              "key": "isn't"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "weird",
+              "key": "weird"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "anymore",
+              "key": "anymore"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-thsottiaux-2026-06-28-p1-s1",
+          "text": "You can just codex things.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "You",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "can",
+              "key": "can"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "just",
+              "key": "just"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "codex",
+              "key": "codex"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "things",
+              "key": "things"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "跟你的植物说话已经不再奇怪了。你可以直接把事情 codex 掉。",
+      "meta": {
+        "likes": 315,
+        "retweets": 16,
+        "replies": 29,
+        "createdAt": "2026-06-28T03:47:12.000Z",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071077932244570112"
+      }
+    },
+    {
+      "id": "x-thsottiaux-2026-06-28-p2",
+      "sentences": [
+        {
+          "id": "x-thsottiaux-2026-06-28-p2-s0",
+          "text": "Tons of improvements landed in Codex. - Handles super long threads smoothly. - Hoverable navigation rail for previewing and jumping between turns that feels just right. - Settings search covers more controls, with clearer appearance and host-filtering options and easier-to-find custom-provider settings. - Zoom-level changes no longer misalign tooltips, dialogs, menus, selection bubbles, drag previews, or autocomplete. - Copying into Slack preserves Markdown formatting such as bullets, bold text, code, and links; and large text pastes no longer freeze the UI. - And most importantly: a dedicated Pets panel.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Tons",
+              "key": "tons"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "improvements",
+              "key": "improvements"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "landed",
+              "key": "landed"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Codex",
+              "key": "codex"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "-"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Handles",
+              "key": "handles"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "super",
+              "key": "super"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "long",
+              "key": "long"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "threads",
+              "key": "threads"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "smoothly",
+              "key": "smoothly"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "-"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Hoverable",
+              "key": "hoverable"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "navigation",
+              "key": "navigation"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rail",
+              "key": "rail"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "previewing",
+              "key": "previewing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "jumping",
+              "key": "jumping"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "between",
+              "key": "between"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "turns",
+              "key": "turns"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "feels",
+              "key": "feels"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "just",
+              "key": "just"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "right",
+              "key": "right"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "-"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Settings",
+              "key": "settings"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "search",
+              "key": "search"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "covers",
+              "key": "covers"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "more",
+              "key": "more"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "controls",
+              "key": "controls"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "clearer",
+              "key": "clearer"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "appearance",
+              "key": "appearance"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "host-filtering",
+              "key": "host-filtering"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "options",
+              "key": "options"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "easier-to-find",
+              "key": "easier-to-find"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "custom-provider",
+              "key": "custom-provider"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "settings",
+              "key": "settings"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "-"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Zoom-level",
+              "key": "zoom-level"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "changes",
+              "key": "changes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "no",
+              "key": "no"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "longer",
+              "key": "longer"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "misalign",
+              "key": "misalign"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tooltips",
+              "key": "tooltips"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dialogs",
+              "key": "dialogs"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "menus",
+              "key": "menus"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "selection",
+              "key": "selection"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bubbles",
+              "key": "bubbles"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "drag",
+              "key": "drag"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "previews",
+              "key": "previews"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "autocomplete",
+              "key": "autocomplete"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "-"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Copying",
+              "key": "copying"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Slack",
+              "key": "slack"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "preserves",
+              "key": "preserves"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Markdown",
+              "key": "markdown"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "formatting",
+              "key": "formatting"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "such",
+              "key": "such"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "as",
+              "key": "as"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bullets",
+              "key": "bullets"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bold",
+              "key": "bold"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "text",
+              "key": "text"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "code",
+              "key": "code"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "links",
+              "key": "links"
+            },
+            {
+              "kind": "punct",
+              "text": ";"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "large",
+              "key": "large"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "text",
+              "key": "text"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "pastes",
+              "key": "pastes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "no",
+              "key": "no"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "longer",
+              "key": "longer"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "freeze",
+              "key": "freeze"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "UI",
+              "key": "ui"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "-"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "And",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "most",
+              "key": "most"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "importantly",
+              "key": "importantly"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dedicated",
+              "key": "dedicated"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Pets",
+              "key": "pets"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "panel",
+              "key": "panel"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "Codex 已上线大量改进。- 现在可以流畅处理超长 thread（线程/对话串）。- 新增可悬停的导航侧栏，用于预览并在各轮对话之间跳转，手感恰到好处。- Settings 搜索现在覆盖更多控制项，并提供更清晰的外观与 host 过滤选项，以及更容易找到的自定义 provider 设置。- 调整缩放级别后，tooltip、dialog、menu、selection bubble、drag preview 或 autocomplete 不会再出现错位。- 复制到 Slack 时会保留 Markdown 格式，例如项目符号、粗体文本、代码和链接；而且粘贴大段文本也不再让 UI 卡死。- 以及最重要的是：专属的 Pets 面板。",
+      "meta": {
+        "likes": 1383,
+        "retweets": 71,
+        "replies": 170,
+        "createdAt": "2026-06-28T03:20:48.000Z",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071071289247244481"
+      }
+    }
+  ],
+  "wordCount": 100,
+  "engagement": {
+    "likes": 2305,
+    "retweets": 100,
+    "replies": 306
+  }
+}
