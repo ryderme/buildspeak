@@ -1,0 +1,955 @@
+{
+  "id": "x-bcherny-2026-07-10",
+  "type": "tweet",
+  "sourceName": "Boris Cherny",
+  "sourceHandle": "@bcherny",
+  "sourceBio": "Claude Code @anthropicai",
+  "title": "Boris Cherny · @bcherny",
+  "url": "https://x.com/bcherny",
+  "publishedAt": "2026-07-08T23:23:48.000Z",
+  "digestDate": "2026-07-10",
+  "paragraphs": [
+    {
+      "id": "x-bcherny-2026-07-10-p0",
+      "sentences": [
+        {
+          "id": "x-bcherny-2026-07-10-p0-s0",
+          "text": "This is pretty epic",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "pretty",
+              "key": "pretty"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "epic",
+              "key": "epic"
+            }
+          ]
+        }
+      ],
+      "zh": "这真的相当炸裂",
+      "meta": {
+        "likes": 513,
+        "retweets": 13,
+        "replies": 13,
+        "createdAt": "2026-07-08T23:23:48.000Z",
+        "tweetUrl": "https://x.com/bcherny/status/2074997911348244930"
+      }
+    },
+    {
+      "id": "x-bcherny-2026-07-10-p1",
+      "sentences": [
+        {
+          "id": "x-bcherny-2026-07-10-p1-s0",
+          "text": "Here's what happened when I ran /checkup",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Here's",
+              "key": "here's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "what",
+              "key": "what"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "happened",
+              "key": "happened"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "when",
+              "key": "when"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ran",
+              "key": "ran"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "checkup",
+              "key": "checkup"
+            }
+          ]
+        }
+      ],
+      "zh": "这是我运行 /checkup 时发生的情况",
+      "meta": {
+        "likes": 242,
+        "retweets": 4,
+        "replies": 21,
+        "createdAt": "2026-07-08T23:22:27.000Z",
+        "tweetUrl": "https://x.com/bcherny/status/2074997571563479143"
+      }
+    },
+    {
+      "id": "x-bcherny-2026-07-10-p2",
+      "sentences": [
+        {
+          "id": "x-bcherny-2026-07-10-p2-s0",
+          "text": "New in Claude Code: /checkup Run /checkup to: 1.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "New",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Code",
+              "key": "code"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "checkup",
+              "key": "checkup"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Run",
+              "key": "run"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "checkup",
+              "key": "checkup"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "1."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-07-10-p2-s1",
+          "text": "Clean up unused skills/MCPs/plugins and save context 2.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Clean",
+              "key": "clean"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "up",
+              "key": "up"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "unused",
+              "key": "unused"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "skills",
+              "key": "skills"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "MCPs",
+              "key": "mcps"
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "plugins",
+              "key": "plugins"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "save",
+              "key": "save"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "context",
+              "key": "context"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "2."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-07-10-p2-s2",
+          "text": "Dedup your local CLAUDE.md against the checked in CLAUDE.md 3.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Dedup",
+              "key": "dedup"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "local",
+              "key": "local"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CLAUDE",
+              "key": "claude"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "word",
+              "text": "md",
+              "key": "md"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "against",
+              "key": "against"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "checked",
+              "key": "checked"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CLAUDE",
+              "key": "claude"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "word",
+              "text": "md",
+              "key": "md"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "3."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-07-10-p2-s3",
+          "text": "Break up root CLAUDE.md into nested CLAUDE.md's + skills 4.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Break",
+              "key": "break"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "up",
+              "key": "up"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "root",
+              "key": "root"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CLAUDE",
+              "key": "claude"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "word",
+              "text": "md",
+              "key": "md"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "nested",
+              "key": "nested"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CLAUDE",
+              "key": "claude"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "word",
+              "text": "md's",
+              "key": "md's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "+"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "skills",
+              "key": "skills"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "4."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-07-10-p2-s4",
+          "text": "Turn off slow hooks 5.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Turn",
+              "key": "turn"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "off",
+              "key": "off"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "slow",
+              "key": "slow"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hooks",
+              "key": "hooks"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "5."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-07-10-p2-s5",
+          "text": "Update your Claude Code to the latest version 6.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Update",
+              "key": "update"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Claude",
+              "key": "claude"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Code",
+              "key": "code"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "latest",
+              "key": "latest"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "version",
+              "key": "version"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "6."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-07-10-p2-s6",
+          "text": "Enable auto mode by default 7.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Enable",
+              "key": "enable"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "auto",
+              "key": "auto"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mode",
+              "key": "mode"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "by",
+              "key": "by"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "default",
+              "key": "default"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "7."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-07-10-p2-s7",
+          "text": "Pre-approve frequently denied read-only commands ..",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Pre-approve",
+              "key": "pre-approve"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "frequently",
+              "key": "frequently"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "denied",
+              "key": "denied"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "read-only",
+              "key": "read-only"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "commands",
+              "key": "commands"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": ".."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-07-10-p2-s8",
+          "text": "And a few other goodies. /checkup confirms with you before making any changes.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "And",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "few",
+              "key": "few"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "other",
+              "key": "other"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "goodies",
+              "key": "goodies"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "/"
+            },
+            {
+              "kind": "word",
+              "text": "checkup",
+              "key": "checkup"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "confirms",
+              "key": "confirms"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "before",
+              "key": "before"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "making",
+              "key": "making"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "any",
+              "key": "any"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "changes",
+              "key": "changes"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-bcherny-2026-07-10-p2-s9",
+          "text": "Enjoy!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Enjoy",
+              "key": "enjoy"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "Claude Code 新功能：/checkup 运行 /checkup 可以：1. 清理未使用的 skills/MCPs/plugins，并节省 context（上下文）2. 根据已 check in 的 CLAUDE.md，对你本地的 CLAUDE.md 进行去重 3. 将根目录的 CLAUDE.md 拆分为嵌套的 CLAUDE.md 和 skills 4. 关闭慢速 hooks 5. 将你的 Claude Code 更新到最新版本 6. 默认启用 auto mode 7. 预先批准经常被拒绝的只读命令……以及其他一些实用功能。/checkup 会在进行任何更改之前先与你确认。请享用！",
+      "meta": {
+        "likes": 6631,
+        "retweets": 519,
+        "replies": 206,
+        "createdAt": "2026-07-08T23:22:27.000Z",
+        "tweetUrl": "https://x.com/bcherny/status/2074997570317779038"
+      }
+    }
+  ],
+  "wordCount": 85,
+  "engagement": {
+    "likes": 7386,
+    "retweets": 536,
+    "replies": 240
+  }
+}
