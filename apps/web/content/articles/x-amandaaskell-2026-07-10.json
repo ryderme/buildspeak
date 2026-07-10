@@ -1,34 +1,25 @@
 {
-  "id": "x-thsottiaux-2026-07-10",
+  "id": "x-amandaaskell-2026-07-10",
   "type": "tweet",
-  "sourceName": "Thibault Sottiaux",
-  "sourceHandle": "@thsottiaux",
-  "sourceBio": "Codex & ChatGPT @OpenAI",
-  "title": "Thibault Sottiaux · @thsottiaux",
-  "url": "https://x.com/thsottiaux",
-  "publishedAt": "2026-07-10T05:30:53.000Z",
+  "sourceName": "Amanda Askell",
+  "sourceHandle": "@AmandaAskell",
+  "sourceBio": "Philosopher & ethicist trying to make AI be good @AnthropicAI.\nPersonal account. All opinions come from my training data.",
+  "title": "Amanda Askell · @AmandaAskell",
+  "url": "https://x.com/AmandaAskell",
+  "publishedAt": "2026-07-09T15:57:22.000Z",
   "digestDate": "2026-07-10",
   "paragraphs": [
     {
-      "id": "x-thsottiaux-2026-07-10-p0",
+      "id": "x-amandaaskell-2026-07-10-p0",
       "sentences": [
         {
-          "id": "x-thsottiaux-2026-07-10-p0-s0",
-          "text": "To celebrate the launch of GPT-5.6 Sol, we will reset the rate limits again (twice) across ChatGPT Work and Codex over the next 24 hours.",
+          "id": "x-amandaaskell-2026-07-10-p0-s0",
+          "text": "For the curious, these were the east harlem and east village gas explosions in 2014 and 2015 respectively.",
           "tokens": [
             {
               "kind": "word",
-              "text": "To",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "celebrate",
-              "key": "celebrate"
+              "text": "For",
+              "key": "for"
             },
             {
               "kind": "space",
@@ -45,39 +36,8 @@
             },
             {
               "kind": "word",
-              "text": "launch",
-              "key": "launch"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "of",
-              "key": "of"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "GPT-5",
-              "key": "gpt"
-            },
-            {
-              "kind": "punct",
-              "text": ".6"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Sol",
-              "key": "sol"
+              "text": "curious",
+              "key": "curious"
             },
             {
               "kind": "punct",
@@ -89,8 +49,8 @@
             },
             {
               "kind": "word",
-              "text": "we",
-              "key": "we"
+              "text": "these",
+              "key": "these"
             },
             {
               "kind": "space",
@@ -98,17 +58,8 @@
             },
             {
               "kind": "word",
-              "text": "will",
-              "key": "will"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "reset",
-              "key": "reset"
+              "text": "were",
+              "key": "were"
             },
             {
               "kind": "space",
@@ -125,8 +76,8 @@
             },
             {
               "kind": "word",
-              "text": "rate",
-              "key": "rate"
+              "text": "east",
+              "key": "east"
             },
             {
               "kind": "space",
@@ -134,61 +85,8 @@
             },
             {
               "kind": "word",
-              "text": "limits",
-              "key": "limits"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "again",
-              "key": "again"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "("
-            },
-            {
-              "kind": "word",
-              "text": "twice",
-              "key": "twice"
-            },
-            {
-              "kind": "punct",
-              "text": ")"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "across",
-              "key": "across"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "ChatGPT",
-              "key": "chatgpt"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Work",
-              "key": "work"
+              "text": "harlem",
+              "key": "harlem"
             },
             {
               "kind": "space",
@@ -205,8 +103,8 @@
             },
             {
               "kind": "word",
-              "text": "Codex",
-              "key": "codex"
+              "text": "east",
+              "key": "east"
             },
             {
               "kind": "space",
@@ -214,8 +112,8 @@
             },
             {
               "kind": "word",
-              "text": "over",
-              "key": "over"
+              "text": "village",
+              "key": "village"
             },
             {
               "kind": "space",
@@ -223,8 +121,8 @@
             },
             {
               "kind": "word",
-              "text": "the",
-              "key": "the"
+              "text": "gas",
+              "key": "gas"
             },
             {
               "kind": "space",
@@ -232,8 +130,17 @@
             },
             {
               "kind": "word",
-              "text": "next",
-              "key": "next"
+              "text": "explosions",
+              "key": "explosions"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
             },
             {
               "kind": "space",
@@ -241,7 +148,7 @@
             },
             {
               "kind": "punct",
-              "text": "24"
+              "text": "2014"
             },
             {
               "kind": "space",
@@ -249,8 +156,25 @@
             },
             {
               "kind": "word",
-              "text": "hours",
-              "key": "hours"
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "2015"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "respectively",
+              "key": "respectively"
             },
             {
               "kind": "punct",
@@ -259,13 +183,13 @@
           ]
         },
         {
-          "id": "x-thsottiaux-2026-07-10-p0-s1",
-          "text": "We want you to have the time to truly try ambitious tasks and get the hang of it.",
+          "id": "x-amandaaskell-2026-07-10-p0-s1",
+          "text": "But those are 2 of the 19 events in the wikipedia list of structural collapses in New York, which seems to go back to the 1800s:",
           "tokens": [
             {
               "kind": "word",
-              "text": "We",
-              "key": "we"
+              "text": "But",
+              "key": "but"
             },
             {
               "kind": "space",
@@ -273,8 +197,8 @@
             },
             {
               "kind": "word",
-              "text": "want",
-              "key": "want"
+              "text": "those",
+              "key": "those"
             },
             {
               "kind": "space",
@@ -282,125 +206,16 @@
             },
             {
               "kind": "word",
-              "text": "you",
-              "key": "you"
+              "text": "are",
+              "key": "are"
             },
             {
               "kind": "space",
               "text": " "
             },
             {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "have",
-              "key": "have"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "time",
-              "key": "time"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "truly",
-              "key": "truly"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "try",
-              "key": "try"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "ambitious",
-              "key": "ambitious"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "tasks",
-              "key": "tasks"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "and",
-              "key": "and"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "get",
-              "key": "get"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "hang",
-              "key": "hang"
+              "kind": "punct",
+              "text": "2"
             },
             {
               "kind": "space",
@@ -417,23 +232,16 @@
             },
             {
               "kind": "word",
-              "text": "it",
-              "key": "it"
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
             },
             {
               "kind": "punct",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "id": "x-thsottiaux-2026-07-10-p0-s2",
-          "text": "Happy exploring!",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "Happy",
-              "key": "happy"
+              "text": "19"
             },
             {
               "kind": "space",
@@ -441,241 +249,8 @@
             },
             {
               "kind": "word",
-              "text": "exploring",
-              "key": "exploring"
-            },
-            {
-              "kind": "punct",
-              "text": "!"
-            }
-          ]
-        }
-      ],
-      "zh": "为庆祝 GPT-5.6 Sol 发布，我们将在接下来的 24 小时内再次（两次）重置 ChatGPT Work 和 Codex 的 rate limits（速率限制）。我们希望你有足够时间真正尝试一些有野心的任务，并熟悉它的用法。祝你探索愉快！",
-      "meta": {
-        "likes": 6244,
-        "retweets": 471,
-        "replies": 840,
-        "createdAt": "2026-07-10T05:30:53.000Z",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190"
-      }
-    },
-    {
-      "id": "x-thsottiaux-2026-07-10-p1",
-      "sentences": [
-        {
-          "id": "x-thsottiaux-2026-07-10-p1-s0",
-          "text": "3D pelicans brought to you by Keyan",
-          "tokens": [
-            {
-              "kind": "punct",
-              "text": "3"
-            },
-            {
-              "kind": "word",
-              "text": "D",
-              "key": "d"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "pelicans",
-              "key": "pelicans"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "brought",
-              "key": "brought"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "you",
-              "key": "you"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "by",
-              "key": "by"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Keyan",
-              "key": "keyan"
-            }
-          ]
-        }
-      ],
-      "zh": "由 Keyan 为你带来的 3D pelicans",
-      "meta": {
-        "likes": 256,
-        "retweets": 2,
-        "replies": 48,
-        "createdAt": "2026-07-10T01:21:34.000Z",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075389936564588714"
-      }
-    },
-    {
-      "id": "x-thsottiaux-2026-07-10-p2",
-      "sentences": [
-        {
-          "id": "x-thsottiaux-2026-07-10-p2-s0",
-          "text": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "Enjoy",
-              "key": "enjoy"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "a",
-              "key": "a"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "full",
-              "key": "full"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "reset",
-              "key": "reset"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "of",
-              "key": "of"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "your",
-              "key": "your"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "usage",
-              "key": "usage"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "limits",
-              "key": "limits"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "for",
-              "key": "for"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "ChatGPT",
-              "key": "chatgpt"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Work",
-              "key": "work"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "and",
-              "key": "and"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Codex",
-              "key": "codex"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "id": "x-thsottiaux-2026-07-10-p2-s1",
-          "text": "Propagating in the next hour. @_rajanagarwal just joined to work on model research and push on coding capabilities.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "Propagating",
-              "key": "propagating"
+              "text": "events",
+              "key": "events"
             },
             {
               "kind": "space",
@@ -701,8 +276,8 @@
             },
             {
               "kind": "word",
-              "text": "next",
-              "key": "next"
+              "text": "wikipedia",
+              "key": "wikipedia"
             },
             {
               "kind": "space",
@@ -710,25 +285,66 @@
             },
             {
               "kind": "word",
-              "text": "hour",
-              "key": "hour"
+              "text": "list",
+              "key": "list"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "structural",
+              "key": "structural"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "collapses",
+              "key": "collapses"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "New",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "York",
+              "key": "york"
             },
             {
               "kind": "punct",
-              "text": "."
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "@_"
-            },
-            {
-              "kind": "word",
-              "text": "rajanagarwal",
-              "key": "rajanagarwal"
+              "text": ","
             },
             {
               "kind": "space",
@@ -736,8 +352,8 @@
             },
             {
               "kind": "word",
-              "text": "just",
-              "key": "just"
+              "text": "which",
+              "key": "which"
             },
             {
               "kind": "space",
@@ -745,8 +361,8 @@
             },
             {
               "kind": "word",
-              "text": "joined",
-              "key": "joined"
+              "text": "seems",
+              "key": "seems"
             },
             {
               "kind": "space",
@@ -763,8 +379,8 @@
             },
             {
               "kind": "word",
-              "text": "work",
-              "key": "work"
+              "text": "go",
+              "key": "go"
             },
             {
               "kind": "space",
@@ -772,8 +388,8 @@
             },
             {
               "kind": "word",
-              "text": "on",
-              "key": "on"
+              "text": "back",
+              "key": "back"
             },
             {
               "kind": "space",
@@ -781,8 +397,8 @@
             },
             {
               "kind": "word",
-              "text": "model",
-              "key": "model"
+              "text": "to",
+              "key": "to"
             },
             {
               "kind": "space",
@@ -790,8 +406,49 @@
             },
             {
               "kind": "word",
-              "text": "research",
-              "key": "research"
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "1800"
+            },
+            {
+              "kind": "word",
+              "text": "s",
+              "key": "s"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            }
+          ]
+        }
+      ],
+      "zh": "给好奇的人补充一下，这分别指的是 2014 年的 east harlem 和 2015 年的 east village 燃气爆炸。不过，这只是 Wikipedia 上 New York 建筑坍塌事件列表中的 19 起事件里的 2 起，而那个列表似乎可以一直追溯到 1800 年代：",
+      "meta": {
+        "likes": 53,
+        "retweets": 0,
+        "replies": 4,
+        "createdAt": "2026-07-09T15:57:22.000Z",
+        "tweetUrl": "https://x.com/AmandaAskell/status/2075247953309311043"
+      }
+    },
+    {
+      "id": "x-amandaaskell-2026-07-10-p1",
+      "sentences": [
+        {
+          "id": "x-amandaaskell-2026-07-10-p1-s0",
+          "text": "When I was living in New York, one building in my friend's neighborhood collapsed.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "When",
+              "key": "when"
             },
             {
               "kind": "space",
@@ -799,8 +456,8 @@
             },
             {
               "kind": "word",
-              "text": "and",
-              "key": "and"
+              "text": "I",
+              "key": "i"
             },
             {
               "kind": "space",
@@ -808,8 +465,8 @@
             },
             {
               "kind": "word",
-              "text": "push",
-              "key": "push"
+              "text": "was",
+              "key": "was"
             },
             {
               "kind": "space",
@@ -817,8 +474,8 @@
             },
             {
               "kind": "word",
-              "text": "on",
-              "key": "on"
+              "text": "living",
+              "key": "living"
             },
             {
               "kind": "space",
@@ -826,8 +483,8 @@
             },
             {
               "kind": "word",
-              "text": "coding",
-              "key": "coding"
+              "text": "in",
+              "key": "in"
             },
             {
               "kind": "space",
@@ -835,8 +492,84 @@
             },
             {
               "kind": "word",
-              "text": "capabilities",
-              "key": "capabilities"
+              "text": "New",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "York",
+              "key": "york"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "one",
+              "key": "one"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "building",
+              "key": "building"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "my",
+              "key": "my"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "friend's",
+              "key": "friend's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "neighborhood",
+              "key": "neighborhood"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "collapsed",
+              "key": "collapsed"
             },
             {
               "kind": "punct",
@@ -845,13 +578,13 @@
           ]
         },
         {
-          "id": "x-thsottiaux-2026-07-10-p2-s2",
-          "text": "You can thank him for pressing the button today.",
+          "id": "x-amandaaskell-2026-07-10-p1-s1",
+          "text": "The next year a building near me collapsed.",
           "tokens": [
             {
               "kind": "word",
-              "text": "You",
-              "key": "you"
+              "text": "The",
+              "key": "the"
             },
             {
               "kind": "space",
@@ -859,8 +592,8 @@
             },
             {
               "kind": "word",
-              "text": "can",
-              "key": "can"
+              "text": "next",
+              "key": "next"
             },
             {
               "kind": "space",
@@ -868,8 +601,8 @@
             },
             {
               "kind": "word",
-              "text": "thank",
-              "key": "thank"
+              "text": "year",
+              "key": "year"
             },
             {
               "kind": "space",
@@ -877,8 +610,8 @@
             },
             {
               "kind": "word",
-              "text": "him",
-              "key": "him"
+              "text": "a",
+              "key": "a"
             },
             {
               "kind": "space",
@@ -886,8 +619,8 @@
             },
             {
               "kind": "word",
-              "text": "for",
-              "key": "for"
+              "text": "building",
+              "key": "building"
             },
             {
               "kind": "space",
@@ -895,8 +628,68 @@
             },
             {
               "kind": "word",
-              "text": "pressing",
-              "key": "pressing"
+              "text": "near",
+              "key": "near"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "me",
+              "key": "me"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "collapsed",
+              "key": "collapsed"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-amandaaskell-2026-07-10-p1-s2",
+          "text": "This left me with the impression that buildings did just collapse somewhat regularly in New York.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "This",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "left",
+              "key": "left"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "me",
+              "key": "me"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
             },
             {
               "kind": "space",
@@ -913,8 +706,8 @@
             },
             {
               "kind": "word",
-              "text": "button",
-              "key": "button"
+              "text": "impression",
+              "key": "impression"
             },
             {
               "kind": "space",
@@ -922,8 +715,189 @@
             },
             {
               "kind": "word",
-              "text": "today",
-              "key": "today"
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "buildings",
+              "key": "buildings"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "did",
+              "key": "did"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "just",
+              "key": "just"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "collapse",
+              "key": "collapse"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "somewhat",
+              "key": "somewhat"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "regularly",
+              "key": "regularly"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "New",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "York",
+              "key": "york"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-amandaaskell-2026-07-10-p1-s3",
+          "text": "Turns out that's not actually the case, which is good.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Turns",
+              "key": "turns"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "out",
+              "key": "out"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that's",
+              "key": "that's"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "not",
+              "key": "not"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "actually",
+              "key": "actually"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "case",
+              "key": "case"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "which",
+              "key": "which"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "good",
+              "key": "good"
             },
             {
               "kind": "punct",
@@ -932,20 +906,20 @@
           ]
         }
       ],
-      "zh": "请享受一次针对 ChatGPT Work 和 Codex usage limits（使用额度）的完整重置。将在接下来一小时内逐步生效。@_rajanagarwal 刚加入团队，将参与 model research（模型研究）并推进 coding capabilities（编码能力）。今天这个按钮就是他按下去的，你可以感谢他。",
+      "zh": "我住在 New York 的时候，我朋友所在街区有一栋楼塌了。第二年，我附近又有一栋楼塌了。这让我留下了一种印象：在 New York，楼房似乎确实会比较规律地坍塌。后来发现其实并不是这样，这倒是件好事。",
       "meta": {
-        "likes": 4752,
-        "retweets": 128,
-        "replies": 578,
-        "createdAt": "2026-07-09T21:24:11.000Z",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075330198887940337"
+        "likes": 488,
+        "retweets": 4,
+        "replies": 17,
+        "createdAt": "2026-07-09T15:49:22.000Z",
+        "tweetUrl": "https://x.com/AmandaAskell/status/2075245939548455009"
       }
     }
   ],
-  "wordCount": 91,
+  "wordCount": 88,
   "engagement": {
-    "likes": 11252,
-    "retweets": 601,
-    "replies": 1466
+    "likes": 541,
+    "retweets": 4,
+    "replies": 21
   }
 }

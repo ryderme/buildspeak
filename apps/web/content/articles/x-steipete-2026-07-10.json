@@ -6,7 +6,7 @@
   "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
   "title": "Peter Steinberger · @steipete",
   "url": "https://x.com/steipete",
-  "publishedAt": "2026-07-09T02:38:40.000Z",
+  "publishedAt": "2026-07-09T22:45:09.000Z",
   "digestDate": "2026-07-10",
   "paragraphs": [
     {
@@ -14,12 +14,12 @@
       "sentences": [
         {
           "id": "x-steipete-2026-07-10-p0-s0",
-          "text": "OpenAI hired me, not OpenClaw.",
+          "text": "Super impressive.",
           "tokens": [
             {
               "kind": "word",
-              "text": "OpenAI",
-              "key": "openai"
+              "text": "Super",
+              "key": "super"
             },
             {
               "kind": "space",
@@ -27,54 +27,36 @@
             },
             {
               "kind": "word",
-              "text": "hired",
-              "key": "hired"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "me",
-              "key": "me"
-            },
-            {
-              "kind": "punct",
-              "text": ","
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "not",
-              "key": "not"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "OpenClaw",
-              "key": "openclaw"
+              "text": "impressive",
+              "key": "impressive"
             },
             {
               "kind": "punct",
               "text": "."
             }
           ]
-        },
+        }
+      ],
+      "zh": "非常令人印象深刻。",
+      "meta": {
+        "likes": 185,
+        "retweets": 2,
+        "replies": 7,
+        "createdAt": "2026-07-09T22:45:09.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2075350572560191630"
+      }
+    },
+    {
+      "id": "x-steipete-2026-07-10-p1",
+      "sentences": [
         {
-          "id": "x-steipete-2026-07-10-p0-s1",
-          "text": "The OpenClaw Foundation is independent, with sponsors rather than owners - and, for the first time, a full-time team keeping the claw alive and stable. 🦞 Couldn’t have done it without Dave and the team.",
+          "id": "x-steipete-2026-07-10-p1-s0",
+          "text": "Will do a livestream there!",
           "tokens": [
             {
               "kind": "word",
-              "text": "The",
-              "key": "the"
+              "text": "Will",
+              "key": "will"
             },
             {
               "kind": "space",
@@ -82,145 +64,8 @@
             },
             {
               "kind": "word",
-              "text": "OpenClaw",
-              "key": "openclaw"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Foundation",
-              "key": "foundation"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "is",
-              "key": "is"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "independent",
-              "key": "independent"
-            },
-            {
-              "kind": "punct",
-              "text": ","
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "with",
-              "key": "with"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "sponsors",
-              "key": "sponsors"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "rather",
-              "key": "rather"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "than",
-              "key": "than"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "owners",
-              "key": "owners"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "-"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "and",
-              "key": "and"
-            },
-            {
-              "kind": "punct",
-              "text": ","
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "for",
-              "key": "for"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "first",
-              "key": "first"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "time",
-              "key": "time"
-            },
-            {
-              "kind": "punct",
-              "text": ","
+              "text": "do",
+              "key": "do"
             },
             {
               "kind": "space",
@@ -237,8 +82,8 @@
             },
             {
               "kind": "word",
-              "text": "full-time",
-              "key": "full-time"
+              "text": "livestream",
+              "key": "livestream"
             },
             {
               "kind": "space",
@@ -246,179 +91,8 @@
             },
             {
               "kind": "word",
-              "text": "team",
-              "key": "team"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "keeping",
-              "key": "keeping"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "claw",
-              "key": "claw"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "alive",
-              "key": "alive"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "and",
-              "key": "and"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "stable",
-              "key": "stable"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "🦞"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Couldn",
-              "key": "couldn"
-            },
-            {
-              "kind": "punct",
-              "text": "’"
-            },
-            {
-              "kind": "word",
-              "text": "t",
-              "key": "t"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "have",
-              "key": "have"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "done",
-              "key": "done"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "it",
-              "key": "it"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "without",
-              "key": "without"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Dave",
-              "key": "dave"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "and",
-              "key": "and"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "the",
-              "key": "the"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "team",
-              "key": "team"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "id": "x-steipete-2026-07-10-p0-s2",
-          "text": "Kudos!",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "Kudos",
-              "key": "kudos"
+              "text": "there",
+              "key": "there"
             },
             {
               "kind": "punct",
@@ -427,80 +101,26 @@
           ]
         }
       ],
-      "zh": "雇用我的是 OpenAI，不是 OpenClaw。OpenClaw Foundation 是独立运作的，由 sponsors（赞助方）而不是 owners（所有者）支持——而且第一次有了一支全职团队，持续让这个 claw 保持活跃并稳定。🦞 没有 Dave 和团队的支持，这一切不可能完成。致敬！",
+      "zh": "会在那里做一场 livestream！",
       "meta": {
-        "likes": 1518,
-        "retweets": 47,
-        "replies": 58,
-        "createdAt": "2026-07-09T02:38:40.000Z",
-        "tweetUrl": "https://x.com/steipete/status/2075046949896736835"
+        "likes": 218,
+        "retweets": 14,
+        "replies": 13,
+        "createdAt": "2026-07-09T21:17:25.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2075328495677521934"
       }
     },
     {
-      "id": "x-steipete-2026-07-10-p1",
+      "id": "x-steipete-2026-07-10-p2",
       "sentences": [
         {
-          "id": "x-steipete-2026-07-10-p1-s0",
-          "text": "Here's an example of agents using nameplate to provide additional context when user input is needed.",
+          "id": "x-steipete-2026-07-10-p2-s0",
+          "text": "Kudos to building something great!",
           "tokens": [
             {
               "kind": "word",
-              "text": "Here's",
-              "key": "here's"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "an",
-              "key": "an"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "example",
-              "key": "example"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "of",
-              "key": "of"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "agents",
-              "key": "agents"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "using",
-              "key": "using"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "nameplate",
-              "key": "nameplate"
+              "text": "Kudos",
+              "key": "kudos"
             },
             {
               "kind": "space",
@@ -517,8 +137,8 @@
             },
             {
               "kind": "word",
-              "text": "provide",
-              "key": "provide"
+              "text": "building",
+              "key": "building"
             },
             {
               "kind": "space",
@@ -526,8 +146,8 @@
             },
             {
               "kind": "word",
-              "text": "additional",
-              "key": "additional"
+              "text": "something",
+              "key": "something"
             },
             {
               "kind": "space",
@@ -535,175 +155,30 @@
             },
             {
               "kind": "word",
-              "text": "context",
-              "key": "context"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "when",
-              "key": "when"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "user",
-              "key": "user"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "input",
-              "key": "input"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "is",
-              "key": "is"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "needed",
-              "key": "needed"
+              "text": "great",
+              "key": "great"
             },
             {
               "kind": "punct",
-              "text": "."
+              "text": "!"
             }
           ]
         }
       ],
-      "zh": "这里有一个示例：当需要用户输入时，agents（智能体）会使用 nameplate 来提供额外的上下文。",
+      "zh": "为打造出如此出色的东西点赞！",
       "meta": {
-        "likes": 35,
-        "retweets": 1,
-        "replies": 2,
-        "createdAt": "2026-07-08T21:30:11.000Z",
-        "tweetUrl": "https://x.com/steipete/status/2074969319042363808"
-      }
-    },
-    {
-      "id": "x-steipete-2026-07-10-p2",
-      "sentences": [
-        {
-          "id": "x-steipete-2026-07-10-p2-s0",
-          "text": "This is how you wanna talk with your claw.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "This",
-              "key": "this"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "is",
-              "key": "is"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "how",
-              "key": "how"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "you",
-              "key": "you"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "wanna",
-              "key": "wanna"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "talk",
-              "key": "talk"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "with",
-              "key": "with"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "your",
-              "key": "your"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "claw",
-              "key": "claw"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            }
-          ]
-        }
-      ],
-      "zh": "这就是你想和你的 claw 交流的方式。",
-      "meta": {
-        "likes": 778,
-        "retweets": 21,
-        "replies": 50,
-        "createdAt": "2026-07-08T18:28:34.000Z",
-        "tweetUrl": "https://x.com/steipete/status/2074923615817200085"
+        "likes": 474,
+        "retweets": 26,
+        "replies": 13,
+        "createdAt": "2026-07-09T20:17:56.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2075313523237019686"
       }
     }
   ],
-  "wordCount": 65,
+  "wordCount": 12,
   "engagement": {
-    "likes": 2331,
-    "retweets": 69,
-    "replies": 110
+    "likes": 877,
+    "retweets": 42,
+    "replies": 33
   }
 }

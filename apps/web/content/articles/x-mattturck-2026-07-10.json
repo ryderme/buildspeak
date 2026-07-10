@@ -6,7 +6,7 @@
   "sourceBio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
   "title": "Matt Turck · @mattturck",
   "url": "https://x.com/mattturck",
-  "publishedAt": "2026-07-08T20:55:11.000Z",
+  "publishedAt": "2026-07-10T01:09:38.000Z",
   "digestDate": "2026-07-10",
   "paragraphs": [
     {
@@ -14,12 +14,12 @@
       "sentences": [
         {
           "id": "x-mattturck-2026-07-10-p0-s0",
-          "text": "That moment when there's only 7 matches left in the world cup ugh",
+          "text": "Decent chance France and Norway could play again in the final, which would be an extremely rare occurrence (been over 60 years since two teams met in both the group stage and the final of the same men's World Cup) and fascinating (how truly game-changing is Haaland?)",
           "tokens": [
             {
               "kind": "word",
-              "text": "That",
-              "key": "that"
+              "text": "Decent",
+              "key": "decent"
             },
             {
               "kind": "space",
@@ -27,8 +27,8 @@
             },
             {
               "kind": "word",
-              "text": "moment",
-              "key": "moment"
+              "text": "chance",
+              "key": "chance"
             },
             {
               "kind": "space",
@@ -36,8 +36,8 @@
             },
             {
               "kind": "word",
-              "text": "when",
-              "key": "when"
+              "text": "France",
+              "key": "france"
             },
             {
               "kind": "space",
@@ -45,8 +45,8 @@
             },
             {
               "kind": "word",
-              "text": "there's",
-              "key": "there's"
+              "text": "and",
+              "key": "and"
             },
             {
               "kind": "space",
@@ -54,16 +54,8 @@
             },
             {
               "kind": "word",
-              "text": "only",
-              "key": "only"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "7"
+              "text": "Norway",
+              "key": "norway"
             },
             {
               "kind": "space",
@@ -71,8 +63,8 @@
             },
             {
               "kind": "word",
-              "text": "matches",
-              "key": "matches"
+              "text": "could",
+              "key": "could"
             },
             {
               "kind": "space",
@@ -80,8 +72,17 @@
             },
             {
               "kind": "word",
-              "text": "left",
-              "key": "left"
+              "text": "play",
+              "key": "play"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "again",
+              "key": "again"
             },
             {
               "kind": "space",
@@ -107,8 +108,12 @@
             },
             {
               "kind": "word",
-              "text": "world",
-              "key": "world"
+              "text": "final",
+              "key": "final"
+            },
+            {
+              "kind": "punct",
+              "text": ","
             },
             {
               "kind": "space",
@@ -116,8 +121,8 @@
             },
             {
               "kind": "word",
-              "text": "cup",
-              "key": "cup"
+              "text": "which",
+              "key": "which"
             },
             {
               "kind": "space",
@@ -125,32 +130,8 @@
             },
             {
               "kind": "word",
-              "text": "ugh",
-              "key": "ugh"
-            }
-          ]
-        }
-      ],
-      "zh": "一想到 World Cup 只剩下 7 场比赛了，唉",
-      "meta": {
-        "likes": 60,
-        "retweets": 6,
-        "replies": 5,
-        "createdAt": "2026-07-08T20:55:11.000Z",
-        "tweetUrl": "https://x.com/mattturck/status/2074960512966648106"
-      }
-    },
-    {
-      "id": "x-mattturck-2026-07-10-p1",
-      "sentences": [
-        {
-          "id": "x-mattturck-2026-07-10-p1-s0",
-          "text": "This also has been the World Cup of AI content going from slop to “wait, this kinda slaps”",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "This",
-              "key": "this"
+              "text": "would",
+              "key": "would"
             },
             {
               "kind": "space",
@@ -158,8 +139,8 @@
             },
             {
               "kind": "word",
-              "text": "also",
-              "key": "also"
+              "text": "be",
+              "key": "be"
             },
             {
               "kind": "space",
@@ -167,12 +148,43 @@
             },
             {
               "kind": "word",
-              "text": "has",
-              "key": "has"
+              "text": "an",
+              "key": "an"
             },
             {
               "kind": "space",
               "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "extremely",
+              "key": "extremely"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rare",
+              "key": "rare"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "occurrence",
+              "key": "occurrence"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
             },
             {
               "kind": "word",
@@ -185,8 +197,169 @@
             },
             {
               "kind": "word",
+              "text": "over",
+              "key": "over"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "60"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "years",
+              "key": "years"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "since",
+              "key": "since"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "two",
+              "key": "two"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "teams",
+              "key": "teams"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "met",
+              "key": "met"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "both",
+              "key": "both"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
               "text": "the",
               "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "group",
+              "key": "group"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "stage",
+              "key": "stage"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "final",
+              "key": "final"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "same",
+              "key": "same"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "men's",
+              "key": "men's"
             },
             {
               "kind": "space",
@@ -207,13 +380,8 @@
               "key": "cup"
             },
             {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "of",
-              "key": "of"
+              "kind": "punct",
+              "text": ")"
             },
             {
               "kind": "space",
@@ -221,8 +389,8 @@
             },
             {
               "kind": "word",
-              "text": "AI",
-              "key": "ai"
+              "text": "and",
+              "key": "and"
             },
             {
               "kind": "space",
@@ -230,8 +398,21 @@
             },
             {
               "kind": "word",
-              "text": "content",
-              "key": "content"
+              "text": "fascinating",
+              "key": "fascinating"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "how",
+              "key": "how"
             },
             {
               "kind": "space",
@@ -239,8 +420,8 @@
             },
             {
               "kind": "word",
-              "text": "going",
-              "key": "going"
+              "text": "truly",
+              "key": "truly"
             },
             {
               "kind": "space",
@@ -248,8 +429,8 @@
             },
             {
               "kind": "word",
-              "text": "from",
-              "key": "from"
+              "text": "game-changing",
+              "key": "game-changing"
             },
             {
               "kind": "space",
@@ -257,8 +438,8 @@
             },
             {
               "kind": "word",
-              "text": "slop",
-              "key": "slop"
+              "text": "is",
+              "key": "is"
             },
             {
               "kind": "space",
@@ -266,8 +447,104 @@
             },
             {
               "kind": "word",
-              "text": "to",
-              "key": "to"
+              "text": "Haaland",
+              "key": "haaland"
+            },
+            {
+              "kind": "punct",
+              "text": "?)"
+            }
+          ]
+        }
+      ],
+      "zh": "France 和 Norway 很有可能会在决赛中再次交手，这将是极其罕见的情况（在同一届男子 World Cup 中，两支球队既在小组赛相遇、又在决赛碰面的情况，已经超过 60 年没有出现过了），同时也会非常耐人寻味（Haaland 到底有多么足以改变比赛格局？）",
+      "meta": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 2,
+        "createdAt": "2026-07-10T01:09:38.000Z",
+        "tweetUrl": "https://x.com/mattturck/status/2075386931924414686"
+      }
+    },
+    {
+      "id": "x-mattturck-2026-07-10-p1",
+      "sentences": [
+        {
+          "id": "x-mattturck-2026-07-10-p1-s0",
+          "text": "Hang it in the Louvre.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Hang",
+              "key": "hang"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Louvre",
+              "key": "louvre"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "把它挂进 Louvre 吧。",
+      "meta": {
+        "likes": 335,
+        "retweets": 23,
+        "replies": 5,
+        "createdAt": "2026-07-09T23:29:44.000Z",
+        "tweetUrl": "https://x.com/mattturck/status/2075361793904439489"
+      }
+    },
+    {
+      "id": "x-mattturck-2026-07-10-p2",
+      "sentences": [
+        {
+          "id": "x-mattturck-2026-07-10-p2-s0",
+          "text": "X: “Paris will be in flames after the France-Morocco match” Paris after the match:",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "X",
+              "key": "x"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
             },
             {
               "kind": "space",
@@ -279,12 +556,8 @@
             },
             {
               "kind": "word",
-              "text": "wait",
-              "key": "wait"
-            },
-            {
-              "kind": "punct",
-              "text": ","
+              "text": "Paris",
+              "key": "paris"
             },
             {
               "kind": "space",
@@ -292,8 +565,8 @@
             },
             {
               "kind": "word",
-              "text": "this",
-              "key": "this"
+              "text": "will",
+              "key": "will"
             },
             {
               "kind": "space",
@@ -301,8 +574,8 @@
             },
             {
               "kind": "word",
-              "text": "kinda",
-              "key": "kinda"
+              "text": "be",
+              "key": "be"
             },
             {
               "kind": "space",
@@ -310,30 +583,115 @@
             },
             {
               "kind": "word",
-              "text": "slaps",
-              "key": "slaps"
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "flames",
+              "key": "flames"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "after",
+              "key": "after"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "France-Morocco",
+              "key": "france-morocco"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "match",
+              "key": "match"
             },
             {
               "kind": "punct",
               "text": "”"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Paris",
+              "key": "paris"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "after",
+              "key": "after"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "match",
+              "key": "match"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
             }
           ]
         }
       ],
-      "zh": "这届 World Cup 也见证了 AI content（AI 内容）从粗制滥造一路进化到“等等，这居然还挺带感”",
+      "zh": "X：“France-Morocco 比赛结束后，Paris 会陷入火海。” 比赛结束后的 Paris：",
       "meta": {
-        "likes": 974,
-        "retweets": 82,
-        "replies": 36,
-        "createdAt": "2026-07-08T17:29:46.000Z",
-        "tweetUrl": "https://x.com/mattturck/status/2074908816274034896"
+        "likes": 394,
+        "retweets": 33,
+        "replies": 121,
+        "createdAt": "2026-07-09T22:13:35.000Z",
+        "tweetUrl": "https://x.com/mattturck/status/2075342627436712362"
       }
     }
   ],
-  "wordCount": 30,
+  "wordCount": 65,
   "engagement": {
-    "likes": 1034,
-    "retweets": 88,
-    "replies": 41
+    "likes": 739,
+    "retweets": 56,
+    "replies": 128
   }
 }

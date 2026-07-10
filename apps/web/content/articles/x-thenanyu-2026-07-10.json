@@ -6,7 +6,7 @@
   "sourceBio": "head of product @linear",
   "title": "Nan Yu · @thenanyu",
   "url": "https://x.com/thenanyu",
-  "publishedAt": "2026-07-08T17:25:32.000Z",
+  "publishedAt": "2026-07-10T00:11:02.000Z",
   "digestDate": "2026-07-10",
   "paragraphs": [
     {
@@ -14,12 +14,12 @@
       "sentences": [
         {
           "id": "x-thenanyu-2026-07-10-p0-s0",
-          "text": "Important Product Marketing lesson!",
+          "text": "ChatGPT Codex Adeptus Astartes",
           "tokens": [
             {
               "kind": "word",
-              "text": "Important",
-              "key": "important"
+              "text": "ChatGPT",
+              "key": "chatgpt"
             },
             {
               "kind": "space",
@@ -27,8 +27,8 @@
             },
             {
               "kind": "word",
-              "text": "Product",
-              "key": "product"
+              "text": "Codex",
+              "key": "codex"
             },
             {
               "kind": "space",
@@ -36,8 +36,8 @@
             },
             {
               "kind": "word",
-              "text": "Marketing",
-              "key": "marketing"
+              "text": "Adeptus",
+              "key": "adeptus"
             },
             {
               "kind": "space",
@@ -45,459 +45,19 @@
             },
             {
               "kind": "word",
-              "text": "lesson",
-              "key": "lesson"
-            },
-            {
-              "kind": "punct",
-              "text": "!"
-            }
-          ]
-        },
-        {
-          "id": "x-thenanyu-2026-07-10-p0-s1",
-          "text": "You’re writing a story to transmit to your audience, but also for your audience to transmit to their audience.",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "You",
-              "key": "you"
-            },
-            {
-              "kind": "punct",
-              "text": "’"
-            },
-            {
-              "kind": "word",
-              "text": "re",
-              "key": "re"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "writing",
-              "key": "writing"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "a",
-              "key": "a"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "story",
-              "key": "story"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "transmit",
-              "key": "transmit"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "your",
-              "key": "your"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "audience",
-              "key": "audience"
-            },
-            {
-              "kind": "punct",
-              "text": ","
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "but",
-              "key": "but"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "also",
-              "key": "also"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "for",
-              "key": "for"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "your",
-              "key": "your"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "audience",
-              "key": "audience"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "transmit",
-              "key": "transmit"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "to",
-              "key": "to"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "their",
-              "key": "their"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "audience",
-              "key": "audience"
-            },
-            {
-              "kind": "punct",
-              "text": "."
-            }
-          ]
-        },
-        {
-          "id": "x-thenanyu-2026-07-10-p0-s2",
-          "text": "PMM &gt; Sales &gt; Customer PMM &gt; Customer &gt; Peer PMM &gt; User &gt; Buyer PMM &gt; Champion &gt; Org",
-          "tokens": [
-            {
-              "kind": "word",
-              "text": "PMM",
-              "key": "pmm"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "&"
-            },
-            {
-              "kind": "word",
-              "text": "gt",
-              "key": "gt"
-            },
-            {
-              "kind": "punct",
-              "text": ";"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Sales",
-              "key": "sales"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "&"
-            },
-            {
-              "kind": "word",
-              "text": "gt",
-              "key": "gt"
-            },
-            {
-              "kind": "punct",
-              "text": ";"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Customer",
-              "key": "customer"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "PMM",
-              "key": "pmm"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "&"
-            },
-            {
-              "kind": "word",
-              "text": "gt",
-              "key": "gt"
-            },
-            {
-              "kind": "punct",
-              "text": ";"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Customer",
-              "key": "customer"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "&"
-            },
-            {
-              "kind": "word",
-              "text": "gt",
-              "key": "gt"
-            },
-            {
-              "kind": "punct",
-              "text": ";"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Peer",
-              "key": "peer"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "PMM",
-              "key": "pmm"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "&"
-            },
-            {
-              "kind": "word",
-              "text": "gt",
-              "key": "gt"
-            },
-            {
-              "kind": "punct",
-              "text": ";"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "User",
-              "key": "user"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "&"
-            },
-            {
-              "kind": "word",
-              "text": "gt",
-              "key": "gt"
-            },
-            {
-              "kind": "punct",
-              "text": ";"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Buyer",
-              "key": "buyer"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "PMM",
-              "key": "pmm"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "&"
-            },
-            {
-              "kind": "word",
-              "text": "gt",
-              "key": "gt"
-            },
-            {
-              "kind": "punct",
-              "text": ";"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Champion",
-              "key": "champion"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "&"
-            },
-            {
-              "kind": "word",
-              "text": "gt",
-              "key": "gt"
-            },
-            {
-              "kind": "punct",
-              "text": ";"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Org",
-              "key": "org"
+              "text": "Astartes",
+              "key": "astartes"
             }
           ]
         }
       ],
-      "zh": "一个很重要的 Product Marketing 经验！你写一个故事，不只是为了传达给你的受众，也是为了让你的受众再传达给他们的受众。PMM > Sales > Customer PMM > Customer > Peer PMM > User > Buyer PMM > Champion > Org",
+      "zh": "ChatGPT Codex Adeptus Astartes",
       "meta": {
-        "likes": 20,
-        "retweets": 2,
-        "replies": 2,
-        "createdAt": "2026-07-08T17:25:32.000Z",
-        "tweetUrl": "https://x.com/thenanyu/status/2074907752829223043"
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1,
+        "createdAt": "2026-07-10T00:11:02.000Z",
+        "tweetUrl": "https://x.com/thenanyu/status/2075372186731270618"
       }
     },
     {
@@ -505,12 +65,12 @@
       "sentences": [
         {
           "id": "x-thenanyu-2026-07-10-p1-s0",
-          "text": "I watched Glenngarry Glenn Ross again recently, and the Alec Baldwin bit that struck me wasn’t “always be closing” — it was [First place gets a car, second place gets steak knives, third place is fired] Power law in action!",
+          "text": "Two bros talking at the screen with a big dollar number graphic who cares?",
           "tokens": [
             {
               "kind": "word",
-              "text": "I",
-              "key": "i"
+              "text": "Two",
+              "key": "two"
             },
             {
               "kind": "space",
@@ -518,8 +78,8 @@
             },
             {
               "kind": "word",
-              "text": "watched",
-              "key": "watched"
+              "text": "bros",
+              "key": "bros"
             },
             {
               "kind": "space",
@@ -527,8 +87,8 @@
             },
             {
               "kind": "word",
-              "text": "Glenngarry",
-              "key": "glenngarry"
+              "text": "talking",
+              "key": "talking"
             },
             {
               "kind": "space",
@@ -536,48 +96,8 @@
             },
             {
               "kind": "word",
-              "text": "Glenn",
-              "key": "glenn"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Ross",
-              "key": "ross"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "again",
-              "key": "again"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "recently",
-              "key": "recently"
-            },
-            {
-              "kind": "punct",
-              "text": ","
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "and",
-              "key": "and"
+              "text": "at",
+              "key": "at"
             },
             {
               "kind": "space",
@@ -594,8 +114,8 @@
             },
             {
               "kind": "word",
-              "text": "Alec",
-              "key": "alec"
+              "text": "screen",
+              "key": "screen"
             },
             {
               "kind": "space",
@@ -603,154 +123,8 @@
             },
             {
               "kind": "word",
-              "text": "Baldwin",
-              "key": "baldwin"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "bit",
-              "key": "bit"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "that",
-              "key": "that"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "struck",
-              "key": "struck"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "me",
-              "key": "me"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "wasn",
-              "key": "wasn"
-            },
-            {
-              "kind": "punct",
-              "text": "’"
-            },
-            {
-              "kind": "word",
-              "text": "t",
-              "key": "t"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "“"
-            },
-            {
-              "kind": "word",
-              "text": "always",
-              "key": "always"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "be",
-              "key": "be"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "closing",
-              "key": "closing"
-            },
-            {
-              "kind": "punct",
-              "text": "”"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "—"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "it",
-              "key": "it"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "was",
-              "key": "was"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "punct",
-              "text": "["
-            },
-            {
-              "kind": "word",
-              "text": "First",
-              "key": "first"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "place",
-              "key": "place"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "gets",
-              "key": "gets"
+              "text": "with",
+              "key": "with"
             },
             {
               "kind": "space",
@@ -767,12 +141,81 @@
             },
             {
               "kind": "word",
-              "text": "car",
-              "key": "car"
+              "text": "big",
+              "key": "big"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dollar",
+              "key": "dollar"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "number",
+              "key": "number"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "graphic",
+              "key": "graphic"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "who",
+              "key": "who"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cares",
+              "key": "cares"
             },
             {
               "kind": "punct",
-              "text": ","
+              "text": "?"
+            }
+          ]
+        }
+      ],
+      "zh": "两个哥们对着屏幕说话，旁边还配个巨大的美元数字图，谁在乎啊？",
+      "meta": {
+        "likes": 13,
+        "retweets": 0,
+        "replies": 3,
+        "createdAt": "2026-07-10T00:01:56.000Z",
+        "tweetUrl": "https://x.com/thenanyu/status/2075369895408095511"
+      }
+    },
+    {
+      "id": "x-thenanyu-2026-07-10-p2",
+      "sentences": [
+        {
+          "id": "x-thenanyu-2026-07-10-p2-s0",
+          "text": "Why do people make flashy videos talking about how much money they raised?",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Why",
+              "key": "why"
             },
             {
               "kind": "space",
@@ -780,8 +223,8 @@
             },
             {
               "kind": "word",
-              "text": "second",
-              "key": "second"
+              "text": "do",
+              "key": "do"
             },
             {
               "kind": "space",
@@ -789,8 +232,8 @@
             },
             {
               "kind": "word",
-              "text": "place",
-              "key": "place"
+              "text": "people",
+              "key": "people"
             },
             {
               "kind": "space",
@@ -798,8 +241,8 @@
             },
             {
               "kind": "word",
-              "text": "gets",
-              "key": "gets"
+              "text": "make",
+              "key": "make"
             },
             {
               "kind": "space",
@@ -807,8 +250,8 @@
             },
             {
               "kind": "word",
-              "text": "steak",
-              "key": "steak"
+              "text": "flashy",
+              "key": "flashy"
             },
             {
               "kind": "space",
@@ -816,78 +259,85 @@
             },
             {
               "kind": "word",
-              "text": "knives",
-              "key": "knives"
+              "text": "videos",
+              "key": "videos"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "talking",
+              "key": "talking"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "about",
+              "key": "about"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "how",
+              "key": "how"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "much",
+              "key": "much"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "money",
+              "key": "money"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "they",
+              "key": "they"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "raised",
+              "key": "raised"
             },
             {
               "kind": "punct",
-              "text": ","
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "third",
-              "key": "third"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "id": "x-thenanyu-2026-07-10-p2-s1",
+          "text": "In what way does that benefit your business?",
+          "tokens": [
             {
               "kind": "word",
-              "text": "place",
-              "key": "place"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "is",
-              "key": "is"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "fired",
-              "key": "fired"
-            },
-            {
-              "kind": "punct",
-              "text": "]"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "Power",
-              "key": "power"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "law",
-              "key": "law"
-            },
-            {
-              "kind": "space",
-              "text": " "
-            },
-            {
-              "kind": "word",
-              "text": "in",
+              "text": "In",
               "key": "in"
             },
             {
@@ -896,30 +346,84 @@
             },
             {
               "kind": "word",
-              "text": "action",
-              "key": "action"
+              "text": "what",
+              "key": "what"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "way",
+              "key": "way"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "does",
+              "key": "does"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "benefit",
+              "key": "benefit"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "business",
+              "key": "business"
             },
             {
               "kind": "punct",
-              "text": "!"
+              "text": "?"
             }
           ]
         }
       ],
-      "zh": "我最近又看了一遍 Glenngarry Glenn Ross，而 Alec Baldwin 那段真正打动我的并不是 “always be closing”——而是 [First place gets a car, second place gets steak knives, third place is fired] 这就是 power law 在现实中的体现！",
+      "zh": "人们为什么要做那种花里胡哨的视频，聊自己融了多少钱？这到底在哪方面能对你的业务有帮助？",
       "meta": {
-        "likes": 15,
+        "likes": 79,
         "retweets": 1,
-        "replies": 1,
-        "createdAt": "2026-07-08T16:59:49.000Z",
-        "tweetUrl": "https://x.com/thenanyu/status/2074901281466896694"
+        "replies": 40,
+        "createdAt": "2026-07-09T23:58:41.000Z",
+        "tweetUrl": "https://x.com/thenanyu/status/2075369080006087127"
       }
     }
   ],
-  "wordCount": 84,
+  "wordCount": 39,
   "engagement": {
-    "likes": 35,
-    "retweets": 3,
-    "replies": 3
+    "likes": 94,
+    "retweets": 1,
+    "replies": 44
   }
 }
