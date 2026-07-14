@@ -1,0 +1,843 @@
+{
+  "id": "x-ryolu-2026-07-14",
+  "type": "tweet",
+  "sourceName": "Ryo Lu",
+  "sourceHandle": "@ryolu_",
+  "sourceBio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+  "title": "Ryo Lu · @ryolu_",
+  "url": "https://x.com/ryolu_",
+  "publishedAt": "2026-07-13T17:01:44.000Z",
+  "digestDate": "2026-07-14",
+  "paragraphs": [
+    {
+      "id": "x-ryolu-2026-07-14-p0",
+      "sentences": [
+        {
+          "id": "x-ryolu-2026-07-14-p0-s0",
+          "text": "works on Xteink X3 + X4 ask Cursor to flash it for you",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "works",
+              "key": "works"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Xteink",
+              "key": "xteink"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "X3",
+              "key": "x"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "+"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "X4",
+              "key": "x"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ask",
+              "key": "ask"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Cursor",
+              "key": "cursor"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "flash",
+              "key": "flash"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            }
+          ]
+        }
+      ],
+      "zh": "适用于 Xteink X3 + X4，直接让 Cursor 帮你刷写固件就行",
+      "meta": {
+        "likes": 48,
+        "retweets": 0,
+        "replies": 2,
+        "createdAt": "2026-07-13T17:01:44.000Z",
+        "tweetUrl": "https://x.com/ryolu_/status/2076713700942295226"
+      }
+    },
+    {
+      "id": "x-ryolu-2026-07-14-p1",
+      "sentences": [
+        {
+          "id": "x-ryolu-2026-07-14-p1-s0",
+          "text": "built a custom e-reader firmware with Cursor, hardware hacking is fun! made for: – beautiful latin + CJK typography – vertical layout, line breaking, large character sets (縱書．禁則) – syncs books + progress with ryOS – speedy rendering + caching",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "built",
+              "key": "built"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "custom",
+              "key": "custom"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "e-reader",
+              "key": "e-reader"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "firmware",
+              "key": "firmware"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Cursor",
+              "key": "cursor"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hardware",
+              "key": "hardware"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hacking",
+              "key": "hacking"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fun",
+              "key": "fun"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "made",
+              "key": "made"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "–"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "beautiful",
+              "key": "beautiful"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "latin",
+              "key": "latin"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "+"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "CJK",
+              "key": "cjk"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "typography",
+              "key": "typography"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "–"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "vertical",
+              "key": "vertical"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "layout",
+              "key": "layout"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "line",
+              "key": "line"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "breaking",
+              "key": "breaking"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "large",
+              "key": "large"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "character",
+              "key": "character"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sets",
+              "key": "sets"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "(縱書．禁則)"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "–"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "syncs",
+              "key": "syncs"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "books",
+              "key": "books"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "+"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "progress",
+              "key": "progress"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "with",
+              "key": "with"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ryOS",
+              "key": "ryos"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "–"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "speedy",
+              "key": "speedy"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rendering",
+              "key": "rendering"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "+"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "caching",
+              "key": "caching"
+            }
+          ]
+        }
+      ],
+      "zh": "我用 Cursor 做了一套自定义电子阅读器 firmware（固件），折腾硬件真的很好玩！目标包括：– 优美的 Latin + CJK 排版 – 纵向布局、断行、大字符集（縱書．禁則）– 与 ryOS 同步书籍 + 阅读进度 – 快速渲染 + 缓存",
+      "meta": {
+        "likes": 947,
+        "retweets": 25,
+        "replies": 48,
+        "createdAt": "2026-07-13T17:00:16.000Z",
+        "tweetUrl": "https://x.com/ryolu_/status/2076713331113734641"
+      }
+    },
+    {
+      "id": "x-ryolu-2026-07-14-p2",
+      "sentences": [
+        {
+          "id": "x-ryolu-2026-07-14-p2-s0",
+          "text": "super stoked for jenny to join and lead our team 💛 makes me really happy for the team, and personally excited to regain the focus and mental space to dream big again",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "super",
+              "key": "super"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "stoked",
+              "key": "stoked"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "jenny",
+              "key": "jenny"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "join",
+              "key": "join"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "lead",
+              "key": "lead"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "our",
+              "key": "our"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "team",
+              "key": "team"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "💛"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "makes",
+              "key": "makes"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "me",
+              "key": "me"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "really",
+              "key": "really"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "happy",
+              "key": "happy"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "team",
+              "key": "team"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "personally",
+              "key": "personally"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "excited",
+              "key": "excited"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "regain",
+              "key": "regain"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "focus",
+              "key": "focus"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mental",
+              "key": "mental"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "space",
+              "key": "space"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dream",
+              "key": "dream"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "big",
+              "key": "big"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "again",
+              "key": "again"
+            }
+          ]
+        }
+      ],
+      "zh": "特别特别开心 jenny 要加入并带领我们的团队 💛 这真的让我为团队感到高兴，也让我个人很期待能重新找回专注力和心理空间，再次去做大梦想",
+      "meta": {
+        "likes": 1937,
+        "retweets": 17,
+        "replies": 47,
+        "createdAt": "2026-07-13T15:23:50.000Z",
+        "tweetUrl": "https://x.com/ryolu_/status/2076689062921150479"
+      }
+    }
+  ],
+  "wordCount": 75,
+  "engagement": {
+    "likes": 2932,
+    "retweets": 42,
+    "replies": 97
+  }
+}

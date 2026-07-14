@@ -1,0 +1,615 @@
+{
+  "id": "x-steipete-2026-07-14",
+  "type": "tweet",
+  "sourceName": "Peter Steinberger",
+  "sourceHandle": "@steipete",
+  "sourceBio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+  "title": "Peter Steinberger · @steipete",
+  "url": "https://x.com/steipete",
+  "publishedAt": "2026-07-14T06:54:36.000Z",
+  "digestDate": "2026-07-14",
+  "paragraphs": [
+    {
+      "id": "x-steipete-2026-07-14-p0",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-07-14-p0-s0",
+          "text": "I moved our maintainer agent to the cloud and they are fighting already.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "moved",
+              "key": "moved"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "our",
+              "key": "our"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "maintainer",
+              "key": "maintainer"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cloud",
+              "key": "cloud"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "they",
+              "key": "they"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "fighting",
+              "key": "fighting"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "already",
+              "key": "already"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "我把我们的 maintainer agent（维护 agent）迁到了云端，他们已经开始打起来了。",
+      "meta": {
+        "likes": 26,
+        "retweets": 1,
+        "replies": 9,
+        "createdAt": "2026-07-14T06:54:36.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2076923300593422560"
+      }
+    },
+    {
+      "id": "x-steipete-2026-07-14-p1",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-07-14-p1-s0",
+          "text": "We shipped! iOS and Android apps also got updates and they look great.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "We",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "shipped",
+              "key": "shipped"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "iOS",
+              "key": "ios"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Android",
+              "key": "android"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "apps",
+              "key": "apps"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "also",
+              "key": "also"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "got",
+              "key": "got"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "updates",
+              "key": "updates"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "they",
+              "key": "they"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "look",
+              "key": "look"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "great",
+              "key": "great"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-steipete-2026-07-14-p1-s1",
+          "text": "Had to bump Node to keep things smooth, if the autoupdater doesn't work, run the web installer and it'll take care of that for you.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Had",
+              "key": "had"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "bump",
+              "key": "bump"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Node",
+              "key": "node"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "keep",
+              "key": "keep"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "things",
+              "key": "things"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "smooth",
+              "key": "smooth"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "if",
+              "key": "if"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "autoupdater",
+              "key": "autoupdater"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "doesn't",
+              "key": "doesn't"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "run",
+              "key": "run"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "web",
+              "key": "web"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "installer",
+              "key": "installer"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it'll",
+              "key": "it'll"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "take",
+              "key": "take"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "care",
+              "key": "care"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "that",
+              "key": "that"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "for",
+              "key": "for"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "you",
+              "key": "you"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "我们发版了！iOS 和 Android app 也都收到了更新，而且看起来很棒。为了让一切保持顺畅，不得不把 Node 升级了一下；如果 autoupdater 不工作，就运行 web installer，它会帮你处理好。",
+      "meta": {
+        "likes": 72,
+        "retweets": 3,
+        "replies": 27,
+        "createdAt": "2026-07-14T06:32:19.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2076917691139674373"
+      }
+    },
+    {
+      "id": "x-steipete-2026-07-14-p2",
+      "sentences": [
+        {
+          "id": "x-steipete-2026-07-14-p2-s0",
+          "text": "\"stress test\" is a good prompt.",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "\""
+            },
+            {
+              "kind": "word",
+              "text": "stress",
+              "key": "stress"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "test",
+              "key": "test"
+            },
+            {
+              "kind": "punct",
+              "text": "\""
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "good",
+              "key": "good"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "prompt",
+              "key": "prompt"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "“stress test” 是个不错的 prompt。",
+      "meta": {
+        "likes": 164,
+        "retweets": 2,
+        "replies": 18,
+        "createdAt": "2026-07-14T04:28:11.000Z",
+        "tweetUrl": "https://x.com/steipete/status/2076886451455992249"
+      }
+    }
+  ],
+  "wordCount": 57,
+  "engagement": {
+    "likes": 262,
+    "retweets": 6,
+    "replies": 54
+  }
+}
