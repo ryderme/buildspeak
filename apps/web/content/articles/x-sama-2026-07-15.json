@@ -1,0 +1,496 @@
+{
+  "id": "x-sama-2026-07-15",
+  "type": "tweet",
+  "sourceName": "Sam Altman",
+  "sourceHandle": "@sama",
+  "sourceBio": "AI is cool i guess",
+  "title": "Sam Altman · @sama",
+  "url": "https://x.com/sama",
+  "publishedAt": "2026-07-14T19:50:57.000Z",
+  "digestDate": "2026-07-15",
+  "paragraphs": [
+    {
+      "id": "x-sama-2026-07-15-p0",
+      "sentences": [
+        {
+          "id": "x-sama-2026-07-15-p0-s0",
+          "text": "hello!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "hello",
+              "key": "hello"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "你好！",
+      "meta": {
+        "likes": 5366,
+        "retweets": 110,
+        "replies": 452,
+        "createdAt": "2026-07-14T19:50:57.000Z",
+        "tweetUrl": "https://x.com/sama/status/2077118672150388816"
+      }
+    },
+    {
+      "id": "x-sama-2026-07-15-p1",
+      "sentences": [
+        {
+          "id": "x-sama-2026-07-15-p1-s0",
+          "text": "5.6 sol growth is insane. the inference team has done heroic work to be able to support demand. we are going to move mountains to continue to scale, but it is possible there are some hiccups soon.",
+          "tokens": [
+            {
+              "kind": "punct",
+              "text": "5.6"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sol",
+              "key": "sol"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "growth",
+              "key": "growth"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "insane",
+              "key": "insane"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "inference",
+              "key": "inference"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "team",
+              "key": "team"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "done",
+              "key": "done"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "heroic",
+              "key": "heroic"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "be",
+              "key": "be"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "able",
+              "key": "able"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "support",
+              "key": "support"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "demand",
+              "key": "demand"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "we",
+              "key": "we"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "going",
+              "key": "going"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "move",
+              "key": "move"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "mountains",
+              "key": "mountains"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "continue",
+              "key": "continue"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "scale",
+              "key": "scale"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "but",
+              "key": "but"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "possible",
+              "key": "possible"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "there",
+              "key": "there"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "are",
+              "key": "are"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "some",
+              "key": "some"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hiccups",
+              "key": "hiccups"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "soon",
+              "key": "soon"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "5.6 sol 的增长简直疯狂。inference 团队为了能够支撑需求，做出了堪称 heroic 的工作。我们会拼尽全力持续扩容，但近期也可能会出现一些 hiccups（小故障）。",
+      "meta": {
+        "likes": 9749,
+        "retweets": 271,
+        "replies": 729,
+        "createdAt": "2026-07-14T19:02:55.000Z",
+        "tweetUrl": "https://x.com/sama/status/2077106587307798989"
+      }
+    },
+    {
+      "id": "x-sama-2026-07-15-p2",
+      "sentences": [
+        {
+          "id": "x-sama-2026-07-15-p2-s0",
+          "text": "also, a reason to favor open-source harnesses.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "also",
+              "key": "also"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "reason",
+              "key": "reason"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "favor",
+              "key": "favor"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "open-source",
+              "key": "open-source"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "harnesses",
+              "key": "harnesses"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "这也是更倾向于 open-source harnesses 的一个原因。",
+      "meta": {
+        "likes": 4800,
+        "retweets": 127,
+        "replies": 371,
+        "createdAt": "2026-07-14T15:30:53.000Z",
+        "tweetUrl": "https://x.com/sama/status/2077053226080436235"
+      }
+    }
+  ],
+  "wordCount": 44,
+  "engagement": {
+    "likes": 19915,
+    "retweets": 508,
+    "replies": 1552
+  }
+}

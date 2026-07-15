@@ -1,0 +1,697 @@
+{
+  "id": "x-petergyang-2026-07-15",
+  "type": "tweet",
+  "sourceName": "Peter Yang",
+  "sourceHandle": "@petergyang",
+  "sourceBio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+  "title": "Peter Yang · @petergyang",
+  "url": "https://x.com/petergyang",
+  "publishedAt": "2026-07-15T01:01:28.000Z",
+  "digestDate": "2026-07-15",
+  "paragraphs": [
+    {
+      "id": "x-petergyang-2026-07-15-p0",
+      "sentences": [
+        {
+          "id": "x-petergyang-2026-07-15-p0-s0",
+          "text": "Tomorrow, I’m sharing a new video on how I use ChatGPT Work (also known as Codex 😅) to do almost everything on my computer.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Tomorrow",
+              "key": "tomorrow"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "m",
+              "key": "m"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sharing",
+              "key": "sharing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "new",
+              "key": "new"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "video",
+              "key": "video"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "how",
+              "key": "how"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "use",
+              "key": "use"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "ChatGPT",
+              "key": "chatgpt"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Work",
+              "key": "work"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "("
+            },
+            {
+              "kind": "word",
+              "text": "also",
+              "key": "also"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "known",
+              "key": "known"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "as",
+              "key": "as"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Codex",
+              "key": "codex"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "😅)"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "do",
+              "key": "do"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "almost",
+              "key": "almost"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "everything",
+              "key": "everything"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "my",
+              "key": "my"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "computer",
+              "key": "computer"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-petergyang-2026-07-15-p0-s1",
+          "text": "I’ll cover my complete setup in 7 steps below, from choosing the right GPT-5.6 model to managing email, calendar, and recurring tasks. 📌 Subscribe to get the tutorial tomorrow:",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "ll",
+              "key": "ll"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cover",
+              "key": "cover"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "my",
+              "key": "my"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "complete",
+              "key": "complete"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "setup",
+              "key": "setup"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "in",
+              "key": "in"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "7"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "steps",
+              "key": "steps"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "below",
+              "key": "below"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "from",
+              "key": "from"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "choosing",
+              "key": "choosing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "right",
+              "key": "right"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "GPT-5",
+              "key": "gpt"
+            },
+            {
+              "kind": "punct",
+              "text": ".6"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "model",
+              "key": "model"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "managing",
+              "key": "managing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "email",
+              "key": "email"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "calendar",
+              "key": "calendar"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "recurring",
+              "key": "recurring"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tasks",
+              "key": "tasks"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "📌"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Subscribe",
+              "key": "subscribe"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "get",
+              "key": "get"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tutorial",
+              "key": "tutorial"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "tomorrow",
+              "key": "tomorrow"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            }
+          ]
+        }
+      ],
+      "zh": "明天，我会分享一个新视频，讲讲我是如何使用 ChatGPT Work（也叫 Codex 😅）在我的电脑上完成几乎所有事情的。下面我会用 7 个步骤介绍我的完整配置，从选择合适的 GPT-5.6 model，到管理 email、calendar 和重复性任务。📌 订阅即可在明天获取这份教程：",
+      "meta": {
+        "likes": 36,
+        "retweets": 2,
+        "replies": 7,
+        "createdAt": "2026-07-15T01:01:28.000Z",
+        "tweetUrl": "https://x.com/petergyang/status/2077196815951417649"
+      }
+    },
+    {
+      "id": "x-petergyang-2026-07-15-p1",
+      "sentences": [
+        {
+          "id": "x-petergyang-2026-07-15-p1-s0",
+          "text": "Holy shit a time traveler or cope?",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Holy",
+              "key": "holy"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "shit",
+              "key": "shit"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "time",
+              "key": "time"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "traveler",
+              "key": "traveler"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "or",
+              "key": "or"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cope",
+              "key": "cope"
+            },
+            {
+              "kind": "punct",
+              "text": "?"
+            }
+          ]
+        }
+      ],
+      "zh": "卧槽，这是时间旅行者，还是在自我安慰？",
+      "meta": {
+        "likes": 44,
+        "retweets": 0,
+        "replies": 7,
+        "createdAt": "2026-07-14T23:24:49.000Z",
+        "tweetUrl": "https://x.com/petergyang/status/2077172496424751376"
+      }
+    },
+    {
+      "id": "x-petergyang-2026-07-15-p2",
+      "sentences": [
+        {
+          "id": "x-petergyang-2026-07-15-p2-s0",
+          "text": "Best player from Spain",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Best",
+              "key": "best"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "player",
+              "key": "player"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "from",
+              "key": "from"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Spain",
+              "key": "spain"
+            }
+          ]
+        }
+      ],
+      "zh": "来自 Spain 的最佳球员",
+      "meta": {
+        "likes": 16,
+        "retweets": 0,
+        "replies": 4,
+        "createdAt": "2026-07-14T21:15:19.000Z",
+        "tweetUrl": "https://x.com/petergyang/status/2077139905692799065"
+      }
+    }
+  ],
+  "wordCount": 63,
+  "engagement": {
+    "likes": 96,
+    "retweets": 2,
+    "replies": 18
+  }
+}

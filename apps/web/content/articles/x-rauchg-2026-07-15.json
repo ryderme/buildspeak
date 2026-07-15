@@ -1,0 +1,496 @@
+{
+  "id": "x-rauchg-2026-07-15",
+  "type": "tweet",
+  "sourceName": "Guillermo Rauch",
+  "sourceHandle": "@rauchg",
+  "sourceBio": "@vercel CEO",
+  "title": "Guillermo Rauch · @rauchg",
+  "url": "https://x.com/rauchg",
+  "publishedAt": "2026-07-14T23:39:53.000Z",
+  "digestDate": "2026-07-15",
+  "paragraphs": [
+    {
+      "id": "x-rauchg-2026-07-15-p0",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-07-15-p0-s0",
+          "text": "I used this dataset to create ↓",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "I",
+              "key": "i"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "used",
+              "key": "used"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dataset",
+              "key": "dataset"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "create",
+              "key": "create"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "↓"
+            }
+          ]
+        }
+      ],
+      "zh": "我用这个数据集创建了 ↓",
+      "meta": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 2,
+        "createdAt": "2026-07-14T23:39:53.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2077176287131840734"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-07-15-p1",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-07-15-p1-s0",
+          "text": "We're opening up the dataset of AI token flows on @vercel AI Gateway.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "We're",
+              "key": "we're"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "opening",
+              "key": "opening"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "up",
+              "key": "up"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dataset",
+              "key": "dataset"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "of",
+              "key": "of"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "token",
+              "key": "token"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "flows",
+              "key": "flows"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "on",
+              "key": "on"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "vercel",
+              "key": "vercel"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "AI",
+              "key": "ai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Gateway",
+              "key": "gateway"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-07-15-p1-s1",
+          "text": "Fascinating insights contained within!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Fascinating",
+              "key": "fascinating"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "insights",
+              "key": "insights"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "contained",
+              "key": "contained"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "within",
+              "key": "within"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "我们正在开放 @vercel AI Gateway 上 AI token（令牌）流动的数据集。其中包含了非常有意思的洞察！",
+      "meta": {
+        "likes": 83,
+        "retweets": 4,
+        "replies": 17,
+        "createdAt": "2026-07-14T23:39:18.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2077176141790752798"
+      }
+    },
+    {
+      "id": "x-rauchg-2026-07-15-p2",
+      "sentences": [
+        {
+          "id": "x-rauchg-2026-07-15-p2-s0",
+          "text": "The @agentmail team has been cooking.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "The",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "@"
+            },
+            {
+              "kind": "word",
+              "text": "agentmail",
+              "key": "agentmail"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "team",
+              "key": "team"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "has",
+              "key": "has"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "been",
+              "key": "been"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cooking",
+              "key": "cooking"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-rauchg-2026-07-15-p2-s1",
+          "text": "Tell your agent to 𝚟𝚎𝚛𝚌𝚎𝚕 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚊𝚐𝚎𝚗𝚝𝚖𝚊𝚒𝚕 – no signup, automatic setup and unified billing.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Tell",
+              "key": "tell"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "your",
+              "key": "your"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "𝚟𝚎𝚛𝚌𝚎𝚕"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "𝚒𝚗𝚜𝚝𝚊𝚕𝚕"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "𝚊𝚐𝚎𝚗𝚝𝚖𝚊𝚒𝚕"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "punct",
+              "text": "–"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "no",
+              "key": "no"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "signup",
+              "key": "signup"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "automatic",
+              "key": "automatic"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "setup",
+              "key": "setup"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "unified",
+              "key": "unified"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "billing",
+              "key": "billing"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "@agentmail 团队最近很能打。告诉你的 agent 去执行 𝚟𝚎𝚛𝚌𝚎𝚕 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚊𝚐𝚎𝚗𝚝𝚖𝚊𝚒𝚕——无需注册、自动设置、统一计费。",
+      "meta": {
+        "likes": 159,
+        "retweets": 10,
+        "replies": 19,
+        "createdAt": "2026-07-14T22:14:54.000Z",
+        "tweetUrl": "https://x.com/rauchg/status/2077154901013221444"
+      }
+    }
+  ],
+  "wordCount": 40,
+  "engagement": {
+    "likes": 256,
+    "retweets": 14,
+    "replies": 38
+  }
+}
