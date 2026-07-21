@@ -1,0 +1,74 @@
+{
+  "id": "x-sama-2026-07-21",
+  "type": "tweet",
+  "sourceName": "Sam Altman",
+  "sourceHandle": "@sama",
+  "sourceBio": "AI is cool i guess",
+  "title": "Sam Altman · @sama",
+  "url": "https://x.com/sama",
+  "publishedAt": "2026-07-20T17:34:35.000Z",
+  "digestDate": "2026-07-21",
+  "paragraphs": [
+    {
+      "id": "x-sama-2026-07-21-p0",
+      "sentences": [
+        {
+          "id": "x-sama-2026-07-21-p0-s0",
+          "text": "it is good now!",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "good",
+              "key": "good"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "now",
+              "key": "now"
+            },
+            {
+              "kind": "punct",
+              "text": "!"
+            }
+          ]
+        }
+      ],
+      "zh": "现在已经很好了！",
+      "meta": {
+        "likes": 2820,
+        "retweets": 121,
+        "replies": 456,
+        "createdAt": "2026-07-20T17:34:35.000Z",
+        "tweetUrl": "https://x.com/sama/status/2079258683884917013"
+      }
+    }
+  ],
+  "wordCount": 4,
+  "engagement": {
+    "likes": 2820,
+    "retweets": 121,
+    "replies": 456
+  }
+}
