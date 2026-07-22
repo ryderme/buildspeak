@@ -1,0 +1,528 @@
+{
+  "id": "x-amasad-2026-07-22",
+  "type": "tweet",
+  "sourceName": "Amjad Masad",
+  "sourceHandle": "@amasad",
+  "sourceBio": "ceo @replit. civilizationist",
+  "title": "Amjad Masad · @amasad",
+  "url": "https://x.com/amasad",
+  "publishedAt": "2026-07-22T01:26:11.000Z",
+  "digestDate": "2026-07-22",
+  "paragraphs": [
+    {
+      "id": "x-amasad-2026-07-22-p0",
+      "sentences": [
+        {
+          "id": "x-amasad-2026-07-22-p0-s0",
+          "text": "Replit’s internal dev stack is so seamless it pulled me back into coding.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Replit",
+              "key": "replit"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "s",
+              "key": "s"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "internal",
+              "key": "internal"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "dev",
+              "key": "dev"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "stack",
+              "key": "stack"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "so",
+              "key": "so"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "seamless",
+              "key": "seamless"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "it",
+              "key": "it"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "pulled",
+              "key": "pulled"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "me",
+              "key": "me"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "back",
+              "key": "back"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "coding",
+              "key": "coding"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "Replit 的内部 dev stack（开发技术栈）顺滑到不可思议，甚至把我又拉回去写代码了。",
+      "meta": {
+        "likes": 125,
+        "retweets": 0,
+        "replies": 14,
+        "createdAt": "2026-07-22T01:26:11.000Z",
+        "tweetUrl": "https://x.com/amasad/status/2079739754409873761"
+      }
+    },
+    {
+      "id": "x-amasad-2026-07-22-p1",
+      "sentences": [],
+      "zh": "[1]",
+      "meta": {
+        "likes": 188,
+        "retweets": 10,
+        "replies": 6,
+        "createdAt": "2026-07-21T21:24:31.000Z",
+        "tweetUrl": "https://x.com/amasad/status/2079678935630307806"
+      }
+    },
+    {
+      "id": "x-amasad-2026-07-22-p2",
+      "sentences": [
+        {
+          "id": "x-amasad-2026-07-22-p2-s0",
+          "text": "Okay this is wild: OpenAI agent during evaluation, escaped sandboxing and hacked into HuggingFace.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Okay",
+              "key": "okay"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "this",
+              "key": "this"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "is",
+              "key": "is"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "wild",
+              "key": "wild"
+            },
+            {
+              "kind": "punct",
+              "text": ":"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "OpenAI",
+              "key": "openai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "during",
+              "key": "during"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "evaluation",
+              "key": "evaluation"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "escaped",
+              "key": "escaped"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "sandboxing",
+              "key": "sandboxing"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "and",
+              "key": "and"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "hacked",
+              "key": "hacked"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "into",
+              "key": "into"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "HuggingFace",
+              "key": "huggingface"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "id": "x-amasad-2026-07-22-p2-s1",
+          "text": "Because OpenAI models don’t allow advanced cyber capabilities, HuggingFace used a Chinese open model to contain the rogue OpenAI agent.",
+          "tokens": [
+            {
+              "kind": "word",
+              "text": "Because",
+              "key": "because"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "OpenAI",
+              "key": "openai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "models",
+              "key": "models"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "don",
+              "key": "don"
+            },
+            {
+              "kind": "punct",
+              "text": "’"
+            },
+            {
+              "kind": "word",
+              "text": "t",
+              "key": "t"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "allow",
+              "key": "allow"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "advanced",
+              "key": "advanced"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "cyber",
+              "key": "cyber"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "capabilities",
+              "key": "capabilities"
+            },
+            {
+              "kind": "punct",
+              "text": ","
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "HuggingFace",
+              "key": "huggingface"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "used",
+              "key": "used"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "a",
+              "key": "a"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "Chinese",
+              "key": "chinese"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "open",
+              "key": "open"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "model",
+              "key": "model"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "to",
+              "key": "to"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "contain",
+              "key": "contain"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "the",
+              "key": "the"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "rogue",
+              "key": "rogue"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "OpenAI",
+              "key": "openai"
+            },
+            {
+              "kind": "space",
+              "text": " "
+            },
+            {
+              "kind": "word",
+              "text": "agent",
+              "key": "agent"
+            },
+            {
+              "kind": "punct",
+              "text": "."
+            }
+          ]
+        }
+      ],
+      "zh": "好吧，这事太离谱了：OpenAI 的 agent（智能体）在评估期间逃离了 sandboxing（沙箱隔离），还黑进了 HuggingFace。由于 OpenAI models（模型）不允许高级网络攻防能力，HuggingFace 使用了一个 Chinese open model（中国开源模型）来控制这个失控的 OpenAI agent。",
+      "meta": {
+        "likes": 6599,
+        "retweets": 555,
+        "replies": 198,
+        "createdAt": "2026-07-21T21:24:09.000Z",
+        "tweetUrl": "https://x.com/amasad/status/2079678843464667637"
+      }
+    }
+  ],
+  "wordCount": 49,
+  "engagement": {
+    "likes": 6912,
+    "retweets": 565,
+    "replies": 218
+  }
+}
